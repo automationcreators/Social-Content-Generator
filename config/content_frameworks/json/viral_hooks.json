@@ -1,0 +1,207 @@
+[
+  {
+    "formula_number": 1,
+    "pattern": "Here's a trick that will cut {Time Period} out of your {Activity}",
+    "example": "Here's a trick that will cut 5hrs out of your content creation every month.",
+    "variables": [
+      "Time Period",
+      "Activity"
+    ],
+    "category": "time_saving",
+    "use_case": "Efficiency and time management content"
+  },
+  {
+    "formula_number": 2,
+    "pattern": "Let me show you one of the easiest {Niche | Topic | Industry} strategies if you're {Career | Audience}",
+    "example": "Let me show you one of the easiest sales strategies if you're an Email Marketer.",
+    "variables": [
+      "Niche/Topic/Industry",
+      "Career/Audience"
+    ],
+    "category": "education",
+    "use_case": "Teaching strategies to specific audiences"
+  },
+  {
+    "formula_number": 3,
+    "pattern": "Get rid of {Undesirable Outcome} in {Time Period}",
+    "example": "Get rid of Writer's Block in 60 Seconds",
+    "variables": [
+      "Undesirable Outcome",
+      "Time Period"
+    ],
+    "category": "problem_solving",
+    "use_case": "Quick solutions to common problems"
+  },
+  {
+    "formula_number": 4,
+    "pattern": "Let me give you the #1 reason why you're not getting {Outcome}. It's not {Reason 1}, It's not {Reason 2}. It's actually {Reason 3}. Here's how to {What are you going to teach?}",
+    "example": "Let me give you the #1 reason why you're not getting new followers. It's not the lack of posts. It's not bad design. It's actually boring content. Here's how to get ideas for engaging content in just 10 minutes.",
+    "variables": [
+      "Outcome",
+      "Reason 1",
+      "Reason 2",
+      "Reason 3",
+      "Teaching"
+    ],
+    "category": "contrarian",
+    "use_case": "Debunking myths and revealing root causes"
+  },
+  {
+    "formula_number": 5,
+    "pattern": "These are the {Number} ways to make money with {What?|Platform|Tool|Idea}",
+    "example": "These are the 3 ways to make money with Instagram.",
+    "variables": [
+      "Number",
+      "Platform/Tool/Idea"
+    ],
+    "category": "monetization",
+    "use_case": "Income generation strategies"
+  },
+  {
+    "formula_number": 6,
+    "pattern": "No one told you about this simple trick to {Outcome}",
+    "example": "No one told you about this simple trick to gain your first 10K followers on Instagram.",
+    "variables": [
+      "Outcome"
+    ],
+    "category": "secrets",
+    "use_case": "Revealing hidden knowledge"
+  },
+  {
+    "formula_number": 7,
+    "pattern": "Secrets to {Desirable Outcome} like {Authority}",
+    "example": "Secrets to write like a best-selling author",
+    "variables": [
+      "Desirable Outcome",
+      "Authority"
+    ],
+    "category": "authority_modeling",
+    "use_case": "Learning from experts"
+  },
+  {
+    "formula_number": 8,
+    "pattern": "{Number} {Career | Authorities} say you must never do this",
+    "example": "7 top marketers say you must never do this.",
+    "variables": [
+      "Number",
+      "Career/Authorities"
+    ],
+    "category": "warnings",
+    "use_case": "Expert warnings and mistakes to avoid"
+  },
+  {
+    "formula_number": 9,
+    "pattern": "{Number} little known ways to {Desirable Outcome}",
+    "example": "5 little known ways to get more views on your reels",
+    "variables": [
+      "Number",
+      "Desirable Outcome"
+    ],
+    "category": "secrets",
+    "use_case": "Uncommon strategies"
+  },
+  {
+    "formula_number": 10,
+    "pattern": "Did you know it's easier to {Action} than {Action 2}? I know it sounds crazy. So here's the deal.",
+    "example": "Did you know it's easier to grow without ads than with ads on Instagram? I know it sounds crazy. So here's the deal.",
+    "variables": [
+      "Action",
+      "Action 2"
+    ],
+    "category": "contrarian",
+    "use_case": "Challenging conventional wisdom"
+  },
+  {
+    "formula_number": 11,
+    "pattern": "{Number} {Career | Authorities} say you must do this to {Outcome}",
+    "example": "10 top content creators say you must do this to get more followers.",
+    "variables": [
+      "Number",
+      "Career/Authorities",
+      "Outcome"
+    ],
+    "category": "expert_advice",
+    "use_case": "Consensus from authorities"
+  },
+  {
+    "formula_number": 12,
+    "pattern": "{Common Action or Advice} is wrong. Before you yell at me, hear me out.",
+    "example": "Paying your home debt is wrong. Before you yell at me, hear me out.",
+    "variables": [
+      "Common Action or Advice"
+    ],
+    "category": "contrarian",
+    "use_case": "Challenging accepted wisdom"
+  },
+  {
+    "formula_number": 13,
+    "pattern": "Here's another way how {Authority} avoids {Undesired Activity}. And you don't have to be {Adjective} to use the same strategies.",
+    "example": "Here's another way how rich people avoid paying taxes. And you don't have to be rich to use the same strategies.",
+    "variables": [
+      "Authority",
+      "Undesired Activity",
+      "Adjective"
+    ],
+    "category": "authority_modeling",
+    "use_case": "Accessible expert strategies"
+  },
+  {
+    "formula_number": 14,
+    "pattern": "A tiny {Curiosity Word} that changed my {What Changed?}",
+    "example": "A tiny secret that changed my life",
+    "variables": [
+      "Curiosity Word",
+      "What Changed"
+    ],
+    "category": "transformation",
+    "use_case": "Personal transformation stories"
+  },
+  {
+    "formula_number": 15,
+    "pattern": "{Number} steps to start|grow a {Adjective} {Topic | Product | Tool | Idea} in just {Time Period}",
+    "example": "7 steps to grow a profitable Instagram account in just 30 days.",
+    "variables": [
+      "Number",
+      "Adjective",
+      "Topic/Product/Tool/Idea",
+      "Time Period"
+    ],
+    "category": "how_to",
+    "use_case": "Step-by-step guides with timeline"
+  },
+  {
+    "formula_number": 42,
+    "pattern": "How I {Result | Outcome}",
+    "example": "How I made $20K with three Instagram posts",
+    "variables": [
+      "Result/Outcome"
+    ],
+    "category": "case_study",
+    "use_case": "Personal success stories"
+  },
+  {
+    "formula_number": 50,
+    "pattern": "I gained {What did you gain?} in {Time Period} without {Pain Point}. Here are {Number} secrets to growing an audience.",
+    "example": "I gained 100K followers in 12 months without spending on ads. Here are 7 secrets to growing an audience",
+    "variables": [
+      "Gain",
+      "Time Period",
+      "Pain Point",
+      "Number"
+    ],
+    "category": "case_study",
+    "use_case": "Success story with learnings"
+  },
+  {
+    "formula_number": 85,
+    "pattern": "If I had to start {What are you starting?} from zero, here's what I would do to {Desired Outcome} in less than {Period Of Time}.",
+    "example": "If I had to start an Instagram account from zero, here's what I would do to crack the first 10K followers in less than 3 months.",
+    "variables": [
+      "Starting Point",
+      "Desired Outcome",
+      "Time Period"
+    ],
+    "category": "from_scratch",
+    "use_case": "Starting over advice"
+  }
+]

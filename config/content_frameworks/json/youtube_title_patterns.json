@@ -1,0 +1,1038 @@
+[
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "100% Automated YouTube Videos (in ANY Language)",
+    "views": "2547",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "dollar_value",
+    "template": "Steal This ${Amount}/m {Topic}",
+    "variables": [
+      "amount",
+      "topic"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal This $297/m Competitor Intelligence Automation",
+    "views": "4271",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Claude Vision in Your Browser is INSANE",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Claude Vision in Your Browser is INSANE",
+    "views": "5188",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Can GPT o1 Improve my Make Automations?",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Can GPT o1 Improve my Make Automations?",
+    "views": "4577",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Build an AI Productivity Agent (Save HOURS)",
+    "views": "5106",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Create ANYTHING With Replit AI Agents",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Create ANYTHING With Replit AI Agents",
+    "views": "13724",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Monetise GPT o1 AI Co-Pilots (INSANE)",
+    "views": "8659",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "E2: How to Actually Monetise YouTube (using AI)",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "E2: How to Actually Monetise YouTube (using AI)",
+    "views": "1909",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal this micro AI SaaS (100% Automated)",
+    "views": "3936",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "E1: Making Money with AI…. What’s actually working",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "E1: Making Money with AI…. What’s actually working",
+    "views": "5094",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Build an AI SaaS… that prints money",
+    "views": "13305",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "100X Your LinkedIN with AI... that writes like you",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "100X Your LinkedIN with AI... that writes like you",
+    "views": "3879",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Getting in the hard work to prepare for the robots 🤖",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Getting in the hard work to prepare for the robots 🤖",
+    "views": "1228",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Automate AI Generated Images of You (Flux)",
+    "views": "9492",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Steal this FLUX AI Social Media System (INCREDIBLE)",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Steal this FLUX AI Social Media System (INCREDIBLE)",
+    "views": "10624",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Build an AI Co-Pilot... that can do ANYTHING",
+    "views": "5382",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "AI-Powered Chrome Extensions Change Everything",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "AI-Powered Chrome Extensions Change Everything",
+    "views": "10576",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "100X Your Instagram Posts Using Canva + Make (NEW)",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "100X Your Instagram Posts Using Canva + Make (NEW)",
+    "views": "22082",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Steal this AI-Powered Client Dashboard",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Steal this AI-Powered Client Dashboard",
+    "views": "4704",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Build an AI Web App... that Sells 24/7",
+    "views": "7156",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Build an AI Web App (that can do ANYTHING)",
+    "views": "18598",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "dollar_value",
+    "template": "Steal This ${Amount}/m {Topic}",
+    "variables": [
+      "amount",
+      "topic"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal This $97/month Google Review Automation",
+    "views": "7040",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This AI Meeting Automation 100X’s Your Productivity",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This AI Meeting Automation 100X’s Your Productivity",
+    "views": "4726",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This AI Generates 1,000's of Leads & Unique Emails",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This AI Generates 1,000's of Leads & Unique Emails",
+    "views": "6451",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "This AI makes Viral Video & Thumbnail Ideas (100% Automated)",
+    "views": "4442",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "How I won the Skool Games 🎉",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "How I won the Skool Games 🎉",
+    "views": "3778",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "10X Your Leads with Text to Video AI Automation",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "10X Your Leads with Text to Video AI Automation",
+    "views": "9916",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal This AI-Powered Researcher (100% Automated)",
+    "views": "11482",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Train AI on Your Data... In 3 Levels",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Train AI on Your Data... In 3 Levels",
+    "views": "9724",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "The GPT-4o Viral Social Media Content System",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "The GPT-4o Viral Social Media Content System",
+    "views": "19786",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "10 Levels of AI Automation",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "10 Levels of AI Automation",
+    "views": "10784",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This AI Finds Viral Reels Then Makes Them For You",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This AI Finds Viral Reels Then Makes Them For You",
+    "views": "9849",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Make 50+ Viral Posts Scraping ANY Blog",
+    "views": "6546",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Scrape Youtube Video Comments (then turn them into videos)",
+    "views": "4826",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Make Money with AI Agents (using Make)",
+    "views": "16649",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Steal this AI-Powered Lead Generation System",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Steal this AI-Powered Lead Generation System",
+    "views": "9791",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Make 1,000+ Videos by Scraping ANY Video",
+    "views": "16274",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to AI Automate 95% of Your Newsletter",
+    "views": "7319",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This GPT-4o Automation Changes Everything",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This GPT-4o Automation Changes Everything",
+    "views": "50499",
+    "performance_tier": "high_performing"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This Midjourney Approval Automation is INSANE",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This Midjourney Approval Automation is INSANE",
+    "views": "3914",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "The 100% Automated AI Appointment Setter",
+    "views": "9137",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Automate INCREDIBLE Midjourney Images",
+    "views": "13847",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "This AI System Will Write Shorts (100% Automated)",
+    "views": "18373",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal This 100% Automated Instagram Sales Bot",
+    "views": "5652",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "The Voice-Activated AI Approval System",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "The Voice-Activated AI Approval System",
+    "views": "10130",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Steal This Automated AI Sales System",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Steal This Automated AI Sales System",
+    "views": "16066",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "100X Your Instagram Using AI-Powered RSS Feeds",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "100X Your Instagram Using AI-Powered RSS Feeds",
+    "views": "48535",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Create AI Automated Social Media Agents",
+    "views": "31397",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "The AI-Powered YouTube Scraper (100% Automated)",
+    "views": "22867",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "Steal This AI-Powered Social Media System (100% Automated)",
+    "views": "169390",
+    "performance_tier": "viral"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Create a FULLY Autonomous AI Brain (10X Ideas)",
+    "views": "15650",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "NEW AI Music Software Leaked (best so far)",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "NEW AI Music Software Leaked (best so far)",
+    "views": "1401",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Jack Roberts",
+    "original_title": "How to Create FULLY Autonomous AI Research Agents",
+    "views": "48768",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Master The Perfect Claude Prompt Formula",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "Master The Perfect Claude Prompt Formula",
+    "views": "2228",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This ChatGPT Prompt HACK Changes Everything",
+    "variables": [],
+    "source": "Jack Roberts",
+    "original_title": "This ChatGPT Prompt HACK Changes Everything",
+    "views": "443035",
+    "performance_tier": "viral"
+  },
+  {
+    "pattern_type": "general",
+    "template": "I'm building an app that writes viral content just by YAPPING",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "I'm building an app that writes viral content just by YAPPING",
+    "views": "1373",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "transformation",
+    "template": "From {Input} to {Output} in {Time} using {Tool}",
+    "variables": [
+      "input",
+      "output",
+      "time",
+      "tool"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "From Screenshot to Landing Page in 18 minutes using AI",
+    "views": "12797",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "You need to sell your software somehow...",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "You need to sell your software somehow...",
+    "views": "4296",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This type of person will make millions over the next decade",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "This type of person will make millions over the next decade",
+    "views": "7473",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "OMG! I'm using AI to create a the app I always wanted :)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "OMG! I'm using AI to create a the app I always wanted :)",
+    "views": "8230",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "What is Chat-GPT \"o1\" and what is it better at?",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "What is Chat-GPT \"o1\" and what is it better at?",
+    "views": "5344",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "8 minute IPhone App Created with AI (Cursor)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "8 minute IPhone App Created with AI (Cursor)",
+    "views": "14138",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Using AI to Build Apps Day 60 (VLOG)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Using AI to Build Apps Day 60 (VLOG)",
+    "views": "4505",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This New Cursor + Replit Template SLAPS!",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "This New Cursor + Replit Template SLAPS!",
+    "views": "8408",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "build_with_tool",
+    "template": "Build a {Thing} With {Tool} With {Number} {Input}!",
+    "variables": [
+      "thing",
+      "tool",
+      "number",
+      "input"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Build an AI Powered Voice App with Cursor AI (Full Guide and Template)",
+    "views": "13666",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Speech to App with Cursor... EVERYONE CAN CODE",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Speech to App with Cursor... EVERYONE CAN CODE",
+    "views": "7150",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "percentage_claim",
+    "template": "{Percentage}% {Action} {Subject} (in {Context})",
+    "variables": [
+      "percentage",
+      "action",
+      "subject",
+      "context"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Coding 100% With AI | The Easiest Way to Use Cursor",
+    "views": "42924",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "How to Use AI to Build a Web App in 10 minutes (Template + Full Guide)",
+    "views": "43845",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "I Used ONLY AI to build a Feature-Rich Note-Taking App Using (part 2)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "I Used ONLY AI to build a Feature-Rich Note-Taking App Using (part 2)",
+    "views": "7306",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "What App Can I Build in 15 Claude Prompts?",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "What App Can I Build in 15 Claude Prompts?",
+    "views": "11437",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "How AI Will Change VFX Forever (Don Allen Stevenson III",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "How AI Will Change VFX Forever (Don Allen Stevenson III",
+    "views": "1009",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "build_with_tool",
+    "template": "Build a {Thing} With {Tool} With {Number} {Input}!",
+    "variables": [
+      "thing",
+      "tool",
+      "number",
+      "input"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Build a Web App Music Player with AI and 2 SCREENSHOTS.",
+    "views": "3494",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "build_with_tool",
+    "template": "Build a {Thing} With {Tool} With {Number} {Input}!",
+    "variables": [
+      "thing",
+      "tool",
+      "number",
+      "input"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Building a Full-Stack Website with AI - No Coding Experience",
+    "views": "25416",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "transformation",
+    "template": "From {Input} to {Output} in {Time} using {Tool}",
+    "variables": [
+      "input",
+      "output",
+      "time",
+      "tool"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "From GPT to Website in 15 minutes (No Coding Experience)",
+    "views": "8655",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "build_with_tool",
+    "template": "Build a {Thing} With {Tool} With {Number} {Input}!",
+    "variables": [
+      "thing",
+      "tool",
+      "number",
+      "input"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Build a FULL Web App With Claude With 2 SCREENSHOTS!",
+    "views": "164866",
+    "performance_tier": "viral"
+  },
+  {
+    "pattern_type": "general",
+    "template": "The complete content system that got me to 1M on Insta + TikTok",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "The complete content system that got me to 1M on Insta + TikTok",
+    "views": "6769",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Use Claude to Create a fully deployed web app in less than 5 minutes",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Use Claude to Create a fully deployed web app in less than 5 minutes",
+    "views": "24299",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "This NEW app Transcribes & Summarizes Every YouTube video I watch",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "This NEW app Transcribes & Summarizes Every YouTube video I watch",
+    "views": "9719",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Level Based AI Video Generation with LTX Studio",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Level Based AI Video Generation with LTX Studio",
+    "views": "731",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Use AI to swap characters in any video (Viggle Full Editing Guide)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Use AI to swap characters in any video (Viggle Full Editing Guide)",
+    "views": "12713",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Hume: The AI That Understands and Responds to Your Emotions",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Hume: The AI That Understands and Responds to Your Emotions",
+    "views": "1596",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Crazy Deepfake Short Videos (Let’s Have Some Fun)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Crazy Deepfake Short Videos (Let’s Have Some Fun)",
+    "views": "1765",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Using 3 AI Tools to Create a Music Video (in under 1 hour)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Using 3 AI Tools to Create a Music Video (in under 1 hour)",
+    "views": "16080",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Descript Full Guide: The Ultimate AI Video Editor",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Descript Full Guide: The Ultimate AI Video Editor",
+    "views": "3769",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "AI Music: The End of Music as We Know It (In-Depth)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "AI Music: The End of Music as We Know It (In-Depth)",
+    "views": "8426",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "The Best AI Music Generator Ever (Full Guide)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "The Best AI Music Generator Ever (Full Guide)",
+    "views": "90335",
+    "performance_tier": "high_performing"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Gemini 1.5 is Way More Powerful Than You Think",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Gemini 1.5 is Way More Powerful Than You Think",
+    "views": "4422",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "You're WASTING Time: Build Your ARMY of AI Workers ASAP (w/ No Code)",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "You're WASTING Time: Build Your ARMY of AI Workers ASAP (w/ No Code)",
+    "views": "5496",
+    "performance_tier": "moderate"
+  },
+  {
+    "pattern_type": "general",
+    "template": "OpenAI's Revolutionary AI Video: A New Era Is Here",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "OpenAI's Revolutionary AI Video: A New Era Is Here",
+    "views": "1380",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "How to Turn ChatGPT into an Unstoppable Virtual Employee Army",
+    "views": "51927",
+    "performance_tier": "high_performing"
+  },
+  {
+    "pattern_type": "how_to",
+    "template": "How to {Action} {Subject}... that can do {Superpower}",
+    "variables": [
+      "action",
+      "subject",
+      "superpower"
+    ],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "How to use Midjourney's new Website | Every Feature",
+    "views": "35187",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "I use Perplexity MORE than Google and ChatGPT",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "I use Perplexity MORE than Google and ChatGPT",
+    "views": "229805",
+    "performance_tier": "viral"
+  },
+  {
+    "pattern_type": "general",
+    "template": "The Risks and Rewards of AGI: A Conversation with David Shapiro",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "The Risks and Rewards of AGI: A Conversation with David Shapiro",
+    "views": "19332",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Kaiber AI Video Guide and Examples",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Kaiber AI Video Guide and Examples",
+    "views": "35721",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Is GPT 4 even that good?",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Is GPT 4 even that good?",
+    "views": "1",
+    "performance_tier": "low"
+  },
+  {
+    "pattern_type": "general",
+    "template": "KAIBER AI: Making AI advertisements and Graphics",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "KAIBER AI: Making AI advertisements and Graphics",
+    "views": "41899",
+    "performance_tier": "good"
+  },
+  {
+    "pattern_type": "general",
+    "template": "Create a speaking animated character | Midjourney + other AI Tools",
+    "variables": [],
+    "source": "Riley Brown/Codie Sanchez",
+    "original_title": "Create a speaking animated character | Midjourney + other AI Tools",
+    "views": "417059",
+    "performance_tier": "viral"
+  }
+]

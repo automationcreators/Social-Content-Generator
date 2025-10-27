@@ -1,0 +1,1347 @@
+{
+  "collection_date": "2025-10-23T09:57:50.480736",
+  "projects": {
+    "Demo": {
+      "name": "Demo",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/Demo",
+      "file_count": 3,
+      "file_types": {
+        ".md": 1,
+        ".txt": 1,
+        ".py": 1
+      },
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python"
+      ],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "promptSaver": {
+      "name": "promptSaver",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/promptSaver",
+      "file_count": 0,
+      "file_types": {},
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "vendor-quote-tool": {
+      "name": "vendor-quote-tool",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/vendor-quote-tool",
+      "file_count": 52,
+      "file_types": {
+        ".md": 8,
+        ".json": 4,
+        ".html": 1,
+        ".tsx": 10,
+        ".css": 1,
+        ".txt": 1,
+        "": 1,
+        ".example": 1,
+        ".py": 25
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": true,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Vendor Quote Collection Tool",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "YouTubeRAG": {
+      "name": "YouTubeRAG",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
+      "file_count": 32,
+      "file_types": {
+        ".md": 5,
+        ".txt": 1,
+        ".ini": 1,
+        ".json": 3,
+        ".example": 1,
+        ".py": 20,
+        ".mako": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python"
+      ],
+      "purpose": "# YouTube RAG Chat",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "dirKidSports": {
+      "name": "dirKidSports",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/dirKidSports",
+      "file_count": 146,
+      "file_types": {
+        ".md": 8,
+        ".js": 46,
+        ".local": 1,
+        ".ts": 20,
+        ".json": 22,
+        "": 3,
+        ".example": 1,
+        ".sql": 1,
+        ".prisma": 1,
+        ".db": 1,
+        ".gz": 10,
+        ".old": 2,
+        ".css": 2,
+        ".woff2": 7,
+        ".tsx": 21
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React"
+      ],
+      "purpose": "# Kids Directory Arizona",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "Project Management": {
+      "name": "Project Management",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
+      "file_count": 57,
+      "file_types": {
+        ".py": 3,
+        "": 2,
+        ".md": 21,
+        ".json": 14,
+        ".js": 5,
+        ".html": 5,
+        ".css": 3,
+        ".template": 4
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": true,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Claude Code Project Management System",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "agents.js",
+          "type": "agent"
+        },
+        {
+          "file": "agents.css",
+          "type": "agent"
+        },
+        {
+          "file": "agents-tab.html",
+          "type": "agent"
+        },
+        {
+          "file": "AGENT_INTEGRATION_GUIDE.md",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "systems-agent-data.json",
+          "type": "agent"
+        },
+        {
+          "file": "agent-data.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "UsageDash": {
+      "name": "UsageDash",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/UsageDash",
+      "file_count": 364,
+      "file_types": {
+        ".md": 7,
+        ".json": 69,
+        ".mjs": 2,
+        ".ts": 9,
+        "": 3,
+        ".prisma": 1,
+        ".db": 1,
+        ".toml": 1,
+        ".sql": 1,
+        ".js": 132,
+        ".map": 109,
+        ".css": 5,
+        ".woff2": 6,
+        ".ico": 2,
+        ".svg": 5,
+        ".tsx": 11
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": true,
+      "tech_stack": [
+        "JavaScript/React"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "legiscraper": {
+      "name": "legiscraper",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/legiscraper",
+      "file_count": 24,
+      "file_types": {
+        ".py": 7,
+        ".txt": 1,
+        ".html": 2,
+        ".md": 7,
+        ".json": 4,
+        ".csv": 3
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": true,
+      "tech_stack": [
+        "Python",
+        "Web"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "tradingplan": {
+      "name": "tradingplan",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/tradingplan",
+      "file_count": 5,
+      "file_types": {
+        ".pdf": 5
+      },
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "ppp data": {
+      "name": "ppp data",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/ppp data",
+      "file_count": 5,
+      "file_types": {
+        ".xlsx": 1,
+        ".md": 3,
+        ".json": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "data cleanup": {
+      "name": "data cleanup",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/data cleanup",
+      "file_count": 14,
+      "file_types": {
+        ".csv": 10,
+        ".md": 3,
+        ".json": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "smart-image-editor": {
+      "name": "smart-image-editor",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/smart-image-editor",
+      "file_count": 63,
+      "file_types": {
+        ".md": 8,
+        ".json": 14,
+        ".ico": 2,
+        ".html": 2,
+        ".png": 4,
+        ".txt": 3,
+        ".map": 3,
+        ".css": 3,
+        ".js": 8,
+        ".tsx": 7,
+        ".ts": 6,
+        ".svg": 1,
+        "": 1,
+        ".example": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Smart Image Editor & Combiner",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "AIBrain": {
+      "name": "AIBrain",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/AIBrain",
+      "file_count": 132,
+      "file_types": {
+        ".md": 16,
+        ".py": 26,
+        "": 5,
+        ".txt": 3,
+        ".textclipping": 1,
+        ".example": 1,
+        ".pickle": 2,
+        ".zip": 1,
+        ".sql": 1,
+        ".db": 2,
+        ".yaml": 2,
+        ".json": 7,
+        ".js": 6,
+        ".html": 2,
+        ".ts": 10,
+        ".css": 4,
+        ".png": 8,
+        ".svg": 2,
+        ".tsx": 6,
+        ".sh": 1,
+        ".docx": 23,
+        ".pdf": 2,
+        ".csv": 1
+      },
+      "has_agents": false,
+      "has_automation": true,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# AI Brain Knowledge System",
+      "interesting_files": [
+        {
+          "file": "background.js",
+          "type": "automation"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "n8n bulk": {
+      "name": "n8n bulk",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/n8n bulk",
+      "file_count": 148,
+      "file_types": {
+        ".md": 8,
+        "": 3,
+        ".py": 7,
+        ".json": 114,
+        ".sh": 2,
+        ".js": 2,
+        ".html": 1,
+        ".tsx": 6,
+        ".css": 1,
+        ".ts": 2,
+        ".txt": 1,
+        ".db": 1
+      },
+      "has_agents": true,
+      "has_automation": true,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "4cXMS9U9n9DpLNDv-Claude_AI_Agent_Web_Search.json",
+          "type": "agent"
+        },
+        {
+          "file": "D0P8tDYjEbOse7cH-Demo_Agent_MCP.json",
+          "type": "agent"
+        },
+        {
+          "file": "G6N7YTGptQ4n8SCc-AI_Content_Agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "zHSuod6hCrRpictr-Host_Your_Own_AI_Deep_Research_Agent_with_n8n_Apify_and_OpenAI_o3.json",
+          "type": "agent"
+        },
+        {
+          "file": "fKLjZ06BaFHlST89-lawn_ai_agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "bEztU8VggF8oxclW-Jenny_Multi_Agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "BC5JzIgRr2eAp8bS-newsletter_automation.json",
+          "type": "automation"
+        },
+        {
+          "file": "DzLtpvoeHXo48ckU-mcp_agent_MCP_CLient.json",
+          "type": "agent"
+        },
+        {
+          "file": "dct1TpDhYZtkxsy5-MultiAgent.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "ad-variations-generator": {
+      "name": "ad-variations-generator",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-variations-generator",
+      "file_count": 35,
+      "file_types": {
+        ".md": 7,
+        ".js": 13,
+        ".local": 1,
+        ".json": 5,
+        ".example": 1,
+        ".ico": 1,
+        ".html": 1,
+        ".png": 2,
+        ".txt": 1,
+        ".css": 2,
+        ".svg": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Batch Ad Variations Generator",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "chromeSkooldwl": {
+      "name": "chromeSkooldwl",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/chromeSkooldwl",
+      "file_count": 36,
+      "file_types": {
+        ".md": 11,
+        ".js": 8,
+        "": 1,
+        ".html": 3,
+        ".json": 4,
+        ".css": 1,
+        ".png": 4,
+        ".svg": 4
+      },
+      "has_agents": true,
+      "has_automation": true,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Skool Community Downloader",
+      "interesting_files": [
+        {
+          "file": "background.js",
+          "type": "automation"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "Personal-OS": {
+      "name": "Personal-OS",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/Personal-OS",
+      "file_count": 198,
+      "file_types": {
+        ".py": 47,
+        ".md": 39,
+        ".json": 86,
+        ".backup": 1,
+        ".sh": 1,
+        "": 2,
+        ".html": 1,
+        ".csv": 4,
+        ".pdf": 1,
+        ".txt": 1,
+        ".log": 9,
+        ".css": 1,
+        ".js": 1,
+        ".template": 4
+      },
+      "has_agents": true,
+      "has_automation": true,
+      "has_api": true,
+      "has_dashboard": true,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": "agents.md",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "AGENT_SYSTEM_QUICK_START.md",
+          "type": "agent"
+        },
+        {
+          "file": "social_media_content_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "todo_sync_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "basic_automation_manager.py",
+          "type": "automation"
+        },
+        {
+          "file": "notification_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "todo_collector_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "weekly_progress_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "project_audit_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_army_backlog.json",
+          "type": "agent"
+        },
+        {
+          "file": "localhost_registry_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "project_auto_setup_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_shortcuts.sh",
+          "type": "agent"
+        },
+        {
+          "file": "AGENT_SYSTEM_README.md",
+          "type": "agent"
+        },
+        {
+          "file": "project_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_army_backlog.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent",
+          "type": "agent"
+        },
+        {
+          "file": "master_agent_system.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_activity_tracker.py",
+          "type": "agent"
+        },
+        {
+          "file": "dashboard_agent_integration.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_framework.py",
+          "type": "agent"
+        },
+        {
+          "file": "automation_status.json",
+          "type": "automation"
+        },
+        {
+          "file": "setup_background_services.py",
+          "type": "automation"
+        },
+        {
+          "file": "agent_registry_manager.py",
+          "type": "agent"
+        },
+        {
+          "file": "AGENT_BUILDING_RETROSPECTIVE.md",
+          "type": "agent"
+        },
+        {
+          "file": "universal_agent_cli.py",
+          "type": "agent"
+        },
+        {
+          "file": "planning_analysis_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agents.md",
+          "type": "agent"
+        },
+        {
+          "file": "todo_priority_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_coordinator.py",
+          "type": "agent"
+        },
+        {
+          "file": "COMPLETE_AGENT_SYSTEM_GUIDE.md",
+          "type": "agent"
+        },
+        {
+          "file": "context_summary_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "basic_automation_config.json",
+          "type": "automation"
+        },
+        {
+          "file": "social_media_content_agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "context_summary_agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "planning_analysis_agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "agent_army_backlog_manager.json",
+          "type": "agent"
+        },
+        {
+          "file": "agent_registry_manager.json",
+          "type": "agent"
+        },
+        {
+          "file": "weekly_progress_agent.json",
+          "type": "agent"
+        },
+        {
+          "file": "agent_registry_manager.log",
+          "type": "agent"
+        },
+        {
+          "file": "basic_automation.log",
+          "type": "automation"
+        },
+        {
+          "file": "agent_registry.json",
+          "type": "agent"
+        },
+        {
+          "file": "dashboard_agent_data.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "party-directory-platform": {
+      "name": "party-directory-platform",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/party-directory-platform",
+      "file_count": 45,
+      "file_types": {
+        ".md": 6,
+        ".mjs": 2,
+        ".ts": 14,
+        ".json": 3,
+        ".prisma": 1,
+        ".svg": 5,
+        ".ico": 1,
+        ".tsx": 12,
+        ".css": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React"
+      ],
+      "purpose": "# \ud83c\udf89 PartyFinder - Birthday Party Directory Platform",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "ContentGen": {
+      "name": "ContentGen",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/ContentGen",
+      "file_count": 61,
+      "file_types": {
+        "": 2,
+        ".txt": 1,
+        ".md": 12,
+        ".json": 3,
+        ".css": 1,
+        ".js": 1,
+        ".html": 12,
+        ".py": 26,
+        ".pkl": 1,
+        ".csv": 1,
+        ".db": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# ContentGen - Content Idea Repository & RSS System",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "mapmaker": {
+      "name": "mapmaker",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/mapmaker",
+      "file_count": 76,
+      "file_types": {
+        "": 6,
+        ".md": 7,
+        ".example": 1,
+        ".json": 7,
+        ".bak": 1,
+        ".ico": 1,
+        ".html": 1,
+        ".png": 20,
+        ".txt": 1,
+        ".tsx": 8,
+        ".css": 2,
+        ".ts": 6,
+        ".svg": 1,
+        ".js": 9,
+        ".sql": 2,
+        ".old": 3
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Property Mapping Tool",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "DataMapping": {
+      "name": "DataMapping",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/DataMapping",
+      "file_count": 0,
+      "file_types": {},
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "HOA": {
+      "name": "HOA",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/HOA",
+      "file_count": 14,
+      "file_types": {
+        ".md": 5,
+        ".txt": 1,
+        ".py": 6,
+        ".json": 2
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python"
+      ],
+      "purpose": "# HOA Management Certificate Data Extractor",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "ragYT": {
+      "name": "ragYT",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/ragYT",
+      "file_count": 0,
+      "file_types": {},
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "xspaces": {
+      "name": "xspaces",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/xspaces",
+      "file_count": 5,
+      "file_types": {
+        ".md": 4,
+        ".json": 1
+      },
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "# X Spaces Auto-Transcriber",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "scrapers": {
+      "name": "scrapers",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/scrapers",
+      "file_count": 44,
+      "file_types": {
+        ".py": 35,
+        ".txt": 1,
+        ".json": 3,
+        ".md": 4,
+        ".html": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python",
+        "Web"
+      ],
+      "purpose": "# Scrapers - Intelligent Web Scraping Toolkit",
+      "interesting_files": [
+        {
+          "file": "scraping_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "test_scraping_agent.py",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "OwnerScraper": {
+      "name": "OwnerScraper",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
+      "file_count": 698,
+      "file_types": {
+        ".md": 58,
+        ".json": 36,
+        ".py": 144,
+        ".log": 14,
+        ".csv": 414,
+        "": 6,
+        ".sh": 2,
+        ".xls": 1,
+        ".tmp": 15,
+        ".xlsx": 2,
+        ".txt": 4,
+        ".js": 2
+      },
+      "has_agents": true,
+      "has_automation": true,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": "N8N_AUTOMATION_WORKFLOW.json",
+          "type": "automation"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "JoblistingsAnalysis": {
+      "name": "JoblistingsAnalysis",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/JoblistingsAnalysis",
+      "file_count": 134,
+      "file_types": {
+        ".html": 17,
+        ".csv": 59,
+        ".py": 35,
+        ".json": 9,
+        ".md": 7,
+        ".png": 6,
+        ".js": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": true,
+      "tech_stack": [
+        "Python",
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Job Market Analysis Dashboard",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "trading": {
+      "name": "trading",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/trading",
+      "file_count": 29,
+      "file_types": {
+        ".md": 8,
+        "": 2,
+        ".json": 6,
+        ".pdf": 3,
+        ".pptx": 1,
+        ".xls": 1,
+        ".js": 3,
+        ".png": 4,
+        ".html": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "StateScraper": {
+      "name": "StateScraper",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/StateScraper",
+      "file_count": 0,
+      "file_types": {},
+      "has_agents": false,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [],
+      "purpose": "",
+      "interesting_files": [],
+      "recent_activity": null,
+      "estimated_complexity": "simple"
+    },
+    "dirTechStack": {
+      "name": "dirTechStack",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
+      "file_count": 294,
+      "file_types": {
+        ".md": 15,
+        "": 4,
+        ".supabase": 1,
+        ".js": 90,
+        ".example": 2,
+        ".sql": 7,
+        ".json": 39,
+        ".toml": 1,
+        ".ts": 26,
+        ".local": 1,
+        ".mjs": 2,
+        ".map": 69,
+        ".css": 6,
+        ".woff2": 7,
+        ".ico": 2,
+        ".svg": 5,
+        ".tsx": 17
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React"
+      ],
+      "purpose": "",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "complex"
+    },
+    "ad-scraper-analyzer": {
+      "name": "ad-scraper-analyzer",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-scraper-analyzer",
+      "file_count": 71,
+      "file_types": {
+        ".md": 8,
+        ".js": 11,
+        ".json": 11,
+        "": 2,
+        ".example": 2,
+        ".ico": 2,
+        ".html": 2,
+        ".png": 4,
+        ".txt": 3,
+        ".css": 3,
+        ".map": 3,
+        ".tsx": 8,
+        ".ts": 11,
+        ".svg": 1
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": true,
+      "has_dashboard": true,
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Ad Scraper & Analyzer",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "LeadMag": {
+      "name": "LeadMag",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/LeadMag",
+      "file_count": 28,
+      "file_types": {
+        ".md": 5,
+        ".json": 4,
+        ".txt": 2,
+        ".js": 8,
+        ".css": 1,
+        ".ejs": 8
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
+      "tech_stack": [
+        "JavaScript/React"
+      ],
+      "purpose": "# \ud83e\uddf2 Lead Magnet Generator",
+      "interesting_files": [
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    }
+  },
+  "aggregate_stats": {
+    "total_projects": 32,
+    "total_files": 0,
+    "total_python_files": 0,
+    "total_js_files": 0,
+    "projects_with_agents": 0,
+    "automation_tools": 0,
+    "data_processing_tools": 0,
+    "web_apps": 0
+  },
+  "interesting_findings": [],
+  "stories": [],
+  "workflows": [],
+  "time_savings": [],
+  "automation_examples": [],
+  "insights": [
+    {
+      "type": "scale",
+      "title": "Building at Scale",
+      "stat": "32 active projects",
+      "detail": "Managing 2,813 files across diverse projects",
+      "hook": "How I manage 32 projects simultaneously with Claude Code"
+    },
+    {
+      "type": "automation",
+      "title": "Agent-Driven Architecture",
+      "stat": "24 projects with autonomous agents",
+      "detail": "Built 83 custom agents",
+      "examples": [
+        "vendor-quote-tool",
+        "YouTubeRAG",
+        "dirKidSports"
+      ],
+      "hook": "Why I replaced scripts with autonomous agents"
+    },
+    {
+      "type": "automation",
+      "title": "Automation Infrastructure",
+      "stat": "5 automated workflows",
+      "detail": "Schedulers, background tasks, and automated processing",
+      "examples": [
+        "AIBrain",
+        "n8n bulk",
+        "chromeSkooldwl"
+      ],
+      "hook": "The automation stack that saves me 20 hours/week"
+    },
+    {
+      "type": "data_viz",
+      "title": "Data Visualization",
+      "stat": "7 custom dashboards",
+      "detail": "Real-time monitoring and business intelligence",
+      "examples": [
+        "vendor-quote-tool",
+        "Project Management",
+        "UsageDash"
+      ],
+      "hook": "Building custom dashboards without hiring a dev team"
+    },
+    {
+      "type": "versatility",
+      "title": "Multi-Stack Development",
+      "stat": "3 technology stacks",
+      "detail": "Working across Web, Python, JavaScript/React",
+      "hook": "How Claude Code lets me code in any language"
+    }
+  ],
+  "real_examples": [
+    {
+      "project": "vendor-quote-tool",
+      "title": "Custom Quote Generator",
+      "use_case": "From idea to working business tool in 45 minutes",
+      "description": "Built a complete quote generation system with 52 files. Creates professional quotes, tracks them, sends follow-ups.",
+      "tech": "Python, JavaScript/React, Web",
+      "category": "feature_demos",
+      "business_value": "Replaced manual quote creation, saves 5 hours/week"
+    },
+    {
+      "project": "Personal-OS",
+      "title": "Autonomous Agent System",
+      "use_case": "Complete business operations automation",
+      "description": "Built 40 autonomous agents handling project discovery, security monitoring, backups, token tracking, and todo aggregation",
+      "tech": "Python, JavaScript/React, Web",
+      "category": "architecture_insights",
+      "business_value": "Zero manual intervention for daily operations"
+    },
+    {
+      "project": "legiscraper",
+      "title": "Legislative Data Scraper",
+      "use_case": "Automated data collection and processing",
+      "description": "Built custom scraper to collect and analyze legislative data from multiple state websites",
+      "tech": "Python, Web",
+      "category": "use_cases",
+      "business_value": "Replaced manual research, processes thousands of records automatically"
+    },
+    {
+      "project": "UsageDash",
+      "title": "Usage Analytics Dashboard",
+      "use_case": "Real-time business intelligence",
+      "description": "Custom analytics dashboard with 364 components tracking usage metrics and generating insights",
+      "tech": "JavaScript/React",
+      "category": "feature_demos",
+      "business_value": "Replaced $150/month analytics subscription"
+    }
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "metadata": {
+    "created": "2025-10-20T16:44:00.117392",
+    "last_updated": "2025-10-22T23:57:45.706331",
+    "version": "1.0"
+  },
+  "content_ideas": [
+    {
+      "id": "b3d3e302aa97",
+      "category": "learning_moments",
+      "title": "How I debug with Claude Code (no more console.log spam)",
+      "description": "Prompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | dirKidSports: Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques | legiscraper: Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | AIBrain: Claude Code best practices | Problem-solving techniques | n8n bulk: Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | mapmaker: Claude Code best practices | Problem-solving techniques | xspaces: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | dirTechStack: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques | dirKidSports: Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques | UsageDash: Claude Code best practices | Problem-solving techniques | Personal-OS: Claude Code best practices | Problem-solving techniques | xspaces: Claude Code best practices | Problem-solving techniques | trading: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques | UsageDash: Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | n8n bulk: Claude Code best practices | Problem-solving techniques | ContentGen: Claude Code best practices | Problem-solving techniques | mapmaker: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-20T16:44:15.558539",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "Personal-OS",
+      "hook_type": "how_to",
+      "related_projects": [
+        "Personal-OS",
+        "dirKidSports",
+        "Project Management",
+        "legiscraper",
+        "smart-image-editor",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "party-directory-platform",
+        "mapmaker",
+        "xspaces",
+        "OwnerScraper",
+        "dirTechStack",
+        "ad-scraper-analyzer",
+        "dirKidSports",
+        "Project Management",
+        "UsageDash",
+        "Personal-OS",
+        "xspaces",
+        "trading",
+        "ad-scraper-analyzer",
+        "LeadMag",
+        "UsageDash",
+        "smart-image-editor",
+        "n8n bulk",
+        "ContentGen",
+        "mapmaker",
+        "OwnerScraper",
+        "LeadMag"
+      ],
+      "last_updated": "2025-10-22T23:57:45.706297"
+    },
+    {
+      "id": "b8f8fb981f73",
+      "category": "tips_and_tricks",
+      "title": "The context management strategy that transformed OwnerScraper",
+      "description": "Stop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system",
+      "technical_details": "1 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | UsageDash: 690 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ppp data: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | smart-image-editor: 2532 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-variations-generator: 2216 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | JoblistingsAnalysis: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | trading: 9 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirTechStack: 916 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-scraper-analyzer: 2228 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | LeadMag: 173 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | vendor-quote-tool: 2262 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirKidSports: 749 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Project Management: 21 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | AIBrain: 243 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | n8n bulk: 2152 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-variations-generator: 2216 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ContentGen: 12 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | HOA: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | scrapers: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirKidSports: 749 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | legiscraper: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ppp data: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | data cleanup: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | n8n bulk: 2152 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ContentGen: 12 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | JoblistingsAnalysis: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirTechStack: 916 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-scraper-analyzer: 2228 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | LeadMag: 173 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+      "urgency": "medium",
+      "created_date": "2025-10-20T16:44:15.558531",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "OwnerScraper",
+      "hook_type": "transformation",
+      "related_projects": [
+        "OwnerScraper",
+        "UsageDash",
+        "ppp data",
+        "smart-image-editor",
+        "ad-variations-generator",
+        "JoblistingsAnalysis",
+        "trading",
+        "dirTechStack",
+        "ad-scraper-analyzer",
+        "LeadMag",
+        "vendor-quote-tool",
+        "dirKidSports",
+        "Project Management",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "ContentGen",
+        "HOA",
+        "scrapers",
+        "dirKidSports",
+        "legiscraper",
+        "ppp data",
+        "data cleanup",
+        "n8n bulk",
+        "ContentGen",
+        "JoblistingsAnalysis",
+        "dirTechStack",
+        "ad-scraper-analyzer",
+        "LeadMag"
+      ],
+      "last_updated": "2025-10-22T23:57:45.706275"
+    },
+    {
+      "id": "f7affa6732f9",
+      "category": "architecture_insights",
+      "title": "Why I build agents instead of scripts for Personal-OS",
+      "description": "Scripts break. Agents adapt. Here's my autonomous agent pattern that handles 9 workflows without supervision",
+      "technical_details": "9 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | vendor-quote-tool: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | mapmaker: 34 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | OwnerScraper: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | Project Management: 4 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | smart-image-editor: 5 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | mapmaker: 34 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-scraper-analyzer: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | n8n bulk: 11 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-variations-generator: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | mapmaker: 34 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-scraper-analyzer: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns",
+      "urgency": "medium",
+      "created_date": "2025-10-20T16:44:15.558483",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Architecture",
+        "#SystemDesign",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: architecture_insights, contains engaging elements"
+      },
+      "project": "Personal-OS",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "Personal-OS",
+        "vendor-quote-tool",
+        "mapmaker",
+        "OwnerScraper",
+        "Project Management",
+        "smart-image-editor",
+        "mapmaker",
+        "ad-scraper-analyzer",
+        "n8n bulk",
+        "ad-variations-generator",
+        "mapmaker",
+        "ad-scraper-analyzer"
+      ],
+      "last_updated": "2025-10-22T23:57:45.666752"
+    },
+    {
+      "id": "4f9a18bf1339",
+      "category": "progress_updates",
+      "title": "I rebuilt Personal-OS in 9 file changes (here's how)",
+      "description": "Breaking down complex features into atomic tasks. Claude Code handles each piece perfectly when you structure it right",
+      "technical_details": "Tech: Python (2 files), JavaScript/TypeScript (1 files) | 9 files | Claude Code workflow optimization | OwnerScraper: Tech: Python (1 files) | 5 files | Claude Code workflow optimization | YouTubeRAG: Tech: Python (20 files) | 26 files | Claude Code workflow optimization | UsageDash: Tech: Python (1 files) | 696 files | Claude Code workflow optimization | data cleanup: Tech: Multiple languages | 3 files | Claude Code workflow optimization | smart-image-editor: Tech: Python (3 files), JavaScript/TypeScript (8 files) | 2560 files | Claude Code workflow optimization | ad-variations-generator: Tech: Python (2 files), JavaScript/TypeScript (13 files) | 2239 files | Claude Code workflow optimization | party-directory-platform: Tech: Python (1 files) | 641 files | Claude Code workflow optimization | OwnerScraper: Tech: Python (142 files), JavaScript/TypeScript (2 files) | 565 files | Claude Code workflow optimization | dirTechStack: Tech: Python (1 files), JavaScript/TypeScript (5 files) | 945 files | Claude Code workflow optimization | ad-scraper-analyzer: Tech: Python (2 files), JavaScript/TypeScript (11 files) | 2255 files | Claude Code workflow optimization | LeadMag: Tech: JavaScript/TypeScript (8 files) | 185 files | Claude Code workflow optimization | dirKidSports: Tech: Python (1 files), JavaScript/TypeScript (3 files) | 759 files | Claude Code workflow optimization | UsageDash: Tech: Python (1 files) | 696 files | Claude Code workflow optimization | ppp data: Tech: Multiple languages | 3 files | Claude Code workflow optimization | AIBrain: Tech: Python (10949 files), JavaScript/TypeScript (8 files) | 11694 files | Claude Code workflow optimization | n8n bulk: Tech: Python (9 files), JavaScript/TypeScript (2 files) | 2282 files | Claude Code workflow optimization | ad-variations-generator: Tech: Python (2 files), JavaScript/TypeScript (13 files) | 2239 files | Claude Code workflow optimization | chromeSkooldwl: Tech: JavaScript/TypeScript (8 files) | 22 files | Claude Code workflow optimization | ContentGen: Tech: Python (26 files), JavaScript/TypeScript (1 files) | 41 files | Claude Code workflow optimization | mapmaker: Tech: Python (3 files), JavaScript/TypeScript (9 files) | 3300 files | Claude Code workflow optimization | HOA: Tech: Python (6 files) | 11 files | Claude Code workflow optimization | scrapers: Tech: Python (35 files) | 41 files | Claude Code workflow optimization | trading: Tech: JavaScript/TypeScript (3 files) | 27 files | Claude Code workflow optimization | Project Management: Tech: Python (3 files), JavaScript/TypeScript (5 files) | 38 files | Claude Code workflow optimization | UsageDash: Tech: Python (1 files) | 696 files | Claude Code workflow optimization | legiscraper: Tech: Python (7 files) | 17 files | Claude Code workflow optimization | data cleanup: Tech: Multiple languages | 3 files | Claude Code workflow optimization | party-directory-platform: Tech: Python (1 files) | 641 files | Claude Code workflow optimization | HOA: Tech: Python (6 files) | 11 files | Claude Code workflow optimization | xspaces: Tech: Multiple languages | 4 files | Claude Code workflow optimization | scrapers: Tech: Python (35 files) | 41 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-20T16:44:15.558478",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "Personal-OS",
+      "hook_type": "how_to",
+      "related_projects": [
+        "Personal-OS",
+        "OwnerScraper",
+        "YouTubeRAG",
+        "UsageDash",
+        "data cleanup",
+        "smart-image-editor",
+        "ad-variations-generator",
+        "party-directory-platform",
+        "OwnerScraper",
+        "dirTechStack",
+        "ad-scraper-analyzer",
+        "LeadMag",
+        "dirKidSports",
+        "UsageDash",
+        "ppp data",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "ContentGen",
+        "mapmaker",
+        "HOA",
+        "scrapers",
+        "trading",
+        "Project Management",
+        "UsageDash",
+        "legiscraper",
+        "data cleanup",
+        "party-directory-platform",
+        "HOA",
+        "xspaces",
+        "scrapers"
+      ],
+      "last_updated": "2025-10-22T23:57:43.150965"
+    },
+    {
+      "id": "6bb4553a1695",
+      "category": "progress_updates",
+      "title": "The AIBrain breakthrough that saved me 10 hours",
+      "description": "Shipped 4 files in one sprint. Here's the Claude Code workflow that made it possible",
+      "technical_details": "Tech: Python (1 files) | 4 files | Claude Code workflow optimization | vendor-quote-tool: Tech: Python (27 files) | 2296 files | Claude Code workflow optimization | n8n bulk: Tech: Python (9 files), JavaScript/TypeScript (2 files) | 2282 files | Claude Code workflow optimization | Personal-OS: Tech: Python (44 files), JavaScript/TypeScript (1 files) | 169 files | Claude Code workflow optimization | JoblistingsAnalysis: Tech: Python (35 files), JavaScript/TypeScript (1 files) | 51 files | Claude Code workflow optimization | vendor-quote-tool: Tech: Python (27 files) | 2296 files | Claude Code workflow optimization | legiscraper: Tech: Python (7 files) | 17 files | Claude Code workflow optimization | party-directory-platform: Tech: Python (1 files) | 641 files | Claude Code workflow optimization | xspaces: Tech: Multiple languages | 4 files | Claude Code workflow optimization | LeadMag: Tech: JavaScript/TypeScript (8 files) | 185 files | Claude Code workflow optimization | ppp data: Tech: Multiple languages | 3 files | Claude Code workflow optimization | n8n bulk: Tech: Python (9 files), JavaScript/TypeScript (2 files) | 2282 files | Claude Code workflow optimization | chromeSkooldwl: Tech: JavaScript/TypeScript (8 files) | 22 files | Claude Code workflow optimization | mapmaker: Tech: Python (3 files), JavaScript/TypeScript (9 files) | 3300 files | Claude Code workflow optimization | OwnerScraper: Tech: Python (142 files), JavaScript/TypeScript (2 files) | 568 files | Claude Code workflow optimization | LeadMag: Tech: JavaScript/TypeScript (8 files) | 185 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-20T16:44:15.558464",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "AIBrain",
+      "hook_type": "transformation",
+      "related_projects": [
+        "AIBrain",
+        "vendor-quote-tool",
+        "n8n bulk",
+        "Personal-OS",
+        "JoblistingsAnalysis",
+        "vendor-quote-tool",
+        "legiscraper",
+        "party-directory-platform",
+        "xspaces",
+        "LeadMag",
+        "ppp data",
+        "n8n bulk",
+        "chromeSkooldwl",
+        "mapmaker",
+        "OwnerScraper",
+        "LeadMag"
+      ],
+      "last_updated": "2025-10-22T23:57:45.706210"
+    },
+    {
+      "id": "3db4cbf3c1c5",
+      "category": "tips_and_tricks",
+      "title": "Why documentation is actually prompt engineering",
+      "description": "2262 markdown files in vendor-quote-tool. Each one teaches Claude Code how to think about the project",
+      "technical_details": "2262 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | legiscraper: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ContentGen: 12 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | HOA: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | scrapers: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | OwnerScraper: 261 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | YouTubeRAG: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | smart-image-editor: 2532 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | party-directory-platform: 637 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | mapmaker: 3276 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | OwnerScraper: 261 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | JoblistingsAnalysis: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | trading: 9 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-scraper-analyzer: 2228 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | YouTubeRAG: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | AIBrain: 243 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | chromeSkooldwl: 11 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Personal-OS: 39 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | party-directory-platform: 637 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | scrapers: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.533247",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "vendor-quote-tool",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "vendor-quote-tool",
+        "legiscraper",
+        "ContentGen",
+        "HOA",
+        "scrapers",
+        "OwnerScraper",
+        "YouTubeRAG",
+        "smart-image-editor",
+        "party-directory-platform",
+        "mapmaker",
+        "OwnerScraper",
+        "JoblistingsAnalysis",
+        "trading",
+        "ad-scraper-analyzer",
+        "YouTubeRAG",
+        "AIBrain",
+        "chromeSkooldwl",
+        "Personal-OS",
+        "party-directory-platform",
+        "scrapers"
+      ],
+      "last_updated": "2025-10-22T23:57:43.151055"
+    },
+    {
+      "id": "783ba93c3d39",
+      "category": "tips_and_tricks",
+      "title": "The testing pattern that makes Claude Code unstoppable",
+      "description": "Most developers write code then test. I prompt Claude to write tests that define the spec. Then implementation is trivial",
+      "technical_details": "23 test files | TDD with Claude Code | Specification-driven development | UsageDash: 2 test files | TDD with Claude Code | Specification-driven development | legiscraper: 2 test files | TDD with Claude Code | Specification-driven development | AIBrain: 2200 test files | TDD with Claude Code | Specification-driven development | n8n bulk: 16 test files | TDD with Claude Code | Specification-driven development | ad-variations-generator: 25 test files | TDD with Claude Code | Specification-driven development | mapmaker: 29 test files | TDD with Claude Code | Specification-driven development | scrapers: 7 test files | TDD with Claude Code | Specification-driven development | ad-scraper-analyzer: 23 test files | TDD with Claude Code | Specification-driven development | legiscraper: 2 test files | TDD with Claude Code | Specification-driven development | ad-variations-generator: 25 test files | TDD with Claude Code | Specification-driven development | party-directory-platform: 2 test files | TDD with Claude Code | Specification-driven development | mapmaker: 29 test files | TDD with Claude Code | Specification-driven development | ad-scraper-analyzer: 23 test files | TDD with Claude Code | Specification-driven development | vendor-quote-tool: 23 test files | TDD with Claude Code | Specification-driven development | legiscraper: 2 test files | TDD with Claude Code | Specification-driven development | AIBrain: 2200 test files | TDD with Claude Code | Specification-driven development | dirTechStack: 2 test files | TDD with Claude Code | Specification-driven development | ad-scraper-analyzer: 23 test files | TDD with Claude Code | Specification-driven development",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.533258",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "vendor-quote-tool",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "vendor-quote-tool",
+        "UsageDash",
+        "legiscraper",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "mapmaker",
+        "scrapers",
+        "ad-scraper-analyzer",
+        "legiscraper",
+        "ad-variations-generator",
+        "party-directory-platform",
+        "mapmaker",
+        "ad-scraper-analyzer",
+        "vendor-quote-tool",
+        "legiscraper",
+        "AIBrain",
+        "dirTechStack",
+        "ad-scraper-analyzer"
+      ],
+      "last_updated": "2025-10-22T23:57:45.666794"
+    },
+    {
+      "id": "2f6161f72740",
+      "category": "learning_moments",
+      "title": "The debugging technique that solved my vendor-quote-tool bug in 10 minutes",
+      "description": "Most developers debug randomly. I use systematic Claude Code prompts to isolate root causes fast",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | UsageDash: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | Personal-OS: Claude Code best practices | Problem-solving techniques | ContentGen: Claude Code best practices | Problem-solving techniques | trading: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques | legiscraper: Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | AIBrain: Claude Code best practices | Problem-solving techniques | n8n bulk: Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | ContentGen: Claude Code best practices | Problem-solving techniques | mapmaker: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | dirTechStack: Claude Code best practices | Problem-solving techniques | dirKidSports: Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques | legiscraper: Claude Code best practices | Problem-solving techniques | AIBrain: Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | Personal-OS: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | xspaces: Claude Code best practices | Problem-solving techniques | trading: Claude Code best practices | Problem-solving techniques | dirTechStack: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.533265",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "vendor-quote-tool",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "vendor-quote-tool",
+        "UsageDash",
+        "chromeSkooldwl",
+        "Personal-OS",
+        "ContentGen",
+        "trading",
+        "LeadMag",
+        "legiscraper",
+        "smart-image-editor",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "party-directory-platform",
+        "ContentGen",
+        "mapmaker",
+        "OwnerScraper",
+        "dirTechStack",
+        "dirKidSports",
+        "Project Management",
+        "legiscraper",
+        "AIBrain",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "Personal-OS",
+        "party-directory-platform",
+        "xspaces",
+        "trading",
+        "dirTechStack",
+        "ad-scraper-analyzer"
+      ],
+      "last_updated": "2025-10-22T23:57:45.666811"
+    },
+    {
+      "id": "9b7c115cfcc7",
+      "category": "tips_and_tricks",
+      "title": "How I use CLAUDE.md files to 10x Claude Code effectiveness",
+      "description": "Updated 4 context files in YouTubeRAG. Now Claude understands my codebase instantly",
+      "technical_details": "4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirKidSports: 749 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Project Management: 21 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | data cleanup: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | AIBrain: 243 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | n8n bulk: 2152 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | chromeSkooldwl: 11 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Personal-OS: 39 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | party-directory-platform: 637 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | mapmaker: 3276 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | xspaces: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | UsageDash: 690 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | legiscraper: 7 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ppp data: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | data cleanup: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | chromeSkooldwl: 11 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Personal-OS: 39 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | xspaces: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | dirTechStack: 916 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | LeadMag: 173 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | vendor-quote-tool: 2262 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | Project Management: 21 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | UsageDash: 690 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | smart-image-editor: 2532 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | ad-variations-generator: 2216 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | mapmaker: 3276 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | HOA: 4 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | xspaces: 3 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization | trading: 9 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.540908",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "YouTubeRAG",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "YouTubeRAG",
+        "dirKidSports",
+        "Project Management",
+        "data cleanup",
+        "AIBrain",
+        "n8n bulk",
+        "chromeSkooldwl",
+        "Personal-OS",
+        "party-directory-platform",
+        "mapmaker",
+        "xspaces",
+        "UsageDash",
+        "legiscraper",
+        "ppp data",
+        "data cleanup",
+        "chromeSkooldwl",
+        "Personal-OS",
+        "xspaces",
+        "dirTechStack",
+        "LeadMag",
+        "vendor-quote-tool",
+        "Project Management",
+        "UsageDash",
+        "smart-image-editor",
+        "ad-variations-generator",
+        "mapmaker",
+        "HOA",
+        "xspaces",
+        "trading"
+      ],
+      "last_updated": "2025-10-22T23:57:43.392237"
+    },
+    {
+      "id": "2234738deb27",
+      "category": "learning_moments",
+      "title": "Why I write tests BEFORE asking Claude Code to implement",
+      "description": "Tests are specifications. Claude Code builds perfect implementations when you give it clear test cases first",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | YouTubeRAG: Claude Code best practices | Problem-solving techniques | Personal-OS: Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.540920",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "YouTubeRAG",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "YouTubeRAG",
+        "Project Management",
+        "chromeSkooldwl",
+        "YouTubeRAG",
+        "Personal-OS",
+        "Project Management"
+      ],
+      "last_updated": "2025-10-22T23:57:32.897366"
+    },
+    {
+      "id": "19187210c610",
+      "category": "learning_moments",
+      "title": "How I evaluate npm packages with Claude Code for YouTubeRAG",
+      "description": "Never blindly install dependencies. I prompt Claude to analyze security, bundle size, and alternatives first",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | dirKidSports: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques | dirKidSports: Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | party-directory-platform: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:37.540929",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "YouTubeRAG",
+      "hook_type": "how_to",
+      "related_projects": [
+        "YouTubeRAG",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "party-directory-platform",
+        "dirKidSports",
+        "party-directory-platform",
+        "OwnerScraper",
+        "ad-scraper-analyzer",
+        "dirKidSports",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "party-directory-platform",
+        "OwnerScraper",
+        "LeadMag"
+      ],
+      "last_updated": "2025-10-22T23:57:45.706319"
+    },
+    {
+      "id": "e9e59a0f8f9b",
+      "category": "progress_updates",
+      "title": "How I structure complex prompts for dirKidSports",
+      "description": "Most people struggle with vague prompts. I use this 3-step framework to get Claude Code to build exactly what I need",
+      "technical_details": "Tech: Python (1 files), JavaScript/TypeScript (3 files) | 759 files | Claude Code workflow optimization | legiscraper: Tech: Python (7 files) | 17 files | Claude Code workflow optimization | ppp data: Tech: Multiple languages | 3 files | Claude Code workflow optimization | mapmaker: Tech: Python (3 files), JavaScript/TypeScript (9 files) | 3300 files | Claude Code workflow optimization | HOA: Tech: Python (6 files) | 11 files | Claude Code workflow optimization | xspaces: Tech: Multiple languages | 4 files | Claude Code workflow optimization | scrapers: Tech: Python (35 files) | 41 files | Claude Code workflow optimization | trading: Tech: JavaScript/TypeScript (3 files) | 27 files | Claude Code workflow optimization | OwnerScraper: Tech: Python (142 files), JavaScript/TypeScript (2 files) | 565 files | Claude Code workflow optimization | JoblistingsAnalysis: Tech: Python (35 files), JavaScript/TypeScript (1 files) | 51 files | Claude Code workflow optimization | dirTechStack: Tech: Python (1 files), JavaScript/TypeScript (5 files) | 945 files | Claude Code workflow optimization | vendor-quote-tool: Tech: Python (27 files) | 2296 files | Claude Code workflow optimization | ad-variations-generator: Tech: Python (2 files), JavaScript/TypeScript (13 files) | 2239 files | Claude Code workflow optimization | Personal-OS: Tech: Python (45 files), JavaScript/TypeScript (1 files) | 170 files | Claude Code workflow optimization | ContentGen: Tech: Python (26 files), JavaScript/TypeScript (1 files) | 41 files | Claude Code workflow optimization | dirTechStack: Tech: Python (1 files), JavaScript/TypeScript (5 files) | 945 files | Claude Code workflow optimization | ad-scraper-analyzer: Tech: Python (2 files), JavaScript/TypeScript (11 files) | 2255 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:51:38.627272",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "dirKidSports",
+        "legiscraper",
+        "ppp data",
+        "mapmaker",
+        "HOA",
+        "xspaces",
+        "scrapers",
+        "trading",
+        "OwnerScraper",
+        "JoblistingsAnalysis",
+        "dirTechStack",
+        "vendor-quote-tool",
+        "ad-variations-generator",
+        "Personal-OS",
+        "ContentGen",
+        "dirTechStack",
+        "ad-scraper-analyzer"
+      ],
+      "last_updated": "2025-10-22T23:57:45.666677"
+    },
+    {
+      "id": "146017d93dfa",
+      "category": "tips_and_tricks",
+      "title": "How I do TDD with Claude Code in dirKidSports",
+      "description": "Write the test prompt. Let Claude build the implementation. 2 tests = zero bugs in production",
+      "technical_details": "2 test files | TDD with Claude Code | Specification-driven development | smart-image-editor: 24 test files | TDD with Claude Code | Specification-driven development | party-directory-platform: 2 test files | TDD with Claude Code | Specification-driven development | OwnerScraper: 10 test files | TDD with Claude Code | Specification-driven development | dirTechStack: 2 test files | TDD with Claude Code | Specification-driven development | vendor-quote-tool: 23 test files | TDD with Claude Code | Specification-driven development | UsageDash: 2 test files | TDD with Claude Code | Specification-driven development | smart-image-editor: 24 test files | TDD with Claude Code | Specification-driven development | AIBrain: 2200 test files | TDD with Claude Code | Specification-driven development | n8n bulk: 16 test files | TDD with Claude Code | Specification-driven development | scrapers: 7 test files | TDD with Claude Code | Specification-driven development | OwnerScraper: 10 test files | TDD with Claude Code | Specification-driven development | dirTechStack: 2 test files | TDD with Claude Code | Specification-driven development | UsageDash: 2 test files | TDD with Claude Code | Specification-driven development | smart-image-editor: 24 test files | TDD with Claude Code | Specification-driven development | n8n bulk: 16 test files | TDD with Claude Code | Specification-driven development | ad-variations-generator: 25 test files | TDD with Claude Code | Specification-driven development | party-directory-platform: 2 test files | TDD with Claude Code | Specification-driven development | mapmaker: 29 test files | TDD with Claude Code | Specification-driven development | scrapers: 7 test files | TDD with Claude Code | Specification-driven development | OwnerScraper: 10 test files | TDD with Claude Code | Specification-driven development",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:38.627361",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "how_to",
+      "related_projects": [
+        "dirKidSports",
+        "smart-image-editor",
+        "party-directory-platform",
+        "OwnerScraper",
+        "dirTechStack",
+        "vendor-quote-tool",
+        "UsageDash",
+        "smart-image-editor",
+        "AIBrain",
+        "n8n bulk",
+        "scrapers",
+        "OwnerScraper",
+        "dirTechStack",
+        "UsageDash",
+        "smart-image-editor",
+        "n8n bulk",
+        "ad-variations-generator",
+        "party-directory-platform",
+        "mapmaker",
+        "scrapers",
+        "OwnerScraper"
+      ],
+      "last_updated": "2025-10-22T23:57:43.348647"
+    },
+    {
+      "id": "e57f87d6ff83",
+      "category": "learning_moments",
+      "title": "The dependency selection framework that prevents tech debt",
+      "description": "Most projects accumulate unused packages. My Claude Code prompts evaluate every dependency before adding",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | OwnerScraper: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques | YouTubeRAG: Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | ad-variations-generator: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | LeadMag: Claude Code best practices | Problem-solving techniques | YouTubeRAG: Claude Code best practices | Problem-solving techniques | smart-image-editor: Claude Code best practices | Problem-solving techniques | ad-scraper-analyzer: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:38.627396",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "dirKidSports",
+        "smart-image-editor",
+        "OwnerScraper",
+        "ad-scraper-analyzer",
+        "LeadMag",
+        "YouTubeRAG",
+        "smart-image-editor",
+        "ad-variations-generator",
+        "chromeSkooldwl",
+        "LeadMag",
+        "YouTubeRAG",
+        "smart-image-editor",
+        "ad-scraper-analyzer"
+      ],
+      "last_updated": "2025-10-22T23:57:45.666830"
+    },
+    {
+      "id": "51ec99394a9f",
+      "category": "progress_updates",
+      "title": "The prompt pattern that 10x'd my Project Management development",
+      "description": "Stop writing code line-by-line. Start thinking in systems. Here's my exact prompt structure",
+      "technical_details": "Tech: Python (3 files), JavaScript/TypeScript (5 files) | 38 files | Claude Code workflow optimization | chromeSkooldwl: Tech: JavaScript/TypeScript (8 files) | 22 files | Claude Code workflow optimization | ContentGen: Tech: Python (26 files), JavaScript/TypeScript (1 files) | 41 files | Claude Code workflow optimization | YouTubeRAG: Tech: Python (20 files) | 26 files | Claude Code workflow optimization | data cleanup: Tech: Multiple languages | 3 files | Claude Code workflow optimization | smart-image-editor: Tech: Python (3 files), JavaScript/TypeScript (8 files) | 2560 files | Claude Code workflow optimization | Personal-OS: Tech: Python (44 files), JavaScript/TypeScript (1 files) | 169 files | Claude Code workflow optimization | ad-scraper-analyzer: Tech: Python (2 files), JavaScript/TypeScript (11 files) | 2255 files | Claude Code workflow optimization | YouTubeRAG: Tech: Python (20 files) | 26 files | Claude Code workflow optimization | smart-image-editor: Tech: Python (3 files), JavaScript/TypeScript (8 files) | 2560 files | Claude Code workflow optimization | JoblistingsAnalysis: Tech: Python (35 files), JavaScript/TypeScript (1 files) | 51 files | Claude Code workflow optimization | trading: Tech: JavaScript/TypeScript (3 files) | 27 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:51:38.638300",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "Project Management",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "Project Management",
+        "chromeSkooldwl",
+        "ContentGen",
+        "YouTubeRAG",
+        "data cleanup",
+        "smart-image-editor",
+        "Personal-OS",
+        "ad-scraper-analyzer",
+        "YouTubeRAG",
+        "smart-image-editor",
+        "JoblistingsAnalysis",
+        "trading"
+      ],
+      "last_updated": "2025-10-22T23:57:43.392163"
+    },
+    {
+      "id": "3be0d6e87d57",
+      "category": "architecture_insights",
+      "title": "How to structure Claude Code agents (real example: Project Management)",
+      "description": "Most people write monolithic code. I break everything into specialized agents. Here's the pattern",
+      "technical_details": "4 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | AIBrain: 13 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | n8n bulk: 11 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-variations-generator: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | scrapers: 2 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-scraper-analyzer: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | vendor-quote-tool: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | n8n bulk: 11 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | ad-variations-generator: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | Personal-OS: 138 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | vendor-quote-tool: 3 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | smart-image-editor: 5 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | AIBrain: 13 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | scrapers: 2 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:38.638309",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Architecture",
+        "#SystemDesign",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: architecture_insights, contains engaging elements"
+      },
+      "project": "Project Management",
+      "hook_type": "how_to",
+      "related_projects": [
+        "Project Management",
+        "AIBrain",
+        "n8n bulk",
+        "ad-variations-generator",
+        "scrapers",
+        "ad-scraper-analyzer",
+        "vendor-quote-tool",
+        "n8n bulk",
+        "ad-variations-generator",
+        "Personal-OS",
+        "vendor-quote-tool",
+        "smart-image-editor",
+        "AIBrain",
+        "scrapers"
+      ],
+      "last_updated": "2025-10-22T23:57:43.151034"
+    },
+    {
+      "id": "969f81d8410d",
+      "category": "architecture_insights",
+      "title": "The agent architecture pattern that changed how I build with Claude",
+      "description": "Event-driven. Self-healing. Zero manual intervention. 5 agents running 24/7 in smart-image-editor",
+      "technical_details": "5 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | Personal-OS: 138 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | dirTechStack: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | AIBrain: 13 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | scrapers: 2 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | OwnerScraper: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | dirTechStack: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | Project Management: 4 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | Personal-OS: 139 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | OwnerScraper: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns | dirTechStack: 7 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:41.909085",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Architecture",
+        "#SystemDesign",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: architecture_insights, contains engaging elements"
+      },
+      "project": "smart-image-editor",
+      "hook_type": "transformation",
+      "related_projects": [
+        "smart-image-editor",
+        "Personal-OS",
+        "dirTechStack",
+        "AIBrain",
+        "scrapers",
+        "OwnerScraper",
+        "dirTechStack",
+        "Project Management",
+        "Personal-OS",
+        "OwnerScraper",
+        "dirTechStack"
+      ],
+      "last_updated": "2025-10-22T23:57:44.544159"
+    },
+    {
+      "id": "98b1da3a3d7c",
+      "category": "progress_updates",
+      "title": "The AIBrain breakthrough that saved me 10 hours",
+      "description": "Shipped 11694 files in one sprint. Here's the Claude Code workflow that made it possible",
+      "technical_details": "Tech: Python (10949 files), JavaScript/TypeScript (8 files) | 11694 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:51:43.527854",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "AIBrain",
+      "hook_type": "transformation",
+      "related_projects": [
+        "AIBrain"
+      ]
+    },
+    {
+      "id": "b81a5ef0b2b3",
+      "category": "learning_moments",
+      "title": "The test-driven prompt pattern for Personal-OS",
+      "description": "I describe desired behavior as test cases. Claude Code generates implementations that pass immediately",
+      "technical_details": "Claude Code best practices | Problem-solving techniques | HOA: Claude Code best practices | Problem-solving techniques | Project Management: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | HOA: Claude Code best practices | Problem-solving techniques | YouTubeRAG: Claude Code best practices | Problem-solving techniques | chromeSkooldwl: Claude Code best practices | Problem-solving techniques | HOA: Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:51:46.225458",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "Personal-OS",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "Personal-OS",
+        "HOA",
+        "Project Management",
+        "chromeSkooldwl",
+        "HOA",
+        "YouTubeRAG",
+        "chromeSkooldwl",
+        "HOA"
+      ],
+      "last_updated": "2025-10-22T23:57:43.130515"
+    },
+    {
+      "id": "4e9d5ecfe1d1",
+      "category": "learning_moments",
+      "title": "The debugging technique that solved my vendor-quote-tool bug in 10 minutes",
+      "description": "Most developers debug randomly. I use systematic Claude Code prompts to isolate root causes fast",
+      "technical_details": "Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:52:05.328748",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "vendor-quote-tool",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "vendor-quote-tool"
+      ]
+    },
+    {
+      "id": "3f771b90b5ac",
+      "category": "tips_and_tricks",
+      "title": "How I do TDD with Claude Code in dirKidSports",
+      "description": "Write the test prompt. Let Claude build the implementation. 2 tests = zero bugs in production",
+      "technical_details": "2 test files | TDD with Claude Code | Specification-driven development",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:52:06.414236",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "how_to",
+      "related_projects": [
+        "dirKidSports"
+      ]
+    },
+    {
+      "id": "d75c4911194e",
+      "category": "progress_updates",
+      "title": "The prompt pattern that 10x'd my Project Management development",
+      "description": "Stop writing code line-by-line. Start thinking in systems. Here's my exact prompt structure",
+      "technical_details": "Tech: Python (3 files), JavaScript/TypeScript (5 files) | 38 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:52:06.424742",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "Project Management",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "Project Management"
+      ]
+    },
+    {
+      "id": "a678a812a917",
+      "category": "use_cases",
+      "title": "How I automated my weekly reporting in 30 minutes with Claude Code",
+      "description": "No coding experience needed. I went from spending 3 hours every Friday on spreadsheets to having Claude Code generate my weekly sales reports automatically. Here's the exact workflow I use.",
+      "technical_details": "Automated reporting | Excel/Google Sheets integration | No coding required | Time savings: 3 hours/week",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851480",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused use_cases, high value for SMB audience"
+      },
+      "project": "Business Automation",
+      "hook_type": "transformation",
+      "related_projects": [
+        "Business Automation"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "63ef7de53ad0",
+      "category": "tips_and_tricks",
+      "title": "The 5-minute Claude Code setup that saves me 10 hours every week",
+      "description": "Most small business owners waste time on repetitive tasks. I taught Claude Code my business workflows once. Now it handles customer follow-ups, invoice reminders, and data entry while I focus on growth.",
+      "technical_details": "Business workflow automation | Customer communication | Invoice management | Data entry elimination",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851483",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused tips_and_tricks, high value for SMB audience"
+      },
+      "project": "Business Operations",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "Business Operations"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "6e965cecb754",
+      "category": "use_cases",
+      "title": "I replaced 3 software subscriptions with Claude Code (saving $300/month)",
+      "description": "Ditched my CRM, reporting tool, and task manager. Claude Code does it all\u2014custom-built for MY business, not a generic solution. Here's how I set it up in an afternoon.",
+      "technical_details": "Cost savings: $300/month | CRM replacement | Custom business tools | One-time setup",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851486",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused use_cases, high value for SMB audience"
+      },
+      "project": "Business Tools",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "Business Tools"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "686ca2070898",
+      "category": "feature_demos",
+      "title": "Watch Claude Code build a customer database from my messy spreadsheets",
+      "description": "I had 5 years of customer data scattered across Google Sheets, Excel files, and email. Asked Claude Code to organize it. 20 minutes later: clean database, automated contact management, birthday reminders built in.",
+      "technical_details": "Data cleanup | Customer database creation | Contact management | Automated reminders",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:19.851488",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused feature_demos, high value for SMB audience"
+      },
+      "project": "Data Organization",
+      "hook_type": "transformation",
+      "related_projects": [
+        "Data Organization"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "d80beebf091e",
+      "category": "use_cases",
+      "title": "How Claude Code became my business analyst (without the $150/hour fee)",
+      "description": "I upload my sales data and ask questions in plain English. 'Which products sell best in Q4?' 'What's my customer retention rate?' Claude Code analyzes everything and explains it like I'm talking to a consultant.",
+      "technical_details": "Business analytics | Data analysis | Plain English queries | Cost savings vs hiring analyst",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851489",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused use_cases, high value for SMB audience"
+      },
+      "project": "Business Intelligence",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "Business Intelligence"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "c461f9d16f07",
+      "category": "tips_and_tricks",
+      "title": "The 'talk to Claude like a human' trick that changed everything",
+      "description": "Stop thinking like a programmer. I literally tell Claude Code what I need like I'm delegating to an employee: 'Create a system that emails customers 2 days before their subscription renews.' It just... does it.",
+      "technical_details": "Natural language automation | No coding required | Business delegation model | Subscription management",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:19.851491",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused tips_and_tricks, high value for SMB audience"
+      },
+      "project": "Communication Strategy",
+      "hook_type": "how_to",
+      "related_projects": [
+        "Communication Strategy"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "ffb2987a77f4",
+      "category": "use_cases",
+      "title": "My complete morning routine: automated by Claude Code in under 1 hour",
+      "description": "Every morning at 8 AM: Yesterday's sales summary in my inbox, today's tasks prioritized, customer inquiries flagged, inventory alerts ready. I built this workflow with zero coding. Here's the step-by-step.",
+      "technical_details": "Morning automation | Sales summaries | Task prioritization | Customer service automation | Inventory management",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851495",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused use_cases, high value for SMB audience"
+      },
+      "project": "Daily Operations",
+      "hook_type": "transformation",
+      "related_projects": [
+        "Daily Operations"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "628bfeb1e4b6",
+      "category": "feature_demos",
+      "title": "From idea to working business tool in 45 minutes (real example)",
+      "description": "Needed a quote generator for my service business. Told Claude Code my pricing structure and service packages. It built a custom tool that creates professional quotes, tracks them, and sends follow-ups. Never touched code.",
+      "technical_details": "Quote generation | Pricing automation | Follow-up system | Professional templates | 45-minute build time",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851497",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused feature_demos, high value for SMB audience"
+      },
+      "project": "Sales Tools",
+      "hook_type": "transformation",
+      "related_projects": [
+        "Sales Tools"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "cbd020794ae8",
+      "category": "use_cases",
+      "title": "How I use Claude Code to compete with companies 10x my size",
+      "description": "Big companies have dev teams. I have Claude Code. Custom inventory tracking, automated customer onboarding, smart email sequences\u2014built exactly how I need them. Same capabilities, zero overhead.",
+      "technical_details": "Inventory tracking | Customer onboarding automation | Email sequences | Competitive advantage | Zero developer costs",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:19.851499",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused use_cases, high value for SMB audience"
+      },
+      "project": "Competitive Strategy",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "Competitive Strategy"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "e56c3f64a7b5",
+      "category": "tips_and_tricks",
+      "title": "The 3-step framework I use to automate any business task with Claude Code",
+      "description": "Step 1: Describe what you do manually. Step 2: Ask Claude to build it. Step 3: Test and refine. Used this to automate inventory alerts, customer thank-you emails, and monthly reporting. Works every time.",
+      "technical_details": "3-step automation framework | Inventory alerts | Customer communication | Monthly reporting | Repeatable process",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:19.851501",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#SmallBusiness",
+        "#Automation",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Business-focused tips_and_tricks, high value for SMB audience"
+      },
+      "project": "Automation Framework",
+      "hook_type": "how_to",
+      "related_projects": [
+        "Automation Framework"
+      ],
+      "audience": "small_business_owners",
+      "technical_level": "beginner"
+    },
+    {
+      "id": "f5fe8f9c5762",
+      "category": "learning_moments",
+      "title": "The debugging technique that solved my vendor-quote-tool bug in 10 minutes",
+      "description": "Most developers debug randomly. I use systematic Claude Code prompts to isolate root causes fast",
+      "technical_details": "Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:31.556211",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "vendor-quote-tool",
+      "hook_type": "contrarian_snapback",
+      "related_projects": [
+        "vendor-quote-tool"
+      ]
+    },
+    {
+      "id": "86298b355bdf",
+      "category": "progress_updates",
+      "title": "How I structure complex prompts for dirKidSports",
+      "description": "Most people struggle with vague prompts. I use this 3-step framework to get Claude Code to build exactly what I need",
+      "technical_details": "Tech: Python (1 files), JavaScript/TypeScript (3 files) | 759 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:32.886672",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "dirKidSports"
+      ]
+    },
+    {
+      "id": "93f9c81f7567",
+      "category": "tips_and_tricks",
+      "title": "How I do TDD with Claude Code in dirKidSports",
+      "description": "Write the test prompt. Let Claude build the implementation. 2 tests = zero bugs in production",
+      "technical_details": "2 test files | TDD with Claude Code | Specification-driven development",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:32.886766",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "dirKidSports",
+      "hook_type": "how_to",
+      "related_projects": [
+        "dirKidSports"
+      ]
+    },
+    {
+      "id": "0740fe8aade0",
+      "category": "progress_updates",
+      "title": "The AIBrain breakthrough that saved me 10 hours",
+      "description": "Shipped 11703 files in one sprint. Here's the Claude Code workflow that made it possible",
+      "technical_details": "Tech: Python (10949 files), JavaScript/TypeScript (9 files) | 11703 files | Claude Code workflow optimization",
+      "urgency": "high",
+      "created_date": "2025-10-22T23:57:37.005650",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#Progress",
+        "#BuildingInPublic",
+        "#ClaudeCode"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: progress_updates, contains engaging elements"
+      },
+      "project": "AIBrain",
+      "hook_type": "transformation",
+      "related_projects": [
+        "AIBrain"
+      ]
+    },
+    {
+      "id": "e294f739ccf7",
+      "category": "learning_moments",
+      "title": "The test-driven prompt pattern for Personal-OS",
+      "description": "I describe desired behavior as test cases. Claude Code generates implementations that pass immediately",
+      "technical_details": "Claude Code best practices | Problem-solving techniques",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:39.618653",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "project": "Personal-OS",
+      "hook_type": "benefit_driven",
+      "related_projects": [
+        "Personal-OS"
+      ]
+    },
+    {
+      "id": "4f01bea155e3",
+      "category": "tips_and_tricks",
+      "title": "The context management strategy that transformed OwnerScraper",
+      "description": "Stop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system",
+      "technical_details": "261 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+      "urgency": "medium",
+      "created_date": "2025-10-22T23:57:43.348632",
+      "status": "idea",
+      "platforms": [],
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "estimated_engagement": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "project": "OwnerScraper",
+      "hook_type": "transformation",
+      "related_projects": [
+        "OwnerScraper"
+      ]
+    }
+  ],
+  "published_posts": [
+    {
+      "id": "1166f4c7d145",
+      "idea_id": "b3d3e302aa97",
+      "platform": "twitter",
+      "content": "\ud83d\udca1 How I debug with Claude Code (no more console.log spam)\n\nPrompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical...\n\n#ClaudeCode #LearningInPublic #BuildingInPublic",
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "created_date": "2025-10-20T21:45:28.859333",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "suggested_visuals": []
+    },
+    {
+      "id": "a25cc4ea933f",
+      "idea_id": "b3d3e302aa97",
+      "platform": "linkedin",
+      "content": "\ud83d\udca1 How I debug with Claude Code (no more console.log spam)\n\nPrompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical\n\nTechnical highlights:\n\u2022 Claude Code best practices | Problem-solving techniques\n\nBuilding in public with #ClaudeCode - here's what I learned:\n\n#ClaudeCode #LearningInPublic #BuildingInPublic",
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "created_date": "2025-10-20T21:45:28.864278",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "suggested_visuals": []
+    },
+    {
+      "id": "e386c39fd953",
+      "idea_id": "b3d3e302aa97",
+      "platform": "twitter",
+      "content": "\ud83d\udca1 How I debug with Claude Code (no more console.log spam)\n\nPrompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical...\n\n#ClaudeCode #LearningInPublic #BuildingInPublic",
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "created_date": "2025-10-21T17:33:04.768922",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "suggested_visuals": []
+    },
+    {
+      "id": "3df0ea15a86e",
+      "idea_id": "b3d3e302aa97",
+      "platform": "linkedin",
+      "content": "\ud83d\udca1 How I debug with Claude Code (no more console.log spam)\n\nPrompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical\n\nTechnical highlights:\n\u2022 Claude Code best practices | Problem-solving techniques\n\nBuilding in public with #ClaudeCode - here's what I learned:\n\n#ClaudeCode #LearningInPublic #BuildingInPublic",
+      "hashtags": [
+        "#ClaudeCode",
+        "#LearningInPublic",
+        "#BuildingInPublic"
+      ],
+      "created_date": "2025-10-21T17:33:04.776092",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "medium-high",
+        "reasoning": "Category: learning_moments, contains engaging elements"
+      },
+      "suggested_visuals": []
+    },
+    {
+      "id": "b43987823593",
+      "idea_id": "b8f8fb981f73",
+      "platform": "twitter",
+      "content": "\ud83d\udca1 The context management strategy that transformed OwnerScraper\n\nStop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system...\n\n#TipsAndTricks #ClaudeCode #Productivity",
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "created_date": "2025-10-21T21:39:11.462108",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "suggested_visuals": []
+    },
+    {
+      "id": "ddcafbcd6bf5",
+      "idea_id": "b8f8fb981f73",
+      "platform": "linkedin",
+      "content": "\ud83d\udca1 The context management strategy that transformed OwnerScraper\n\nStop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system\n\nTechnical highlights:\n\u2022 1 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization\n\nBuilding in public with #ClaudeCode - here's what I learned:\n\n#TipsAndTricks #ClaudeCode #Productivity",
+      "hashtags": [
+        "#TipsAndTricks",
+        "#ClaudeCode",
+        "#Productivity"
+      ],
+      "created_date": "2025-10-21T21:39:11.467504",
+      "status": "draft",
+      "estimated_performance": {
+        "estimated_score": "high",
+        "reasoning": "Category: tips_and_tricks, contains engaging elements"
+      },
+      "suggested_visuals": []
+    }
+  ],
+  "daily_insights": {
+    "2025-10-20": {
+      "date": "2025-10-20",
+      "projects_analyzed": 32,
+      "interesting_findings": [
+        "Frontend work in Personal-OS - 1 JavaScript/TypeScript files",
+        "New agent development in Personal-OS - 9 agent-related files",
+        "Configuration changes in Personal-OS - 3 config files",
+        "Configuration changes in xspaces - 1 config files",
+        "Documentation updates in OwnerScraper - 1 markdown files",
+        "Configuration changes in OwnerScraper - 1 config files"
+      ],
+      "content_opportunities": [
+        {
+          "category": "progress_updates",
+          "title": "The AIBrain breakthrough that saved me 10 hours",
+          "description": "Shipped 4 files in one sprint. Here's the Claude Code workflow that made it possible",
+          "technical_details": "Tech: Python (1 files) | 4 files | Claude Code workflow optimization",
+          "urgency": "high",
+          "project": "AIBrain",
+          "hook_type": "transformation"
+        },
+        {
+          "category": "progress_updates",
+          "title": "I rebuilt Personal-OS in 9 file changes (here's how)",
+          "description": "Breaking down complex features into atomic tasks. Claude Code handles each piece perfectly when you structure it right",
+          "technical_details": "Tech: Python (2 files), JavaScript/TypeScript (1 files) | 9 files | Claude Code workflow optimization",
+          "urgency": "high",
+          "project": "Personal-OS",
+          "hook_type": "how_to"
+        },
+        {
+          "category": "architecture_insights",
+          "title": "Why I build agents instead of scripts for Personal-OS",
+          "description": "Scripts break. Agents adapt. Here's my autonomous agent pattern that handles 9 workflows without supervision",
+          "technical_details": "9 autonomous agents | Event-driven architecture | Self-healing systems | Claude Code agent patterns",
+          "urgency": "medium",
+          "project": "Personal-OS",
+          "hook_type": "contrarian_snapback"
+        },
+        {
+          "category": "progress_updates",
+          "title": "I rebuilt OwnerScraper in 5 file changes (here's how)",
+          "description": "Breaking down complex features into atomic tasks. Claude Code handles each piece perfectly when you structure it right",
+          "technical_details": "Tech: Python (1 files) | 5 files | Claude Code workflow optimization",
+          "urgency": "high",
+          "project": "OwnerScraper",
+          "hook_type": "how_to"
+        },
+        {
+          "category": "tips_and_tricks",
+          "title": "The context management strategy that transformed OwnerScraper",
+          "description": "Stop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system",
+          "technical_details": "1 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+          "urgency": "medium",
+          "project": "OwnerScraper",
+          "hook_type": "transformation"
+        }
+      ],
+      "technical_insights": [
+        {
+          "title": "How I debug with Claude Code (no more console.log spam)",
+          "description": "Prompt Claude to trace execution paths and identify edge cases. Personal-OS debugging made methodical",
+          "hook_type": "how_to",
+          "project": "Personal-OS"
+        }
+      ],
+      "progress_highlights": [],
+      "generated_content_ids": [
+        "6bb4553a1695",
+        "4f9a18bf1339",
+        "f7affa6732f9",
+        "4f9a18bf1339",
+        "b8f8fb981f73",
+        "b3d3e302aa97"
+      ]
+    },
+    "2025-10-22": {
+      "date": "2025-10-22",
+      "projects_analyzed": 1,
+      "interesting_findings": [
+        "Frontend work in LeadMag - 8 JavaScript/TypeScript files",
+        "Documentation updates in LeadMag - 173 markdown files",
+        "Configuration changes in LeadMag - 4 config files"
+      ],
+      "content_opportunities": [
+        {
+          "category": "progress_updates",
+          "title": "The LeadMag breakthrough that saved me 10 hours",
+          "description": "Shipped 185 files in one sprint. Here's the Claude Code workflow that made it possible",
+          "technical_details": "Tech: JavaScript/TypeScript (8 files) | 185 files | Claude Code workflow optimization",
+          "urgency": "high",
+          "project": "LeadMag",
+          "hook_type": "transformation"
+        },
+        {
+          "category": "tips_and_tricks",
+          "title": "The context management strategy that transformed LeadMag",
+          "description": "Stop re-explaining your project every session. Build a knowledge graph Claude can reference. Here's my system",
+          "technical_details": "173 context files | CLAUDE.md pattern | Knowledge graphs | Context optimization",
+          "urgency": "medium",
+          "project": "LeadMag",
+          "hook_type": "transformation"
+        }
+      ],
+      "technical_insights": [
+        {
+          "title": "How I debug with Claude Code (no more console.log spam)",
+          "description": "Prompt Claude to trace execution paths and identify edge cases. LeadMag debugging made methodical",
+          "hook_type": "how_to",
+          "project": "LeadMag"
+        },
+        {
+          "title": "How I evaluate npm packages with Claude Code for LeadMag",
+          "description": "Never blindly install dependencies. I prompt Claude to analyze security, bundle size, and alternatives first",
+          "hook_type": "how_to",
+          "project": "LeadMag"
+        }
+      ],
+      "progress_highlights": [],
+      "generated_content_ids": [
+        "6bb4553a1695",
+        "b8f8fb981f73",
+        "b3d3e302aa97",
+        "19187210c610"
+      ]
+    }
+  },
+  "trending_topics": []
+}

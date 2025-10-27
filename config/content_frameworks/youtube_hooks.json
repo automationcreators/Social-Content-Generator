@@ -1,0 +1,305 @@
+{
+  "framework_name": "YouTube Title & Hook Framework",
+  "framework_type": "engagement_hooks",
+  "description": "YouTube-style titles and hooks optimized for social media, adapted from successful video titles",
+  "applies_to": {
+    "platforms": ["twitter", "linkedin", "threads", "instagram", "youtube"],
+    "categories": ["progress_updates", "learning_moments", "architecture_insights", "tips_and_tricks", "problem_solving", "feature_demos"]
+  },
+  "hook_types": {
+    "curiosity_gap": {
+      "description": "Create curiosity by withholding key information",
+      "power_words": ["secret", "hidden", "nobody", "reveals", "truth", "exposed"],
+      "templates": [
+        {
+          "pattern": "The {technique} nobody talks about in {domain}",
+          "example": "The debugging technique nobody talks about in Claude Code",
+          "description_pattern": "Most {domain} tutorials skip this. Here's the {technique} that {benefit}",
+          "variables": ["technique", "domain", "benefit"],
+          "bullet_points": [
+            "Why this {technique} is overlooked by most developers",
+            "The specific problem it solves that {alternative} can't",
+            "Step-by-step breakdown of implementation",
+            "Real example from {project}",
+            "Common pitfalls to avoid"
+          ]
+        },
+        {
+          "pattern": "What {authority} won't tell you about {topic}",
+          "example": "What senior developers won't tell you about prompt engineering",
+          "description_pattern": "I learned this the hard way after {experience}. {insight}",
+          "variables": ["authority", "topic", "experience", "insight"],
+          "bullet_points": [
+            "The hidden complexity most tutorials ignore",
+            "What changed after I discovered {insight}",
+            "The exact mistake I made (and how to avoid it)",
+            "Why this matters more than {common_advice}"
+          ]
+        }
+      ]
+    },
+    "dramatic_transformation": {
+      "description": "Before/after transformation with specific metrics",
+      "power_words": ["from...to", "went from", "transformed", "eliminated", "10x", "doubled"],
+      "templates": [
+        {
+          "pattern": "How I went from {before} to {after} in {timeframe}",
+          "example": "How I went from manual debugging to automated AI analysis in 2 weeks",
+          "description_pattern": "I was spending {time_wasted} on {problem}. Then I {solution}. Now {result}",
+          "variables": ["before", "after", "timeframe", "time_wasted", "problem", "solution", "result"],
+          "bullet_points": [
+            "The exact problem: {before_state}",
+            "What I tried first (and why it failed)",
+            "The breakthrough moment with {technique}",
+            "Specific metrics: {time_saved} or {quality_improvement}",
+            "How you can replicate this in {project_type}"
+          ]
+        },
+        {
+          "pattern": "I eliminated {pain_point} with this {solution}",
+          "example": "I eliminated context-switching overhead with CLAUDE.md files",
+          "description_pattern": "{pain_point} was costing me {cost}. Here's the {solution} that fixed it",
+          "variables": ["pain_point", "cost", "solution"],
+          "bullet_points": [
+            "The hidden cost of {pain_point}",
+            "Why traditional solutions don't work",
+            "My {solution} implementation (with code examples)",
+            "Measurable impact on {metric}",
+            "When to use this vs. alternatives"
+          ]
+        }
+      ]
+    },
+    "unexpected_insight": {
+      "description": "Counter-intuitive or surprising realization",
+      "power_words": ["surprising", "counterintuitive", "opposite", "actually", "turns out"],
+      "templates": [
+        {
+          "pattern": "Why {common_belief} is actually holding you back",
+          "example": "Why perfect prompts are actually holding you back from better AI collaboration",
+          "description_pattern": "Everyone says {common_advice}. But I discovered {contrarian_truth}",
+          "variables": ["common_belief", "common_advice", "contrarian_truth"],
+          "bullet_points": [
+            "The conventional wisdom: {common_belief}",
+            "Why it seems logical but fails in practice",
+            "The data that changed my mind",
+            "What to do instead: {alternative_approach}",
+            "Real-world example from {project}"
+          ]
+        },
+        {
+          "pattern": "Turns out {assumption} was wrong. Here's what works",
+          "example": "Turns out more documentation wasn't the answer. Here's what works",
+          "description_pattern": "I assumed {assumption}. Spent {time} on it. Then realized {insight}",
+          "variables": ["assumption", "time", "insight"],
+          "bullet_points": [
+            "My original hypothesis and why it made sense",
+            "The experiment I ran to test it",
+            "What the results actually showed",
+            "The surprising truth: {insight}",
+            "How this changes the {domain} workflow"
+          ]
+        }
+      ]
+    },
+    "specific_number": {
+      "description": "Use specific numbers to add credibility and intrigue",
+      "power_words": ["exactly", "precise", "specific", "measured", "tracked"],
+      "templates": [
+        {
+          "pattern": "{number} {things} that {outcome}",
+          "example": "7 prompt patterns that cut my Claude Code debugging time by 60%",
+          "description_pattern": "After {experience}, I identified these {number} {patterns}. Each one {benefit}",
+          "variables": ["number", "things", "outcome", "experience", "patterns", "benefit"],
+          "bullet_points": [
+            "Pattern 1: {name} - {use_case}",
+            "Pattern 2: {name} - {use_case}",
+            "Pattern 3: {name} - {use_case}",
+            "When to use each pattern",
+            "The compound effect of combining them",
+            "Measured results: {specific_metrics}"
+          ]
+        },
+        {
+          "pattern": "I analyzed {number} {items} and found this pattern",
+          "example": "I analyzed 50 agent architectures and found this pattern",
+          "description_pattern": "Deep dive into {number} {items}. Discovered {insight} that {benefit}",
+          "variables": ["number", "items", "insight", "benefit"],
+          "bullet_points": [
+            "The research question I was trying to answer",
+            "My analysis methodology",
+            "Pattern identified: {insight}",
+            "Why this matters for {domain}",
+            "How to apply it to your {project_type}",
+            "Edge cases where it doesn't apply"
+          ]
+        }
+      ]
+    },
+    "mistake_lesson": {
+      "description": "Learn from failures and mistakes",
+      "power_words": ["mistake", "wrong", "failed", "costly", "learned", "never again"],
+      "templates": [
+        {
+          "pattern": "The {cost} mistake I made with {topic}",
+          "example": "The $10k mistake I made with agent architecture",
+          "description_pattern": "I thought {assumption}. Built {solution}. It failed because {reason}. Here's what I learned",
+          "variables": ["cost", "topic", "assumption", "solution", "reason"],
+          "bullet_points": [
+            "The context: why I made this decision",
+            "What seemed right at the time",
+            "The moment I realized it was wrong",
+            "Specific failure mode and consequences",
+            "What I should have done instead",
+            "Red flags to watch for"
+          ]
+        },
+        {
+          "pattern": "Why I'll never {action} again (and what I do instead)",
+          "example": "Why I'll never write agents without CLAUDE.md files again",
+          "description_pattern": "Used to {old_approach}. Caused {problems}. Now I {new_approach}",
+          "variables": ["action", "old_approach", "problems", "new_approach"],
+          "bullet_points": [
+            "The old way: {old_approach}",
+            "Problems it caused: {specific_issues}",
+            "The breaking point that forced change",
+            "New approach: {detailed_methodology}",
+            "Why this prevents {previous_problems}",
+            "Implementation guide for {project_type}"
+          ]
+        }
+      ]
+    }
+  },
+  "content_enrichment": {
+    "bullet_point_types": [
+      {
+        "type": "context_setting",
+        "purpose": "Establish the problem or situation",
+        "examples": [
+          "The specific challenge I was facing",
+          "Why this problem is common in {domain}",
+          "The traditional approach and its limitations"
+        ]
+      },
+      {
+        "type": "technical_deep_dive",
+        "purpose": "Provide actionable technical details",
+        "examples": [
+          "Code snippet showing the implementation",
+          "Architecture diagram of the solution",
+          "Configuration settings that matter"
+        ]
+      },
+      {
+        "type": "measurable_results",
+        "purpose": "Quantify the impact",
+        "examples": [
+          "Reduced X by Y%",
+          "Went from A to B in C timeframe",
+          "Eliminated N instances of {problem}"
+        ]
+      },
+      {
+        "type": "personal_insight",
+        "purpose": "Add unique perspective",
+        "examples": [
+          "The 'aha' moment when I realized {insight}",
+          "Why this matters more than most people think",
+          "The surprising secondary benefit I discovered"
+        ]
+      },
+      {
+        "type": "actionable_next_steps",
+        "purpose": "Help readers implement",
+        "examples": [
+          "Start with {simple_first_step}",
+          "Avoid {common_pitfall}",
+          "When to use this vs {alternative}"
+        ]
+      }
+    ],
+    "multi_source_combination": {
+      "description": "How to combine this content with other sources",
+      "strategies": [
+        "Lead with hook, support with technical details from code",
+        "Use hook as thread starter, expand in replies with examples",
+        "Combine with screenshot/demo for visual learners",
+        "Link to deeper dive content (blog post, video, repo)",
+        "Add personal story in comments to humanize"
+      ]
+    }
+  },
+  "platform_adaptations": {
+    "twitter": {
+      "structure": "Hook + 2-3 bullets + CTA",
+      "format": "Thread format for complex topics",
+      "max_bullets": 3
+    },
+    "linkedin": {
+      "structure": "Hook + Context + 5-7 bullets + Reflection + CTA",
+      "format": "Long-form narrative",
+      "max_bullets": 7
+    },
+    "threads": {
+      "structure": "Hook + Conversational bullets + Question",
+      "format": "Casual thread",
+      "max_bullets": 4
+    },
+    "instagram": {
+      "structure": "Hook + Visual bullets + Story CTA",
+      "format": "Carousel-friendly",
+      "max_bullets": 5
+    }
+  },
+  "matching_rules": {
+    "progress_updates": {
+      "preferred_hooks": ["dramatic_transformation", "specific_number"],
+      "bullet_focus": ["measurable_results", "technical_deep_dive"]
+    },
+    "learning_moments": {
+      "preferred_hooks": ["mistake_lesson", "unexpected_insight"],
+      "bullet_focus": ["personal_insight", "actionable_next_steps"]
+    },
+    "architecture_insights": {
+      "preferred_hooks": ["curiosity_gap", "unexpected_insight"],
+      "bullet_focus": ["technical_deep_dive", "context_setting"]
+    },
+    "tips_and_tricks": {
+      "preferred_hooks": ["specific_number", "curiosity_gap"],
+      "bullet_focus": ["actionable_next_steps", "technical_deep_dive"]
+    },
+    "problem_solving": {
+      "preferred_hooks": ["mistake_lesson", "dramatic_transformation"],
+      "bullet_focus": ["context_setting", "actionable_next_steps"]
+    }
+  },
+  "INSTRUCTIONS_FOR_YOUR_CONTENT": {
+    "note": "Replace this section with your actual YouTube title frameworks from Google Drive",
+    "steps_to_add": [
+      "1. Download your YouTube frameworks document from Google Drive",
+      "2. Copy the title patterns and examples",
+      "3. Add them to the hook_types section above",
+      "4. Add corresponding bullet_point templates",
+      "5. Update matching_rules for your specific use cases"
+    ],
+    "example_format": {
+      "your_framework_name": {
+        "description": "What makes this framework effective",
+        "power_words": ["list", "of", "key", "words"],
+        "templates": [
+          {
+            "pattern": "Your title pattern with {variables}",
+            "description_pattern": "Supporting description with {variables}",
+            "variables": ["var1", "var2"],
+            "bullet_points": [
+              "Specific detail point 1",
+              "Specific detail point 2",
+              "Actionable insight 3"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

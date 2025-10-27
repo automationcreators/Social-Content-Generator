@@ -1,0 +1,1515 @@
+{
+  "tables": [
+    {
+      "id": "tblykrOBSTH74CWur",
+      "name": "Leads",
+      "primaryFieldId": "fldkzIEWeVIZQiFBN",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldkzIEWeVIZQiFBN",
+          "name": "Lead Name"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldX6BAoFBMcIZvKW",
+          "name": "website"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld0xlJTrt8vDlYjB",
+          "name": "Contact Information"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selFwqBzFMIXPgmxn",
+                "name": "Low",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selbbEoG7yx9DQ3S5",
+                "name": "Medium",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selybaM4i9WirC49f",
+                "name": "High",
+                "color": "tealLight2"
+              }
+            ]
+          },
+          "id": "fldaF4uFGdgkbmQ7G",
+          "name": "Interest Level"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel5gcjdWvgnHiM9n",
+                "name": "Website",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selluIobsoXlZVsjr",
+                "name": "Referral",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "seldz4Nank4O83iP4",
+                "name": "Social Media",
+                "color": "tealLight2"
+              },
+              {
+                "id": "selQyUxqffgqo0K98",
+                "name": "Event",
+                "color": "greenLight2"
+              }
+            ]
+          },
+          "id": "fld3wvr5esHNMg9MK",
+          "name": "Source"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldWskjxbQkpSB8eb",
+          "name": "Date Created"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selU7ulfwJKAwZI1v",
+                "name": "New",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selLLfjtMatN0jhOW",
+                "name": "Contacted",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selPwyxbdABTdHH5F",
+                "name": "Qualified",
+                "color": "tealLight2"
+              },
+              {
+                "id": "selnrRALoevXpWYBA",
+                "name": "Converted",
+                "color": "greenLight2"
+              },
+              {
+                "id": "selGgoJxUQELtUwcH",
+                "name": "Unqualified",
+                "color": "yellowLight2"
+              }
+            ]
+          },
+          "id": "fldIAnNSbUuv8mfau",
+          "name": "Status"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbliEvDuckNp5ogOx",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldPZbqSi85kA8XvV"
+          },
+          "id": "fldxbbJiw9ykZYRZW",
+          "name": "Related Customer"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblKtBVhBsjeK9Pop",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldmyyAeiiskVakGh"
+          },
+          "id": "fldOqjrLocKuljnuZ",
+          "name": "Related Sales Activities"
+        },
+        {
+          "type": "lastModifiedTime",
+          "options": {
+            "isValid": true,
+            "referencedFieldIds": [],
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "client"
+              }
+            }
+          },
+          "id": "fldcNXtHLtybVrP9K",
+          "name": "Last modified"
+        },
+        {
+          "type": "createdTime",
+          "options": {
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "utc"
+              }
+            }
+          },
+          "id": "fld3f2XGuamBouGpv",
+          "name": "Created Date"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldL8R7ds0RMB8pMU",
+          "name": "Subject"
+        },
+        {
+          "type": "richText",
+          "id": "fld756my4pN9Tmwxs",
+          "name": "html Body"
+        },
+        {
+          "type": "richText",
+          "id": "fldiHbITtf2I65Ztu",
+          "name": "Body"
+        },
+        {
+          "type": "checkbox",
+          "options": {
+            "icon": "check",
+            "color": "greenBright"
+          },
+          "id": "fldjtwwqjIFlb2qyu",
+          "name": "Trigger:SendEmail"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwoDeqYDpzKU1yPT",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbl9v4GI8FmZAopBS",
+      "name": "Opportunities",
+      "primaryFieldId": "fld1zrW0XdGQ9tAIl",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fld1zrW0XdGQ9tAIl",
+          "name": "Opportunity Name"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbliEvDuckNp5ogOx",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldchsT7sNDBUxpMp"
+          },
+          "id": "fldJ3j9D6y3lnvb02",
+          "name": "Customer/Lead"
+        },
+        {
+          "type": "currency",
+          "options": {
+            "precision": 2,
+            "symbol": "$"
+          },
+          "id": "flddKp8osecpv9NXr",
+          "name": "Estimated Value"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldpAs4lE8yIFtaMK",
+          "name": "Close Date"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel1l6lslkfzWor0A",
+                "name": "Prospecting",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selmj8op7VjAELihN",
+                "name": "Qualification",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selwQoCjdWuwpPUP8",
+                "name": "Proposal",
+                "color": "tealLight2"
+              },
+              {
+                "id": "selBEDfLWy0IegAtf",
+                "name": "Negotiation",
+                "color": "greenLight2"
+              },
+              {
+                "id": "sel7hkDaMQRPU3WcI",
+                "name": "Closed Won",
+                "color": "yellowLight2"
+              },
+              {
+                "id": "selku4jXaTWGIW0hP",
+                "name": "Closed Lost",
+                "color": "orangeLight2"
+              }
+            ]
+          },
+          "id": "fldPAYwrj3xpPcVxi",
+          "name": "Stage"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldGJ6FCpnGvBmmLc",
+          "name": "Probability"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldVAYao1bNS7gzu6",
+          "name": "Sales Rep"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblLdsjK8KejQZcsl",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldYbvi5PcGSscWNS"
+          },
+          "id": "fld3L2OQClvoLm3Qp",
+          "name": "Related Campaign"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwtcakytGjNGw03w",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbl8yzLgxpITt5Ewc",
+      "name": "LOI",
+      "primaryFieldId": "fldkUxUkO7CVNSBai",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldkUxUkO7CVNSBai",
+          "name": "Quote ID"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldVOtMVArDShQXHb",
+          "name": "Quote Date"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbliEvDuckNp5ogOx",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldhzOerbYq9ga98Y"
+          },
+          "id": "fldRElUcF94IbnHgo",
+          "name": "Customer/Lead"
+        },
+        {
+          "type": "currency",
+          "options": {
+            "precision": 2,
+            "symbol": "$"
+          },
+          "id": "fldMWLfNZeOjntxFb",
+          "name": "Total Amount"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selE7d8WYXL1YLfru",
+                "name": "Draft",
+                "color": "blueLight2"
+              },
+              {
+                "id": "sel38yBMILYNNemtp",
+                "name": "Sent",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selQLls3RlCHe78Dy",
+                "name": "Accepted",
+                "color": "tealLight2"
+              },
+              {
+                "id": "sel5B8sU6AR8W7Pc3",
+                "name": "Rejected",
+                "color": "greenLight2"
+              }
+            ]
+          },
+          "id": "fldK6ji3Bljk5yqoZ",
+          "name": "Status"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldIzpV7x5ChpFuXZ",
+          "name": "Expiration Date"
+        },
+        {
+          "type": "multipleSelects",
+          "options": {
+            "choices": [
+              {
+                "id": "selMxqLJt7bmW5hIi",
+                "name": "Product A",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selcmpZ61jvgF7Ojy",
+                "name": "Product B",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selot39xpZopftBAV",
+                "name": "Service A",
+                "color": "tealLight2"
+              },
+              {
+                "id": "selr31VIXmOr33EQC",
+                "name": "Service B",
+                "color": "greenLight2"
+              }
+            ]
+          },
+          "id": "fldfPA4j0xUmv3O5H",
+          "name": "Products/Services"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblKtBVhBsjeK9Pop",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fld78ZzabhW5ViPPr"
+          },
+          "id": "fldAa6TOWmhLjX0Lj",
+          "name": "Sales Representative"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldEBp9RKf4CFz2dx",
+          "name": "Notes"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwpW3Zw38mmDLKUK",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbliEvDuckNp5ogOx",
+      "name": "Deals",
+      "primaryFieldId": "fldOiL1xRoO4wkHpd",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldOiL1xRoO4wkHpd",
+          "name": "Customer Name"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldYRdtOe966SICCg",
+          "name": "Contact Information"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldDsW3Y1Nk0iNEY4",
+          "name": "Address"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selo4t3kt8UCKixTl",
+                "name": "Individual",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selNU4LCPvULiQOYP",
+                "name": "Organization",
+                "color": "cyanLight2"
+              }
+            ]
+          },
+          "id": "fldA9oFqZ1Mzo08xZ",
+          "name": "Customer Type"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fld4rXXShqi7W5Maj",
+          "name": "Date of First Purchase"
+        },
+        {
+          "type": "currency",
+          "options": {
+            "precision": 2,
+            "symbol": "$"
+          },
+          "id": "fldcyzA8INawE7clX",
+          "name": "Total Spend"
+        },
+        {
+          "type": "multipleAttachments",
+          "options": {
+            "isReversed": true
+          },
+          "id": "fldXYxYxx0AJrzOIV",
+          "name": "Profile Photo"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblykrOBSTH74CWur",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldxbbJiw9ykZYRZW"
+          },
+          "id": "fldPZbqSi85kA8XvV",
+          "name": "Related Leads"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblKtBVhBsjeK9Pop",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldYt14PqOlpGImKr"
+          },
+          "id": "fld64pwK02Z5ZA6dz",
+          "name": "Related Sales Activities"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbl9v4GI8FmZAopBS",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldJ3j9D6y3lnvb02"
+          },
+          "id": "fldchsT7sNDBUxpMp",
+          "name": "Opportunities"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbl8yzLgxpITt5Ewc",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldRElUcF94IbnHgo"
+          },
+          "id": "fldhzOerbYq9ga98Y",
+          "name": "Quotes"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwCo2yM12C9Hx8XI",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblLdsjK8KejQZcsl",
+      "name": "Campaigns",
+      "primaryFieldId": "fldYS86D9ZstQMScl",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldYS86D9ZstQMScl",
+          "name": "Campaign Name"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fld00wAhVYAdtAhL9",
+          "name": "Start Date"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldKEE1FX9y7jUdwY",
+          "name": "End Date"
+        },
+        {
+          "type": "currency",
+          "options": {
+            "precision": 2,
+            "symbol": "$"
+          },
+          "id": "fldDaaiyycTtrpkL7",
+          "name": "Budget"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selMsX0LXP17vMzW7",
+                "name": "Planned",
+                "color": "blueLight2"
+              },
+              {
+                "id": "sel8vW2SYYtVm4afv",
+                "name": "Active",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "sel1iCqchx0wpsQIW",
+                "name": "Completed",
+                "color": "tealLight2"
+              },
+              {
+                "id": "sel6Dut15F3tJr1wH",
+                "name": "On Hold",
+                "color": "greenLight2"
+              }
+            ]
+          },
+          "id": "fldlOYeic5UD2gwZJ",
+          "name": "Status"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldgMuGSLYnM8GjvV",
+          "name": "Target Audience"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbl9v4GI8FmZAopBS",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fld3L2OQClvoLm3Qp"
+          },
+          "id": "fldYbvi5PcGSscWNS",
+          "name": "Related Opportunities"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblxMCq0LYDsvPRiV",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldszsueDowveKvNH"
+          },
+          "id": "fldqH1dVEuaJFbl4K",
+          "name": "Reports"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwlgVArkFbPxy52c",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblKtBVhBsjeK9Pop",
+      "name": "Sales Activities",
+      "primaryFieldId": "fldEpmz7ndjcflPJD",
+      "fields": [
+        {
+          "type": "multilineText",
+          "id": "fldEpmz7ndjcflPJD",
+          "name": "Notes"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbliEvDuckNp5ogOx",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fld64pwK02Z5ZA6dz"
+          },
+          "id": "fldYt14PqOlpGImKr",
+          "name": "Related Deals"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblykrOBSTH74CWur",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldOqjrLocKuljnuZ"
+          },
+          "id": "fldmyyAeiiskVakGh",
+          "name": "Related Lead"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldbSglQMg1jfxJbp",
+          "name": "Date"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldRHUojjhoziUskt",
+          "name": "Duration"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selrmsdXXKL3idhY3",
+                "name": "Successful",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selxUE0Qrh49KwRce",
+                "name": "Unsuccessful",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selv1q5pvSVi200Lg",
+                "name": "Pending",
+                "color": "tealLight2"
+              }
+            ]
+          },
+          "id": "fld3JLIpEcZ2hmOjD",
+          "name": "Outcome"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selWMnAXSfdmVXqhl",
+                "name": "Call",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selHwsRi2Cx2d95Ll",
+                "name": "Meeting",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selsIxdigwhPStR84",
+                "name": "Email",
+                "color": "tealLight2"
+              },
+              {
+                "id": "selhXvUHIKyIrGK1y",
+                "name": "Demo",
+                "color": "greenLight2"
+              },
+              {
+                "id": "sel9o1Eg4U0OcPLA9",
+                "name": "Follow-up",
+                "color": "yellowLight2"
+              }
+            ]
+          },
+          "id": "fld4QgF2rOrSyt3MO",
+          "name": "Activity Type"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbluxIgStuw3Azn5D",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldG3KydWySj9csO9"
+          },
+          "id": "fldpLD8ux1iKUyXm3",
+          "name": "Tasks"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tbl8yzLgxpITt5Ewc",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldAa6TOWmhLjX0Lj"
+          },
+          "id": "fld78ZzabhW5ViPPr",
+          "name": "Quotes"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwV0LCqs3BAbE8Az",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbluxIgStuw3Azn5D",
+      "name": "Tasks",
+      "primaryFieldId": "fldGMjYSwwjxpGJaX",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldGMjYSwwjxpGJaX",
+          "name": "Task Name"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldNbWOKXowwNLBt8",
+          "name": "Description"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fldoW0woLgrap7mr3",
+          "name": "Due Date"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel928WtyZrVdghqC",
+                "name": "Low",
+                "color": "blueLight2"
+              },
+              {
+                "id": "selyqwg8jIemfo3QA",
+                "name": "Medium",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selzM40EtZEJEzETb",
+                "name": "High",
+                "color": "tealLight2"
+              }
+            ]
+          },
+          "id": "fldR2CubwwMhWqvDs",
+          "name": "Priority"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "sel8FxCBRuUKVtW41",
+                "name": "Not Started",
+                "color": "blueLight2"
+              },
+              {
+                "id": "sel9xOV9IdDExFGt7",
+                "name": "In Progress",
+                "color": "cyanLight2"
+              },
+              {
+                "id": "selXxlR5LwoV598xt",
+                "name": "Completed",
+                "color": "tealLight2"
+              }
+            ]
+          },
+          "id": "fld3blTfdtnOMma5X",
+          "name": "Status"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblKtBVhBsjeK9Pop",
+            "isReversed": false,
+            "prefersSingleRecordLink": true,
+            "inverseLinkFieldId": "fldpLD8ux1iKUyXm3"
+          },
+          "id": "fldG3KydWySj9csO9",
+          "name": "Related Sales Activity"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld2HSyXezWUb03Uf",
+          "name": "Assigned To"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwJ05Fpuco95t2hy",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblxMCq0LYDsvPRiV",
+      "name": "Reports",
+      "primaryFieldId": "fldMIBPFTKcpgI2Rn",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldMIBPFTKcpgI2Rn",
+          "name": "Report Name"
+        },
+        {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "local",
+              "format": "l"
+            }
+          },
+          "id": "fld0nRoxwxQsd4Ngq",
+          "name": "Date Created"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldibqoI2Scavqlys",
+          "name": "Sales Period"
+        },
+        {
+          "type": "currency",
+          "options": {
+            "precision": 2,
+            "symbol": "$"
+          },
+          "id": "fldw7nZJXxjnlLCyv",
+          "name": "Total Sales"
+        },
+        {
+          "type": "number",
+          "options": {
+            "precision": 0
+          },
+          "id": "fldfKxGAWciYXGNvk",
+          "name": "Opportunities Analyzed"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldkJO3xPhnZ2DoWH",
+          "name": "Key Insights"
+        },
+        {
+          "type": "multipleRecordLinks",
+          "options": {
+            "linkedTableId": "tblLdsjK8KejQZcsl",
+            "isReversed": false,
+            "prefersSingleRecordLink": false,
+            "inverseLinkFieldId": "fldqH1dVEuaJFbl4K"
+          },
+          "id": "fldszsueDowveKvNH",
+          "name": "Related Campaigns"
+        },
+        {
+          "type": "multipleAttachments",
+          "options": {
+            "isReversed": true
+          },
+          "id": "fldOrlt6iz60MN3pD",
+          "name": "Attached Documents"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwlyZMv8RSJOcHBZ",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblOiEvdV3mZ4JFiB",
+      "name": "Triggers",
+      "primaryFieldId": "fldqaTxrrhSn3RcIL",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldqaTxrrhSn3RcIL",
+          "name": "Source"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldjufK1N3eEYLguH",
+          "name": "Keywords"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld9uaayctFLubP3I",
+          "name": "Location"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldZXCF60ptxpAh0n",
+          "name": "City"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldy0bK2Ta0AKihLz",
+          "name": "State"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldvVkCBJlLwQmqd3",
+          "name": "County"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldvrKOD5jjsQBuhJ",
+          "name": "Country Code"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldUV4WhXPfMMEuUs",
+          "name": "Postal"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldHlnRj9Ovlp5YcP",
+          "name": "Min Stars"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldDizuaUijJFFA7e",
+          "name": "Map URL"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldkPM3LFoP8kZoqR",
+          "name": "Max Results"
+        },
+        {
+          "type": "singleSelect",
+          "options": {
+            "choices": [
+              {
+                "id": "selkXvMmu0F1cl7wZ",
+                "name": "Todo",
+                "color": "redLight2"
+              },
+              {
+                "id": "selfIAlRg4azt0WcX",
+                "name": "In progress",
+                "color": "yellowLight2"
+              },
+              {
+                "id": "sellOdNeIQ7kdOGNZ",
+                "name": "Done",
+                "color": "greenLight2"
+              }
+            ]
+          },
+          "id": "fldkBhIsNlLk1QZXr",
+          "name": "Status"
+        },
+        {
+          "type": "createdTime",
+          "options": {
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "client"
+              }
+            }
+          },
+          "id": "fld94SWfrJRZz3XKc",
+          "name": "Created time"
+        },
+        {
+          "type": "lastModifiedTime",
+          "options": {
+            "isValid": true,
+            "referencedFieldIds": [],
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "client"
+              }
+            }
+          },
+          "id": "fldxiGpgi2jqnMl3V",
+          "name": "Last modified time"
+        },
+        {
+          "type": "checkbox",
+          "options": {
+            "icon": "check",
+            "color": "greenBright"
+          },
+          "id": "fldAwtS1gz61LHkf6",
+          "name": "PullData"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw4b6jrcuSqNEJIU",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblzG25rWE2AlMro1",
+      "name": "Captured Texts",
+      "primaryFieldId": "fldv3XZtdjAmarhoJ",
+      "fields": [
+        {
+          "type": "multilineText",
+          "id": "fldv3XZtdjAmarhoJ",
+          "name": "Date (GMT)"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldJPNgiElzILnZgp",
+          "name": "Job Link"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldH3mTmmyp6ArjJ2",
+          "name": "Company page URL on Yelp.com"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldSayCsReBVwQVWy",
+          "name": "Max Reviewes"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld7H0CKQ2kyG8OE1",
+          "name": "Max Offered Services"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldBUQJQJsnx61zZf",
+          "name": "Name"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldGVwctUMTjdKsVK",
+          "name": "Website"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldznLFFgj9LsOLSl",
+          "name": "Owner Name_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldBC78NHtX8LmWqk",
+          "name": "Owner Email_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldBbyJ9CRHuFrZQ1",
+          "name": "LinkedIn URL_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldrzKTA4l9ESwRZz",
+          "name": "Email Verification Status_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldLLVImFdw3nbWgT",
+          "name": "Org2_Check_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldeVhubVPC0RjKqY",
+          "name": "OrgLinkedIn_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld53AbLhyDSeOKn0",
+          "name": "OrgLoc_AP copy"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldp1L5lKp19mJmEb",
+          "name": "LocationCheck_AP"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fldrBdgoOnhJl6IH4",
+          "name": "YearFounded_AP copy"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldVB3JXnkS9gIzEC",
+          "name": "Reviews Count"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldfcUjNAvD1TufcO",
+          "name": "Rating"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldH9GxMNfWiI1mk3",
+          "name": "Service"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldjTnyMmTXO1lMwz",
+          "name": "About"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld6rTdyY2bxn8LAa",
+          "name": "Phone"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldCOojt8OaCLpXXV",
+          "name": "Address"
+        },
+        {
+          "type": "lastModifiedTime",
+          "options": {
+            "isValid": true,
+            "referencedFieldIds": [],
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "client"
+              }
+            }
+          },
+          "id": "fldg6s6d73QTirJ8Q",
+          "name": "last modified time"
+        },
+        {
+          "type": "createdTime",
+          "options": {
+            "result": {
+              "type": "dateTime",
+              "options": {
+                "dateFormat": {
+                  "name": "local",
+                  "format": "l"
+                },
+                "timeFormat": {
+                  "name": "12hour",
+                  "format": "h:mma"
+                },
+                "timeZone": "client"
+              }
+            }
+          },
+          "id": "fldIJBJiPBrKTzAZS",
+          "name": "Created"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwnTEGIuTvVRi7wA",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblxObELmQxBOcmCw",
+      "name": "Services Offered",
+      "primaryFieldId": "fld43TXGPLqShYRYY",
+      "fields": [
+        {
+          "type": "multilineText",
+          "id": "fld43TXGPLqShYRYY",
+          "name": "Date (GMT)"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld9UZJe6bpOoAAvJ",
+          "name": "Job Link"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldSJrAcxEF7v7DZS",
+          "name": "Company page URL on Yelp.com"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldysTPgs9SQnY2v2",
+          "name": "Max Reviewes"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldDtg1c7yvi707jm",
+          "name": "Max Offered Services"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldFvxqiBzKI27jru",
+          "name": "Position"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldPcD7dEuzHU4j28",
+          "name": "Topic"
+        }
+      ],
+      "views": [
+        {
+          "id": "viweJ7KU2dvJGyXkV",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tblvfNa6z3MoxJzUX",
+      "name": "Reviews",
+      "primaryFieldId": "fldXuXdDHFPJ5pUlY",
+      "fields": [
+        {
+          "type": "multilineText",
+          "id": "fldXuXdDHFPJ5pUlY",
+          "name": "Date (GMT)"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldnjmOJWa1WUejfg",
+          "name": "Job Link"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldZJVZubdYNkDq6r",
+          "name": "Company page URL on Yelp.com"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldzFtQR0H1MlCQCf",
+          "name": "Max Reviewes"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldLzIMSQ54UscbRZ",
+          "name": "Max Offered Services"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld3cHtkW3hqxVrbG",
+          "name": "Position"
+        },
+        {
+          "type": "multilineText",
+          "id": "fld5UjiU3I5tbJ7Ro",
+          "name": "Reviewer Name"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldsTjfOGTmCP5pSn",
+          "name": "Location"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldoD3uAicduNmug5",
+          "name": "Review text"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwGOnXueoWiZvHlF",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbljViv5tamXNPViL",
+      "name": "Services",
+      "primaryFieldId": "fldTONR6ICHZiKiam",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldTONR6ICHZiKiam",
+          "name": "Name"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldwmhDMBGx6Db0je",
+          "name": "Position"
+        },
+        {
+          "type": "richText",
+          "id": "fld2g7RKWREOUQFHk",
+          "name": "Yelp Profile"
+        },
+        {
+          "type": "richText",
+          "id": "fldlfWTnJZ0KxMbBh",
+          "name": "Image"
+        },
+        {
+          "type": "richText",
+          "id": "fldrjfzR9ZsUVwudm",
+          "name": "Description"
+        },
+        {
+          "type": "richText",
+          "id": "fldD14qjkE8uxQg5G",
+          "name": "Address"
+        },
+        {
+          "type": "richText",
+          "id": "fld9XmOwRYqAS1Ma3",
+          "name": "Stars"
+        },
+        {
+          "type": "richText",
+          "id": "fld8gIeBZ9pV28sPe",
+          "name": "Review Count"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwQX6r9dkyNYiXEa",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbly0nIJ0PB0BK3qG",
+      "name": "Scenario List",
+      "primaryFieldId": "fldUKTpQpVO8wOguw",
+      "fields": [
+        {
+          "type": "singleLineText",
+          "id": "fldUKTpQpVO8wOguw",
+          "name": "Name"
+        },
+        {
+          "type": "multilineText",
+          "id": "fldpupYJffTHtNKSW",
+          "name": "Notes"
+        },
+        {
+          "type": "singleLineText",
+          "id": "fld7lP6E8PXqmeC34",
+          "name": "Desc"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwmbpLbccOHHlgZc",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    }
+  ]
+}

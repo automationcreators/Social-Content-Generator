@@ -1,0 +1,26 @@
+﻿AI-Focused Video Hooks Based on Viral Business Formats
+1. "AI Tools That Never Fail? 6 AI Applications with Amazingly Low Learning Curves"
+Hook Format: Contrarian + Investigator Outline: Most people believe AI tools require coding expertise or technical skills. This video will shatter that belief by showcasing six user-friendly AI applications anyone can master in minutes.
+The video should contrast the common "AI is too complicated" belief against real-world examples of intuitive interfaces. Include demonstrations of each tool, emphasize their accessibility, and highlight specific use cases for beginners. Format as a walkthrough with screen recordings and step-by-step guidance.
+2. "AI Skills That Always Fail? 7 AI Approaches with Shockingly High Disappointment Rates"
+Hook Format: Contrarian + Fortune Teller Outline: While everyone rushes to learn generative AI, certain approaches consistently lead to failure. This video contrasts the hype against reality by identifying seven AI strategies that waste time and resources.
+Include expert insights on why these approaches fail, what alternatives work better, and how to recognize warning signs. Format as a sequence of examples with clear explanations, each building toward more effective methods. Use split screens comparing failed vs. successful approaches.
+3. "I Found An AI Business That MIGHT Never Fail"
+Hook Format: Experimenter + Fortune Teller Outline: Most people believe AI businesses require massive technical teams and venture funding. This video documents an experiment with a niche AI application that challenges this conventional wisdom.
+Structure as a personal case study showing the discovery, implementation, and results of this overlooked AI opportunity. Include interviews with users, performance metrics, and a deep dive into why this particular application has staying power. Format with a narrative arc showing initial skepticism transformed through evidence.
+4. "9 AI Workflows You Can Build While STILL a Full-Time Employee"
+Hook Format: Teacher + Magician Outline: The common belief is that meaningful AI implementation requires full-time dedication. This video shatters that myth by showcasing nine AI workflows anyone can build in their spare time.
+Structure around time-efficient implementations that deliver immediate value. Include templates, automation examples, and practical time-saving tips. Format as a visually dynamic presentation with clear time estimates for each workflow and before/after demonstrations of productivity gains.
+5. "How to Build an AI App With ZERO Coding Knowledge in 2025"
+Hook Format: Experimenter + Teacher Outline: Despite widespread belief that AI development requires programming experience, this video demonstrates building a functional AI application using only no-code tools and platforms.
+Contrast the traditional development path against the no-code approach. Include complete walkthrough from concept to deployment, highlighting decision points and best practices. Format as a real-time build with occasional split screens showing equivalent coding challenges that are being avoided.
+6. "Highest Paying AI Skills No One's Talking About (2025)"
+Hook Format: Investigator + Fortune Teller Outline: While everyone focuses on prompt engineering and LLM fine-tuning, certain AI skills command premium rates while flying under the radar. This video reveals these overlooked opportunities based on market research.
+Include salary data, job growth projections, and specific paths to acquire these skills. Format as a countdown with increasing value/opportunity, interspersed with expert interviews confirming the findings. Use animated data visualizations to highlight the contrast between perceived and actual market value.
+7. "Get 'Unwanted' Data and Start One Of These 7 AI Businesses (It's THAT Simple)"
+Hook Format: Contrarian + Teacher Outline: Many believe the biggest barrier to AI success is access to quality data. This video flips that assumption by showing how "unwanted" or overlooked data sources can fuel profitable AI businesses.
+Structure around seven business models built on accessible but undervalued data. Include examples of successful implementations and step-by-step guides for getting started. Format as a mix of case studies and practical instruction with clear action items for each business type.
+8. "Why I'm Using LOCAL AI Models (And You Should Too)"
+Hook Format: Contrarian + Experimenter Outline: Against the cloud-first AI trend, this video makes the case for local, on-device AI models through practical demonstrations and performance comparisons.
+Contrast the privacy, cost, and latency benefits against perceived limitations. Include benchmarks showing where local models outperform cloud alternatives. Format as a mix of personal experience, technical demonstrations, and cost-benefit analysis with clear visual comparisons.
+Each of these hooks creates immediate curiosity by challenging a common belief about AI, then promises to deliver valuable insights that could transform the viewer's approach. The formats follow the context-lean → scroll-stop interjection → contrarian snapback structure while leveraging visual elements to reinforce key points.

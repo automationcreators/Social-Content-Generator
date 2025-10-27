@@ -1,0 +1,163 @@
+[
+  {
+    "title": "AI Tools That Never Fail? 6 AI Applications with Amazingly Low Learning Curves",
+    "hook_format": "Contrarian + Investigator",
+    "belief_challenged": "Most people believe AI tools require coding expertise or technical skills",
+    "reality": "Six user-friendly AI applications anyone can master in minutes",
+    "structure": {
+      "contrast": "Common 'AI is too complicated' belief against real-world examples",
+      "demonstrations": "Show each tool with emphasis on accessibility",
+      "use_cases": "Specific use cases for beginners",
+      "format": "Walkthrough with screen recordings and step-by-step guidance"
+    },
+    "variables": [
+      "tool_name",
+      "learning_time",
+      "use_case",
+      "accessibility_level"
+    ],
+    "category": "ai_tools",
+    "audience": "AI beginners, non-technical users"
+  },
+  {
+    "title": "AI Skills That Always Fail? 7 AI Approaches with Shockingly High Disappointment Rates",
+    "hook_format": "Contrarian + Fortune Teller",
+    "belief_challenged": "Everyone rushes to learn generative AI",
+    "reality": "Certain approaches consistently lead to failure",
+    "structure": {
+      "contrast": "Hype against reality",
+      "failures": "Identify seven AI strategies that waste time and resources",
+      "alternatives": "What works better and how to recognize warning signs",
+      "format": "Sequence of examples with split screens comparing failed vs. successful approaches"
+    },
+    "variables": [
+      "failed_approach",
+      "why_it_fails",
+      "better_alternative",
+      "warning_signs"
+    ],
+    "category": "ai_pitfalls",
+    "audience": "AI practitioners, developers"
+  },
+  {
+    "title": "I Found An AI Business That MIGHT Never Fail",
+    "hook_format": "Experimenter + Fortune Teller",
+    "belief_challenged": "AI businesses require massive technical teams and venture funding",
+    "reality": "Niche AI application challenges this conventional wisdom",
+    "structure": {
+      "discovery": "How the opportunity was found",
+      "implementation": "Steps taken to implement",
+      "results": "Performance metrics and outcomes",
+      "staying_power": "Why this particular application has longevity",
+      "format": "Personal case study with interviews, metrics, narrative arc"
+    },
+    "variables": [
+      "niche_application",
+      "implementation_steps",
+      "metrics",
+      "user_testimonials"
+    ],
+    "category": "ai_business",
+    "audience": "AI entrepreneurs, business owners"
+  },
+  {
+    "title": "9 AI Workflows You Can Build While STILL a Full-Time Employee",
+    "hook_format": "Teacher + Magician",
+    "belief_challenged": "Meaningful AI implementation requires full-time dedication",
+    "reality": "Nine AI workflows anyone can build in spare time",
+    "structure": {
+      "time_efficiency": "Time estimates for each workflow",
+      "immediate_value": "Instant productivity gains",
+      "templates": "Ready-to-use templates and automation examples",
+      "format": "Visually dynamic presentation with before/after demonstrations"
+    },
+    "variables": [
+      "workflow_name",
+      "time_to_build",
+      "productivity_gain",
+      "template"
+    ],
+    "category": "ai_workflows",
+    "audience": "Full-time employees, side hustlers"
+  },
+  {
+    "title": "How to Build an AI App With ZERO Coding Knowledge in 2025",
+    "hook_format": "Experimenter + Teacher",
+    "belief_challenged": "AI development requires programming experience",
+    "reality": "Build functional AI application using only no-code tools",
+    "structure": {
+      "contrast": "Traditional development path vs. no-code approach",
+      "walkthrough": "Complete journey from concept to deployment",
+      "decision_points": "Key choices and best practices",
+      "format": "Real-time build with split screens showing avoided coding challenges"
+    },
+    "variables": [
+      "app_type",
+      "no_code_tool",
+      "feature",
+      "deployment_platform"
+    ],
+    "category": "no_code_ai",
+    "audience": "Non-developers, makers, entrepreneurs"
+  },
+  {
+    "title": "Highest Paying AI Skills No One's Talking About (2025)",
+    "hook_format": "Investigator + Fortune Teller",
+    "belief_challenged": "Everyone focuses on prompt engineering and LLM fine-tuning",
+    "reality": "Certain AI skills command premium rates while flying under the radar",
+    "structure": {
+      "market_research": "Salary data and job growth projections",
+      "skill_acquisition": "Specific paths to acquire these skills",
+      "expert_validation": "Interviews confirming findings",
+      "format": "Countdown with animated data visualizations"
+    },
+    "variables": [
+      "skill_name",
+      "average_salary",
+      "growth_projection",
+      "learning_path"
+    ],
+    "category": "ai_careers",
+    "audience": "Job seekers, career changers, developers"
+  },
+  {
+    "title": "Get 'Unwanted' Data and Start One Of These 7 AI Businesses (It's THAT Simple)",
+    "hook_format": "Contrarian + Teacher",
+    "belief_challenged": "Biggest barrier to AI success is access to quality data",
+    "reality": "'Unwanted' or overlooked data sources can fuel profitable AI businesses",
+    "structure": {
+      "business_models": "Seven models built on accessible data",
+      "success_stories": "Examples of successful implementations",
+      "getting_started": "Step-by-step guides for each business type",
+      "format": "Mix of case studies and practical instruction with action items"
+    },
+    "variables": [
+      "data_source",
+      "business_model",
+      "implementation_steps",
+      "revenue_potential"
+    ],
+    "category": "ai_business",
+    "audience": "Entrepreneurs, data scientists"
+  },
+  {
+    "title": "Why I'm Using LOCAL AI Models (And You Should Too)",
+    "hook_format": "Contrarian + Experimenter",
+    "belief_challenged": "Cloud-first AI trend is the only way",
+    "reality": "Local, on-device AI models offer unique benefits",
+    "structure": {
+      "benefits": "Privacy, cost, and latency advantages",
+      "benchmarks": "Where local models outperform cloud alternatives",
+      "demonstrations": "Practical examples and comparisons",
+      "format": "Personal experience, technical demos, cost-benefit analysis"
+    },
+    "variables": [
+      "model_name",
+      "use_case",
+      "cost_savings",
+      "performance_metric"
+    ],
+    "category": "ai_infrastructure",
+    "audience": "Developers, privacy advocates, cost-conscious users"
+  }
+]
