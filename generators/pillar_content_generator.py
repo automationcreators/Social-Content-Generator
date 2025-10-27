@@ -17,19 +17,19 @@ class PillarContentGenerator:
 
     def load_kallaway_frameworks(self):
         """Load Kallaway hook frameworks"""
-        framework_file = Path(__file__).parent / "content_frameworks" / "kallaway_hooks.json"
+        framework_file = Path(__file__).parent.parent / "config" / "content_frameworks" / "kallaway_hooks.json"
         with open(framework_file, 'r') as f:
             return json.load(f)
 
     def load_project_data(self):
         """Load real project analysis"""
-        data_file = Path(__file__).parent / "project_data_analysis.json"
+        data_file = Path(__file__).parent.parent / "config" / "project_data_analysis.json"
         with open(data_file, 'r') as f:
             return json.load(f)
 
     def load_content_ideas(self):
         """Load content ideas"""
-        ideas_file = Path(__file__).parent / "social_media_content_database.json"
+        ideas_file = Path(__file__).parent.parent / "config" / "social_media_content_database.json"
         with open(ideas_file, 'r') as f:
             return json.load(f)
 

@@ -108,6 +108,7 @@ class GoogleSheetsSyncer:
         headers = [
             'Date',
             'Title',
+            'Content Type',
             'Trend Source',
             'Trend URL',
             'Personal Example',
@@ -264,6 +265,7 @@ class GoogleSheetsSyncer:
         return [
             date,  # Date column first
             remove_emojis(trend.get('title', '')),
+            'Daily',  # Content Type
             remove_emojis(trend.get('source', '')),
             remove_emojis(trend.get('url', '')),
             remove_emojis(personal_text),

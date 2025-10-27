@@ -7,10 +7,14 @@ Generates pillar content and syncs to Google Sheets with date column
 import json
 import pickle
 import re
+import sys
 from pathlib import Path
 from datetime import datetime
 from googleapiclient.discovery import build
-from pillar_content_generator import PillarContentGenerator
+
+# Add parent directory to path to import from generators
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from generators.pillar_content_generator import PillarContentGenerator
 
 def remove_emojis(text):
     """Remove all emojis from text"""
@@ -127,19 +131,23 @@ class PillarContentSyncer:
             except Exception as e:
                 print(f"   ⚠️  Could not create tab: {e}")
 
-        # Prepare headers
+        # Prepare headers - match daily content format
         headers = [
             'Date',
             'Title',
+            'Content Type',
+            'YouTube Doc Link',
+            'Personal Example',
+            'Hook Option 1',
+            'Hook Option 2',
+            'Stat 1',
+            'Stat 2',
+            'Stat 3',
+            'Framework',
+            'Platforms',
             'Category',
-            'Audience',
-            'Hook Type',
-            'YouTube Script (chars)',
-            'LinkedIn Article (chars)',
-            'Twitter Thread (tweets)',
-            'Short Posts (count)',
-            'Real Examples Used',
-            'Statistics Count',
+            'Content Preview',
+            'Examples Count',
             'Status'
         ]
 
@@ -193,35 +201,62 @@ class PillarContentSyncer:
         }
 
     def _format_pillar_row(self, pillar, date):
-        """Format a pillar into a sheet row"""
+        """Format a pillar into a sheet row - matches daily content format"""
 
         idea = pillar['idea']
         content = pillar['content']
         real_data = pillar['real_data']
 
-        # Count things
-        youtube_chars = len(content['youtube_script'])
-        linkedin_chars = len(content['linkedin_article'])
-        twitter_count = content['twitter_thread']['tweet_count']
-        short_posts_count = len(content['short_posts'])
-        examples_count = len(real_data['examples'])
-        stats_count = len(real_data['statistics'])
+        # Extract hooks
+        hook1 = idea.get('description', '')  # Main description as Hook 1
 
-        # Format examples list
-        examples_text = ", ".join([ex['title'] for ex in real_data['examples']])
+        # Extract Hook 2 from Twitter thread first tweet
+        twitter_thread = content.get('twitter_thread', {})
+        tweets = twitter_thread.get('tweets', [])
+        hook2 = tweets[0].get('text', '')[:200] if tweets else idea.get('title', '')
+
+        # Extract statistics (format to match daily content)
+        stats = real_data.get('statistics', [])
+        stat1 = f"{stats[0].get('stat', '')}: {stats[0].get('detail', '')} ({stats[0].get('source', '')})" if len(stats) > 0 else ''
+        stat2 = f"{stats[1].get('stat', '')}: {stats[1].get('detail', '')} ({stats[1].get('source', '')})" if len(stats) > 1 else ''
+        stat3 = f"{stats[2].get('stat', '')}: {stats[2].get('detail', '')} ({stats[2].get('source', '')})" if len(stats) > 2 else ''
+
+        # Extract personal examples
+        examples = real_data.get('examples', [])
+        examples_count = len(examples)
+
+        # Format first example similar to daily content
+        personal_text = ''
+        if examples:
+            ex = examples[0]
+            personal_text = f"{idea['title']}\n\nExample: {ex.get('title', '')}\n{ex.get('description', '')[:200]}"
+
+        # Get content preview (first 200 chars of YouTube script)
+        youtube_script = content.get('youtube_script', '')
+        content_preview = youtube_script[:200].replace('\n', ' ').strip() + '...' if len(youtube_script) > 200 else youtube_script.replace('\n', ' ').strip()
+
+        # YouTube doc link - this would be set by the generator
+        youtube_link = pillar.get('youtube_doc_url', 'To be created')
+
+        # Get platforms (default for pillar content)
+        platforms = 'YouTube, LinkedIn, Twitter, Instagram'
 
         return [
             date,
             remove_emojis(idea['title']),
-            remove_emojis(idea.get('category', '')),
-            remove_emojis(idea.get('audience', '')),
+            'Pillar',  # Content Type
+            remove_emojis(youtube_link),
+            remove_emojis(personal_text),
+            remove_emojis(hook1),
+            remove_emojis(hook2),
+            remove_emojis(stat1),
+            remove_emojis(stat2),
+            remove_emojis(stat3),
             remove_emojis(idea.get('hook_type', '')),
-            str(youtube_chars),
-            str(linkedin_chars),
-            str(twitter_count),
-            str(short_posts_count),
-            remove_emojis(examples_text),
-            str(stats_count),
+            platforms,
+            remove_emojis(idea.get('category', '')),
+            remove_emojis(content_preview),
+            str(examples_count),
             'Ready'
         ]
 

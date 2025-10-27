@@ -68,7 +68,13 @@ class TabConsolidator:
 
                 for row in values[1:]:  # Skip header
                     # Add date as first column
-                    row_with_date = [date_formatted] + row
+                    # Add "Daily" as content type (second column after date)
+                    # If row already has content type (column 2), keep it; otherwise add "Daily"
+                    if len(row) >= 2:
+                        # Insert "Daily" after title if not present
+                        row_with_date = [date_formatted, row[0], 'Daily'] + row[1:]
+                    else:
+                        row_with_date = [date_formatted] + row + ['Daily']
                     all_data.append(row_with_date)
 
             except Exception as e:
@@ -104,6 +110,7 @@ class TabConsolidator:
         headers = [
             'Date',
             'Title',
+            'Content Type',
             'Trend Source',
             'Trend URL',
             'Personal Example',
