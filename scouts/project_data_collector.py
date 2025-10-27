@@ -12,6 +12,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils.agent_framework import BaseAgent
+from scouts.content_extractor import ContentExtractor
 
 class ProjectDataCollector(BaseAgent):
     """Collects real data from projects for authentic social media content"""
@@ -23,6 +24,7 @@ class ProjectDataCollector(BaseAgent):
             "Collects real statistics, examples, and stories from projects"
         )
         self.active_dir = Path("/Users/elizabethknopf/Documents/claudec/active")
+        self.content_extractor = ContentExtractor()
 
     def get_capabilities(self):
         """Return list of agent capabilities"""
@@ -136,15 +138,35 @@ class ProjectDataCollector(BaseAgent):
             elif data["file_count"] > 20:
                 data["estimated_complexity"] = "moderate"
 
-            # Check for README or docs
-            readme_path = project_dir / "README.md"
-            if readme_path.exists():
-                try:
-                    with open(readme_path, 'r') as f:
-                        content = f.read()[:500]
-                        data["purpose"] = content.split('\n')[0] if content else ""
-                except:
-                    pass
+            # Extract rich content using ContentExtractor
+            try:
+                rich_content = self.content_extractor.extract_from_project(project_dir)
+                data["rich_content"] = rich_content
+
+                # Get purpose from README or first insight
+                readme_path = project_dir / "README.md"
+                if readme_path.exists():
+                    try:
+                        with open(readme_path, 'r') as f:
+                            first_line = f.readline().strip()
+                            data["purpose"] = first_line.replace('#', '').strip() if first_line else ""
+                    except:
+                        pass
+
+                # Use insights as alternative purpose
+                if not data["purpose"] and rich_content.get("insights"):
+                    data["purpose"] = rich_content["insights"][0][:100]
+            except Exception as extract_error:
+                data["rich_content"] = {
+                    "insights": [],
+                    "guides": [],
+                    "tips": [],
+                    "stories": [],
+                    "problems_solved": [],
+                    "tech_stack": [],
+                    "business_impact": []
+                }
+                data["extract_error"] = str(extract_error)
 
         except Exception as e:
             data["error"] = str(e)
@@ -217,66 +239,86 @@ class ProjectDataCollector(BaseAgent):
         return insights
 
     def extract_real_examples(self, all_data):
-        """Extract concrete, real examples for content"""
+        """Extract concrete, real examples for content using rich content from projects"""
         examples = []
 
         projects = all_data["projects"]
 
-        # Example: Vendor Quote Tool
-        if "vendor-quote-tool" in projects:
-            vqt = projects["vendor-quote-tool"]
-            examples.append({
-                "project": "vendor-quote-tool",
-                "title": "Custom Quote Generator",
-                "use_case": "From idea to working business tool in 45 minutes",
-                "description": f"Built a complete quote generation system with {vqt['file_count']} files. Creates professional quotes, tracks them, sends follow-ups.",
-                "tech": ", ".join(vqt["tech_stack"]),
-                "category": "feature_demos",
-                "business_value": "Replaced manual quote creation, saves 5 hours/week"
-            })
+        # Extract examples from all projects with rich content
+        for project_name, project_data in projects.items():
+            rich_content = project_data.get("rich_content", {})
 
-        # Example: Personal-OS with agents
-        if "Personal-OS" in projects:
-            pos = projects["Personal-OS"]
-            agent_count = len([f for f in pos.get('interesting_files', []) if f.get('type') == 'agent'])
-            if agent_count > 0:
-                examples.append({
-                    "project": "Personal-OS",
-                    "title": "Autonomous Agent System",
-                    "use_case": "Complete business operations automation",
-                    "description": f"Built {agent_count} autonomous agents handling project discovery, security monitoring, backups, token tracking, and todo aggregation",
-                    "tech": ", ".join(pos["tech_stack"]),
-                    "category": "architecture_insights",
-                    "business_value": "Zero manual intervention for daily operations"
-                })
+            # Skip projects with no rich content or errors
+            if not rich_content or project_data.get("extract_error"):
+                continue
 
-        # Example: Data cleanup/processing
-        if "legiscraper" in projects:
-            ls = projects["legiscraper"]
-            examples.append({
-                "project": "legiscraper",
-                "title": "Legislative Data Scraper",
-                "use_case": "Automated data collection and processing",
-                "description": "Built custom scraper to collect and analyze legislative data from multiple state websites",
-                "tech": ", ".join(ls["tech_stack"]),
-                "category": "use_cases",
-                "business_value": "Replaced manual research, processes thousands of records automatically"
-            })
+            # Extract from stories
+            for story in rich_content.get("stories", [])[:2]:  # Max 2 stories per project
+                if isinstance(story, dict):
+                    examples.append({
+                        "project": project_name,
+                        "title": project_data.get("purpose", project_name)[:60],
+                        "use_case": story.get("type", "project_story"),
+                        "description": story.get("content", "")[:300] if isinstance(story.get("content"), str) else str(story)[:300],
+                        "tech": ", ".join(project_data["tech_stack"]),
+                        "category": "stories",
+                        "business_value": "See description"
+                    })
 
-        # Example: UsageDash
-        if "UsageDash" in projects:
-            ud = projects["UsageDash"]
-            examples.append({
-                "project": "UsageDash",
-                "title": "Usage Analytics Dashboard",
-                "use_case": "Real-time business intelligence",
-                "description": f"Custom analytics dashboard with {ud['file_count']} components tracking usage metrics and generating insights",
-                "tech": ", ".join(ud["tech_stack"]),
-                "category": "feature_demos",
-                "business_value": "Replaced $150/month analytics subscription"
-            })
+            # Extract from problem-solution pairs
+            for problem in rich_content.get("problems_solved", [])[:2]:  # Max 2 problems per project
+                if isinstance(problem, dict):
+                    examples.append({
+                        "project": project_name,
+                        "title": f"{project_name} - Problem Solved",
+                        "use_case": "Problem-Solution",
+                        "description": f"Problem: {problem.get('problem', '')[:150]}\nSolution: {problem.get('solution', '')[:150]}",
+                        "tech": ", ".join(project_data["tech_stack"]),
+                        "category": "problem_solving",
+                        "business_value": "Problem solved efficiently"
+                    })
 
-        return examples
+            # Extract from business impact
+            for impact in rich_content.get("business_impact", [])[:2]:  # Max 2 impacts per project
+                if isinstance(impact, dict):
+                    examples.append({
+                        "project": project_name,
+                        "title": f"{project_name} - {impact.get('metric', 'Impact')}",
+                        "use_case": "Business Impact",
+                        "description": f"Achieved: {impact.get('metric', '')}",
+                        "tech": ", ".join(project_data["tech_stack"]),
+                        "category": "business_results",
+                        "business_value": impact.get('value', 'Measurable impact')
+                    })
+
+            # Extract from guides (show how-to)
+            for guide in rich_content.get("guides", [])[:1]:  # Max 1 guide per project
+                if isinstance(guide, dict):
+                    examples.append({
+                        "project": project_name,
+                        "title": f"How to: {project_name}",
+                        "use_case": guide.get("type", "guide"),
+                        "description": guide.get("content", "")[:300] if isinstance(guide.get("content"), str) else str(guide)[:300],
+                        "tech": ", ".join(project_data["tech_stack"]),
+                        "category": "how_to_guides",
+                        "business_value": "Step-by-step implementation"
+                    })
+
+        # If no examples extracted from rich content, fall back to basic project info
+        if not examples:
+            for project_name, project_data in list(projects.items())[:5]:  # Top 5 projects
+                if project_data.get("file_count", 0) > 5:  # Only non-trivial projects
+                    examples.append({
+                        "project": project_name,
+                        "title": project_data.get("purpose", project_name)[:60],
+                        "use_case": "Automation project",
+                        "description": f"Built with {project_data['file_count']} files using {', '.join(project_data['tech_stack'])}",
+                        "tech": ", ".join(project_data["tech_stack"]),
+                        "category": "project_overview",
+                        "business_value": "Custom automation solution"
+                    })
+
+        return examples[:15]  # Limit to 15 examples total
 
 def main():
     collector = ProjectDataCollector()
@@ -305,12 +347,29 @@ def main():
 
     print("\n\n🎬 REAL EXAMPLES FOR CONTENT:")
     print("=" * 80)
-    for i, example in enumerate(data["real_examples"], 1):
+    for i, example in enumerate(data["real_examples"][:10], 1):  # Show first 10
         print(f"\n{i}. {example['title']} ({example['project']})")
         print(f"   Use Case: {example['use_case']}")
-        print(f"   Description: {example['description']}")
+        print(f"   Description: {example['description'][:150]}...")
         print(f"   Business Value: {example['business_value']}")
         print(f"   Category: {example['category']}")
+
+    print(f"\n   ... and {len(data['real_examples']) - 10} more examples" if len(data["real_examples"]) > 10 else "")
+
+    # Show rich content statistics
+    print("\n\n📚 RICH CONTENT EXTRACTED:")
+    print("=" * 80)
+    total_insights = sum(len(p.get("rich_content", {}).get("insights", [])) for p in data["projects"].values())
+    total_guides = sum(len(p.get("rich_content", {}).get("guides", [])) for p in data["projects"].values())
+    total_tips = sum(len(p.get("rich_content", {}).get("tips", [])) for p in data["projects"].values())
+    total_stories = sum(len(p.get("rich_content", {}).get("stories", [])) for p in data["projects"].values())
+    total_problems = sum(len(p.get("rich_content", {}).get("problems_solved", [])) for p in data["projects"].values())
+
+    print(f"💡 {total_insights} Insights")
+    print(f"📖 {total_guides} Guides")
+    print(f"💎 {total_tips} Tips")
+    print(f"📚 {total_stories} Stories")
+    print(f"🔧 {total_problems} Problems Solved")
 
     print(f"\n\n✅ Full data saved to: {output_file}")
     return data
