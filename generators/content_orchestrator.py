@@ -193,7 +193,7 @@ class ContentOrchestrator:
         print(f"      • {len(angles_data)} angle variations")
 
         # For each RSS idea, create fusion with personal content
-        for rss_idea in rss_ideas:
+        for piece_index, rss_idea in enumerate(rss_ideas):
             # Find matching angles
             angles = None
             for a in angles_data:
@@ -215,13 +215,14 @@ class ContentOrchestrator:
                 # Find related personal pillar
                 related_pillar = self._find_related_pillar(rss_idea, pillars)
 
-                # Create fusion piece
+                # Create fusion piece with piece_index for rotation
                 fusion = self._build_fusion_piece(
                     rss_idea=rss_idea,
                     angles=angles,
                     research=research,
                     pillar=related_pillar,
-                    mode=mode
+                    mode=mode,
+                    piece_index=piece_index  # Add index for variation
                 )
 
                 fusion_pieces.append(fusion)
@@ -252,8 +253,8 @@ class ContentOrchestrator:
         pillar_index = hash(rss_title) % len(pillars) if pillars else 0
         return pillars[pillar_index] if pillars else None
 
-    def _build_fusion_piece(self, rss_idea: Dict, angles: Dict, research: Dict, pillar: Dict, mode: str) -> Dict:
-        """Build a complete fusion content piece"""
+    def _build_fusion_piece(self, rss_idea: Dict, angles: Dict, research: Dict, pillar: Dict, mode: str, piece_index: int = 0) -> Dict:
+        """Build a complete fusion content piece with variation"""
 
         # Select angle based on mode
         if mode == 'professional':
@@ -263,8 +264,27 @@ class ContentOrchestrator:
         else:  # balanced
             selected_angles = angles.get('balanced', {}).get('angles', []) if angles else []
 
-        # Get statistics
+        # Rotate through angles for variety (not always the same 2)
+        if len(selected_angles) >= 2:
+            start_idx = (piece_index * 2) % len(selected_angles)
+            angle_pair = [
+                selected_angles[start_idx % len(selected_angles)],
+                selected_angles[(start_idx + 1) % len(selected_angles)]
+            ]
+        else:
+            angle_pair = selected_angles[:2]
+
+        # Get statistics and rotate them
         stats = research.get('statistics', []) if research else []
+        if len(stats) >= 3:
+            stat_start = piece_index % len(stats)
+            rotated_stats = [
+                stats[stat_start % len(stats)],
+                stats[(stat_start + 1) % len(stats)],
+                stats[(stat_start + 2) % len(stats)]
+            ]
+        else:
+            rotated_stats = stats[:3]
 
         # Build fusion piece
         fusion = {
@@ -276,8 +296,8 @@ class ContentOrchestrator:
                 'opportunity_type': rss_idea.get('opportunity_type')
             },
             'personal_example': None,
-            'angles': selected_angles[:2] if selected_angles else [],  # Top 2 angles
-            'statistics': stats[:3] if stats else [],  # Top 3 stats
+            'angles': angle_pair,  # Now rotates per piece
+            'statistics': rotated_stats if rotated_stats else [],  # Rotates per piece
             'framework': rss_idea.get('suggested_framework', 'benefit_driven'),
             'platforms': rss_idea.get('suggested_platforms', ['LinkedIn', 'Twitter']),
             'fusion_strength': self._calculate_fusion_strength(rss_idea, pillar),
