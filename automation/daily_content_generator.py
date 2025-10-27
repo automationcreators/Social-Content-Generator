@@ -47,9 +47,9 @@ class DailyContentGenerator:
 
         subprocess.run([
             'python3',
-            str(self.agents_dir / 'content_orchestrator.py'),
+            str(Path(__file__).parent.parent / 'generators' / 'content_orchestrator.py'),
             '--mode', mode
-        ], cwd=self.agents_dir)
+        ])
 
         # Step 2: Sync to Google Sheets
         print("\n📊 Syncing to Google Sheets...")
@@ -57,8 +57,8 @@ class DailyContentGenerator:
 
         subprocess.run([
             'python3',
-            str(self.agents_dir / 'sync_to_google_sheets.py')
-        ], cwd=self.agents_dir)
+            str(Path(__file__).parent.parent / 'sync' / 'sync_to_google_sheets.py')
+        ])
 
         # Step 3: Update project data (if pillar content enabled)
         if include_pillar:

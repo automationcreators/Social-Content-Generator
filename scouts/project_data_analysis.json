@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-27T16:56:15.304300",
+  "collection_date": "2025-10-27T16:55:42.188123",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -1251,12 +1251,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Flask",
-          "PostgreSQL",
-          "FastAPI",
+          "JavaScript",
           "Python",
+          "Flask",
+          "FastAPI",
           "AI",
-          "JavaScript"
+          "PostgreSQL"
         ],
         "business_impact": []
       }
@@ -1699,7 +1699,7 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 777,
+      "file_count": 776,
       "file_types": {
         ".md": 67,
         ".json": 36,
@@ -1709,7 +1709,7 @@
         "": 6,
         ".sh": 2,
         ".xls": 1,
-        ".txt": 9,
+        ".txt": 8,
         ".tmp": 15,
         ".xlsx": 2,
         ".js": 2
@@ -2009,15 +2009,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "React",
-          "OpenAI",
-          "Claude",
-          "PostgreSQL",
           "Python",
-          "Supabase",
+          "React",
           "GPT",
           "AI",
-          "ML"
+          "Supabase",
+          "PostgreSQL",
+          "ML",
+          "Claude",
+          "OpenAI"
         ],
         "business_impact": []
       }
@@ -2182,7 +2182,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "33 active projects",
-      "detail": "Managing 3,171 files across diverse projects",
+      "detail": "Managing 3,170 files across diverse projects",
       "hook": "How I manage 33 projects simultaneously with Claude Code"
     },
     {
