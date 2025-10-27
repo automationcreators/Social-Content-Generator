@@ -332,3 +332,44 @@ This entire system was built using Claude Code for automated content generation 
 
 **Last Updated:** October 26, 2025
 **Version:** 1.0
+
+## 📊 Project Monitoring (Daily Updates)
+
+### Project Data Collector
+
+The **Project Data Collector** scans your active projects daily to keep pillar content fresh with real examples.
+
+**What it collects:**
+- Project statistics (file counts, tech stack)
+- Automation tools and agents
+- Time savings and business impact
+- Real-world examples and stories
+- Recent project activity
+
+**When it runs:**
+- Automatically before pillar content generation
+- Updates `config/project_data_analysis.json`
+- Feeds into pillar content with current project data
+
+**Manual run:**
+```bash
+python3 scouts/update_project_data.py
+```
+
+**Output:**
+```json
+{
+  "collection_date": "2025-10-26T21:00:00",
+  "projects": {...},
+  "aggregate_stats": {
+    "total_projects": 32,
+    "automation_tools": 15,
+    "...": "..."
+  },
+  "insights": [...],
+  "real_examples": [...]
+}
+```
+
+This ensures your pillar content always references your **actual current work**, not static examples.
+

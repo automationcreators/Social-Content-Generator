@@ -60,15 +60,25 @@ class DailyContentGenerator:
             str(self.agents_dir / 'sync_to_google_sheets.py')
         ], cwd=self.agents_dir)
 
-        # Step 3: Generate and sync pillar content (if enabled)
+        # Step 3: Update project data (if pillar content enabled)
+        if include_pillar:
+            print("\n📊 Updating Project Data...")
+            print("-"*100)
+
+            subprocess.run([
+                'python3',
+                str(Path(__file__).parent.parent / 'scouts' / 'update_project_data.py')
+            ])
+
+        # Step 4: Generate and sync pillar content (if enabled)
         if include_pillar:
             print("\n📚 Generating Pillar Content...")
             print("-"*100)
 
             subprocess.run([
                 'python3',
-                str(self.agents_dir / 'pillar_content_sync.py')
-            ], cwd=self.agents_dir)
+                str(Path(__file__).parent.parent / 'sync' / 'pillar_content_sync.py')
+            ])
 
         print("\n" + "="*100)
         print("✅ DAILY WORKFLOW COMPLETE!")
