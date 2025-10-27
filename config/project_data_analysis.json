@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-23T09:57:50.480736",
+  "collection_date": "2025-10-27T09:37:56.941364",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -25,17 +25,36 @@
     "promptSaver": {
       "name": "promptSaver",
       "path": "/Users/elizabethknopf/Documents/claudec/active/promptSaver",
-      "file_count": 0,
-      "file_types": {},
+      "file_count": 64,
+      "file_types": {
+        ".md": 18,
+        ".json": 6,
+        ".js": 6,
+        ".html": 2,
+        ".zip": 1,
+        ".ts": 11,
+        ".css": 4,
+        ".png": 8,
+        ".svg": 2,
+        ".tsx": 6
+      },
       "has_agents": false,
-      "has_automation": false,
+      "has_automation": true,
       "has_api": false,
       "has_dashboard": false,
-      "tech_stack": [],
-      "purpose": "",
-      "interesting_files": [],
+      "tech_stack": [
+        "JavaScript/React",
+        "Web"
+      ],
+      "purpose": "# Prompt Vault",
+      "interesting_files": [
+        {
+          "file": "background.js",
+          "type": "automation"
+        }
+      ],
       "recent_activity": null,
-      "estimated_complexity": "simple"
+      "estimated_complexity": "moderate"
     },
     "vendor-quote-tool": {
       "name": "vendor-quote-tool",
@@ -74,22 +93,31 @@
     "YouTubeRAG": {
       "name": "YouTubeRAG",
       "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
-      "file_count": 32,
+      "file_count": 57,
       "file_types": {
-        ".md": 5,
+        ".md": 7,
+        ".py": 30,
         ".txt": 1,
         ".ini": 1,
         ".json": 3,
+        "": 1,
         ".example": 1,
-        ".py": 20,
+        ".db": 1,
+        ".html": 1,
+        ".js": 4,
+        ".css": 1,
+        ".sqlite3": 1,
+        ".bin": 4,
         ".mako": 1
       },
       "has_agents": true,
       "has_automation": false,
-      "has_api": false,
+      "has_api": true,
       "has_dashboard": false,
       "tech_stack": [
-        "Python"
+        "Python",
+        "JavaScript/React",
+        "Web"
       ],
       "purpose": "# YouTube RAG Chat",
       "interesting_files": [
@@ -142,15 +170,15 @@
     "Project Management": {
       "name": "Project Management",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
-      "file_count": 57,
+      "file_count": 59,
       "file_types": {
         ".py": 3,
         "": 2,
         ".md": 21,
         ".json": 14,
-        ".js": 5,
+        ".js": 6,
         ".html": 5,
-        ".css": 3,
+        ".css": 4,
         ".template": 4
       },
       "has_agents": true,
@@ -387,23 +415,23 @@
     "AIBrain": {
       "name": "AIBrain",
       "path": "/Users/elizabethknopf/Documents/claudec/active/AIBrain",
-      "file_count": 132,
+      "file_count": 145,
       "file_types": {
-        ".md": 16,
-        ".py": 26,
+        ".md": 24,
+        ".py": 29,
         "": 5,
         ".txt": 3,
         ".textclipping": 1,
         ".example": 1,
         ".pickle": 2,
-        ".zip": 1,
+        ".zip": 2,
         ".sql": 1,
         ".db": 2,
         ".yaml": 2,
         ".json": 7,
         ".js": 6,
         ".html": 2,
-        ".ts": 10,
+        ".ts": 11,
         ".css": 4,
         ".png": 8,
         ".svg": 2,
@@ -415,7 +443,7 @@
       },
       "has_agents": false,
       "has_automation": true,
-      "has_api": false,
+      "has_api": true,
       "has_dashboard": false,
       "tech_stack": [
         "Python",
@@ -579,31 +607,19 @@
     "Personal-OS": {
       "name": "Personal-OS",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Personal-OS",
-      "file_count": 198,
+      "file_count": 39,
       "file_types": {
-        ".py": 47,
-        ".md": 39,
-        ".json": 86,
-        ".backup": 1,
-        ".sh": 1,
-        "": 2,
-        ".html": 1,
-        ".csv": 4,
-        ".pdf": 1,
-        ".txt": 1,
-        ".log": 9,
-        ".css": 1,
-        ".js": 1,
+        ".py": 9,
+        ".md": 14,
+        ".json": 12,
         ".template": 4
       },
       "has_agents": true,
-      "has_automation": true,
-      "has_api": true,
-      "has_dashboard": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": false,
       "tech_stack": [
-        "Python",
-        "JavaScript/React",
-        "Web"
+        "Python"
       ],
       "purpose": "",
       "interesting_files": [
@@ -614,182 +630,10 @@
         {
           "file": ".agent-config.json",
           "type": "agent"
-        },
-        {
-          "file": "AGENT_SYSTEM_QUICK_START.md",
-          "type": "agent"
-        },
-        {
-          "file": "social_media_content_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "todo_sync_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "basic_automation_manager.py",
-          "type": "automation"
-        },
-        {
-          "file": "notification_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "todo_collector_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "weekly_progress_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "project_audit_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_army_backlog.json",
-          "type": "agent"
-        },
-        {
-          "file": "localhost_registry_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "project_auto_setup_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_shortcuts.sh",
-          "type": "agent"
-        },
-        {
-          "file": "AGENT_SYSTEM_README.md",
-          "type": "agent"
-        },
-        {
-          "file": "project_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_army_backlog.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent",
-          "type": "agent"
-        },
-        {
-          "file": "master_agent_system.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_activity_tracker.py",
-          "type": "agent"
-        },
-        {
-          "file": "dashboard_agent_integration.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_framework.py",
-          "type": "agent"
-        },
-        {
-          "file": "automation_status.json",
-          "type": "automation"
-        },
-        {
-          "file": "setup_background_services.py",
-          "type": "automation"
-        },
-        {
-          "file": "agent_registry_manager.py",
-          "type": "agent"
-        },
-        {
-          "file": "AGENT_BUILDING_RETROSPECTIVE.md",
-          "type": "agent"
-        },
-        {
-          "file": "universal_agent_cli.py",
-          "type": "agent"
-        },
-        {
-          "file": "planning_analysis_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "agents.md",
-          "type": "agent"
-        },
-        {
-          "file": "todo_priority_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": "agent_coordinator.py",
-          "type": "agent"
-        },
-        {
-          "file": "COMPLETE_AGENT_SYSTEM_GUIDE.md",
-          "type": "agent"
-        },
-        {
-          "file": "context_summary_agent.py",
-          "type": "agent"
-        },
-        {
-          "file": ".agent-config.json",
-          "type": "agent"
-        },
-        {
-          "file": "basic_automation_config.json",
-          "type": "automation"
-        },
-        {
-          "file": "social_media_content_agent.json",
-          "type": "agent"
-        },
-        {
-          "file": "context_summary_agent.json",
-          "type": "agent"
-        },
-        {
-          "file": "planning_analysis_agent.json",
-          "type": "agent"
-        },
-        {
-          "file": "agent_army_backlog_manager.json",
-          "type": "agent"
-        },
-        {
-          "file": "agent_registry_manager.json",
-          "type": "agent"
-        },
-        {
-          "file": "weekly_progress_agent.json",
-          "type": "agent"
-        },
-        {
-          "file": "agent_registry_manager.log",
-          "type": "agent"
-        },
-        {
-          "file": "basic_automation.log",
-          "type": "automation"
-        },
-        {
-          "file": "agent_registry.json",
-          "type": "agent"
-        },
-        {
-          "file": "dashboard_agent_data.json",
-          "type": "agent"
         }
       ],
       "recent_activity": null,
-      "estimated_complexity": "complex"
+      "estimated_complexity": "moderate"
     },
     "party-directory-platform": {
       "name": "party-directory-platform",
@@ -854,6 +698,53 @@
         {
           "file": ".agent-config.json",
           "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "moderate"
+    },
+    "Social-Content-Generator": {
+      "name": "Social-Content-Generator",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
+      "file_count": 80,
+      "file_types": {
+        ".txt": 2,
+        ".md": 10,
+        ".py": 17,
+        ".json": 46,
+        ".csv": 2,
+        ".pdf": 1,
+        ".sh": 1,
+        ".pickle": 1
+      },
+      "has_agents": true,
+      "has_automation": true,
+      "has_api": true,
+      "has_dashboard": false,
+      "tech_stack": [
+        "Python"
+      ],
+      "purpose": "# Social Content Generator",
+      "interesting_files": [
+        {
+          "file": "research_data_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "weekly_progress_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "context_summary_agent.py",
+          "type": "agent"
+        },
+        {
+          "file": "agent_framework.py",
+          "type": "agent"
+        },
+        {
+          "file": "setup_daily_automation.sh",
+          "type": "automation"
         }
       ],
       "recent_activity": null,
@@ -1014,13 +905,13 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 698,
+      "file_count": 757,
       "file_types": {
-        ".md": 58,
+        ".md": 64,
         ".json": 36,
-        ".py": 144,
-        ".log": 14,
-        ".csv": 414,
+        ".py": 187,
+        ".log": 19,
+        ".csv": 419,
         "": 6,
         ".sh": 2,
         ".xls": 1,
@@ -1119,8 +1010,10 @@
     "StateScraper": {
       "name": "StateScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/StateScraper",
-      "file_count": 0,
-      "file_types": {},
+      "file_count": 1,
+      "file_types": {
+        ".json": 1
+      },
       "has_agents": false,
       "has_automation": false,
       "has_api": false,
@@ -1134,31 +1027,34 @@
     "dirTechStack": {
       "name": "dirTechStack",
       "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
-      "file_count": 294,
+      "file_count": 539,
       "file_types": {
-        ".md": 15,
+        ".md": 31,
         "": 4,
         ".supabase": 1,
-        ".js": 90,
+        ".py": 2,
+        ".js": 186,
+        ".json": 82,
         ".example": 2,
-        ".sql": 7,
-        ".json": 39,
+        ".sql": 8,
         ".toml": 1,
-        ".ts": 26,
+        ".sh": 1,
+        ".ts": 31,
         ".local": 1,
         ".mjs": 2,
-        ".map": 69,
-        ".css": 6,
+        ".map": 139,
+        ".css": 8,
         ".woff2": 7,
         ".ico": 2,
         ".svg": 5,
-        ".tsx": 17
+        ".tsx": 26
       },
       "has_agents": true,
       "has_automation": false,
       "has_api": true,
       "has_dashboard": false,
       "tech_stack": [
+        "Python",
         "JavaScript/React"
       ],
       "purpose": "",
@@ -1240,7 +1136,7 @@
     }
   },
   "aggregate_stats": {
-    "total_projects": 32,
+    "total_projects": 33,
     "total_files": 0,
     "total_python_files": 0,
     "total_js_files": 0,
@@ -1258,15 +1154,15 @@
     {
       "type": "scale",
       "title": "Building at Scale",
-      "stat": "32 active projects",
-      "detail": "Managing 2,813 files across diverse projects",
-      "hook": "How I manage 32 projects simultaneously with Claude Code"
+      "stat": "33 active projects",
+      "detail": "Managing 3,143 files across diverse projects",
+      "hook": "How I manage 33 projects simultaneously with Claude Code"
     },
     {
       "type": "automation",
       "title": "Agent-Driven Architecture",
-      "stat": "24 projects with autonomous agents",
-      "detail": "Built 83 custom agents",
+      "stat": "25 projects with autonomous agents",
+      "detail": "Built 49 custom agents",
       "examples": [
         "vendor-quote-tool",
         "YouTubeRAG",
@@ -1277,19 +1173,19 @@
     {
       "type": "automation",
       "title": "Automation Infrastructure",
-      "stat": "5 automated workflows",
+      "stat": "6 automated workflows",
       "detail": "Schedulers, background tasks, and automated processing",
       "examples": [
+        "promptSaver",
         "AIBrain",
-        "n8n bulk",
-        "chromeSkooldwl"
+        "n8n bulk"
       ],
       "hook": "The automation stack that saves me 20 hours/week"
     },
     {
       "type": "data_viz",
       "title": "Data Visualization",
-      "stat": "7 custom dashboards",
+      "stat": "6 custom dashboards",
       "detail": "Real-time monitoring and business intelligence",
       "examples": [
         "vendor-quote-tool",
@@ -1302,7 +1198,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Web, Python, JavaScript/React",
+      "detail": "Working across Python, Web, JavaScript/React",
       "hook": "How Claude Code lets me code in any language"
     }
   ],
@@ -1320,8 +1216,8 @@
       "project": "Personal-OS",
       "title": "Autonomous Agent System",
       "use_case": "Complete business operations automation",
-      "description": "Built 40 autonomous agents handling project discovery, security monitoring, backups, token tracking, and todo aggregation",
-      "tech": "Python, JavaScript/React, Web",
+      "description": "Built 2 autonomous agents handling project discovery, security monitoring, backups, token tracking, and todo aggregation",
+      "tech": "Python",
       "category": "architecture_insights",
       "business_value": "Zero manual intervention for daily operations"
     },

@@ -14,7 +14,7 @@ import argparse
 import hashlib
 
 # Add parent directory to path for imports
-sys.path.append(str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils.agent_framework import BaseAgent
 from context_summary_agent import ContextSummaryAgent
 from planning_analysis_agent import PlanningAnalysisAgent
