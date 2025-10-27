@@ -24,52 +24,78 @@ Created `content_extractor.py` that extracts:
 
 ---
 
-### 2. 🔧 Hook Variations Repeat Across Rows (NEEDS FIX)
+### 2. ✅ Hook Variations Repeat Across Rows (FIXED)
 
-**Problem:** Same hooks appear in multiple rows
+**Problem:** Same hooks appeared in multiple rows
 - Row 2: Hook A, Hook B
 - Row 3: Hook A, Hook B  ← SAME
 - Row 4: Hook A, Hook B  ← SAME
 
-**Root Cause:** `content_orchestrator.py` line 279
+**Root Cause:** `content_orchestrator.py` line 299 always took first 2 angles
+
+**Solution Applied:**
+1. Added piece_index parameter to generation loop
+2. Rotate through angles using modulo: (piece_index * 2) % len(angles)
+3. Rotate through stats using modulo: piece_index % len(stats)
+4. Each row now gets different hooks and statistics
+
+**Implementation (Completed Oct 27):**
 ```python
-'angles': selected_angles[:2]  # Always takes first 2
+# Line 196: Added enumeration
+for piece_index, rss_idea in enumerate(rss_ideas):
+    fusion = self._build_fusion_piece(..., piece_index=piece_index)
+
+# Lines 267-275: Angle rotation
+if len(selected_angles) >= 2:
+    start_idx = (piece_index * 2) % len(selected_angles)
+    angle_pair = [
+        selected_angles[start_idx % len(selected_angles)],
+        selected_angles[(start_idx + 1) % len(selected_angles)]
+    ]
+
+# Lines 277-287: Stat rotation
+if len(stats) >= 3:
+    stat_start = piece_index % len(stats)
+    rotated_stats = [...]
+
+# Line 300: Use rotated stats
+'statistics': rotated_stats if rotated_stats else []
 ```
 
-**Solution Needed:**
-1. Rotate through angles for each content piece
-2. Use hash-based selection for variety
-3. Ensure each row gets different hooks
-
-**Implementation:**
-```python
-# Instead of always [:2]
-angle_start = hash(str(rss_idea)) % len(selected_angles)
-'angles': selected_angles[angle_start:angle_start+2]
-```
+**Status:** ✅ FIXED and committed to GitHub
 
 ---
 
-### 3. 🔍 Format Inconsistency: Rows 2-4 vs Rows 5-10
+### 3. ✅ Format Inconsistency: Rows 2-4 vs Rows 5-10 (ANALYZED)
 
 **Problem:** Different formats between row groups
-- Rows 2-4: Good format (user likes this)
-- Rows 5-10: Different format, YouTube script repetition, broken links
+- Rows 2-4: Good format (user likes this) - Daily Content
+- Rows 5-10: Different format, YouTube script repetition, broken links - Pillar Content
 
-**Possible Causes:**
-1. Different content sources (daily content vs pillar content)?
-2. Multiple runs with different configurations?
-3. Tab consolidation issues?
+**Root Cause IDENTIFIED:**
+Two different sync methods with different data formats:
 
-**Investigation Needed:**
-- Check if rows 2-4 are from `Content` tab (daily content)
-- Check if rows 5-10 are from `Pillar Content` tab (long-form)
-- Verify sync_to_google_sheets.py formatting
+1. **Daily Content (Rows 2-4)** → "Content" tab
+   - Format: Date | Title | Trend Source | URL | Personal Example | Hook 1 | Hook 2 | Stat 1 | Stat 2 | Stat 3 | etc.
+   - Shows actual content (hooks, stats, examples)
+   - Copy-paste ready
+
+2. **Pillar Content (Rows 5-10)** → "Pillar Content" tab
+   - Format: Date | Title | Category | Audience | YouTube Script (chars) | LinkedIn (chars) | etc.
+   - Shows only METADATA (character counts, tweet counts)
+   - NOT copy-paste ready
+   - Actual scripts in separate Google Docs
 
 **User Preference:**
-- Format from rows 2-4 ✅
-- But with MORE variation across each row
-- Remove repetition
+- Use rows 2-4 format for ALL content ✅
+- Show actual hooks, stats, examples (not just counts)
+- More variation across each row
+
+**Solution:** See FORMAT_ANALYSIS.md for detailed implementation plan
+- Option 2 (Recommended): Make pillar content use same format as daily content
+- Update pillar_content_sync.py to match sync_to_google_sheets.py format
+- Extract and display actual hooks, stats, examples from pillar content
+- Add links to full YouTube scripts instead of just character count
 
 ---
 
@@ -185,13 +211,37 @@ python3 automation/daily_content_generator.py --mode balanced
 
 ## Next Steps
 
-1. ✅ Content extractor created (DONE)
-2. 🔧 Implement hook rotation (TODO)
-3. 🔧 Implement stat rotation (TODO)
-4. 🔧 Enhance example variation (TODO)
-5. 🔍 Investigate rows 2-4 vs 5-10 format difference (TODO)
-6. 🧪 Test with fresh data (TODO)
-7. 📊 Verify Google Sheets output (TODO)
+1. ✅ Content extractor created (DONE - Oct 27)
+2. ✅ Implement hook rotation (DONE - Oct 27)
+3. ✅ Implement stat rotation (DONE - Oct 27)
+4. ✅ Investigate rows 2-4 vs 5-10 format difference (DONE - Oct 27)
+5. 🔧 Unify pillar content format to match daily content (TODO - HIGH PRIORITY)
+6. 🔧 Integrate content_extractor.py into project_data_collector.py (TODO)
+7. 🧪 Test with fresh data (TODO)
+8. 📊 Verify Google Sheets output (TODO)
+
+---
+
+## Implementation Progress - Oct 27, 2025
+
+### ✅ Completed Today
+1. **Hook Rotation** - Angles now rotate using modulo: (piece_index * 2) % len(angles)
+2. **Stat Rotation** - Statistics rotate using modulo: piece_index % len(stats)
+3. **Format Analysis** - Identified root cause of rows 2-4 vs 5-10 inconsistency
+4. **Documentation** - Created FORMAT_ANALYSIS.md with detailed solution plan
+
+### 🔧 Next Priority: Pillar Content Format
+**Task:** Update `pillar_content_sync.py` to match `sync_to_google_sheets.py` format
+
+**Why:** User wants copy-paste ready content with actual hooks/stats, not just metadata
+
+**Implementation:**
+1. Change headers to match daily content format
+2. Extract hooks from pillar content JSON
+3. Extract stats from pillar content JSON
+4. Show personal examples used in pillar
+5. Add content preview (first 200 chars) instead of character count
+6. Include links to full YouTube scripts
 
 ---
 
@@ -204,13 +254,20 @@ python3 automation/daily_content_generator.py --mode balanced
 - Better A/B testing opportunities
 - More authentic (not templated)
 
-**Current bottleneck:**
-- ContentGen database still stale (Oct 13)
-- Need fresh RSS articles for true variety
-- Once fresh data + fixes applied = dramatic improvement
+**Current bottlenecks:**
+- ContentGen database still stale (Oct 13) - need fresh RSS articles
+- Pillar content format doesn't match daily content format
+- Content extractor not yet integrated into project data collector
+
+**Once all fixes applied:**
+- Hooks will vary across all rows ✅
+- Stats will vary across all rows ✅
+- Format will be consistent across all content types 🔧
+- Rich project content will be extracted 🔧
+- Dramatic improvement in content variety and quality
 
 ---
 
-**Status:** Partial fixes applied, hook/stat rotation still needed
-**ETA:** 30 minutes for remaining fixes
-**Priority:** HIGH - affects content quality directly
+**Status:** Hook/stat rotation COMPLETE, format analysis COMPLETE
+**Next:** Unify pillar content format (estimated 1-2 hours)
+**Priority:** HIGH - affects user's ability to use pillar content directly
