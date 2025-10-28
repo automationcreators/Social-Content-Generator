@@ -55,12 +55,29 @@ class ContentOrchestrator:
         print(f"   Mode: {mode}")
         print(f"   Auto-approve: {auto_approve}")
 
-        # Step 1: Run RSS Content Scout
+        # Step 1: Run RSS Content Scout (skip if fresh data exists)
         print("\n" + "-"*100)
         print("📡 STEP 1: Scanning RSS Feeds")
         print("-"*100)
 
-        self._run_agent('rss_scout', ['scan', '14', '10'])
+        # Check if RSS data already exists and is recent (within 1 hour)
+        rss_data_fresh = False
+        if self.rss_ideas_file.exists():
+            try:
+                from datetime import datetime as dt
+                mod_time = dt.fromtimestamp(self.rss_ideas_file.stat().st_mtime)
+                age = dt.now() - mod_time
+                if age.total_seconds() < 3600:  # Less than 1 hour old
+                    with open(self.rss_ideas_file, 'r') as f:
+                        data = json.load(f)
+                        if data.get('ideas') and len(data['ideas']) > 0:
+                            rss_data_fresh = True
+                            print(f"   ✅ Using existing RSS data ({len(data['ideas'])} ideas, {int(age.total_seconds()/60)} minutes old)")
+            except Exception as e:
+                print(f"   ⚠️  Could not check RSS data freshness: {e}")
+
+        if not rss_data_fresh:
+            self._run_agent('rss_scout', ['scan', '14', '10'])
 
         # Step 2: Run Research Agent
         print("\n" + "-"*100)

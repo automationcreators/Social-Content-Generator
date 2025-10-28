@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-28T13:44:25.271735",
+  "collection_date": "2025-10-28T14:37:51.921016",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -321,9 +321,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -725,9 +725,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -983,9 +983,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1054,9 +1054,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1168,9 +1168,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1250,11 +1250,11 @@
         "problems_solved": [],
         "tech_stack": [
           "FastAPI",
-          "PostgreSQL",
-          "AI",
           "Flask",
           "Python",
-          "JavaScript"
+          "PostgreSQL",
+          "JavaScript",
+          "AI"
         ],
         "business_impact": []
       }
@@ -1262,12 +1262,12 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 87,
+      "file_count": 89,
       "file_types": {
         ".md": 14,
         ".txt": 2,
         ".py": 18,
-        ".json": 48,
+        ".json": 50,
         ".csv": 2,
         ".pdf": 1,
         ".sh": 1,
@@ -1688,8 +1688,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "JavaScript"
+          "JavaScript",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1697,14 +1697,15 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 759,
+      "file_count": 761,
       "file_types": {
         ".md": 68,
         ".json": 36,
-        ".py": 211,
+        ".py": 212,
         ".csv": 425,
         ".sh": 2,
         ".xls": 1,
+        ".log": 1,
         ".txt": 9,
         "": 3,
         ".xlsx": 2,
@@ -2004,15 +2005,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "React",
           "GPT",
-          "ML",
-          "Supabase",
           "Claude",
-          "PostgreSQL",
-          "AI",
+          "Supabase",
           "OpenAI",
-          "Python"
+          "Python",
+          "PostgreSQL",
+          "React",
+          "ML",
+          "AI"
         ],
         "business_impact": []
       }
@@ -2084,9 +2085,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2149,9 +2150,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
+          "JavaScript",
           "Python",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2177,7 +2178,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "33 active projects",
-      "detail": "Managing 3,140 files across diverse projects",
+      "detail": "Managing 3,144 files across diverse projects",
       "hook": "How I manage 33 projects simultaneously with Claude Code"
     },
     {
