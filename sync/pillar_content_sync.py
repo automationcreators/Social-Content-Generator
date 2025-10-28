@@ -53,7 +53,7 @@ class PillarContentSyncer:
 
     def __init__(self):
         self.agents_dir = Path(__file__).parent
-        self.token_file = self.agents_dir / 'google_token.pickle'
+        self.token_file = self.agents_dir.parent / 'data' / 'google_token.pickle'
 
         # Load credentials
         with open(self.token_file, 'rb') as token:
@@ -63,7 +63,7 @@ class PillarContentSyncer:
         self.sheets_service = build('sheets', 'v4', credentials=self.creds)
 
         # Load Google Sheets results to get spreadsheet ID
-        results_file = self.agents_dir / 'google_sheets_results.json'
+        results_file = self.agents_dir.parent / 'data' / 'google_sheets_results.json'
         with open(results_file, 'r') as f:
             results = json.load(f)
             self.spreadsheet_id = results['spreadsheet_id']

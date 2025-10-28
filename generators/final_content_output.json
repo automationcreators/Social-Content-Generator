@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-28T13:44:25.051803",
+    "mode": "balanced",
+    "auto_approve_enabled": true,
+    "total_pieces": 0,
+    "auto_approved": 0,
+    "requires_review": 0
+  },
+  "content_ready_for_sheets": [],
+  "sheet_columns": [
+    "Title",
+    "Trend Source",
+    "Personal Example",
+    "Hook Option 1",
+    "Hook Option 2",
+    "Stat 1",
+    "Stat 2",
+    "Stat 3",
+    "Framework",
+    "Platforms",
+    "Fusion Strength",
+    "Quality Score",
+    "Auto Approved",
+    "Status"
+  ]
+}

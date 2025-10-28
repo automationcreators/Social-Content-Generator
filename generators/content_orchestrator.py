@@ -24,13 +24,13 @@ class ContentOrchestrator:
         self.agents_dir = Path(__file__).parent
 
         # Agent scripts
-        self.rss_scout = self.agents_dir / 'rss_content_scout.py'
-        self.research_agent = self.agents_dir / 'research_data_agent.py'
+        self.rss_scout = self.agents_dir.parent / 'scouts' / 'rss_content_scout.py'
+        self.research_agent = self.agents_dir.parent / 'research' / 'research_data_agent.py'
         self.angle_generator = self.agents_dir / 'contrarian_angle_generator.py'
 
         # Data files
-        self.pillar_content = self.agents_dir / 'pillar_content_library.json'
-        self.project_data = self.agents_dir / 'project_data_analysis.json'
+        self.pillar_content = self.agents_dir.parent / 'config' / 'pillar_content_library.json'
+        self.project_data = self.agents_dir.parent / 'config' / 'project_data_analysis.json'
         self.frameworks_file = self.agents_dir / 'content_frameworks' / 'kallaway_hooks.json'
 
         # Output files from agents
