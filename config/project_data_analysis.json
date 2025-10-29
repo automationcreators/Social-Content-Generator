@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-28T14:37:51.921016",
+  "collection_date": "2025-10-28T15:03:15.952598",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -321,9 +321,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -725,9 +725,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -983,9 +983,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1054,9 +1054,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1168,9 +1168,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1249,12 +1249,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "FastAPI",
-          "Flask",
-          "Python",
-          "PostgreSQL",
           "JavaScript",
-          "AI"
+          "AI",
+          "Flask",
+          "PostgreSQL",
+          "Python",
+          "FastAPI"
         ],
         "business_impact": []
       }
@@ -1688,8 +1688,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1697,7 +1697,7 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 761,
+      "file_count": 762,
       "file_types": {
         ".md": 68,
         ".json": 36,
@@ -1705,7 +1705,7 @@
         ".csv": 425,
         ".sh": 2,
         ".xls": 1,
-        ".log": 1,
+        ".log": 2,
         ".txt": 9,
         "": 3,
         ".xlsx": 2,
@@ -2005,15 +2005,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "GPT",
-          "Claude",
-          "Supabase",
-          "OpenAI",
-          "Python",
-          "PostgreSQL",
           "React",
+          "OpenAI",
+          "Claude",
+          "AI",
+          "GPT",
           "ML",
-          "AI"
+          "Python",
+          "Supabase",
+          "PostgreSQL"
         ],
         "business_impact": []
       }
@@ -2085,9 +2085,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -2150,9 +2150,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Python",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -2178,7 +2178,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "33 active projects",
-      "detail": "Managing 3,144 files across diverse projects",
+      "detail": "Managing 3,145 files across diverse projects",
       "hook": "How I manage 33 projects simultaneously with Claude Code"
     },
     {
@@ -2221,7 +2221,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across JavaScript/React, Web, Python",
+      "detail": "Working across JavaScript/React, Python, Web",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

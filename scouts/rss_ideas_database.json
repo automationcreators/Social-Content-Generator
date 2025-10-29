@@ -1,13 +1,270 @@
 {
   "metadata": {
-    "scan_date": "2025-10-28T14:53:51.989403",
-    "days_scanned": 14,
-    "total_raw_ideas": 0,
-    "qualified_ideas": 0,
+    "scan_date": "2025-10-28T20:28:25.471460",
+    "days_scanned": 30,
+    "total_raw_ideas": 68,
+    "qualified_ideas": 7,
     "min_score_threshold": 10
   },
-  "trending_keywords": [],
-  "opportunity_breakdown": {},
-  "fusion_potential_breakdown": {},
-  "ideas": []
+  "trending_keywords": [
+    {
+      "keyword": "reading",
+      "frequency": 96
+    },
+    {
+      "keyword": "continue",
+      "frequency": 62
+    },
+    {
+      "keyword": "medium",
+      "frequency": 48
+    },
+    {
+      "keyword": "analytics",
+      "frequency": 46
+    },
+    {
+      "keyword": "first",
+      "frequency": 46
+    },
+    {
+      "keyword": "post",
+      "frequency": 40
+    },
+    {
+      "keyword": "appeared",
+      "frequency": 40
+    },
+    {
+      "keyword": "vidhya",
+      "frequency": 38
+    },
+    {
+      "keyword": "data",
+      "frequency": 37
+    },
+    {
+      "keyword": "intelligence",
+      "frequency": 36
+    },
+    {
+      "keyword": "how",
+      "frequency": 33
+    },
+    {
+      "keyword": "your",
+      "frequency": 32
+    },
+    {
+      "keyword": "artificial",
+      "frequency": 32
+    },
+    {
+      "keyword": "plain",
+      "frequency": 30
+    },
+    {
+      "keyword": "english",
+      "frequency": 30
+    },
+    {
+      "keyword": "agent",
+      "frequency": 28
+    },
+    {
+      "keyword": "than",
+      "frequency": 19
+    },
+    {
+      "keyword": "why",
+      "frequency": 19
+    },
+    {
+      "keyword": "building",
+      "frequency": 18
+    },
+    {
+      "keyword": "tools",
+      "frequency": 18
+    }
+  ],
+  "opportunity_breakdown": {
+    "trend": 5,
+    "educational": 1,
+    "tutorial": 1
+  },
+  "fusion_potential_breakdown": {
+    "high": 4,
+    "medium": 3
+  },
+  "ideas": [
+    {
+      "id": 6951,
+      "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
+      "description": "Discover the best AI productivity tools that boost efficiency, automate daily tasks, and simplify your workflow in 2025.Continue reading on Medium \u00bb",
+      "source": "AI Medium",
+      "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-10-13 23:03:06",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 20.9,
+        "relevance": 9,
+        "brand_alignment": 10.0,
+        "viral_potential": 0,
+        "trending": 1.5,
+        "quality": 0.4
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
+    },
+    {
+      "id": 6352,
+      "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
+      "description": "Enterprises are moving past simple chatbots into complex, business-critical AI systems. Different teams are experimenting at once, which sounds exciting but quickly turns chaotic. Costs rise, systems fragment, and reliability drops when there\u2019s no shared control layer. The OpenAI outage in August 2025 made this painfully clear: copilots froze, chatbots failed, and productivity tanked across [\u2026]\nThe post Governing AI Agents at Scale: Unifying AI Gateways and MCP appeared first on Analytics Vidhya",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 18.23,
+        "relevance": 12,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.23,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
+    },
+    {
+      "id": 4722,
+      "title": "AI-Powered Income Streams: How I Built Monetization Systems That Work While I Sleep",
+      "description": "From Trading Bots to Social Media Automation, Here\u2019s How AI Actually Prints Money.Continue reading on Artificial Intelligence in Plain English \u00bb",
+      "source": "AI Medium",
+      "url": "https://ai.plainenglish.io/ai-powered-income-streams-how-i-built-monetization-systems-that-work-while-i-sleep-2a70d923ade1?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-10-06 04:59:52",
+      "opportunity_type": "educational",
+      "scores": {
+        "total_score": 15.09,
+        "relevance": 9,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.64,
+        "quality": 0.45
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "how_to",
+      "fusion_potential": "high"
+    },
+    {
+      "id": 6354,
+      "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
+      "description": "Whenever it comes to training model, companies usually bet of feeding it more and more data for training. Bigger datasets = smarter models When DeepSeek released initially, it challenged this approach and set new definitions for model training. And after that came a wave of model training with less data and optimized approach. I came [\u2026]\nThe post Agentic AI Training Efficiency: Less is More for Intelligent Agency appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 12.33,
+        "relevance": 6,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.33,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "transformation",
+      "fusion_potential": "medium"
+    },
+    {
+      "id": 4712,
+      "title": "Gemini for Google Home: A New Era Begins",
+      "description": "Google brings Gemini AI into your living room to make daily life smarter and simpler.Continue reading on Artificial Intelligence in Plain English \u00bb",
+      "source": "The most insightful stories about AI - Medium",
+      "url": "https://ai.plainenglish.io/gemini-for-google-home-a-new-era-begins-88ad5a8c1e3e?source=rss------artificial_intelligence-5",
+      "category": "ai",
+      "created_at": "2025-10-06 04:59:51",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 12.17,
+        "relevance": 9,
+        "brand_alignment": 2.5,
+        "viral_potential": 0,
+        "trending": 0.29,
+        "quality": 0.37
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "transformation",
+      "fusion_potential": "medium"
+    },
+    {
+      "id": 6357,
+      "title": "Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent",
+      "description": "The use of the term \u201cAI Agent\u201d has increased by 10x in the last 1 year, as per data from Google Trends. This surge reflects a broader shift: people and organizations increasingly want AI Systems that not only answer questions, but also take actions on their behalf. From simplifying mundane tasks to streamlining business operations, [\u2026]\nThe post Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/building-an-ai-agent-tutorial-part-1/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "tutorial",
+      "scores": {
+        "total_score": 10.42,
+        "relevance": 9,
+        "brand_alignment": 0,
+        "viral_potential": 0,
+        "trending": 0.42,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "suggested_framework": "how_to",
+      "fusion_potential": "high"
+    },
+    {
+      "id": 4723,
+      "title": "Edge AI: Why the Future of Intelligent Business Will Be Decided at the Edge",
+      "description": "Technology shifts rarely announce themselves with loud fanfare. They happen quietly, gaining ground in products, services, and processes\u2026Continue reading on Artificial Intelligence in Plain English \u00bb",
+      "source": "AI Medium",
+      "url": "https://ai.plainenglish.io/edge-ai-why-the-future-of-intelligent-business-will-be-decided-at-the-edge-96114c63b62b?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-10-06 04:59:52",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 10.2,
+        "relevance": 9,
+        "brand_alignment": 0,
+        "viral_potential": 0,
+        "trending": 0.65,
+        "quality": 0.55
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "suggested_framework": "transformation",
+      "fusion_potential": "medium"
+    }
+  ]
 }

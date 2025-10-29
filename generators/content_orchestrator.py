@@ -77,7 +77,7 @@ class ContentOrchestrator:
                 print(f"   ⚠️  Could not check RSS data freshness: {e}")
 
         if not rss_data_fresh:
-            self._run_agent('rss_scout', ['scan', '14', '10'])
+            self._run_agent('rss_scout', ['scan', '30', '10'])
 
         # Step 2: Run Research Agent
         print("\n" + "-"*100)
