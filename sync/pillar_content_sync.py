@@ -61,6 +61,8 @@ class PillarContentSyncer:
 
         # Initialize services
         self.sheets_service = build('sheets', 'v4', credentials=self.creds)
+        self.docs_service = build('docs', 'v1', credentials=self.creds)
+        self.drive_service = build('drive', 'v3', credentials=self.creds)
 
         # Load Google Sheets results to get spreadsheet ID
         results_file = self.agents_dir.parent / 'data' / 'google_sheets_results.json'
@@ -131,24 +133,42 @@ class PillarContentSyncer:
             except Exception as e:
                 print(f"   ⚠️  Could not create tab: {e}")
 
-        # Prepare headers - match daily content format
+        # Prepare headers - EXACT structure from rows 1-4
         headers = [
-            'Date',
+            'Pillar ID',
             'Title',
-            'Content Type',
-            'YouTube Doc Link',
-            'Personal Example',
-            'Hook Option 1',
-            'Hook Option 2',
-            'Stat 1',
-            'Stat 2',
-            'Stat 3',
-            'Framework',
-            'Platforms',
             'Category',
-            'Content Preview',
-            'Examples Count',
-            'Status'
+            'Hook Type',
+            'Audience',
+            'Urgency',
+            'Created Date',
+            'Real Examples (Projects)',
+            'Key Statistics',
+            'YouTube Script',  # Google Doc link
+            'LinkedIn Article',
+            'Twitter Thread',
+            'Instagram Post',
+            'Threads Post',
+            'Single Tweet',
+            'Business Value',
+            'Time Savings',
+            'Tech Stack',
+            'Status',
+            'Notes',
+            'Hook Variation A (Stats Lead)',
+            'Hook Variation B (Contrarian)',
+            'Hook Variation C (Story)',
+            'Hook Variation D (Question)',
+            'Hook Variation E (Outcome)',
+            'Contrasting Idea 1',
+            'Contrasting Idea 2',
+            'Contrasting Idea 3',
+            'Statistical Variant 1',
+            'Statistical Variant 2',
+            'Statistical Variant 3',
+            'Personal Story 1',
+            'Personal Story 2',
+            'Hook Format Reference'
         ]
 
         # Get existing data
@@ -200,64 +220,160 @@ class PillarContentSyncer:
             'total_rows': total_rows
         }
 
+    def _create_youtube_doc(self, pillar):
+        """Create a Google Doc with the YouTube script and return the URL"""
+
+        idea = pillar['idea']
+        content = pillar['content']
+        youtube_script = content.get('youtube_script', '')
+
+        # Create the document
+        doc_title = f"YouTube Script - {idea.get('title', 'Untitled')}"
+        doc = self.docs_service.documents().create(body={'title': doc_title}).execute()
+        doc_id = doc.get('documentId')
+
+        # Add content to the document
+        requests = [
+            {
+                'insertText': {
+                    'location': {'index': 1},
+                    'text': youtube_script
+                }
+            }
+        ]
+
+        self.docs_service.documents().batchUpdate(
+            documentId=doc_id,
+            body={'requests': requests}
+        ).execute()
+
+        # Make it publicly viewable (optional - adjust permissions as needed)
+        self.drive_service.permissions().create(
+            fileId=doc_id,
+            body={'type': 'anyone', 'role': 'reader'}
+        ).execute()
+
+        doc_url = f"https://docs.google.com/document/d/{doc_id}"
+        return doc_url
+
     def _format_pillar_row(self, pillar, date):
-        """Format a pillar into a sheet row - matches daily content format"""
+        """Format a pillar into a sheet row - EXACT 34-column structure"""
 
         idea = pillar['idea']
         content = pillar['content']
         real_data = pillar['real_data']
+        hook_framework = pillar.get('hook_framework', {})
 
-        # Extract hooks
-        hook1 = idea.get('description', '')  # Main description as Hook 1
+        # Create Google Doc with YouTube script
+        print(f"      Creating Google Doc for YouTube script...")
+        youtube_doc_url = self._create_youtube_doc(pillar)
 
-        # Extract Hook 2 from Twitter thread first tweet
+        # Get content
+        linkedin_article = remove_emojis(content.get('linkedin_article', ''))
+
+        # Format Twitter thread
         twitter_thread = content.get('twitter_thread', {})
         tweets = twitter_thread.get('tweets', [])
-        hook2 = tweets[0].get('text', '')[:200] if tweets else idea.get('title', '')
+        if isinstance(tweets, list):
+            thread_text = '\n\n'.join([f"Tweet {i+1}: {remove_emojis(tweet.get('text', ''))}" for i, tweet in enumerate(tweets)])
+        else:
+            thread_text = remove_emojis(str(tweets))
 
-        # Extract statistics (format to match daily content)
-        stats = real_data.get('statistics', [])
-        stat1 = f"{stats[0].get('stat', '')}: {stats[0].get('detail', '')} ({stats[0].get('source', '')})" if len(stats) > 0 else ''
-        stat2 = f"{stats[1].get('stat', '')}: {stats[1].get('detail', '')} ({stats[1].get('source', '')})" if len(stats) > 1 else ''
-        stat3 = f"{stats[2].get('stat', '')}: {stats[2].get('detail', '')} ({stats[2].get('source', '')})" if len(stats) > 2 else ''
+        # Get individual posts
+        short_posts = content.get('short_posts', [])
+        instagram_post = ''
+        threads_post = ''
+        single_tweet = ''
 
-        # Extract personal examples
+        if isinstance(short_posts, list):
+            for post in short_posts:
+                if isinstance(post, dict):
+                    platform = post.get('platform', '').lower()
+                    text = remove_emojis(post.get('post', ''))
+                    if 'instagram' in platform:
+                        instagram_post = text
+                    elif 'threads' in platform:
+                        threads_post = text
+                    elif 'twitter' in platform or 'tweet' in platform:
+                        single_tweet = text
+
+        # Format examples
         examples = real_data.get('examples', [])
-        examples_count = len(examples)
+        examples_text = ", ".join([ex.get('title', '') for ex in examples if isinstance(ex, dict)])
 
-        # Format first example similar to daily content
-        personal_text = ''
-        if examples:
-            ex = examples[0]
-            personal_text = f"{idea['title']}\n\nExample: {ex.get('title', '')}\n{ex.get('description', '')[:200]}"
+        # Format statistics
+        stats = real_data.get('statistics', [])
+        stats_text = " | ".join([f"{s.get('stat', '')}" for s in stats if isinstance(s, dict)])[:200]
 
-        # Get content preview (first 200 chars of YouTube script)
-        youtube_script = content.get('youtube_script', '')
-        content_preview = youtube_script[:200].replace('\n', ' ').strip() + '...' if len(youtube_script) > 200 else youtube_script.replace('\n', ' ').strip()
+        # Extract business value and time savings from examples
+        business_value = " | ".join([ex.get('business_value', '') for ex in examples if isinstance(ex, dict) and ex.get('business_value')])[:200]
+        time_savings = examples[0].get('business_value', '') if examples else ''
 
-        # YouTube doc link - this would be set by the generator
-        youtube_link = pillar.get('youtube_doc_url', 'To be created')
+        # Tech stack
+        tech_stack = ", ".join(set([ex.get('tech', '') for ex in examples if isinstance(ex, dict) and ex.get('tech')]))
 
-        # Get platforms (default for pillar content)
-        platforms = 'YouTube, LinkedIn, Twitter, Instagram'
+        # Generate hook variations (5 variations)
+        title = idea.get('title', '')
+        description = idea.get('description', '')
+
+        hook_a = f"{len(examples)} projects. {len(stats)} key stats. {idea.get('category', '')}.\n\n{title}\n\nNumbers → Contrast → Promise"
+        hook_b = f"Everyone says you need developers to build software.\n\nI've built {len(examples)} projects with zero coding experience.\n\n{title}"
+        hook_c = f"A year ago, I was spending 20 hours/week on manual tasks.\n\nToday, automation handles everything.\n\nHere's what changed:"
+        hook_d = f"What if you could automate your entire business without hiring a single developer?\n\nI did it.\n\n{title}"
+        hook_e = f"Save {time_savings}. Replace $300/month in subscriptions. Build in 45 minutes.\n\n{title}"
+
+        # Contrasting ideas (3)
+        contrast_1 = "❌ Most people think automation requires: Coding skills, Developer team, Expensive tools\n✅ What actually works: Plain English descriptions, Claude Code, Zero monthly costs"
+        contrast_2 = "❌ Traditional approach: Hire developers (months), Build custom ($$), Maintain forever\n✅ Claude Code approach: Describe what you need (minutes), Built in 1 hour, Runs automatically"
+        contrast_3 = "❌ They say: \"You need a CS degree\", \"Learn Python first\", \"Understand databases\"\n✅ I proved: No degree needed, No code written, No database knowledge"
+
+        # Statistical variants (3)
+        stat_var_1 = f"ROI Focus: Built {len(examples)} tools that save {business_value}"
+        stat_var_2 = f"Scale Focus: Managing {len(examples)} projects with automation"
+        stat_var_3 = f"Speed Focus: From idea to working tool in 45 minutes"
+
+        # Personal stories (2)
+        story_1 = description[:200] if description else ''
+        story_2 = examples[0].get('description', '')[:200] if examples else ''
+
+        # Hook format reference
+        hook_ref = hook_framework.get('description', 'Transformation story')
 
         return [
-            date,
-            remove_emojis(idea['title']),
-            'Pillar',  # Content Type
-            remove_emojis(youtube_link),
-            remove_emojis(personal_text),
-            remove_emojis(hook1),
-            remove_emojis(hook2),
-            remove_emojis(stat1),
-            remove_emojis(stat2),
-            remove_emojis(stat3),
-            remove_emojis(idea.get('hook_type', '')),
-            platforms,
+            pillar.get('id', ''),  # Pillar ID
+            remove_emojis(title),
             remove_emojis(idea.get('category', '')),
-            remove_emojis(content_preview),
-            str(examples_count),
-            'Ready'
+            remove_emojis(idea.get('hook_type', '')),
+            remove_emojis(idea.get('audience', '')),
+            remove_emojis(idea.get('urgency', '')),
+            idea.get('created_date', date),
+            remove_emojis(examples_text),
+            remove_emojis(stats_text),
+            youtube_doc_url,  # Google Doc URL!
+            linkedin_article,
+            thread_text,
+            instagram_post,
+            threads_post,
+            single_tweet,
+            remove_emojis(business_value),
+            remove_emojis(time_savings),
+            remove_emojis(tech_stack),
+            'Ready',
+            '',  # Notes
+            remove_emojis(hook_a),
+            remove_emojis(hook_b),
+            remove_emojis(hook_c),
+            remove_emojis(hook_d),
+            remove_emojis(hook_e),
+            remove_emojis(contrast_1),
+            remove_emojis(contrast_2),
+            remove_emojis(contrast_3),
+            remove_emojis(stat_var_1),
+            remove_emojis(stat_var_2),
+            remove_emojis(stat_var_3),
+            remove_emojis(story_1),
+            remove_emojis(story_2),
+            remove_emojis(hook_ref)
         ]
 
     def _create_sheet_tab(self, tab_name):

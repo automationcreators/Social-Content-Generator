@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scan_date": "2025-10-28T20:28:25.471460",
+    "scan_date": "2025-10-31T12:47:20.564090",
     "days_scanned": 30,
     "total_raw_ideas": 68,
     "qualified_ideas": 7,
@@ -236,8 +236,8 @@
         "quality": 1.0
       },
       "suggested_platforms": [
-        "LinkedIn",
-        "YouTube"
+        "YouTube",
+        "LinkedIn"
       ],
       "suggested_framework": "how_to",
       "fusion_potential": "high"

@@ -1,13 +1,378 @@
 {
   "metadata": {
-    "generated_at": "2025-10-28T20:28:25.532780",
+    "generated_at": "2025-10-31T12:51:19.966564",
     "mode": "balanced",
     "auto_approve_enabled": true,
-    "total_pieces": 0,
+    "total_pieces": 7,
     "auto_approved": 0,
-    "requires_review": 0
+    "requires_review": 7
   },
-  "content_ready_for_sheets": [],
+  "content_ready_for_sheets": [
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
+        "source": "AI Medium",
+        "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
+        "opportunity_type": "trend"
+      },
+      "personal_example": null,
+      "angles": [
+        {
+          "type": "personal_statistical",
+          "hook": "I tested 5 i tools to work across 32 projects.",
+          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
+          "tension": "Most people waste time on the wrong approach.",
+          "promise": "Here's what actually works:",
+          "framework": "transformation"
+        },
+        {
+          "type": "myth_busting",
+          "hook": "Myth: 5 i tools to work requires technical expertise.",
+          "reality": "Truth: I built 5 i tools to work solutions without writing a single line of code.",
+          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
+          "promise": "Here's my framework:",
+          "framework": "contrarian_snapback"
+        }
+      ],
+      "statistics": [
+        {
+          "stat": "64% of businesses",
+          "detail": "plan to use AI for automation by 2025",
+          "source": "Gartner",
+          "year": "2024",
+          "credibility": 9,
+          "relevance": 10
+        },
+        {
+          "stat": "40% time savings",
+          "detail": "average time saved with AI automation tools",
+          "source": "McKinsey",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 9
+        },
+        {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
+        }
+      ],
+      "framework": "transformation",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "insight_analysis",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 24.666666666666664,
+        "angle_quality": 25,
+        "platform_fit": 10,
+        "total": 65
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
+        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+        "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
+        "opportunity_type": "trend"
+      },
+      "personal_example": null,
+      "angles": [
+        {
+          "type": "personal_statistical",
+          "hook": "I tested governing i gents t scle: across 32 projects.",
+          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
+          "tension": "Most people waste time on the wrong approach.",
+          "promise": "Here's what actually works:",
+          "framework": "transformation"
+        },
+        {
+          "type": "myth_busting",
+          "hook": "Myth: governing i gents t scle: requires technical expertise.",
+          "reality": "Truth: I built governing i gents t scle: solutions without writing a single line of code.",
+          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
+          "promise": "Here's my framework:",
+          "framework": "contrarian_snapback"
+        }
+      ],
+      "statistics": [
+        {
+          "stat": "40% time savings",
+          "detail": "average time saved with AI automation tools",
+          "source": "McKinsey",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 9
+        },
+        {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
+        },
+        {
+          "stat": "64% of businesses",
+          "detail": "plan to use AI for automation by 2025",
+          "source": "Gartner",
+          "year": "2024",
+          "credibility": 9,
+          "relevance": 10
+        }
+      ],
+      "framework": "transformation",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "insight_analysis",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 24.666666666666664,
+        "angle_quality": 25,
+        "platform_fit": 10,
+        "total": 65
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
+        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+        "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
+        "opportunity_type": "trend"
+      },
+      "personal_example": null,
+      "angles": [
+        {
+          "type": "personal_statistical",
+          "hook": "I tested gentic i trining efficiency: less across 32 projects.",
+          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
+          "tension": "Most people waste time on the wrong approach.",
+          "promise": "Here's what actually works:",
+          "framework": "transformation"
+        },
+        {
+          "type": "myth_busting",
+          "hook": "Myth: gentic i trining efficiency: less requires technical expertise.",
+          "reality": "Truth: I built gentic i trining efficiency: less solutions without writing a single line of code.",
+          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
+          "promise": "Here's my framework:",
+          "framework": "contrarian_snapback"
+        }
+      ],
+      "statistics": [
+        {
+          "stat": "64% of businesses",
+          "detail": "plan to use AI for automation by 2025",
+          "source": "Gartner",
+          "year": "2024",
+          "credibility": 9,
+          "relevance": 10
+        },
+        {
+          "stat": "40% time savings",
+          "detail": "average time saved with AI automation tools",
+          "source": "McKinsey",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 9
+        },
+        {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
+        }
+      ],
+      "framework": "transformation",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "insight_analysis",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 24.666666666666664,
+        "angle_quality": 25,
+        "platform_fit": 10,
+        "total": 65
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent",
+        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+        "url": "https://www.analyticsvidhya.com/blog/2025/10/building-an-ai-agent-tutorial-part-1/",
+        "opportunity_type": "tutorial"
+      },
+      "personal_example": null,
+      "angles": [
+        {
+          "type": "personal_statistical",
+          "hook": "I tested building n i gent tutoril across 32 projects.",
+          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
+          "tension": "Most people waste time on the wrong approach.",
+          "promise": "Here's what actually works:",
+          "framework": "transformation"
+        },
+        {
+          "type": "myth_busting",
+          "hook": "Myth: building n i gent tutoril requires technical expertise.",
+          "reality": "Truth: I built building n i gent tutoril solutions without writing a single line of code.",
+          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
+          "promise": "Here's my framework:",
+          "framework": "contrarian_snapback"
+        }
+      ],
+      "statistics": [
+        {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
+        },
+        {
+          "stat": "64% of businesses",
+          "detail": "plan to use AI for automation by 2025",
+          "source": "Gartner",
+          "year": "2024",
+          "credibility": 9,
+          "relevance": 10
+        },
+        {
+          "stat": "40% time savings",
+          "detail": "average time saved with AI automation tools",
+          "source": "McKinsey",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 9
+        }
+      ],
+      "framework": "how_to",
+      "platforms": [
+        "YouTube",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "how_to_guide",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 24.666666666666664,
+        "angle_quality": 25,
+        "platform_fit": 10,
+        "total": 65
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "AI-Powered Income Streams: How I Built Monetization Systems That Work While I Sleep",
+        "source": "AI Medium",
+        "url": "https://ai.plainenglish.io/ai-powered-income-streams-how-i-built-monetization-systems-that-work-while-i-sleep-2a70d923ade1?source=rss------ai-5",
+        "opportunity_type": "educational"
+      },
+      "personal_example": null,
+      "angles": [],
+      "statistics": [],
+      "framework": "how_to",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "standard",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 0,
+        "angle_quality": 0.0,
+        "platform_fit": 10,
+        "total": 15
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Gemini for Google Home: A New Era Begins",
+        "source": "The most insightful stories about AI - Medium",
+        "url": "https://ai.plainenglish.io/gemini-for-google-home-a-new-era-begins-88ad5a8c1e3e?source=rss------artificial_intelligence-5",
+        "opportunity_type": "trend"
+      },
+      "personal_example": null,
+      "angles": [],
+      "statistics": [],
+      "framework": "transformation",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "insight_analysis",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 0,
+        "angle_quality": 0.0,
+        "platform_fit": 10,
+        "total": 15
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "Edge AI: Why the Future of Intelligent Business Will Be Decided at the Edge",
+        "source": "AI Medium",
+        "url": "https://ai.plainenglish.io/edge-ai-why-the-future-of-intelligent-business-will-be-decided-at-the-edge-96114c63b62b?source=rss------ai-5",
+        "opportunity_type": "trend"
+      },
+      "personal_example": null,
+      "angles": [],
+      "statistics": [],
+      "framework": "transformation",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "insight_analysis",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 0,
+        "angle_quality": 0.0,
+        "platform_fit": 10,
+        "total": 15
+      },
+      "auto_approved": false,
+      "requires_review": true
+    }
+  ],
   "sheet_columns": [
     "Title",
     "Trend Source",

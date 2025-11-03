@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-28T15:03:15.952598",
+  "collection_date": "2025-10-31T12:51:21.500203",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -44,9 +44,9 @@
     "promptSaver": {
       "name": "promptSaver",
       "path": "/Users/elizabethknopf/Documents/claudec/active/promptSaver",
-      "file_count": 64,
+      "file_count": 66,
       "file_types": {
-        ".md": 18,
+        ".md": 20,
         ".json": 6,
         ".js": 6,
         ".html": 2,
@@ -321,9 +321,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -331,11 +331,11 @@
     "Project Management": {
       "name": "Project Management",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
-      "file_count": 61,
+      "file_count": 62,
       "file_types": {
         ".py": 3,
         ".md": 24,
-        ".json": 14,
+        ".json": 15,
         ".js": 7,
         ".html": 5,
         ".css": 4,
@@ -725,9 +725,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -983,9 +983,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1054,9 +1054,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1168,9 +1168,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1249,12 +1249,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
-          "AI",
-          "Flask",
           "PostgreSQL",
-          "Python",
-          "FastAPI"
+          "Flask",
+          "AI",
+          "FastAPI",
+          "JavaScript",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1688,8 +1688,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "JavaScript"
+          "JavaScript",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1697,15 +1697,14 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 762,
+      "file_count": 768,
       "file_types": {
-        ".md": 68,
+        ".csv": 430,
+        ".md": 69,
         ".json": 36,
-        ".py": 212,
-        ".csv": 425,
+        ".py": 214,
         ".sh": 2,
         ".xls": 1,
-        ".log": 2,
         ".txt": 9,
         "": 3,
         ".xlsx": 2,
@@ -1849,6 +1848,63 @@
           "Python",
           "Claude"
         ],
+        "business_impact": []
+      }
+    },
+    "personal-os-lifecycle-plugin": {
+      "name": "personal-os-lifecycle-plugin",
+      "path": "/Users/elizabethknopf/Documents/claudec/active/personal-os-lifecycle-plugin",
+      "file_count": 14,
+      "file_types": {
+        ".md": 12,
+        ".json": 2
+      },
+      "has_agents": true,
+      "has_automation": false,
+      "has_api": false,
+      "has_dashboard": true,
+      "tech_stack": [],
+      "purpose": "Personal-OS Lifecycle Manager Plugin",
+      "interesting_files": [
+        {
+          "file": "agent-optimizer.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-health.md",
+          "type": "agent"
+        }
+      ],
+      "recent_activity": null,
+      "estimated_complexity": "simple",
+      "rich_content": {
+        "insights": [],
+        "guides": [
+          {
+            "type": "step",
+            "content": "Use template-matcher skill to find best template"
+          },
+          {
+            "type": "step",
+            "content": "Use project-architect agent to design structure"
+          },
+          {
+            "type": "step",
+            "content": "Create project directory with template"
+          },
+          {
+            "type": "step",
+            "content": "Create drafts for multiple platforms"
+          },
+          {
+            "type": "step",
+            "content": "**Run /lifecycle-status daily** to monitor system health"
+          }
+        ],
+        "tips": [],
+        "stories": [],
+        "problems_solved": [],
+        "tech_stack": [],
         "business_impact": []
       }
     },
@@ -2005,15 +2061,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "Supabase",
+          "PostgreSQL",
+          "AI",
           "React",
           "OpenAI",
-          "Claude",
-          "AI",
           "GPT",
-          "ML",
           "Python",
-          "Supabase",
-          "PostgreSQL"
+          "Claude",
+          "ML"
         ],
         "business_impact": []
       }
@@ -2085,9 +2141,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2150,16 +2206,16 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Python",
-          "Claude",
-          "JavaScript"
+          "Claude"
         ],
         "business_impact": []
       }
     }
   },
   "aggregate_stats": {
-    "total_projects": 33,
+    "total_projects": 34,
     "total_files": 0,
     "total_python_files": 0,
     "total_js_files": 0,
@@ -2177,15 +2233,15 @@
     {
       "type": "scale",
       "title": "Building at Scale",
-      "stat": "33 active projects",
-      "detail": "Managing 3,145 files across diverse projects",
-      "hook": "How I manage 33 projects simultaneously with Claude Code"
+      "stat": "34 active projects",
+      "detail": "Managing 3,168 files across diverse projects",
+      "hook": "How I manage 34 projects simultaneously with Claude Code"
     },
     {
       "type": "automation",
       "title": "Agent-Driven Architecture",
-      "stat": "25 projects with autonomous agents",
-      "detail": "Built 49 custom agents",
+      "stat": "26 projects with autonomous agents",
+      "detail": "Built 51 custom agents",
       "examples": [
         "vendor-quote-tool",
         "YouTubeRAG",
@@ -2208,7 +2264,7 @@
     {
       "type": "data_viz",
       "title": "Data Visualization",
-      "stat": "6 custom dashboards",
+      "stat": "7 custom dashboards",
       "detail": "Real-time monitoring and business intelligence",
       "examples": [
         "vendor-quote-tool",
@@ -2221,7 +2277,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across JavaScript/React, Python, Web",
+      "detail": "Working across Python, JavaScript/React, Web",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

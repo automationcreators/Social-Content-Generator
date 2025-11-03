@@ -74,7 +74,7 @@ class GoogleSheetsSyncer:
 
         # Load content
         if content_file is None:
-            content_file = self.agents_dir / 'final_content_output.json'
+            content_file = self.agents_dir.parent / 'generators' / 'final_content_output.json'
 
         with open(content_file, 'r') as f:
             content_data = json.load(f)

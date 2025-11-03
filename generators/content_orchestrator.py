@@ -34,9 +34,9 @@ class ContentOrchestrator:
         self.frameworks_file = self.agents_dir / 'content_frameworks' / 'kallaway_hooks.json'
 
         # Output files from agents
-        self.rss_ideas_file = self.agents_dir / 'rss_ideas_database.json'
-        self.research_file = self.agents_dir / 'research_results_quick.json'
-        self.angles_file = self.agents_dir / 'contrarian_angles.json'
+        self.rss_ideas_file = self.agents_dir.parent / 'scouts' / 'rss_ideas_database.json'
+        self.research_file = self.agents_dir.parent / 'data' / 'research_results_quick.json'
+        self.angles_file = self.agents_dir.parent / 'data' / 'contrarian_angles.json'
 
     def run_pipeline(self, mode='balanced', auto_approve=True):
         """
