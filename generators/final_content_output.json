@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-31T12:51:19.966564",
+    "generated_at": "2025-11-03T09:03:38.183776",
     "mode": "balanced",
     "auto_approve_enabled": true,
     "total_pieces": 7,
@@ -273,8 +273,8 @@
       ],
       "framework": "how_to",
       "platforms": [
-        "YouTube",
-        "LinkedIn"
+        "LinkedIn",
+        "YouTube"
       ],
       "fusion_strength": "standalone",
       "variation_style": "how_to_guide",

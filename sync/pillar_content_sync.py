@@ -14,7 +14,7 @@ from googleapiclient.discovery import build
 
 # Add parent directory to path to import from generators
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from generators.pillar_content_generator import PillarContentGenerator
+from generators.dynamic_pillar_generator import DynamicPillarGenerator
 
 def remove_emojis(text):
     """Remove all emojis from text"""
@@ -78,18 +78,17 @@ class PillarContentSyncer:
         print("PILLAR CONTENT GENERATOR & SYNC")
         print("="*100)
 
-        # Generate pillar content
-        print("\n1. Generating pillar content...")
-        generator = PillarContentGenerator()
+        # Generate pillar content DYNAMICALLY from RSS trends + projects
+        print("\n1. Generating NEW pillar content from trends + projects...")
+        generator = DynamicPillarGenerator()
 
-        # Get business-focused ideas
-        business_ideas = [idea for idea in generator.content_ideas["content_ideas"]
-                         if idea.get("audience") == "small_business_owners"]
+        # Generate NEW pillar ideas (not hardcoded!)
+        new_ideas = generator.generate_new_pillar_ideas(count=3)
 
         pillars = []
-        for i, idea in enumerate(business_ideas[:3], 1):
+        for i, idea in enumerate(new_ideas, 1):
             print(f"   Generating pillar #{i}: {idea['title'][:60]}...")
-            pillar = generator.create_pillar_content(idea['id'])
+            pillar = generator.create_full_pillar(idea)
             pillars.append(pillar)
 
         print(f"   ✅ Generated {len(pillars)} pillars")
