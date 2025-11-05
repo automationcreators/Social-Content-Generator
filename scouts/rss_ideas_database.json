@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "scan_date": "2025-11-03T09:03:38.126621",
+    "scan_date": "2025-11-04T09:03:27.111651",
     "days_scanned": 30,
     "total_raw_ideas": 68,
     "qualified_ideas": 7,
@@ -116,8 +116,8 @@
         "quality": 0.4
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "transformation",
       "fusion_potential": "high"
@@ -140,8 +140,8 @@
         "quality": 1.0
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "transformation",
       "fusion_potential": "high"
@@ -164,8 +164,8 @@
         "quality": 0.45
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "how_to",
       "fusion_potential": "high"
@@ -188,8 +188,8 @@
         "quality": 1.0
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "transformation",
       "fusion_potential": "medium"
@@ -212,8 +212,8 @@
         "quality": 0.37
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "transformation",
       "fusion_potential": "medium"
@@ -260,8 +260,8 @@
         "quality": 0.55
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "transformation",
       "fusion_potential": "medium"

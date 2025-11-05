@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-11-03T09:03:40.450741",
+  "collection_date": "2025-11-04T09:03:29.178064",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -44,9 +44,9 @@
     "smart-scraper-builder-plugin": {
       "name": "smart-scraper-builder-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/smart-scraper-builder-plugin",
-      "file_count": 2,
+      "file_count": 3,
       "file_types": {
-        ".md": 1,
+        ".md": 2,
         ".json": 1
       },
       "has_agents": false,
@@ -71,9 +71,9 @@
     "ai-knowledge-pipeline-plugin": {
       "name": "ai-knowledge-pipeline-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/ai-knowledge-pipeline-plugin",
-      "file_count": 2,
+      "file_count": 3,
       "file_types": {
-        ".md": 1,
+        ".md": 2,
         ".json": 1
       },
       "has_agents": false,
@@ -376,9 +376,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -782,9 +782,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1040,9 +1040,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1111,9 +1111,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1226,9 +1226,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1307,12 +1307,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "PostgreSQL",
-          "FastAPI",
-          "JavaScript",
-          "Python",
           "Flask",
-          "AI"
+          "PostgreSQL",
+          "JavaScript",
+          "AI",
+          "FastAPI",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1320,11 +1320,11 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 89,
+      "file_count": 90,
       "file_types": {
         ".md": 14,
         ".txt": 2,
-        ".py": 18,
+        ".py": 19,
         ".json": 50,
         ".csv": 2,
         ".pdf": 1,
@@ -1432,9 +1432,9 @@
     "content-framework-studio-plugin": {
       "name": "content-framework-studio-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/content-framework-studio-plugin",
-      "file_count": 3,
+      "file_count": 4,
       "file_types": {
-        ".md": 2,
+        ".md": 3,
         ".json": 1
       },
       "has_agents": false,
@@ -1773,8 +1773,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "JavaScript"
+          "JavaScript",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1863,9 +1863,9 @@
     "project-automation-orchestrator-plugin": {
       "name": "project-automation-orchestrator-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/project-automation-orchestrator-plugin",
-      "file_count": 2,
+      "file_count": 3,
       "file_types": {
-        ".md": 1,
+        ".md": 2,
         ".json": 1
       },
       "has_agents": false,
@@ -1966,9 +1966,9 @@
     "dashboard-intelligence-plugin": {
       "name": "dashboard-intelligence-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/dashboard-intelligence-plugin",
-      "file_count": 2,
+      "file_count": 3,
       "file_types": {
-        ".md": 1,
+        ".md": 2,
         ".json": 1
       },
       "has_agents": false,
@@ -1993,10 +1993,10 @@
     "personal-os-lifecycle-plugin": {
       "name": "personal-os-lifecycle-plugin",
       "path": "/Users/elizabethknopf/Documents/claudec/active/personal-os-lifecycle-plugin",
-      "file_count": 20,
+      "file_count": 21,
       "file_types": {
+        ".md": 16,
         ".py": 1,
-        ".md": 15,
         ".sh": 2,
         ".json": 2
       },
@@ -2019,7 +2019,7 @@
         }
       ],
       "recent_activity": null,
-      "estimated_complexity": "simple",
+      "estimated_complexity": "moderate",
       "rich_content": {
         "insights": [
           "Personal-OS Lifecycle Manager Plugin - Integration Tests",
@@ -2137,9 +2137,9 @@
     "dirTechStack": {
       "name": "dirTechStack",
       "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
-      "file_count": 679,
+      "file_count": 680,
       "file_types": {
-        ".md": 33,
+        ".md": 34,
         ".supabase": 1,
         ".py": 2,
         ".js": 191,
@@ -2221,15 +2221,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "PostgreSQL",
-          "ML",
-          "OpenAI",
-          "React",
-          "Python",
-          "AI",
           "Claude",
           "GPT",
-          "Supabase"
+          "Supabase",
+          "React",
+          "OpenAI",
+          "ML",
+          "AI",
+          "PostgreSQL",
+          "Python"
         ],
         "business_impact": []
       }
@@ -2301,9 +2301,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -2366,9 +2366,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "JavaScript",
           "Claude",
-          "Python",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -2394,7 +2394,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "39 active projects",
-      "detail": "Managing 3,339 files across diverse projects",
+      "detail": "Managing 3,347 files across diverse projects",
       "hook": "How I manage 39 projects simultaneously with Claude Code"
     },
     {

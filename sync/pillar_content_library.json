@@ -1,16 +1,16 @@
 {
   "pillars": [
     {
-      "id": "pillar_3741fbd56c5f",
-      "created_date": "2025-11-03T21:59:20.456005",
+      "id": "pillar_5febc6d6f43c",
+      "created_date": "2025-11-04T09:03:51.822383",
       "idea": {
-        "id": "3741fbd56c5f",
+        "id": "5febc6d6f43c",
         "title": "How I used Claude Code to top 5 ai tools to work smarter and save time in 2025. in promptSaver",
         "category": "use_cases",
         "hook_type": "transformation",
         "audience": "small_business_owners",
         "urgency": "high",
-        "created_date": "2025-11-03T21:59:20.456005",
+        "created_date": "2025-11-04T09:03:51.822383",
         "trend_source": {
           "id": 6951,
           "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
@@ -29,8 +29,8 @@
             "quality": 0.4
           },
           "suggested_platforms": [
-            "Twitter",
-            "LinkedIn"
+            "LinkedIn",
+            "Twitter"
           ],
           "suggested_framework": "transformation",
           "fusion_potential": "high"
@@ -151,7 +151,7 @@
             "type": "scale",
             "title": "Building at Scale",
             "stat": "39 active projects",
-            "detail": "Managing 3,339 files across diverse projects",
+            "detail": "Managing 3,347 files across diverse projects",
             "hook": "How I manage 39 projects simultaneously with Claude Code"
           },
           {
@@ -242,16 +242,16 @@
       }
     },
     {
-      "id": "pillar_4aa9189fc530",
-      "created_date": "2025-11-03T21:59:20.456011",
+      "id": "pillar_fa8d18a087f6",
+      "created_date": "2025-11-04T09:03:51.822388",
       "idea": {
-        "id": "4aa9189fc530",
+        "id": "fa8d18a087f6",
         "title": "How I used Claude Code to governing ai agents at scale in dirKidSports",
         "category": "use_cases",
         "hook_type": "transformation",
         "audience": "small_business_owners",
         "urgency": "high",
-        "created_date": "2025-11-03T21:59:20.456011",
+        "created_date": "2025-11-04T09:03:51.822388",
         "trend_source": {
           "id": 6352,
           "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
@@ -270,8 +270,8 @@
             "quality": 1.0
           },
           "suggested_platforms": [
-            "Twitter",
-            "LinkedIn"
+            "LinkedIn",
+            "Twitter"
           ],
           "suggested_framework": "transformation",
           "fusion_potential": "high"
@@ -392,7 +392,7 @@
             "type": "scale",
             "title": "Building at Scale",
             "stat": "39 active projects",
-            "detail": "Managing 3,339 files across diverse projects",
+            "detail": "Managing 3,347 files across diverse projects",
             "hook": "How I manage 39 projects simultaneously with Claude Code"
           },
           {
@@ -483,16 +483,16 @@
       }
     },
     {
-      "id": "pillar_138d2ea8d78c",
-      "created_date": "2025-11-03T21:59:20.456015",
+      "id": "pillar_af135c76826b",
+      "created_date": "2025-11-04T09:03:51.822390",
       "idea": {
-        "id": "138d2ea8d78c",
+        "id": "af135c76826b",
         "title": "How I used Claude Code to ai-powered income streams in smart-image-editor",
         "category": "use_cases",
         "hook_type": "transformation",
         "audience": "small_business_owners",
         "urgency": "high",
-        "created_date": "2025-11-03T21:59:20.456015",
+        "created_date": "2025-11-04T09:03:51.822390",
         "trend_source": {
           "id": 4722,
           "title": "AI-Powered Income Streams: How I Built Monetization Systems That Work While I Sleep",
@@ -511,8 +511,8 @@
             "quality": 0.45
           },
           "suggested_platforms": [
-            "Twitter",
-            "LinkedIn"
+            "LinkedIn",
+            "Twitter"
           ],
           "suggested_framework": "how_to",
           "fusion_potential": "high"
@@ -633,7 +633,7 @@
             "type": "scale",
             "title": "Building at Scale",
             "stat": "39 active projects",
-            "detail": "Managing 3,339 files across diverse projects",
+            "detail": "Managing 3,347 files across diverse projects",
             "hook": "How I manage 39 projects simultaneously with Claude Code"
           },
           {
@@ -724,5 +724,5 @@
       }
     }
   ],
-  "created": "2025-11-03T21:59:20.456369"
+  "created": "2025-11-04T09:03:51.824075"
 }
