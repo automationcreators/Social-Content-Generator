@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Content Scout - Idea Selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0f1419;
+            color: #e7e9ea;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d9bf0 0%, #7856ff 100%);
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 20px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .filters {
+            background: #16181c;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .filter-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            opacity: 0.6;
+        }
+
+        select, input {
+            background: #0f1419;
+            border: 1px solid #2f3336;
+            color: #e7e9ea;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            background: #1d9bf0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #1a8cd8;
+        }
+
+        button.secondary {
+            background: #2f3336;
+        }
+
+        button.secondary:hover {
+            background: #3e4347;
+        }
+
+        .ideas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .idea-card {
+            background: #16181c;
+            border: 2px solid #2f3336;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .idea-card:hover {
+            border-color: #1d9bf0;
+            transform: translateY(-2px);
+        }
+
+        .idea-card.selected {
+            border-color: #00ba7c;
+            background: rgba(0, 186, 124, 0.1);
+        }
+
+        .idea-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .idea-score {
+            background: linear-gradient(135deg, #1d9bf0 0%, #7856ff 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .idea-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .idea-description {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.8;
+            margin-bottom: 15px;
+        }
+
+        .idea-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .stat-badge {
+            background: rgba(29, 155, 240, 0.1);
+            color: #1d9bf0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        .idea-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .category-tag {
+            background: #2f3336;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        .idea-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #2f3336;
+        }
+
+        .comment-section {
+            margin-top: 15px;
+            display: none;
+        }
+
+        .comment-section.active {
+            display: block;
+        }
+
+        textarea {
+            width: 100%;
+            background: #0f1419;
+            border: 1px solid #2f3336;
+            color: #e7e9ea;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .selected-ideas {
+            background: #16181c;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .selected-header {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .selected-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .selected-item {
+            background: rgba(0, 186, 124, 0.1);
+            border: 1px solid #00ba7c;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .remove-btn {
+            background: #f4212e;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        .generate-section {
+            padding-top: 15px;
+            border-top: 1px solid #2f3336;
+        }
+
+        .success-message {
+            background: rgba(0, 186, 124, 0.1);
+            border: 1px solid #00ba7c;
+            color: #00ba7c;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 RSS Content Scout - Idea Selector</h1>
+            <p>Select viral AI trends to generate scripts</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-label">Total Ideas</div>
+                    <div class="stat-value" id="totalIdeas">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Selected</div>
+                    <div class="stat-value" id="selectedCount">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Avg Score</div>
+                    <div class="stat-value" id="avgScore">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Last Scan</div>
+                    <div class="stat-value" id="lastScan">--</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="selected-ideas" id="selectedIdeas" style="display: none;">
+            <div class="selected-header">
+                <span>✅ Selected Ideas (<span id="selectedCountText">0</span>)</span>
+                <button class="secondary" onclick="clearAll()">Clear All</button>
+            </div>
+            <div class="selected-list" id="selectedList"></div>
+            <div class="generate-section">
+                <button onclick="generateScripts()" style="width: 100%;">🚀 Generate Scripts from Selected Ideas</button>
+            </div>
+            <div class="success-message" id="successMessage"></div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label class="filter-label">Sort By</label>
+                <select id="sortBy" onchange="applyFilters()">
+                    <option value="score">Highest Score</option>
+                    <option value="date">Most Recent</option>
+                    <option value="title">Title A-Z</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label">Category</label>
+                <select id="filterCategory" onchange="applyFilters()">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label">Min Score</label>
+                <input type="number" id="minScore" value="0" min="0" max="100" onchange="applyFilters()">
+            </div>
+            <div class="filter-group">
+                <label class="filter-label">Search</label>
+                <input type="text" id="searchQuery" placeholder="Search ideas..." oninput="applyFilters()">
+            </div>
+            <button onclick="loadIdeas()">🔄 Refresh</button>
+        </div>
+
+        <div class="ideas-grid" id="ideasGrid"></div>
+    </div>
+
+    <script>
+        let allIdeas = [];
+        let selectedIdeas = new Set();
+        let ideaComments = {};
+
+        async function loadIdeas() {
+            try {
+                const response = await fetch('http://localhost:8888/api/ideas');
+                const data = await response.json();
+
+                allIdeas = data.ideas || [];
+
+                // Update stats
+                document.getElementById('totalIdeas').textContent = allIdeas.length;
+                document.getElementById('avgScore').textContent =
+                    allIdeas.length ? Math.round(allIdeas.reduce((sum, i) => sum + i.score, 0) / allIdeas.length) : 0;
+                document.getElementById('lastScan').textContent =
+                    data.metadata?.scan_date ? new Date(data.metadata.scan_date).toLocaleDateString() : '--';
+
+                // Populate category filter
+                const categories = [...new Set(allIdeas.flatMap(i => i.categories))];
+                const categorySelect = document.getElementById('filterCategory');
+                categorySelect.innerHTML = '<option value="all">All Categories</option>' +
+                    categories.map(c => `<option value="${c}">${c}</option>`).join('');
+
+                applyFilters();
+            } catch (error) {
+                console.error('Error loading ideas:', error);
+                alert('Error loading ideas. Make sure the server is running on http://localhost:8888');
+            }
+        }
+
+        function applyFilters() {
+            const sortBy = document.getElementById('sortBy').value;
+            const category = document.getElementById('filterCategory').value;
+            const minScore = parseInt(document.getElementById('minScore').value) || 0;
+            const search = document.getElementById('searchQuery').value.toLowerCase();
+
+            let filtered = allIdeas.filter(idea => {
+                if (idea.score < minScore) return false;
+                if (category !== 'all' && !idea.categories.includes(category)) return false;
+                if (search && !idea.title.toLowerCase().includes(search) &&
+                    !idea.description.toLowerCase().includes(search)) return false;
+                return true;
+            });
+
+            // Sort
+            filtered.sort((a, b) => {
+                if (sortBy === 'score') return b.score - a.score;
+                if (sortBy === 'date') return new Date(b.date) - new Date(a.date);
+                if (sortBy === 'title') return a.title.localeCompare(b.title);
+                return 0;
+            });
+
+            renderIdeas(filtered);
+        }
+
+        function renderIdeas(ideas) {
+            const grid = document.getElementById('ideasGrid');
+            grid.innerHTML = ideas.map(idea => `
+                <div class="idea-card ${selectedIdeas.has(idea.id) ? 'selected' : ''}"
+                     onclick="toggleSelect('${idea.id}')"
+                     data-id="${idea.id}">
+                    <div class="idea-header">
+                        <div style="flex: 1;">
+                            <div class="idea-score">${idea.score}/100</div>
+                        </div>
+                        ${selectedIdeas.has(idea.id) ? '<div style="font-size: 24px;">✅</div>' : ''}
+                    </div>
+                    <div class="idea-title">${idea.title}</div>
+                    <div class="idea-description">${idea.description}</div>
+                    <div class="idea-categories">
+                        ${idea.categories.map(c => `<span class="category-tag">${c}</span>`).join('')}
+                    </div>
+                    <div class="idea-stats">
+                        ${idea.key_stats.map(s => `<span class="stat-badge">${s}</span>`).join('')}
+                    </div>
+                    <div class="idea-actions" onclick="event.stopPropagation()">
+                        <button onclick="toggleComment('${idea.id}')" class="secondary">
+                            💬 Add Notes
+                        </button>
+                        <button onclick="window.open('${idea.url}', '_blank')" class="secondary">
+                            🔗 Source
+                        </button>
+                    </div>
+                    <div class="comment-section" id="comment-${idea.id}">
+                        <textarea
+                            placeholder="Add your notes on angles, hooks, or how to incorporate this idea..."
+                            onchange="saveComment('${idea.id}', this.value)"
+                        >${ideaComments[idea.id] || ''}</textarea>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleSelect(ideaId) {
+            if (selectedIdeas.has(ideaId)) {
+                selectedIdeas.delete(ideaId);
+            } else {
+                selectedIdeas.add(ideaId);
+            }
+            updateSelected();
+            applyFilters();
+        }
+
+        function updateSelected() {
+            const count = selectedIdeas.size;
+            document.getElementById('selectedCount').textContent = count;
+            document.getElementById('selectedCountText').textContent = count;
+
+            const selectedSection = document.getElementById('selectedIdeas');
+            if (count > 0) {
+                selectedSection.style.display = 'block';
+                const selectedList = document.getElementById('selectedList');
+                selectedList.innerHTML = Array.from(selectedIdeas).map(id => {
+                    const idea = allIdeas.find(i => i.id === id);
+                    return `
+                        <div class="selected-item">
+                            <div>
+                                <div style="font-weight: 600;">${idea.title}</div>
+                                <div style="font-size: 12px; opacity: 0.6; margin-top: 4px;">
+                                    Score: ${idea.score} | ${idea.content_angle}
+                                </div>
+                            </div>
+                            <button class="remove-btn" onclick="toggleSelect('${id}')">Remove</button>
+                        </div>
+                    `;
+                }).join('');
+            } else {
+                selectedSection.style.display = 'none';
+            }
+        }
+
+        function clearAll() {
+            selectedIdeas.clear();
+            updateSelected();
+            applyFilters();
+        }
+
+        function toggleComment(ideaId) {
+            const commentSection = document.getElementById(`comment-${ideaId}`);
+            commentSection.classList.toggle('active');
+        }
+
+        function saveComment(ideaId, comment) {
+            ideaComments[ideaId] = comment;
+            // Save to localStorage
+            localStorage.setItem('ideaComments', JSON.stringify(ideaComments));
+        }
+
+        async function generateScripts() {
+            const selected = Array.from(selectedIdeas).map(id => {
+                const idea = allIdeas.find(i => i.id === id);
+                return {
+                    ...idea,
+                    user_notes: ideaComments[id] || ''
+                };
+            });
+
+            try {
+                const response = await fetch('http://localhost:8888/api/generate-scripts', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ selected_ideas: selected })
+                });
+
+                const result = await response.json();
+
+                const successMsg = document.getElementById('successMessage');
+                successMsg.innerHTML = `
+                    ✅ <strong>Success!</strong> Generated ${result.scripts_created} scripts<br>
+                    📂 Location: ${result.output_location}<br>
+                    📊 Scripts will be synced to Google Sheets
+                `;
+                successMsg.classList.add('show');
+
+                setTimeout(() => {
+                    selectedIdeas.clear();
+                    updateSelected();
+                    applyFilters();
+                    successMsg.classList.remove('show');
+                }, 5000);
+            } catch (error) {
+                console.error('Error generating scripts:', error);
+                alert('Error generating scripts. Check console for details.');
+            }
+        }
+
+        // Load saved comments from localStorage
+        const savedComments = localStorage.getItem('ideaComments');
+        if (savedComments) {
+            ideaComments = JSON.parse(savedComments);
+        }
+
+        // Initial load
+        loadIdeas();
+    </script>
+</body>
+</html>

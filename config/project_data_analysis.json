@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-11-04T09:03:29.178064",
+  "collection_date": "2025-11-05T09:02:54.007489",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -376,9 +376,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -386,10 +386,10 @@
     "Project Management": {
       "name": "Project Management",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
-      "file_count": 66,
+      "file_count": 70,
       "file_types": {
         ".py": 3,
-        ".md": 26,
+        ".md": 30,
         ".json": 16,
         ".js": 7,
         ".html": 5,
@@ -782,9 +782,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1040,9 +1040,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1111,9 +1111,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1226,9 +1226,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1307,12 +1307,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Flask",
           "PostgreSQL",
           "JavaScript",
-          "AI",
+          "Flask",
+          "Python",
           "FastAPI",
-          "Python"
+          "AI"
         ],
         "business_impact": []
       }
@@ -1320,12 +1320,12 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 90,
+      "file_count": 92,
       "file_types": {
-        ".md": 14,
+        ".md": 15,
         ".txt": 2,
         ".py": 19,
-        ".json": 50,
+        ".json": 51,
         ".csv": 2,
         ".pdf": 1,
         ".sh": 1,
@@ -1773,8 +1773,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
-          "Claude"
+          "Claude",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -1782,12 +1782,12 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 769,
+      "file_count": 782,
       "file_types": {
-        ".csv": 430,
+        ".csv": 439,
         ".md": 69,
-        ".json": 36,
-        ".py": 214,
+        ".json": 37,
+        ".py": 217,
         "": 4,
         ".sh": 2,
         ".xls": 1,
@@ -2137,15 +2137,15 @@
     "dirTechStack": {
       "name": "dirTechStack",
       "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
-      "file_count": 680,
+      "file_count": 682,
       "file_types": {
-        ".md": 34,
+        ".md": 35,
+        ".sql": 9,
         ".supabase": 1,
         ".py": 2,
         ".js": 191,
         ".json": 195,
         ".example": 2,
-        ".sql": 8,
         ".toml": 1,
         ".sh": 1,
         ".ts": 31,
@@ -2221,15 +2221,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "GPT",
-          "Supabase",
-          "React",
-          "OpenAI",
-          "ML",
-          "AI",
           "PostgreSQL",
-          "Python"
+          "React",
+          "Supabase",
+          "Claude",
+          "ML",
+          "Python",
+          "OpenAI",
+          "AI",
+          "GPT"
         ],
         "business_impact": []
       }
@@ -2301,9 +2301,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -2366,9 +2366,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "JavaScript",
           "Claude",
-          "Python"
+          "Python",
+          "JavaScript"
         ],
         "business_impact": []
       }
@@ -2394,7 +2394,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "39 active projects",
-      "detail": "Managing 3,347 files across diverse projects",
+      "detail": "Managing 3,368 files across diverse projects",
       "hook": "How I manage 39 projects simultaneously with Claude Code"
     },
     {
@@ -2437,7 +2437,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Python, JavaScript/React, Web",
+      "detail": "Working across Web, JavaScript/React, Python",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

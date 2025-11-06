@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2025-11-04T09:03:27.175334",
+    "generated_at": "2025-11-05T09:02:52.211681",
     "mode": "balanced",
     "auto_approve_enabled": true,
-    "total_pieces": 7,
+    "total_pieces": 4,
     "auto_approved": 0,
-    "requires_review": 7
+    "requires_review": 4
   },
   "content_ready_for_sheets": [
     {
@@ -177,6 +177,14 @@
       ],
       "statistics": [
         {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
+        },
+        {
           "stat": "64% of businesses",
           "detail": "plan to use AI for automation by 2025",
           "source": "Gartner",
@@ -191,14 +199,6 @@
           "year": "2024",
           "credibility": 10,
           "relevance": 9
-        },
-        {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
         }
       ],
       "framework": "transformation",
@@ -247,14 +247,6 @@
       ],
       "statistics": [
         {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
-        },
-        {
           "stat": "64% of businesses",
           "detail": "plan to use AI for automation by 2025",
           "source": "Gartner",
@@ -269,6 +261,14 @@
           "year": "2024",
           "credibility": 10,
           "relevance": 9
+        },
+        {
+          "stat": "$15.7 trillion",
+          "detail": "projected AI market impact by 2030",
+          "source": "PwC",
+          "year": "2024",
+          "credibility": 10,
+          "relevance": 7
         }
       ],
       "framework": "how_to",
@@ -284,90 +284,6 @@
         "angle_quality": 25,
         "platform_fit": 10,
         "total": 65
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "AI-Powered Income Streams: How I Built Monetization Systems That Work While I Sleep",
-        "source": "AI Medium",
-        "url": "https://ai.plainenglish.io/ai-powered-income-streams-how-i-built-monetization-systems-that-work-while-i-sleep-2a70d923ade1?source=rss------ai-5",
-        "opportunity_type": "educational"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "how_to",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "standard",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Gemini for Google Home: A New Era Begins",
-        "source": "The most insightful stories about AI - Medium",
-        "url": "https://ai.plainenglish.io/gemini-for-google-home-a-new-era-begins-88ad5a8c1e3e?source=rss------artificial_intelligence-5",
-        "opportunity_type": "trend"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "transformation",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "insight_analysis",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Edge AI: Why the Future of Intelligent Business Will Be Decided at the Edge",
-        "source": "AI Medium",
-        "url": "https://ai.plainenglish.io/edge-ai-why-the-future-of-intelligent-business-will-be-decided-at-the-edge-96114c63b62b?source=rss------ai-5",
-        "opportunity_type": "trend"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "transformation",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "insight_analysis",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
       },
       "auto_approved": false,
       "requires_review": true
