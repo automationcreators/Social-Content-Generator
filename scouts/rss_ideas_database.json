@@ -1,127 +1,197 @@
 {
   "metadata": {
-    "scan_date": "2025-11-05T18:00:00.000000",
-    "days_scanned": 7,
-    "total_raw_ideas": 5,
-    "qualified_ideas": 5,
-    "min_score_threshold": 30,
-    "source": "Web search + AI trend analysis November 2024"
+    "scan_date": "2025-11-06T09:03:51.520333",
+    "days_scanned": 30,
+    "total_raw_ideas": 38,
+    "qualified_ideas": 4,
+    "min_score_threshold": 10
   },
   "trending_keywords": [
-    "AI agents",
-    "autonomous automation",
-    "Claude AI",
-    "agentic AI",
-    "business automation",
-    "4× faster",
-    "automation overtakes augmentation",
-    "AI market growth"
+    {
+      "keyword": "reading",
+      "frequency": 56
+    },
+    {
+      "keyword": "medium",
+      "frequency": 40
+    },
+    {
+      "keyword": "continue",
+      "frequency": 34
+    },
+    {
+      "keyword": "first",
+      "frequency": 25
+    },
+    {
+      "keyword": "analytics",
+      "frequency": 24
+    },
+    {
+      "keyword": "data",
+      "frequency": 20
+    },
+    {
+      "keyword": "post",
+      "frequency": 20
+    },
+    {
+      "keyword": "appeared",
+      "frequency": 20
+    },
+    {
+      "keyword": "vidhya",
+      "frequency": 19
+    },
+    {
+      "keyword": "your",
+      "frequency": 18
+    },
+    {
+      "keyword": "agent",
+      "frequency": 16
+    },
+    {
+      "keyword": "building",
+      "frequency": 15
+    },
+    {
+      "keyword": "than",
+      "frequency": 14
+    },
+    {
+      "keyword": "people",
+      "frequency": 12
+    },
+    {
+      "keyword": "write",
+      "frequency": 12
+    },
+    {
+      "keyword": "model",
+      "frequency": 11
+    },
+    {
+      "keyword": "training",
+      "frequency": 11
+    },
+    {
+      "keyword": "more",
+      "frequency": 11
+    },
+    {
+      "keyword": "when",
+      "frequency": 10
+    },
+    {
+      "keyword": "out",
+      "frequency": 10
+    }
   ],
   "opportunity_breakdown": {
-    "automation": 5,
-    "ai_agents": 5,
-    "market_trends": 2,
-    "case_studies": 3
+    "trend": 3,
+    "tutorial": 1
   },
   "fusion_potential_breakdown": {
-    "high": 4,
+    "high": 3,
     "medium": 1
   },
   "ideas": [
     {
-      "id": "ai_agents_4x_faster",
-      "title": "AI Agents Now Automating 4× Faster Than Humans",
-      "description": "Neon reveals 80% of their serverless Postgres databases are now created by AI agents, provisioning at 4× the human rate with <1% error rate",
-      "source": "Neon + Databricks acquisition data",
-      "url": "https://www.neon.tech",
-      "date": "2024-11",
-      "score": 95,
-      "categories": ["automation", "ai_agents", "productivity"],
-      "key_stats": [
-        "80% of databases created by AI agents",
-        "4× faster provisioning speed",
-        "<1% error rate vs. 5-10% human error",
-        "$1 billion Databricks acquisition validates market"
+      "id": 6951,
+      "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
+      "description": "Discover the best AI productivity tools that boost efficiency, automate daily tasks, and simplify your workflow in 2025.Continue reading on Medium \u00bb",
+      "source": "AI Medium",
+      "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-10-13 23:03:06",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 20.9,
+        "relevance": 9,
+        "brand_alignment": 10.0,
+        "viral_potential": 0,
+        "trending": 1.5,
+        "quality": 0.4
+      },
+      "suggested_platforms": [
+        "LinkedIn",
+        "Twitter"
       ],
-      "fusion_potential": "high",
-      "business_value": "Demonstrate 4× speed advantage with real data",
-      "content_angle": "Contrarian: Automation isn't helping anymore, it's replacing"
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
     },
     {
-      "id": "ai_market_explosion",
-      "title": "AI Agent Market Exploding: $5.1B to $47.1B by 2030",
-      "description": "AI agent market projected to grow at 44.8% CAGR, from $5.1 billion (2024) to $47.1 billion (2030), with $3.8B raised in 2024 alone",
-      "source": "AI Agent Market Report 2024 + eMarketer",
-      "url": "https://www.emarketer.com",
-      "date": "2024-11",
-      "score": 90,
-      "categories": ["market_trends", "investment", "ai_agents"],
-      "key_stats": [
-        "$5.1B → $47.1B market size growth",
-        "44.8% CAGR through 2030",
-        "$3.8B raised in 2024 (2× vs. 2023)",
-        "9× market growth in 6 years"
+      "id": 6352,
+      "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
+      "description": "Enterprises are moving past simple chatbots into complex, business-critical AI systems. Different teams are experimenting at once, which sounds exciting but quickly turns chaotic. Costs rise, systems fragment, and reliability drops when there\u2019s no shared control layer. The OpenAI outage in August 2025 made this painfully clear: copilots froze, chatbots failed, and productivity tanked across [\u2026]\nThe post Governing AI Agents at Scale: Unifying AI Gateways and MCP appeared first on Analytics Vidhya",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 18.23,
+        "relevance": 12,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.23,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "LinkedIn",
+        "Twitter"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show massive market opportunity and timing",
-      "content_angle": "Authority: Position as understanding market dynamics"
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
     },
     {
-      "id": "automation_overtakes_augmentation",
-      "title": "Automation Officially Overtakes Augmentation in Claude Usage",
-      "description": "Claude API usage data shows automation (49%) has surpassed augmentation (47%) for the first time, marking shift from AI assistance to AI autonomy",
-      "source": "Anthropic Economic Index",
-      "url": "https://www.anthropic.com/research/economic-index-geography",
-      "date": "2024-12",
-      "score": 92,
-      "categories": ["automation", "claude_ai", "trends"],
-      "key_stats": [
-        "49% automation vs. 47% augmentation",
-        "API users significantly more likely to automate",
-        "Directive conversations rose from 27% to 39%",
-        "Major labor market implications predicted"
+      "id": 6354,
+      "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
+      "description": "Whenever it comes to training model, companies usually bet of feeding it more and more data for training. Bigger datasets = smarter models When DeepSeek released initially, it challenged this approach and set new definitions for model training. And after that came a wave of model training with less data and optimized approach. I came [\u2026]\nThe post Agentic AI Training Efficiency: Less is More for Intelligent Agency appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 12.33,
+        "relevance": 6,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.33,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "LinkedIn",
+        "Twitter"
       ],
-      "fusion_potential": "high",
-      "business_value": "Validate automation-first approach with Anthropic data",
-      "content_angle": "Data-driven: Show the tipping point has passed"
+      "suggested_framework": "transformation",
+      "fusion_potential": "medium"
     },
     {
-      "id": "doordash_35k_calls",
-      "title": "DoorDash: 0 to 35,000 Automated Calls in 6 Weeks",
-      "description": "DoorDash deployed AI agents for customer service, scaling from zero to 35,000+ automated calls in 6 weeks with 94% accuracy",
-      "source": "DoorDash case study",
-      "url": "https://www.doordash.com",
-      "date": "2024-11",
-      "score": 93,
-      "categories": ["case_study", "ai_agents", "customer_service"],
-      "key_stats": [
-        "0 → 35,000 calls in 6 weeks",
-        "94% accuracy rate",
-        "Customer service automation at scale",
-        "6-week deployment timeline"
+      "id": 6357,
+      "title": "Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent",
+      "description": "The use of the term \u201cAI Agent\u201d has increased by 10x in the last 1 year, as per data from Google Trends. This surge reflects a broader shift: people and organizations increasingly want AI Systems that not only answer questions, but also take actions on their behalf. From simplifying mundane tasks to streamlining business operations, [\u2026]\nThe post Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/building-an-ai-agent-tutorial-part-1/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "tutorial",
+      "scores": {
+        "total_score": 10.42,
+        "relevance": 9,
+        "brand_alignment": 0,
+        "viral_potential": 0,
+        "trending": 0.42,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "LinkedIn",
+        "YouTube"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show rapid deployment + high accuracy combination",
-      "content_angle": "Transformation: From zero to enterprise scale in weeks"
-    },
-    {
-      "id": "agentic_ai_full_autonomy",
-      "title": "Agentic AI: Full Autonomy Without Human Intervention",
-      "description": "New agentic AI models have complete autonomy to analyze environment, set goals, plan, execute, and adapt actions without human intervention",
-      "source": "Mindbreeze AI Trends 2025 + Analytics Vidhya",
-      "url": "https://www.analyticsvidhya.com",
-      "date": "2024-12",
-      "score": 88,
-      "categories": ["agentic_ai", "autonomy", "future_trends"],
-      "key_stats": [
-        "Zero human intervention required",
-        "Self-directed goal setting and planning",
-        "Adaptive execution based on environment",
-        "Independent decision-making at scale"
-      ],
-      "fusion_potential": "medium",
-      "business_value": "Explain the shift from assisted to autonomous AI",
-      "content_angle": "Future-focused: What comes after current AI agents"
+      "suggested_framework": "how_to",
+      "fusion_potential": "high"
     }
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "collection_date": "2025-11-05T09:02:54.007489",
+  "collection_date": "2025-11-06T09:03:53.491684",
   "projects": {
     "Demo": {
       "name": "Demo",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Demo",
-      "file_count": 3,
+      "file_count": 5,
       "file_types": {
         ".md": 1,
         ".txt": 1,
-        ".py": 1
+        "": 1,
+        ".py": 1,
+        ".example": 1
       },
       "has_agents": false,
       "has_automation": false,
@@ -228,19 +230,20 @@
     "YouTubeRAG": {
       "name": "YouTubeRAG",
       "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
-      "file_count": 57,
+      "file_count": 69,
       "file_types": {
-        ".md": 7,
-        ".py": 30,
+        ".md": 9,
+        ".py": 35,
         ".txt": 1,
         ".ini": 1,
         ".json": 3,
-        "": 1,
+        "": 4,
         ".example": 1,
         ".db": 1,
         ".html": 1,
-        ".js": 4,
+        ".js": 5,
         ".css": 1,
+        ".tag": 1,
         ".sqlite3": 1,
         ".bin": 4,
         ".mako": 1
@@ -386,10 +389,10 @@
     "Project Management": {
       "name": "Project Management",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
-      "file_count": 70,
+      "file_count": 72,
       "file_types": {
         ".py": 3,
-        ".md": 30,
+        ".md": 32,
         ".json": 16,
         ".js": 7,
         ".html": 5,
@@ -1307,12 +1310,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "PostgreSQL",
-          "JavaScript",
-          "Flask",
-          "Python",
           "FastAPI",
-          "AI"
+          "Python",
+          "Flask",
+          "JavaScript",
+          "AI",
+          "PostgreSQL"
         ],
         "business_impact": []
       }
@@ -1320,12 +1323,13 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 92,
+      "file_count": 102,
       "file_types": {
-        ".md": 15,
+        ".md": 20,
         ".txt": 2,
-        ".py": 19,
-        ".json": 51,
+        ".py": 22,
+        ".html": 1,
+        ".json": 52,
         ".csv": 2,
         ".pdf": 1,
         ".sh": 1,
@@ -1336,7 +1340,8 @@
       "has_api": true,
       "has_dashboard": false,
       "tech_stack": [
-        "Python"
+        "Python",
+        "Web"
       ],
       "purpose": "Social Content Generator",
       "interesting_files": [
@@ -1357,12 +1362,16 @@
           "type": "agent"
         },
         {
+          "file": "2025-11-05_ai_agents_4x_faster_contrarian.md",
+          "type": "agent"
+        },
+        {
           "file": "setup_daily_automation.sh",
           "type": "automation"
         }
       ],
       "recent_activity": null,
-      "estimated_complexity": "moderate",
+      "estimated_complexity": "complex",
       "rich_content": {
         "insights": [
           "Finds statistics, reports, charts, and data to support content ideas",
@@ -1782,13 +1791,13 @@
     "OwnerScraper": {
       "name": "OwnerScraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
-      "file_count": 782,
+      "file_count": 789,
       "file_types": {
-        ".csv": 439,
+        ".csv": 444,
         ".md": 69,
         ".json": 37,
-        ".py": 217,
-        "": 4,
+        ".py": 218,
+        "": 5,
         ".sh": 2,
         ".xls": 1,
         ".txt": 9,
@@ -2221,15 +2230,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "PostgreSQL",
-          "React",
-          "Supabase",
-          "Claude",
-          "ML",
-          "Python",
+          "GPT",
           "OpenAI",
+          "ML",
+          "React",
+          "Python",
+          "Claude",
+          "PostgreSQL",
           "AI",
-          "GPT"
+          "Supabase"
         ],
         "business_impact": []
       }
@@ -2394,14 +2403,14 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "39 active projects",
-      "detail": "Managing 3,368 files across diverse projects",
+      "detail": "Managing 3,401 files across diverse projects",
       "hook": "How I manage 39 projects simultaneously with Claude Code"
     },
     {
       "type": "automation",
       "title": "Agent-Driven Architecture",
       "stat": "26 projects with autonomous agents",
-      "detail": "Built 51 custom agents",
+      "detail": "Built 52 custom agents",
       "examples": [
         "vendor-quote-tool",
         "YouTubeRAG",
@@ -2437,7 +2446,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Web, JavaScript/React, Python",
+      "detail": "Working across Python, JavaScript/React, Web",
       "hook": "How Claude Code lets me code in any language"
     }
   ],
@@ -2555,7 +2564,7 @@
       "title": "Social Content Generator",
       "use_case": "transformation",
       "description": "{'type': 'transformation', 'before': '** ContentGen database is stale\\n\\n**', 'after': '**\\n```bash\\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\\npython3 backend/app.py\\n# Access http://localhost:5000 to trigger RSS collection\\n```'}",
-      "tech": "Python",
+      "tech": "Python, Web",
       "category": "stories",
       "business_value": "See description"
     },
@@ -2564,7 +2573,7 @@
       "title": "Social Content Generator",
       "use_case": "transformation",
       "description": "{'type': 'transformation', 'before': 'Manual context switching cost 2 hours daily\\n\u2022 Traditional approach: Writing documentation no one reads\\n\u2022 My', 'after': 'CLAUDE.md pattern with structured context\\n\u2022 Implementation: 3 context files, 200 lines of project knowledge\\n\u2022 Results: 60% faster session ",
-      "tech": "Python",
+      "tech": "Python, Web",
       "category": "stories",
       "business_value": "See description"
     },
@@ -2573,7 +2582,7 @@
       "title": "Social-Content-Generator - Problem Solved",
       "use_case": "Problem-Solution",
       "description": "Problem: ** ContentGen database is stale\n\n**\nSolution: **\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collectio",
-      "tech": "Python",
+      "tech": "Python, Web",
       "category": "problem_solving",
       "business_value": "Problem solved efficiently"
     }
