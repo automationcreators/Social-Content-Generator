@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2025-11-06T09:03:51.592430",
+    "generated_at": "2025-11-10T09:04:38.060761",
     "mode": "balanced",
     "auto_approve_enabled": true,
-    "total_pieces": 4,
+    "total_pieces": 6,
     "auto_approved": 0,
-    "requires_review": 4
+    "requires_review": 6
   },
   "content_ready_for_sheets": [
     {
@@ -63,8 +63,8 @@
       ],
       "framework": "transformation",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "insight_analysis",
@@ -133,8 +133,8 @@
       ],
       "framework": "transformation",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "insight_analysis",
@@ -203,8 +203,8 @@
       ],
       "framework": "transformation",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "insight_analysis",
@@ -221,69 +221,83 @@
     {
       "type": "fusion",
       "trend_source": {
-        "title": "Building an AI Agent Tutorial \u2013 Part 1 of 2: YouTube Summarizer Agent",
-        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-        "url": "https://www.analyticsvidhya.com/blog/2025/10/building-an-ai-agent-tutorial-part-1/",
-        "opportunity_type": "tutorial"
+        "title": "Automated AI marketing campaigns to simplify campaign management.",
+        "source": "AI Medium",
+        "url": "https://medium.com/@xdungha5/automated-ai-marketing-campaigns-to-simplify-campaign-management-64ba8faefdca?source=rss------ai-5",
+        "opportunity_type": "productivity"
       },
       "personal_example": null,
-      "angles": [
-        {
-          "type": "personal_statistical",
-          "hook": "I tested building n i gent tutoril across 32 projects.",
-          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
-          "tension": "Most people waste time on the wrong approach.",
-          "promise": "Here's what actually works:",
-          "framework": "transformation"
-        },
-        {
-          "type": "myth_busting",
-          "hook": "Myth: building n i gent tutoril requires technical expertise.",
-          "reality": "Truth: I built building n i gent tutoril solutions without writing a single line of code.",
-          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
-          "promise": "Here's my framework:",
-          "framework": "contrarian_snapback"
-        }
-      ],
-      "statistics": [
-        {
-          "stat": "64% of businesses",
-          "detail": "plan to use AI for automation by 2025",
-          "source": "Gartner",
-          "year": "2024",
-          "credibility": 9,
-          "relevance": 10
-        },
-        {
-          "stat": "40% time savings",
-          "detail": "average time saved with AI automation tools",
-          "source": "McKinsey",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 9
-        },
-        {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
-        }
-      ],
-      "framework": "how_to",
+      "angles": [],
+      "statistics": [],
+      "framework": "benefit_driven",
       "platforms": [
-        "LinkedIn",
-        "YouTube"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
-      "variation_style": "how_to_guide",
+      "variation_style": "transformation_story",
       "quality_score": {
         "fusion_strength": 5,
-        "data_quality": 24.666666666666664,
-        "angle_quality": 25,
+        "data_quality": 0,
+        "angle_quality": 0.0,
         "platform_fit": 10,
-        "total": 65
+        "total": 15
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "How AI Is Quietly Reshaping Everyday Businesses",
+        "source": "AI Medium",
+        "url": "https://medium.com/@aionlineprofits/how-ai-is-quietly-reshaping-everyday-businesses-a1026006ad2e?source=rss------ai-5",
+        "opportunity_type": "tool_review"
+      },
+      "personal_example": null,
+      "angles": [],
+      "statistics": [],
+      "framework": "benefit_driven",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "practical_demo",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 0,
+        "angle_quality": 0.0,
+        "platform_fit": 10,
+        "total": 15
+      },
+      "auto_approved": false,
+      "requires_review": true
+    },
+    {
+      "type": "fusion",
+      "trend_source": {
+        "title": "8 AI Tools to Analyze Data in Excel by Just Chatting",
+        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+        "url": "https://www.analyticsvidhya.com/blog/2025/11/ai-tools-for-excel/",
+        "opportunity_type": "tool_review"
+      },
+      "personal_example": null,
+      "angles": [],
+      "statistics": [],
+      "framework": "benefit_driven",
+      "platforms": [
+        "Twitter",
+        "LinkedIn"
+      ],
+      "fusion_strength": "standalone",
+      "variation_style": "practical_demo",
+      "quality_score": {
+        "fusion_strength": 5,
+        "data_quality": 0,
+        "angle_quality": 0.0,
+        "platform_fit": 10,
+        "total": 15
       },
       "auto_approved": false,
       "requires_review": true

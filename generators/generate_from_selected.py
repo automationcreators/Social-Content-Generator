@@ -447,7 +447,15 @@ def generate_full_script(idea, variation_type, project_data, user_notes=""):
     """Generate complete script combining RSS idea with personal content"""
 
     # Get relevant project examples
-    project_examples = project_data.get('projects', [])[:2] if project_data else []
+    project_examples = []
+    if project_data and isinstance(project_data, dict):
+        try:
+            projects = project_data.get('projects', [])
+            if isinstance(projects, list) and len(projects) > 0:
+                project_examples = projects[:2]
+        except Exception as e:
+            print(f"   ⚠️  Could not load project examples: {e}")
+            project_examples = []
 
     # Build complete script
     script = f"""# {idea['title']}
