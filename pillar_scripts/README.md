@@ -98,9 +98,24 @@ Until automatic Google Drive integration is complete:
 4. Drag and drop files or use "Upload" button
 5. Maintain filename for consistency
 
-### Automatic Sync (Planned)
+### Automatic Upload Available
 
-Future enhancement will automatically upload scripts to Google Drive after generation, maintaining version history and cloud backup.
+Scripts can now be automatically uploaded to Google Drive using the provided Python script:
+
+**Quick Upload:**
+```bash
+python upload_to_gdrive.py
+```
+
+**Upload Specific Files:**
+```bash
+python upload_to_gdrive.py social_media_scripts_2025-11-10.md
+```
+
+**Setup Required:** OAuth credentials from Google Cloud Console
+**Documentation:** See `GOOGLE_DRIVE_INTEGRATION.md` for complete setup instructions
+
+The script maintains version history and handles duplicate detection automatically.
 
 ## Best Practices
 
