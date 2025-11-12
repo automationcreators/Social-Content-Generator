@@ -1,0 +1,1688 @@
+{
+  "metadata": {
+    "script_title": "AI Agents Are Now 4\u00d7 Faster Than Humans (And It's Not Even Close)",
+    "variation": "Contrarian",
+    "script_file": "2025-11-05_ai_agents_4x_faster_contrarian.md",
+    "generated_date": "2025-11-11T12:40:14.353753",
+    "total_visuals": 32
+  },
+  "cost_estimates": {
+    "runway_all_ai": "$40.00",
+    "kling_all_ai": "$9.60",
+    "pika_all_ai": "$6.40",
+    "heygen_all": "$16.00",
+    "hybrid_recommended": "$8.96"
+  },
+  "production_estimates": {
+    "pure_ai_runway": "64 minutes (+ render time)",
+    "pure_ai_kling": "48.0 minutes (+ render time)",
+    "hybrid_approach": "2-3 hours (filming + AI generation)",
+    "heygen_avatar": "1-2 hours (scripting + generation)"
+  },
+  "visual_prompts": [
+    {
+      "visual_id": "HOOK_000_030",
+      "section": "HOOK",
+      "timestamp": "0:00-0:30",
+      "description": "Typical AI productivity headlines",
+      "context": "Everyone's talking about AI \"helping\" humans work faster.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Typical AI productivity headlines. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Typical AI productivity headlines. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Typical AI productivity headlines. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Typical AI productivity headlines' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Everyone's talking about AI \"helping\" humans work faster.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOOK_000_030",
+      "section": "HOOK",
+      "timestamp": "0:00-0:30",
+      "description": "Headlines disappearing",
+      "context": "But here's what they're not telling you\u2014we're past that.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Headlines disappearing. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Headlines disappearing. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Modern app interface: Headlines disappearing. Vibrant colors, fast transitions, mobile-first design, eye-catching",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Headlines disappearing' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "But here's what they're not telling you\u2014we're past that.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Screen Recording (real)",
+        "secondary": "Kling for stylized version",
+        "reasoning": "Actual working systems demonstrate proof"
+      }
+    },
+    {
+      "visual_id": "HOOK_000_030",
+      "section": "HOOK",
+      "timestamp": "0:00-0:30",
+      "description": "\"4\u00d7 FASTER\" in massive text",
+      "context": "AI agents aren't helping humans anymore. They're replacing the work entirely. And they're doing it 4 times faster.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: \"4\u00d7 FASTER\" in massive text. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: \"4\u00d7 FASTER\" in massive text. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: \"4\u00d7 FASTER\" in massive text. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept '\"4\u00d7 FASTER\" in massive text' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "AI agents aren't helping humans anymore. They're replacing the work entirely. And they're doing it 4 times faster.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOOK_000_030",
+      "section": "HOOK",
+      "timestamp": "0:00-0:30",
+      "description": "Graph showing 4\u00d7 speed difference",
+      "context": "Neon just revealed that 80% of their databases\u2014that's 80%\u2014are now created by AI agents, not humans. And those agents provision databases at 4\u00d7 the human rate.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Professional data visualization: Graph showing 4\u00d7 speed difference. Clean minimalist design, subtle animations, corporate aesthetic, 4K quality, smooth transitions",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Graph showing 4\u00d7 speed difference. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Graph showing 4\u00d7 speed difference. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Graph showing 4\u00d7 speed difference' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Neon just revealed that 80% of their databases\u2014that's 80%\u2014are now created by AI agents, not humans. And those agents provision databases at 4\u00d7 the human rate.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Pika (fast iteration)",
+        "secondary": "Runway (if high-quality needed)",
+        "reasoning": "Quick social media-ready data viz"
+      }
+    },
+    {
+      "visual_id": "INTRO_030_100",
+      "section": "INTRO",
+      "timestamp": "0:30-1:00",
+      "description": "Traditional AI narrative",
+      "context": "The conversation about AI is backwards.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Traditional AI narrative. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Traditional AI narrative. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Traditional AI narrative. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Traditional AI narrative' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "The conversation about AI is backwards.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "INTRO_030_100",
+      "section": "INTRO",
+      "timestamp": "0:30-1:00",
+      "description": "Real data appearing",
+      "context": "**But the data tells a different story.**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Professional data visualization: Real data appearing. Clean minimalist design, subtle animations, corporate aesthetic, 4K quality, smooth transitions",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic 3D data visualization: Real data appearing. Physical objects representing data, dynamic camera rotation, professional studio lighting",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Bold data visualization: Real data appearing. High contrast colors, quick animations, social media ready, attention-grabbing",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Real data appearing' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**But the data tells a different story.**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Screen Recording (real)",
+        "secondary": "Kling for stylized version",
+        "reasoning": "Actual working systems demonstrate proof"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "Time comparison",
+      "context": "Let's break down what 4\u00d7 faster actually means.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Split-screen comparison: Time comparison. Before/after dramatic reveal, cinematic lighting, professional color grading, smooth transition",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Side-by-side real-world comparison: Time comparison. Two parallel scenes, synchronized motion, photorealistic details, smooth transition",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Fast-paced comparison: Time comparison. Quick reveal, bold typography, high contrast, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Time comparison' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Let's break down what 4\u00d7 faster actually means.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "Quality comparison",
+      "context": "**That's 4\u00d7 faster.** But it's not just speed.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Split-screen comparison: Quality comparison. Before/after dramatic reveal, cinematic lighting, professional color grading, smooth transition",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Side-by-side real-world comparison: Quality comparison. Two parallel scenes, synchronized motion, photorealistic details, smooth transition",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Fast-paced comparison: Quality comparison. Quick reveal, bold typography, high contrast, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Quality comparison' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**That's 4\u00d7 faster.** But it's not just speed.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "Calculation appearing",
+      "context": "Here's what this means at scale:",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Calculation appearing. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Calculation appearing. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Modern app interface: Calculation appearing. Vibrant colors, fast transitions, mobile-first design, eye-catching",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Calculation appearing' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Here's what this means at scale:",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Screen Recording (real)",
+        "secondary": "Kling for stylized version",
+        "reasoning": "Actual working systems demonstrate proof"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "\"$250,000 vs. $500\" comparison",
+      "context": "- Cost: $500 (API costs)",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Split-screen comparison: \"$250,000 vs. $500\" comparison. Before/after dramatic reveal, cinematic lighting, professional color grading, smooth transition",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Side-by-side real-world comparison: \"$250,000 vs. $500\" comparison. Two parallel scenes, synchronized motion, photorealistic details, smooth transition",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Fast-paced comparison: \"$250,000 vs. $500\" comparison. Quick reveal, bold typography, high contrast, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept '\"$250,000 vs. $500\" comparison' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "- Cost: $500 (API costs)",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "Marketing slides showing \"AI + Human\"",
+      "context": "The AI industry loves the word \"augmentation.\"",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Marketing slides showing \"AI + Human\". Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Marketing slides showing \"AI + Human\". Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Marketing slides showing \"AI + Human\". High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Marketing slides showing \"AI + Human\"' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "The AI industry loves the word \"augmentation.\"",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "\"COPE\" in large text",
+      "context": "But it's a cope.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: \"COPE\" in large text. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: \"COPE\" in large text. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: \"COPE\" in large text. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept '\"COPE\" in large text' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "But it's a cope.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "Workflow comparison",
+      "context": "**Reality:**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Split-screen comparison: Workflow comparison. Before/after dramatic reveal, cinematic lighting, professional color grading, smooth transition",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Side-by-side real-world comparison: Workflow comparison. Two parallel scenes, synchronized motion, photorealistic details, smooth transition",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Fast-paced comparison: Workflow comparison. Quick reveal, bold typography, high contrast, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Workflow comparison' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**Reality:**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHY THIS MATTERS_100_330",
+      "section": "WHY THIS MATTERS",
+      "timestamp": "1:00-3:30",
+      "description": "\"CONTROL = BOTTLENECK\"",
+      "context": "The difference? Control.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: \"CONTROL = BOTTLENECK\". Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: \"CONTROL = BOTTLENECK\". Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: \"CONTROL = BOTTLENECK\". High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept '\"CONTROL = BOTTLENECK\"' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "The difference? Control.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Two-tier model diagram",
+      "context": "Here's how the shift works in practice.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "High-tech system visualization: Two-tier model diagram. Futuristic interface, holographic elements, blue/purple color palette, cinematic camera movement",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Two-tier model diagram. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Two-tier model diagram. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Two-tier model diagram' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Here's how the shift works in practice.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Runway Gen-4",
+        "secondary": "Kling for alternate angle",
+        "reasoning": "AI excels at visualizing abstract concepts"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Flowchart",
+      "context": "**Example: Database Provisioning at Neon**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Professional data visualization: Flowchart. Clean minimalist design, subtle animations, corporate aesthetic, 4K quality, smooth transitions",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic 3D data visualization: Flowchart. Physical objects representing data, dynamic camera rotation, professional studio lighting",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Flowchart. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Flowchart' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**Example: Database Provisioning at Neon**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Pika (fast iteration)",
+        "secondary": "Runway (if high-quality needed)",
+        "reasoning": "Quick social media-ready data viz"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Learning loop",
+      "context": "```",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Learning loop. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Learning loop. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Learning loop. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Learning loop' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "```",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Graph showing exceptions decreasing over time",
+      "context": "**The system gets smarter. The exception rate drops.**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Professional data visualization: Graph showing exceptions decreasing over time. Clean minimalist design, subtle animations, corporate aesthetic, 4K quality, smooth transitions",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Graph showing exceptions decreasing over time. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Graph showing exceptions decreasing over time. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Graph showing exceptions decreasing over time' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**The system gets smarter. The exception rate drops.**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Pika (fast iteration)",
+        "secondary": "Runway (if high-quality needed)",
+        "reasoning": "Quick social media-ready data viz"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Three case studies",
+      "context": "Let me show you three examples from businesses doing this right now.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Three case studies. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Three case studies. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Three case studies. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Three case studies' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Let me show you three examples from businesses doing this right now.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "WHAT ACTUALLY WORKS_330_530",
+      "section": "WHAT ACTUALLY WORKS",
+      "timestamp": "3:30-5:30",
+      "description": "Results summary",
+      "context": "- **Result:** 3\u00d7 content output, higher quality, 75% time savings",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Results summary. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Results summary. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Results summary. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Results summary' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "- **Result:** 3\u00d7 content output, higher quality, 75% time savings",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "Decision framework",
+      "context": "Not every task scales 4\u00d7. Here's how to find the ones that do:",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Decision framework. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Decision framework. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Decision framework. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Decision framework' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Not every task scales 4\u00d7. Here's how to find the ones that do:",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "Task categorization",
+      "context": "**Examples from my business:**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Task categorization. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Task categorization. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Task categorization. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Task categorization' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**Examples from my business:**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "System diagram",
+      "context": "Here's the architecture that works:",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "High-tech system visualization: System diagram. Futuristic interface, holographic elements, blue/purple color palette, cinematic camera movement",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Industrial tech setting: System diagram. Server room aesthetic, real hardware, blue LED lighting, cinematic dolly shot",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Tech visualization: System diagram. Neon accents, quick cuts, digital aesthetic, high energy",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'System diagram' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "Here's the architecture that works:",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Screen Recording (real)",
+        "secondary": "Kling for stylized version",
+        "reasoning": "Actual working systems demonstrate proof"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "Implementation steps",
+      "context": "**How to build it:**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Implementation steps. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Implementation steps. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Implementation steps. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Implementation steps' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**How to build it:**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "Exception workflow",
+      "context": "The goal isn't zero exceptions. The goal is learning exceptions.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Exception workflow. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Exception workflow. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Exception workflow. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Exception workflow' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "The goal isn't zero exceptions. The goal is learning exceptions.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "HOW TO MAKE THE SHIFT_530_830",
+      "section": "HOW TO MAKE THE SHIFT",
+      "timestamp": "5:30-8:30",
+      "description": "Learning example",
+      "context": "**Example from database provisioning:**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Learning example. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Learning example. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Learning example. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Learning example' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**Example from database provisioning:**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "THE REALITY CHECK_830_930",
+      "section": "THE REALITY CHECK",
+      "timestamp": "8:30-9:30",
+      "description": "Industry data",
+      "context": "",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Professional data visualization: Industry data. Clean minimalist design, subtle animations, corporate aesthetic, 4K quality, smooth transitions",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic 3D data visualization: Industry data. Physical objects representing data, dynamic camera rotation, professional studio lighting",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Bold data visualization: Industry data. High contrast colors, quick animations, social media ready, attention-grabbing",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Industry data' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "To be scripted",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Pika (fast iteration)",
+        "secondary": "Runway (if high-quality needed)",
+        "reasoning": "Quick social media-ready data viz"
+      }
+    },
+    {
+      "visual_id": "THE REALITY CHECK_830_930",
+      "section": "THE REALITY CHECK",
+      "timestamp": "8:30-9:30",
+      "description": "Trend line going up",
+      "context": "**Agents now create databases at 4\u00d7 human rate.**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Trend line going up. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Trend line going up. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Trend line going up. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Trend line going up' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**Agents now create databases at 4\u00d7 human rate.**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "THE REALITY CHECK_830_930",
+      "section": "THE REALITY CHECK",
+      "timestamp": "8:30-9:30",
+      "description": "Two paths diverging",
+      "context": "**If you're automating:** You're getting 4-5\u00d7 improvement, paying pennies.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Two paths diverging. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Two paths diverging. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Two paths diverging. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Two paths diverging' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**If you're automating:** You're getting 4-5\u00d7 improvement, paying pennies.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "YOUR MOVE_930_1000",
+      "section": "YOUR MOVE",
+      "timestamp": "9:30-10:00",
+      "description": "Task examples",
+      "context": "**The most repetitive one.**",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: Task examples. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: Task examples. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: Task examples. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept 'Task examples' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "**The most repetitive one.**",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    },
+    {
+      "visual_id": "YOUR MOVE_930_1000",
+      "section": "YOUR MOVE",
+      "timestamp": "9:30-10:00",
+      "description": "Prompt template on screen",
+      "context": "```",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Sleek digital dashboard: Prompt template on screen. Modern UI, glowing elements, dark theme, cinematic lighting, shallow depth of field",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Realistic tech environment: Prompt template on screen. Modern office setting, actual screens displaying data, natural lighting, professional workspace",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Modern app interface: Prompt template on screen. Vibrant colors, fast transitions, mobile-first design, eye-catching",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "Real Footage - Screen Recording",
+          "shot_type": "Screen capture with cursor movement",
+          "setup": "Clean desktop, relevant app/dashboard open",
+          "equipment": "Screen recording software (Descript, OBS)",
+          "duration": "5-8s",
+          "notes": "Shows actual working system, builds trust"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "```",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Screen Recording (real)",
+        "secondary": "Kling for stylized version",
+        "reasoning": "Actual working systems demonstrate proof"
+      }
+    },
+    {
+      "visual_id": "YOUR MOVE_930_1000",
+      "section": "YOUR MOVE",
+      "timestamp": "9:30-10:00",
+      "description": "\"4\u00d7 OR DIE\" title card",
+      "context": "And you'll wonder how you ever did this manually.",
+      "prompts": {
+        "runway": {
+          "tool": "Runway Gen-4",
+          "prompt": "Cinematic b-roll: \"4\u00d7 OR DIE\" title card. Professional lighting, smooth camera movement, 4K quality, color graded",
+          "duration": "10s",
+          "settings": "Gen-4 Turbo, 1080p, auto-camera movement",
+          "cost_estimate": "$1.25"
+        },
+        "kling": {
+          "tool": "Kling AI 2.0",
+          "prompt": "Photorealistic scene: \"4\u00d7 OR DIE\" title card. Natural lighting, camera movement, high detail, cinematic framing",
+          "duration": "10s",
+          "settings": "Professional Mode, 1080p, dynamic camera",
+          "cost_estimate": "$0.30"
+        },
+        "pika": {
+          "tool": "Pika Labs 2.5",
+          "prompt": "Punchy b-roll: \"4\u00d7 OR DIE\" title card. High energy, vibrant colors, quick motion, social media optimized",
+          "duration": "5s",
+          "settings": "Fast mode, 1080p, dynamic motion",
+          "cost_estimate": "$0.20"
+        },
+        "real_footage": {
+          "type": "AI Recommended",
+          "shot_type": "Better suited for AI generation",
+          "setup": "Use Runway/Kling for this visual",
+          "equipment": "N/A",
+          "duration": "5-10s",
+          "notes": "Abstract concept '\"4\u00d7 OR DIE\" title card' works better with AI visualization"
+        },
+        "heygen": {
+          "tool": "HeyGen",
+          "avatar_style": "Confident/Direct",
+          "script_text": "And you'll wonder how you ever did this manually.",
+          "background": "Modern office with subtle blur",
+          "duration": "10-15s",
+          "cost_estimate": "$0.50",
+          "notes": "Use for intro, key points, transitions"
+        }
+      },
+      "recommended_approach": {
+        "primary": "Kling AI (photorealistic)",
+        "secondary": "Real footage if easily filmable",
+        "reasoning": "Balanced approach for general B-roll"
+      }
+    }
+  ]
+}

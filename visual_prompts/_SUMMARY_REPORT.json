@@ -1,0 +1,225 @@
+{
+  "generated_date": "2025-11-11T12:40:14.397779",
+  "total_scripts_processed": 33,
+  "total_visual_moments": 593,
+  "average_visuals_per_script": 17.96969696969697,
+  "average_costs_per_script": {
+    "runway_pure_ai": "$22.46",
+    "kling_pure_ai": "$5.39",
+    "pika_pure_ai": "$3.59",
+    "heygen_pure_ai": "$8.98",
+    "hybrid_recommended": "$5.03"
+  },
+  "total_costs_all_scripts": {
+    "runway_approach": "$741.25",
+    "kling_approach": "$177.90",
+    "pika_approach": "$118.60",
+    "hybrid_approach": "$166.04"
+  },
+  "recommended_workflow": {
+    "approach": "Hybrid: Kling AI (60%) + HeyGen Avatar (20%) + Real Footage (20%)",
+    "total_cost": "$166.04",
+    "production_time": "99-132 hours total",
+    "reasoning": "Best balance of cost, quality, and authenticity"
+  },
+  "scripts_breakdown": [
+    {
+      "script": "2025-11-05_ai_agents_4x_faster_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 32,
+      "recommended_cost": "$8.96"
+    },
+    {
+      "script": "2025-11-10_agentic_ai_80_percent_customer_service_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_agentic_ai_80_percent_customer_service_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_agentic_ai_80_percent_customer_service_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ai_investments_22_trillion_impact_2030_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ai_investments_22_trillion_impact_2030_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ai_investments_22_trillion_impact_2030_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_code_10x_growth_500m_revenue_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_code_10x_growth_500m_revenue_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_code_10x_growth_500m_revenue_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_sonnet_45_30_hours_autonomous_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_sonnet_45_30_hours_autonomous_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_claude_sonnet_45_30_hours_autonomous_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_jpmorgan_coin_360k_hours_saved_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_jpmorgan_coin_360k_hours_saved_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_jpmorgan_coin_360k_hours_saved_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_multi_agent_systems_62_percent_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_multi_agent_systems_62_percent_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_multi_agent_systems_62_percent_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ntt_data_65_percent_automation_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ntt_data_65_percent_automation_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_ntt_data_65_percent_automation_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_small_business_8_hours_saved_weekly_authority.md",
+      "variation": "Authority",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_small_business_8_hours_saved_weekly_contrarian.md",
+      "variation": "Contrarian",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "2025-11-10_small_business_8_hours_saved_weekly_transformation.md",
+      "variation": "Transformation",
+      "visuals": 19,
+      "recommended_cost": "$5.32"
+    },
+    {
+      "script": "FULL_SCRIPT_SAMPLE_PROJECT_MANAGEMENT.md",
+      "variation": "Transformation (Before/After Story)",
+      "visuals": 31,
+      "recommended_cost": "$8.68"
+    },
+    {
+      "script": "FULL_SCRIPT_VARIATION_1_CONTRARIAN.md",
+      "variation": "Contrarian - Challenges conventional PM wisdom",
+      "visuals": 37,
+      "recommended_cost": "$10.36"
+    },
+    {
+      "script": "FULL_SCRIPT_VARIATION_2_AUTHORITY.md",
+      "variation": "Authority - Positions through scale and proven results",
+      "visuals": 37,
+      "recommended_cost": "$10.36"
+    },
+    {
+      "script": "GOOGLE_DRIVE_INTEGRATION.md",
+      "variation": "Unknown",
+      "visuals": 0,
+      "recommended_cost": "$0.00"
+    },
+    {
+      "script": "GOOGLE_DRIVE_UPLOAD.md",
+      "variation": "Unknown",
+      "visuals": 0,
+      "recommended_cost": "$0.00"
+    },
+    {
+      "script": "README.md",
+      "variation": "Unknown",
+      "visuals": 0,
+      "recommended_cost": "$0.00"
+    },
+    {
+      "script": "SCRIPTS_SUMMARY_2025-11-09.md",
+      "variation": "Unknown",
+      "visuals": 0,
+      "recommended_cost": "$0.00"
+    },
+    {
+      "script": "social_media_scripts_2025-11-09.md",
+      "variation": "Unknown",
+      "visuals": 0,
+      "recommended_cost": "$0.00"
+    }
+  ]
+}

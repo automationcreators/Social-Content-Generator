@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "script_title": "Pillar Scripts Directory",
+    "variation": "Unknown",
+    "script_file": "README.md",
+    "generated_date": "2025-11-11T12:40:14.396402",
+    "total_visuals": 0
+  },
+  "cost_estimates": {
+    "runway_all_ai": "$0.00",
+    "kling_all_ai": "$0.00",
+    "pika_all_ai": "$0.00",
+    "heygen_all": "$0.00",
+    "hybrid_recommended": "$0.00"
+  },
+  "production_estimates": {
+    "pure_ai_runway": "0 minutes (+ render time)",
+    "pure_ai_kling": "0.0 minutes (+ render time)",
+    "hybrid_approach": "2-3 hours (filming + AI generation)",
+    "heygen_avatar": "1-2 hours (scripting + generation)"
+  },
+  "visual_prompts": []
+}

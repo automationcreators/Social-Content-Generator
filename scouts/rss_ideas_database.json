@@ -1,225 +1,246 @@
 {
   "metadata": {
-    "scan_date": "2025-11-10T20:00:00.000000",
-    "days_scanned": 7,
-    "total_raw_ideas": 10,
-    "qualified_ideas": 10,
-    "min_score_threshold": 30,
-    "source": "Web search + Real-time AI trends November 2025"
+    "scan_date": "2025-11-11T09:03:22.239854",
+    "days_scanned": 30,
+    "total_raw_ideas": 89,
+    "qualified_ideas": 6,
+    "min_score_threshold": 10
   },
   "trending_keywords": [
-    "AI agents",
-    "multi-agent systems",
-    "agentic AI",
-    "hyperautomation",
-    "Claude Sonnet 4.5",
-    "autonomous AI",
-    "business automation",
-    "ROI",
-    "case studies",
-    "enterprise AI"
+    {
+      "keyword": "reading",
+      "frequency": 136
+    },
+    {
+      "keyword": "medium",
+      "frequency": 112
+    },
+    {
+      "keyword": "continue",
+      "frequency": 94
+    },
+    {
+      "keyword": "first",
+      "frequency": 61
+    },
+    {
+      "keyword": "analytics",
+      "frequency": 48
+    },
+    {
+      "keyword": "post",
+      "frequency": 44
+    },
+    {
+      "keyword": "appeared",
+      "frequency": 44
+    },
+    {
+      "keyword": "vidhya",
+      "frequency": 43
+    },
+    {
+      "keyword": "your",
+      "frequency": 39
+    },
+    {
+      "keyword": "data",
+      "frequency": 33
+    },
+    {
+      "keyword": "how",
+      "frequency": 30
+    },
+    {
+      "keyword": "when",
+      "frequency": 26
+    },
+    {
+      "keyword": "building",
+      "frequency": 25
+    },
+    {
+      "keyword": "tools",
+      "frequency": 24
+    },
+    {
+      "keyword": "what",
+      "frequency": 23
+    },
+    {
+      "keyword": "just",
+      "frequency": 23
+    },
+    {
+      "keyword": "why",
+      "frequency": 22
+    },
+    {
+      "keyword": "model",
+      "frequency": 20
+    },
+    {
+      "keyword": "agent",
+      "frequency": 20
+    },
+    {
+      "keyword": "one",
+      "frequency": 19
+    }
   ],
   "opportunity_breakdown": {
-    "automation": 8,
-    "ai_agents": 7,
-    "case_studies": 5,
-    "enterprise": 4,
-    "small_business": 2
+    "trend": 3,
+    "productivity": 1,
+    "tool_review": 2
   },
   "fusion_potential_breakdown": {
-    "high": 8,
-    "medium": 2
+    "high": 3,
+    "medium": 3
   },
   "ideas": [
     {
-      "id": "multi_agent_systems_62_percent",
-      "title": "62% of Organizations Now Experimenting with Multi-Agent AI Systems",
-      "description": "McKinsey's 2025 Global Survey reveals 62% of organizations are experimenting with AI agents, with multi-agent systems reducing operational costs through less manual oversight",
-      "source": "McKinsey 2025 Global AI Survey",
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-      "date": "2025-11",
-      "score": 95,
-      "categories": ["ai_agents", "multi_agent", "enterprise", "trends"],
-      "key_stats": [
-        "62% of organizations experimenting with AI agents",
-        "Multi-agent systems reduce operational costs",
-        "Adaptive automation replaces manual processes",
-        "88% report regular AI use in 2025"
+      "id": 6951,
+      "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
+      "description": "Discover the best AI productivity tools that boost efficiency, automate daily tasks, and simplify your workflow in 2025.Continue reading on Medium \u00bb",
+      "source": "AI Medium",
+      "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-10-13 23:03:06",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 20.9,
+        "relevance": 9,
+        "brand_alignment": 10.0,
+        "viral_potential": 0,
+        "trending": 1.5,
+        "quality": 0.4
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show enterprise adoption rate and multi-agent architecture",
-      "content_angle": "Authority: Position as understanding multi-agent systems trend"
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
     },
     {
-      "id": "agentic_ai_80_percent_customer_service",
-      "title": "Agentic AI to Autonomously Resolve 80% of Customer Service by 2029",
-      "description": "By 2029, agentic AI predicted to autonomously resolve 80% of common customer service issues without human intervention, reducing operational costs by 30%",
-      "source": "Industry Analysis 2025",
-      "url": "https://latenode.com/blog/ai-automation-trends-2025-complete-industry-analysis-11-predictions-that-will-shape-business",
-      "date": "2025-11",
-      "score": 93,
-      "categories": ["agentic_ai", "customer_service", "automation", "predictions"],
-      "key_stats": [
-        "80% of customer service issues resolved autonomously by 2029",
-        "30% reduction in operational costs",
-        "29% of orgs already using agentic AI",
-        "44% planning implementation within next year"
+      "id": 6352,
+      "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
+      "description": "Enterprises are moving past simple chatbots into complex, business-critical AI systems. Different teams are experimenting at once, which sounds exciting but quickly turns chaotic. Costs rise, systems fragment, and reliability drops when there\u2019s no shared control layer. The OpenAI outage in August 2025 made this painfully clear: copilots froze, chatbots failed, and productivity tanked across [\u2026]\nThe post Governing AI Agents at Scale: Unifying AI Gateways and MCP appeared first on Analytics Vidhya",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 18.23,
+        "relevance": 12,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.23,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show massive cost savings potential and adoption timeline",
-      "content_angle": "Transformation: From manual support to autonomous resolution"
+      "suggested_framework": "transformation",
+      "fusion_potential": "high"
     },
     {
-      "id": "claude_sonnet_45_30_hours_autonomous",
-      "title": "Claude Sonnet 4.5: From 7 Hours to 30 Hours of Autonomous Operation",
-      "description": "Anthropic's Claude Sonnet 4.5 can now run autonomously for 30 hours while maintaining focus on complex tasks, a 4.3× improvement from previous 7 hours",
-      "source": "Anthropic Claude Sonnet 4.5 Announcement",
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
-      "date": "2025-09",
-      "score": 96,
-      "categories": ["claude_ai", "autonomous_ai", "agents", "breakthrough"],
-      "key_stats": [
-        "30 hours autonomous operation (vs 7 hours before)",
-        "4.3× longer autonomous runtime",
-        "Best coding model in the world",
-        "Can maintain focus on complex, multistep tasks"
+      "id": 9340,
+      "title": "Automated AI marketing campaigns to simplify campaign management.",
+      "description": "Artificial Intelligence (AI) in marketing automation transforms campaign management by simplifying workflows, minimizing manual tasks, and\u2026Continue reading on Medium \u00bb",
+      "source": "AI Medium",
+      "url": "https://medium.com/@xdungha5/automated-ai-marketing-campaigns-to-simplify-campaign-management-64ba8faefdca?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-11-09 19:41:43",
+      "opportunity_type": "productivity",
+      "scores": {
+        "total_score": 14.99,
+        "relevance": 9,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.52,
+        "quality": 0.46
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Demonstrate Claude's autonomous capabilities for long-running tasks",
-      "content_angle": "Contrarian: AI doesn't need human supervision anymore"
+      "suggested_framework": "benefit_driven",
+      "fusion_potential": "high"
     },
     {
-      "id": "claude_code_10x_growth_500m_revenue",
-      "title": "Claude Code Grew 10× in Users, Now $500M Revenue Annually",
-      "description": "Claude Code has grown 10× in users since May 2025 launch and now accounts for more than $500 million of Anthropic's revenue on annualized basis",
-      "source": "Anthropic Claude Code Launch",
-      "url": "https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/",
-      "date": "2025-10",
-      "score": 94,
-      "categories": ["claude_ai", "developer_tools", "revenue", "growth"],
-      "key_stats": [
-        "10× user growth since May 2025",
-        "$500M annual revenue from Claude Code",
-        "300,000+ business customers",
-        "$7B approaching annual revenue (Anthropic total)"
+      "id": 7632,
+      "title": "How AI Is Quietly Reshaping Everyday Businesses",
+      "description": "Artificial intelligence isn\u2019t just something out of a sci-fi movie or some tool for giant companies. It\u2019s reshaping the local spots you\u2026Continue reading on Medium \u00bb",
+      "source": "AI Medium",
+      "url": "https://medium.com/@aionlineprofits/how-ai-is-quietly-reshaping-everyday-businesses-a1026006ad2e?source=rss------ai-5",
+      "category": "ai",
+      "created_at": "2025-11-07 23:15:47",
+      "opportunity_type": "tool_review",
+      "scores": {
+        "total_score": 12.5,
+        "relevance": 9,
+        "brand_alignment": 2.5,
+        "viral_potential": 0,
+        "trending": 0.58,
+        "quality": 0.42
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show rapid adoption and revenue from AI coding tools",
-      "content_angle": "Authority: Position as understanding AI coding tool market"
+      "suggested_framework": "benefit_driven",
+      "fusion_potential": "medium"
     },
     {
-      "id": "ntt_data_65_percent_automation",
-      "title": "NTT DATA Achieves 65% Automation in IT Service Desk, 50% Faster Time to Market",
-      "description": "NTT DATA achieved up to 65% automation in IT service desks and up to 100% automation in certain order workflows, while enabling 50% faster time to market",
-      "source": "Microsoft AI Case Studies 2025",
-      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
-      "date": "2025-07",
-      "score": 92,
-      "categories": ["case_study", "enterprise", "automation", "results"],
-      "key_stats": [
-        "65% automation in IT service desk",
-        "100% automation in certain order workflows",
-        "50% faster time to market",
-        "Major enterprise transformation"
+      "id": 7610,
+      "title": "8 AI Tools to Analyze Data in Excel by Just Chatting",
+      "description": "Ever tried wrapping your head around a voluminous Excel sheet. Those who\u2019ve tried that, know the hassle that follows. Considering that Excel was the defacto spreadsheet application, they had no other choice. But with the advent of AI, that laborious task of going through an Excel file has been streamlined. Thanks to these free AI [\u2026]\nThe post 8 AI Tools to Analyze Data in Excel by Just Chatting appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/11/ai-tools-for-excel/",
+      "category": "ai",
+      "created_at": "2025-11-07 23:15:44",
+      "opportunity_type": "tool_review",
+      "scores": {
+        "total_score": 12.35,
+        "relevance": 6,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.38,
+        "quality": 0.97
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Real enterprise results with specific metrics",
-      "content_angle": "Transformation: From manual IT operations to 65% automated"
+      "suggested_framework": "benefit_driven",
+      "fusion_potential": "medium"
     },
     {
-      "id": "jpmorgan_coin_360k_hours_saved",
-      "title": "JPMorgan's COiN AI Reclaims 360,000 Human Hours Annually, <1% Error Rate",
-      "description": "JPMorgan Chase's COiN AI contract interpreter has reclaimed 360,000 human hours annually and driven the error rate below 1%",
-      "source": "AI Automation Case Studies 2025",
-      "url": "https://team-gpt.com/blog/15-real-world-examples-of-ai-automation-in-2025",
-      "date": "2025-11",
-      "score": 95,
-      "categories": ["case_study", "finance", "automation", "ai_results"],
-      "key_stats": [
-        "360,000 human hours reclaimed annually",
-        "<1% error rate (vs 5-10% human error)",
-        "Automated contract interpretation",
-        "Major financial institution validation"
+      "id": 6354,
+      "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
+      "description": "Whenever it comes to training model, companies usually bet of feeding it more and more data for training. Bigger datasets = smarter models When DeepSeek released initially, it challenged this approach and set new definitions for model training. And after that came a wave of model training with less data and optimized approach. I came [\u2026]\nThe post Agentic AI Training Efficiency: Less is More for Intelligent Agency appeared first on Analytics Vidhya.",
+      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
+      "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
+      "category": "ai",
+      "created_at": "2025-10-13 22:43:36",
+      "opportunity_type": "trend",
+      "scores": {
+        "total_score": 12.33,
+        "relevance": 6,
+        "brand_alignment": 5.0,
+        "viral_potential": 0,
+        "trending": 0.33,
+        "quality": 1.0
+      },
+      "suggested_platforms": [
+        "Twitter",
+        "LinkedIn"
       ],
-      "fusion_potential": "high",
-      "business_value": "Show massive time savings with enterprise validation",
-      "content_angle": "Authority: Financial services adopting AI at scale"
-    },
-    {
-      "id": "bancolombia_18k_automated_changes",
-      "title": "Bancolombia: 30% Code Generation Increase, 18,000 Automated Changes per Year",
-      "description": "Bancolombia achieved 30% increase in code generation, leading to 18,000 automated application changes per year and 42 productive daily deployments",
-      "source": "AI Development Case Studies 2025",
-      "url": "https://team-gpt.com/blog/15-real-world-examples-of-ai-automation-in-2025",
-      "date": "2025-11",
-      "score": 91,
-      "categories": ["case_study", "development", "automation", "banking"],
-      "key_stats": [
-        "30% increase in code generation",
-        "18,000 automated application changes/year",
-        "42 productive daily deployments",
-        "Banking industry digital transformation"
-      ],
-      "fusion_potential": "medium",
-      "business_value": "Show AI impact on software development velocity",
-      "content_angle": "Transformation: From manual coding to AI-assisted development"
-    },
-    {
-      "id": "small_business_8_hours_saved_weekly",
-      "title": "Small Business Saves 8-10 Hours Weekly, Increases Capacity by 20%",
-      "description": "Small business saved 8-10 hours per week on administrative tasks and increased billable hour capacity by 20% using AI automation",
-      "source": "Small Business AI Case Studies 2025",
-      "url": "https://doneforyou.com/case-study-small-businesses-winning-ai-tools-2025/",
-      "date": "2025-11",
-      "score": 89,
-      "categories": ["case_study", "small_business", "productivity", "automation"],
-      "key_stats": [
-        "8-10 hours saved per week on admin tasks",
-        "20% increase in billable hour capacity",
-        "Small business success story",
-        "Accessible AI tools for non-enterprise"
-      ],
-      "fusion_potential": "high",
-      "business_value": "Show AI works for small businesses, not just enterprise",
-      "content_angle": "Contrarian: You don't need enterprise budget for AI results"
-    },
-    {
-      "id": "seo_agency_doubled_output_85_hours_saved",
-      "title": "SEO Agency Doubled Article Volume (80→160/month) Without Hiring, Saved 85+ Hours",
-      "description": "SEO agency doubled article volume from 80 to 160 per month without increasing team size, saving over 85 hours per month using AI content automation",
-      "source": "AI Content Automation Case Studies 2025",
-      "url": "https://team-gpt.com/blog/15-real-world-examples-of-ai-automation-in-2025",
-      "date": "2025-11",
-      "score": 90,
-      "categories": ["case_study", "content", "automation", "marketing"],
-      "key_stats": [
-        "Doubled output: 80 → 160 articles/month",
-        "85+ hours saved per month",
-        "No additional headcount needed",
-        "Content production scaled 2× with AI"
-      ],
-      "fusion_potential": "high",
-      "business_value": "Show content creation automation ROI",
-      "content_angle": "Transformation: From manual writing to AI-assisted scaling"
-    },
-    {
-      "id": "ai_investments_22_trillion_impact_2030",
-      "title": "AI Investments to Yield $22.3 Trillion Global Impact by 2030",
-      "description": "IDC predicts AI investments will yield a global cumulative impact of $22.3 trillion by 2030, with 66% of CEOs reporting measurable business benefits from generative AI",
-      "source": "IDC AI Investment Forecast 2025",
-      "url": "https://team-gpt.com/blog/15-real-world-examples-of-ai-automation-in-2025",
-      "date": "2025-11",
-      "score": 88,
-      "categories": ["market_trends", "investment", "predictions", "roi"],
-      "key_stats": [
-        "$22.3 trillion global cumulative impact by 2030",
-        "66% of CEOs report measurable AI benefits",
-        "Massive investment thesis validation",
-        "Enterprise AI adoption accelerating"
-      ],
-      "fusion_potential": "medium",
-      "business_value": "Show market opportunity and CEO validation",
-      "content_angle": "Authority: Position as understanding AI investment landscape"
+      "suggested_framework": "transformation",
+      "fusion_potential": "medium"
     }
   ]
 }
