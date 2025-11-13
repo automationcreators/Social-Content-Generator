@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-11-11T09:03:24.393925",
+  "collection_date": "2025-11-12T09:03:55.285957",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -221,8 +221,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -230,10 +230,10 @@
     "YouTubeRAG": {
       "name": "YouTubeRAG",
       "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
-      "file_count": 66,
+      "file_count": 71,
       "file_types": {
-        ".md": 9,
-        ".py": 36,
+        ".md": 12,
+        ".py": 37,
         ".txt": 1,
         ".ini": 1,
         ".json": 3,
@@ -245,6 +245,7 @@
         ".css": 1,
         ".sqlite3": 1,
         ".bin": 4,
+        ".pickle": 1,
         ".mako": 1
       },
       "has_agents": true,
@@ -304,8 +305,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -378,8 +379,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -388,13 +389,13 @@
     "Project Management": {
       "name": "Project Management",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
-      "file_count": 80,
+      "file_count": 85,
       "file_types": {
         ".py": 3,
-        ".md": 36,
+        ".md": 38,
         ".json": 18,
         ".txt": 2,
-        ".js": 7,
+        ".js": 10,
         ".html": 5,
         ".css": 5,
         ".template": 4
@@ -506,8 +507,8 @@
         ],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -560,8 +561,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -613,8 +614,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -677,8 +678,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -715,8 +716,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -788,8 +789,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -974,8 +975,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1046,8 +1047,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -1117,8 +1118,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -1173,8 +1174,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1233,8 +1234,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -1315,12 +1316,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "PostgreSQL",
-          "FastAPI",
-          "Python",
-          "Flask",
           "AI",
-          "JavaScript"
+          "FastAPI",
+          "PostgreSQL",
+          "Flask",
+          "JavaScript",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1328,14 +1329,14 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 134,
+      "file_count": 172,
       "file_types": {
-        ".md": 49,
+        ".md": 52,
         "": 1,
         ".txt": 2,
-        ".py": 23,
+        ".py": 24,
         ".html": 1,
-        ".json": 53,
+        ".json": 87,
         ".csv": 2,
         ".pdf": 1,
         ".sh": 1,
@@ -1364,6 +1365,46 @@
           "type": "agent"
         },
         {
+          "file": "2025-11-10_multi_agent_systems_62_percent_authority_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_agentic_ai_80_percent_customer_service_contrarian_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_ntt_data_65_percent_automation_transformation_visual_prompts.json",
+          "type": "automation"
+        },
+        {
+          "file": "2025-11-10_multi_agent_systems_62_percent_transformation_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_ntt_data_65_percent_automation_authority_visual_prompts.json",
+          "type": "automation"
+        },
+        {
+          "file": "2025-11-05_ai_agents_4x_faster_contrarian_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_agentic_ai_80_percent_customer_service_transformation_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_ntt_data_65_percent_automation_contrarian_visual_prompts.json",
+          "type": "automation"
+        },
+        {
+          "file": "2025-11-10_agentic_ai_80_percent_customer_service_authority_visual_prompts.json",
+          "type": "agent"
+        },
+        {
+          "file": "2025-11-10_multi_agent_systems_62_percent_contrarian_visual_prompts.json",
+          "type": "agent"
+        },
+        {
           "file": "agent_framework.py",
           "type": "agent"
         },
@@ -1382,6 +1423,10 @@
         {
           "file": "2025-11-10_multi_agent_systems_62_percent_authority.md",
           "type": "agent"
+        },
+        {
+          "file": "youtube_scripts_2025-11-11_ai_automation_for_small_business_owners.md",
+          "type": "automation"
         },
         {
           "file": "2025-11-10_ntt_data_65_percent_automation_authority.md",
@@ -1576,8 +1621,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -1671,8 +1716,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2008,8 +2053,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2153,8 +2198,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Python"
+          "Python",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2188,15 +2233,16 @@
     "dirTechStack": {
       "name": "dirTechStack",
       "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
-      "file_count": 729,
+      "file_count": 751,
       "file_types": {
-        ".sql": 12,
-        ".md": 48,
+        ".sql": 13,
+        ".md": 55,
         ".local": 2,
         ".txt": 6,
         ".supabase": 1,
+        ".log": 3,
         ".py": 2,
-        ".js": 210,
+        ".js": 221,
         ".json": 195,
         ".example": 2,
         ".toml": 1,
@@ -2273,15 +2319,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "Supabase",
-          "PostgreSQL",
-          "Python",
+          "OpenAI",
           "GPT",
           "AI",
-          "React",
+          "Claude",
           "ML",
-          "OpenAI"
+          "Supabase",
+          "PostgreSQL",
+          "React",
+          "Python"
         ],
         "business_impact": []
       }
@@ -2353,8 +2399,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -2418,8 +2464,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
           "Python",
+          "Claude",
           "JavaScript"
         ],
         "business_impact": []
@@ -2446,14 +2492,14 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "39 active projects",
-      "detail": "Managing 3,545 files across diverse projects",
+      "detail": "Managing 3,615 files across diverse projects",
       "hook": "How I manage 39 projects simultaneously with Claude Code"
     },
     {
       "type": "automation",
       "title": "Agent-Driven Architecture",
       "stat": "26 projects with autonomous agents",
-      "detail": "Built 58 custom agents",
+      "detail": "Built 65 custom agents",
       "examples": [
         "vendor-quote-tool",
         "YouTubeRAG",
@@ -2489,7 +2535,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Python, Web, JavaScript/React",
+      "detail": "Working across Python, JavaScript/React, Web",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

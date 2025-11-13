@@ -1,151 +1,102 @@
 {
   "metadata": {
-    "scan_date": "2025-11-11T09:03:22.239854",
+    "scan_date": "2025-11-12T09:03:53.253972",
     "days_scanned": 30,
-    "total_raw_ideas": 89,
-    "qualified_ideas": 6,
+    "total_raw_ideas": 51,
+    "qualified_ideas": 3,
     "min_score_threshold": 10
   },
   "trending_keywords": [
     {
       "keyword": "reading",
-      "frequency": 136
+      "frequency": 80
     },
     {
       "keyword": "medium",
-      "frequency": 112
+      "frequency": 72
     },
     {
       "keyword": "continue",
-      "frequency": 94
+      "frequency": 60
     },
     {
       "keyword": "first",
-      "frequency": 61
-    },
-    {
-      "keyword": "analytics",
-      "frequency": 48
+      "frequency": 36
     },
     {
       "keyword": "post",
-      "frequency": 44
-    },
-    {
-      "keyword": "appeared",
-      "frequency": 44
-    },
-    {
-      "keyword": "vidhya",
-      "frequency": 43
-    },
-    {
-      "keyword": "your",
-      "frequency": 39
-    },
-    {
-      "keyword": "data",
-      "frequency": 33
-    },
-    {
-      "keyword": "how",
-      "frequency": 30
-    },
-    {
-      "keyword": "when",
-      "frequency": 26
-    },
-    {
-      "keyword": "building",
-      "frequency": 25
-    },
-    {
-      "keyword": "tools",
       "frequency": 24
     },
     {
-      "keyword": "what",
-      "frequency": 23
+      "keyword": "appeared",
+      "frequency": 24
     },
     {
-      "keyword": "just",
-      "frequency": 23
+      "keyword": "analytics",
+      "frequency": 24
     },
     {
-      "keyword": "why",
+      "keyword": "vidhya",
+      "frequency": 24
+    },
+    {
+      "keyword": "how",
       "frequency": 22
     },
     {
-      "keyword": "model",
-      "frequency": 20
+      "keyword": "your",
+      "frequency": 21
     },
     {
-      "keyword": "agent",
-      "frequency": 20
+      "keyword": "tools",
+      "frequency": 19
+    },
+    {
+      "keyword": "just",
+      "frequency": 17
+    },
+    {
+      "keyword": "when",
+      "frequency": 16
+    },
+    {
+      "keyword": "what",
+      "frequency": 14
+    },
+    {
+      "keyword": "video",
+      "frequency": 14
+    },
+    {
+      "keyword": "why",
+      "frequency": 13
+    },
+    {
+      "keyword": "using",
+      "frequency": 13
     },
     {
       "keyword": "one",
-      "frequency": 19
+      "frequency": 13
+    },
+    {
+      "keyword": "intelligence",
+      "frequency": 13
+    },
+    {
+      "keyword": "data",
+      "frequency": 13
     }
   ],
   "opportunity_breakdown": {
-    "trend": 3,
     "productivity": 1,
     "tool_review": 2
   },
   "fusion_potential_breakdown": {
-    "high": 3,
-    "medium": 3
+    "high": 1,
+    "medium": 2
   },
   "ideas": [
-    {
-      "id": 6951,
-      "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
-      "description": "Discover the best AI productivity tools that boost efficiency, automate daily tasks, and simplify your workflow in 2025.Continue reading on Medium \u00bb",
-      "source": "AI Medium",
-      "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
-      "category": "ai",
-      "created_at": "2025-10-13 23:03:06",
-      "opportunity_type": "trend",
-      "scores": {
-        "total_score": 20.9,
-        "relevance": 9,
-        "brand_alignment": 10.0,
-        "viral_potential": 0,
-        "trending": 1.5,
-        "quality": 0.4
-      },
-      "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "suggested_framework": "transformation",
-      "fusion_potential": "high"
-    },
-    {
-      "id": 6352,
-      "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
-      "description": "Enterprises are moving past simple chatbots into complex, business-critical AI systems. Different teams are experimenting at once, which sounds exciting but quickly turns chaotic. Costs rise, systems fragment, and reliability drops when there\u2019s no shared control layer. The OpenAI outage in August 2025 made this painfully clear: copilots froze, chatbots failed, and productivity tanked across [\u2026]\nThe post Governing AI Agents at Scale: Unifying AI Gateways and MCP appeared first on Analytics Vidhya",
-      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-      "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
-      "category": "ai",
-      "created_at": "2025-10-13 22:43:36",
-      "opportunity_type": "trend",
-      "scores": {
-        "total_score": 18.23,
-        "relevance": 12,
-        "brand_alignment": 5.0,
-        "viral_potential": 0,
-        "trending": 0.23,
-        "quality": 1.0
-      },
-      "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "suggested_framework": "transformation",
-      "fusion_potential": "high"
-    },
     {
       "id": 9340,
       "title": "Automated AI marketing campaigns to simplify campaign management.",
@@ -164,8 +115,8 @@
         "quality": 0.46
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "benefit_driven",
       "fusion_potential": "high"
@@ -188,8 +139,8 @@
         "quality": 0.42
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "benefit_driven",
       "fusion_potential": "medium"
@@ -212,34 +163,10 @@
         "quality": 0.97
       },
       "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "suggested_framework": "benefit_driven",
-      "fusion_potential": "medium"
-    },
-    {
-      "id": 6354,
-      "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
-      "description": "Whenever it comes to training model, companies usually bet of feeding it more and more data for training. Bigger datasets = smarter models When DeepSeek released initially, it challenged this approach and set new definitions for model training. And after that came a wave of model training with less data and optimized approach. I came [\u2026]\nThe post Agentic AI Training Efficiency: Less is More for Intelligent Agency appeared first on Analytics Vidhya.",
-      "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-      "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
-      "category": "ai",
-      "created_at": "2025-10-13 22:43:36",
-      "opportunity_type": "trend",
-      "scores": {
-        "total_score": 12.33,
-        "relevance": 6,
-        "brand_alignment": 5.0,
-        "viral_potential": 0,
-        "trending": 0.33,
-        "quality": 1.0
-      },
-      "suggested_platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "suggested_framework": "transformation",
       "fusion_potential": "medium"
     }
   ]

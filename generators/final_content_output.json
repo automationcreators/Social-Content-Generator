@@ -1,223 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2025-11-11T09:03:22.301834",
+    "generated_at": "2025-11-12T09:03:53.320768",
     "mode": "balanced",
     "auto_approve_enabled": true,
-    "total_pieces": 6,
+    "total_pieces": 3,
     "auto_approved": 0,
-    "requires_review": 6
+    "requires_review": 3
   },
   "content_ready_for_sheets": [
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Top 5 AI Tools to Work Smarter and Save Time in 2025.",
-        "source": "AI Medium",
-        "url": "https://medium.com/@ammomind/top-5-ai-tools-to-work-smarter-and-save-time-in-2025-784866891131?source=rss------ai-5",
-        "opportunity_type": "trend"
-      },
-      "personal_example": null,
-      "angles": [
-        {
-          "type": "personal_statistical",
-          "hook": "I tested 5 i tools to work across 32 projects.",
-          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
-          "tension": "Most people waste time on the wrong approach.",
-          "promise": "Here's what actually works:",
-          "framework": "transformation"
-        },
-        {
-          "type": "myth_busting",
-          "hook": "Myth: 5 i tools to work requires technical expertise.",
-          "reality": "Truth: I built 5 i tools to work solutions without writing a single line of code.",
-          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
-          "promise": "Here's my framework:",
-          "framework": "contrarian_snapback"
-        }
-      ],
-      "statistics": [
-        {
-          "stat": "64% of businesses",
-          "detail": "plan to use AI for automation by 2025",
-          "source": "Gartner",
-          "year": "2024",
-          "credibility": 9,
-          "relevance": 10
-        },
-        {
-          "stat": "40% time savings",
-          "detail": "average time saved with AI automation tools",
-          "source": "McKinsey",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 9
-        },
-        {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
-        }
-      ],
-      "framework": "transformation",
-      "platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "insight_analysis",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 24.666666666666664,
-        "angle_quality": 25,
-        "platform_fit": 10,
-        "total": 65
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Governing AI Agents at Scale: Unifying AI Gateways and MCP",
-        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-        "url": "https://www.analyticsvidhya.com/blog/2025/10/governing-agentic-ai-at-scale-with-mcp/",
-        "opportunity_type": "trend"
-      },
-      "personal_example": null,
-      "angles": [
-        {
-          "type": "personal_statistical",
-          "hook": "I tested governing i gents t scle: across 32 projects.",
-          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
-          "tension": "Most people waste time on the wrong approach.",
-          "promise": "Here's what actually works:",
-          "framework": "transformation"
-        },
-        {
-          "type": "myth_busting",
-          "hook": "Myth: governing i gents t scle: requires technical expertise.",
-          "reality": "Truth: I built governing i gents t scle: solutions without writing a single line of code.",
-          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
-          "promise": "Here's my framework:",
-          "framework": "contrarian_snapback"
-        }
-      ],
-      "statistics": [
-        {
-          "stat": "40% time savings",
-          "detail": "average time saved with AI automation tools",
-          "source": "McKinsey",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 9
-        },
-        {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
-        },
-        {
-          "stat": "64% of businesses",
-          "detail": "plan to use AI for automation by 2025",
-          "source": "Gartner",
-          "year": "2024",
-          "credibility": 9,
-          "relevance": 10
-        }
-      ],
-      "framework": "transformation",
-      "platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "insight_analysis",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 24.666666666666664,
-        "angle_quality": 25,
-        "platform_fit": 10,
-        "total": 65
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Agentic AI Training Efficiency: Less is More for Intelligent Agency",
-        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-        "url": "https://www.analyticsvidhya.com/blog/2025/10/less-is-more-for-intelligent-agency/",
-        "opportunity_type": "trend"
-      },
-      "personal_example": null,
-      "angles": [
-        {
-          "type": "personal_statistical",
-          "hook": "I tested gentic i trining efficiency: less across 32 projects.",
-          "stat_line": "Result: 64% of businesses plan to use AI for automation by 2025",
-          "tension": "Most people waste time on the wrong approach.",
-          "promise": "Here's what actually works:",
-          "framework": "transformation"
-        },
-        {
-          "type": "myth_busting",
-          "hook": "Myth: gentic i trining efficiency: less requires technical expertise.",
-          "reality": "Truth: I built gentic i trining efficiency: less solutions without writing a single line of code.",
-          "proof": "32 working projects. 40 autonomous agents. Zero programming.",
-          "promise": "Here's my framework:",
-          "framework": "contrarian_snapback"
-        }
-      ],
-      "statistics": [
-        {
-          "stat": "$15.7 trillion",
-          "detail": "projected AI market impact by 2030",
-          "source": "PwC",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 7
-        },
-        {
-          "stat": "64% of businesses",
-          "detail": "plan to use AI for automation by 2025",
-          "source": "Gartner",
-          "year": "2024",
-          "credibility": 9,
-          "relevance": 10
-        },
-        {
-          "stat": "40% time savings",
-          "detail": "average time saved with AI automation tools",
-          "source": "McKinsey",
-          "year": "2024",
-          "credibility": 10,
-          "relevance": 9
-        }
-      ],
-      "framework": "transformation",
-      "platforms": [
-        "Twitter",
-        "LinkedIn"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "insight_analysis",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 24.666666666666664,
-        "angle_quality": 25,
-        "platform_fit": 10,
-        "total": 65
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
     {
       "type": "fusion",
       "trend_source": {
@@ -231,8 +21,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "fusion_strength": "standalone",
       "variation_style": "transformation_story",
@@ -259,8 +49,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "fusion_strength": "standalone",
       "variation_style": "practical_demo",
@@ -287,8 +77,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "Twitter",
-        "LinkedIn"
+        "LinkedIn",
+        "Twitter"
       ],
       "fusion_strength": "standalone",
       "variation_style": "practical_demo",
