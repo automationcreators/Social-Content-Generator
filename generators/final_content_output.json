@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-12T09:03:53.320768",
+    "generated_at": "2025-11-13T09:03:25.150198",
     "mode": "balanced",
     "auto_approve_enabled": true,
     "total_pieces": 3,
@@ -21,8 +21,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "transformation_story",
@@ -49,8 +49,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "practical_demo",
@@ -77,8 +77,8 @@
       "statistics": [],
       "framework": "benefit_driven",
       "platforms": [
-        "LinkedIn",
-        "Twitter"
+        "Twitter",
+        "LinkedIn"
       ],
       "fusion_strength": "standalone",
       "variation_style": "practical_demo",
