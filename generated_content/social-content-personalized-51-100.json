@@ -1,0 +1,554 @@
+{
+  "posts": [
+    {
+      "id": 51,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Browser Automation",
+      "title": "The Puppeteer setup that will capture trading heatmaps automatically",
+      "body": "I'm building a system to capture dealer positioning data automatically.\n\nThe challenge: Skylit.ai requires login and has dynamic content.\n\nThe solution: Puppeteer with session management.\n\nThe architecture I'm building:\n\n1. Authentication handling\n\nPuppeteer launches Chrome with saved session.\nCookies persist login state.\nNo need to re-authenticate each capture.\n\n2. Watchlist navigation\n\nDropdown: 'All Tickers' or custom list.\nArrow buttons: Cycle through tickers.\nAutomated via CSS selectors.\n\n3. Screenshot scheduling\n\nCapture schedule per ticker per day:\n- First 30 min: Every 5 minutes (7 captures)\n- 10:30 AM: 1 capture\n- Midday: 1 capture\n- Last 30 min: Every 5 minutes (7 captures)\n\n~16 screenshots per ticker.\n\n4. OCR extraction\n\nTesseract reads GEX/VEX values from images.\nStructured data extracted from visual content.\n\n5. Database storage\n\nSQLite stores:\n- Ticker and timestamp\n- Screenshot path\n- Extracted GEX/VEX values\n- Associated technical data\n\nKey technical decisions:\n\n- Puppeteer over Playwright (better community support)\n- Tesseract over cloud OCR (free, local)\n- SQLite over Postgres (simpler for MVP)\n- Node.js for Puppeteer, Python for analysis\n\nChallenges to solve:\n\n- Session persistence across restarts\n- Handling page load delays\n- OCR accuracy on heatmap colors\n- Coordinating with market hours\n\nTakeaway: Browser automation isn't just for testing. It's for building data collection systems from any web application.",
+      "cta": "What web application would you automate for data collection?"
+    },
+    {
+      "id": 52,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Cost Savings",
+      "title": "$1,440/year saved by building instead of subscribing.",
+      "body": "RSS.app ($30/mo) → Built my own\nMake.com ($29/mo) → Self-hosted n8n\nScheduling ($15/mo) → Airtable free tier\nAI tools ($50/mo) → Claude Code only\n\nSame functionality. Full control.\n\nTakeaway: Audit your subscriptions. Ask 'Could I build this?' More often than you think, yes.",
+      "cta": ""
+    },
+    {
+      "id": 53,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "File Servers",
+      "title": "I built a Python file server for my project dashboard. Here's how.",
+      "tweets": [
+        "I built a Python file server for my project dashboard.\n\nSecure file access from a web UI.\n\nHere's how I did it:",
+        "The need:\n\nMy dashboard shows 39 projects.\n\nI wanted to load real TODO.md and CLAUDE.md files when clicking a project.\n\nBut browsers can't access local files directly.",
+        "The solution: Python HTTP server.\n\nEndpoints:\n- /read-file → Read file contents\n- /list-files → List directory contents",
+        "Security: Directory restriction\n\nServer ONLY serves files from claudec directory.\n\nAttempts to access other paths = 403 Forbidden.\n\n# Validate path\nif not resolved_path.startswith(BASE_DIR):\n    return 403",
+        "The /read-file endpoint:\n\nInput: file_path parameter\nOutput: File contents as text\n\nUsage:\nGET /read-file?path=/project/TODO.md",
+        "The /list-files endpoint:\n\nInput: directory path\nOutput: JSON array of files with metadata\n\n[\n  {\"name\": \"TODO.md\", \"size\": 1024, \"modified\": \"2025-01-29\"},\n  ...\n]",
+        "Running the server:\n\npython file-server.py\n# Starts on port 8080\n\nDashboard makes fetch() calls to these endpoints.",
+        "The dashboard integration:\n\nasync function loadProjectTODO(project) {\n  const response = await fetch(\n    `http://localhost:8080/read-file?path=${project.path}/TODO.md`\n  );\n  return response.text();\n}",
+        "Takeaway: When you need file access from a web UI, build a simple API server.\n\nPython makes it easy. Keep security in mind (path validation)."
+      ],
+      "cta": "What would you build with a local file server?"
+    },
+    {
+      "id": 54,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Legislature Data",
+      "title": "From basic legislator data to legislative intelligence",
+      "body": "Phase 1: Basic scraping\n\nJust names and contact info.\n- Name, party, district, chamber\n- Email and phone\n- 99% accuracy on 104 legislators\n\nUseful. But commoditized.\n\nPhase 2: Enrichment\n\nAdded committee assignments.\n- Who sits on which committees\n- Leadership positions (Chair, Vice Chair)\n- 14 committee assignments captured\n\nPhase 3: Legislation tracking\n\nAdded bill sponsorship.\n- Who sponsors which bills\n- Co-sponsorship patterns\n- 5 verified bills with descriptions\n\nPhase 4: Interactive dashboard\n\nBuilt visualization layer.\n- Filter by chamber, party\n- View committee assignments\n- Track bill patterns\n- Export to CSV/JSON\n\nThe value progression:\n\n- Basic data: Anyone can get this\n- + Committees: Now you know influence\n- + Bills: Now you know priorities\n- + Dashboard: Now it's actionable intelligence\n\nBusiness applications:\n\n- Lobbyists: Know who to target for specific issues\n- Journalists: Track legislative patterns\n- Civic tech: Public accountability tools\n- Campaigns: Understand opponent positions\n\nThe technical evolution:\n\n1. Simple scraper (requests + BeautifulSoup)\n2. + Committee page parsing\n3. + Bill page parsing\n4. + Cross-reference logic\n5. + Dashboard generation\n\nTakeaway: Data value increases exponentially with enrichment. Basic legislator names = commodity. Legislator names + committees + bills + visualization = premium intelligence.",
+      "cta": "What data would become valuable with enrichment?"
+    },
+    {
+      "id": 55,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "API Costs",
+      "title": "I use Gemini API for summaries. It's free tier.",
+      "body": "GPT-4o: Great but costly at scale.\nGemini: Free tier handles my volume.\n\nFor X Spaces summaries, Gemini is plenty good.\n\nHow: Use existing API key from another project.\n\nTakeaway: Match the API to the use case. Premium isn't always necessary.",
+      "cta": ""
+    },
+    {
+      "id": 56,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Cross-Platform Monitoring",
+      "title": "How my ContentGen system detects emerging trends",
+      "body": "The problem: Information overload.\n\n246+ RSS feeds. Multiple YouTube channels. Twitter accounts.\n\nToo much to process manually.\n\nThe solution: Cross-platform trend detection.\n\nHow it works:\n\n1. Continuous monitoring\n\nPython scripts fetch new content hourly.\n- RSS feeds: feedparser library\n- YouTube: youtube-transcript-api\n- Twitter: Apify integration\n\n2. Keyword extraction\n\nAI identifies key topics from each piece.\n\nStored with metadata:\n- Source\n- Timestamp\n- Keywords\n- Category\n\n3. Cross-platform correlation\n\nWhen same topic appears in:\n- 3+ RSS feeds\n- 2+ YouTube videos\n- Multiple tweets\n\n= Trend signal.\n\n4. Signal scoring\n\nNot all correlations are trends.\n\nScore based on:\n- Number of sources\n- Source authority\n- Recency\n- Growth rate\n\n5. Alert generation\n\nHigh-scoring trends trigger alerts.\n- Email notification\n- Dashboard highlight\n- Content idea suggestion\n\nThe database schema:\n\n- content_items: All collected content\n- keywords: Extracted topics\n- correlations: Cross-source matches\n- trends: Validated trend signals\n- alerts: Notification history\n\nCurrent performance:\n\n- 246+ RSS feeds monitored\n- Daily YouTube checks\n- Twitter account tracking\n- ~50 content items processed hourly\n\nTakeaway: Trends become visible when you monitor multiple sources systematically. Build the monitoring. Let patterns emerge.",
+      "cta": "What signals would indicate an emerging trend in your industry?"
+    },
+    {
+      "id": 57,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Personal Archive",
+      "title": "You can download your entire Twitter history. Here's what to do with it.",
+      "tweets": [
+        "You can download your entire Twitter history.\n\nEverything you've tweeted. Everyone you follow.\n\nHere's what to do with it:",
+        "How to get your archive:\n\n1. Go to https://x.com/settings/download_your_data\n2. Request archive\n3. Wait for email (24-48 hours)\n4. Download ZIP file",
+        "What's in the archive:\n\n- All your tweets (text + metadata)\n- Your following list\n- Your followers\n- DMs (if you choose)\n- Account activity",
+        "What I built to process it:\n\nTwitter archive parser that:\n1. Extracts tweets from JSON\n2. Stores in my ContentGen database\n3. Makes everything searchable",
+        "The code structure:\n\nasync function import_twitter_archive(zip_path):\n    extract_zip(zip_path)\n    tweets = parse_tweets_json()\n    for tweet in tweets:\n        store_in_database(tweet)\n    return stats",
+        "What you can do with parsed data:\n\n- Search your old tweets\n- Analyze posting patterns\n- Find content to recycle\n- Track what resonated",
+        "Integration with my system:\n\nTwitter archive + RSS feeds + YouTube transcripts\n\nAll in one searchable database.\n\nCross-platform content intelligence.",
+        "Takeaway: Your Twitter archive is a content goldmine.\n\nDownload it. Parse it. Search it.\n\nYour past content can fuel future content."
+      ],
+      "cta": "What would you do with searchable access to all your tweets?"
+    },
+    {
+      "id": 58,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Map Making",
+      "title": "Real estate map creation: Hours → Minutes.",
+      "body": "Before: Google Maps screenshots. Photoshop editing. Manual business lookup.\n\nAfter: Enter address. Auto-discover businesses. Add drawings. Export.\n\nHow: React + Google Maps API + Places API + Canvas drawing.\n\nTakeaway: If you do something manually repeatedly, build a tool. The investment pays off.",
+      "cta": ""
+    },
+    {
+      "id": 59,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "OCR Integration",
+      "title": "How I'm using OCR to extract data from trading heatmaps",
+      "body": "The data I need: GEX and VEX values from Skylit.ai heatmaps.\n\nThe problem: These are images, not structured data.\n\nThe solution: OCR extraction.\n\nThe tool: Tesseract\n\nOpen-source OCR engine.\nFree. Local. No API costs.\n\nHow it will work:\n\n1. Capture heatmap screenshot\n\nPuppeteer takes screenshot at scheduled times.\nSaved as PNG with metadata.\n\n2. Pre-process image\n\nCrop to relevant region.\nAdjust contrast for better OCR.\nConvert to grayscale if needed.\n\n3. Run OCR\n\nimport pytesseract\nfrom PIL import Image\n\ntext = pytesseract.image_to_string(Image.open('heatmap.png'))\n\n4. Parse extracted text\n\nFind GEX/VEX patterns.\nExtract numerical values.\nHandle OCR errors.\n\n5. Validate and store\n\nSanity check values.\nStore with timestamp and ticker.\n\nChallenges I'm anticipating:\n\n- Color-on-color text (low contrast)\n- Small font sizes\n- Variable positioning\n- OCR accuracy on numbers\n\nSolutions I'm planning:\n\n- Image pre-processing (contrast, crop)\n- Multiple OCR passes\n- Regex pattern matching\n- Confidence scoring\n\nWhy not use an API?\n\n- Cost: Cloud OCR charges per image\n- Privacy: Data stays local\n- Speed: No network latency\n- Control: Full customization\n\nTakeaway: OCR turns image data into structured data. Tesseract is free and good enough for most use cases.",
+      "cta": "What image data would you want to extract programmatically?"
+    },
+    {
+      "id": 60,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Project Registry",
+      "title": "39 projects. One JSON file tracks them all.",
+      "body": "project-registry.json:\n\n[\n  {\n    \"name\": \"ContentGen\",\n    \"path\": \"/active/ContentGen\",\n    \"port\": 3001,\n    \"status\": \"active\"\n  },\n  ...\n]\n\nThe dashboard reads this file.\nEach project has assigned port, status, path.\n\nTakeaway: A simple registry file creates visibility across all projects.",
+      "cta": ""
+    },
+    {
+      "id": 61,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Data Quality",
+      "title": "The 'best' data vendors often have the worst data",
+      "body": "I learned this building acquisition target databases.\n\nVendor data for 103 CDL training schools:\n- 'Owner' names like 'Abetterchoiceabc'\n- Generic emails like 'info@school.com'\n- Company names instead of people\n\nThis is what they charge thousands for.\n\nWhy vendor data is often garbage:\n\n1. Scale over quality\n\nThey scrape millions of records.\nNo time to verify each one.\nQuantity metrics look good. Quality doesn't.\n\n2. One-time scraping\n\nData captured once.\nNever updated.\nStale within months.\n\n3. No validation\n\n'Owner' field populated?\nShip it.\nNo check if it's actually a person.\n\n4. Wrong incentives\n\nThey make money selling records.\nNot selling accurate records.\nMore records = more revenue.\n\nWhat actually works:\n\n1. Multi-source verification\n\nCheck website + LinkedIn + Secretary of State.\nRequire 2+ sources to agree.\n\n2. Human-name validation\n\nIs 'Abetterchoiceabc' a person? No.\nIs 'Steve Menefee' a person? Yes.\n\n3. Title verification\n\nNot just any name.\nDecision-maker titles: Owner, CEO, Founder.\n\n4. Fresh research\n\nDon't trust old data.\nVerify at time of use.\n\nMy results vs vendor data:\n\nVendor: 7.4% usable owner names\nMy enrichment: 70-81.5% verified owners\n\nTakeaway: Don't pay premium prices for garbage data. Either demand verification or build your own enrichment pipeline.",
+      "cta": "What data have you paid for that turned out to be garbage?"
+    },
+    {
+      "id": 62,
+      "platform": "X Thread",
+      "hook_type": "Transformation",
+      "theme": "Content Pipeline",
+      "title": "My content system evolution over 6 months.",
+      "tweets": [
+        "My content system evolution over 6 months.\n\nFrom manual browsing to automated intelligence.\n\nHere's each phase:",
+        "Month 1: Manual chaos\n\n- Open 20 browser tabs daily\n- Manually check websites\n- Copy interesting stuff to notes\n- Forget most of it\n\nZero system. Pure chaos.",
+        "Month 2: RSS basics\n\n- Set up RSS reader\n- Added 50 feeds\n- Still manually checking daily\n- Better but still labor-intensive",
+        "Month 3: Self-hosted aggregation\n\n- Built Python RSS fetcher\n- SQLite database storage\n- Basic search functionality\n- 100+ feeds automated",
+        "Month 4: YouTube integration\n\n- Added channel monitoring\n- Transcript extraction\n- AI summaries of videos\n- Searchable video content",
+        "Month 5: Twitter integration\n\n- Personal archive import\n- Live collection via Apify\n- Account monitoring\n- Full social data",
+        "Month 6: Trend detection\n\n- Cross-platform correlation\n- Keyword extraction\n- Trend scoring\n- Alert generation\n\n246+ sources. Automated intelligence.",
+        "The key insight:\n\nEach phase built on the last.\n\nRSS → + YouTube → + Twitter → + AI → + Trends\n\nIncremental improvement. Compound results.",
+        "Takeaway: Build content systems incrementally.\n\nStart simple (RSS).\nAdd sources (YouTube, Twitter).\nAdd intelligence (AI, trends).\n\n6 months of iteration = comprehensive system."
+      ],
+      "cta": "What phase is your content system at?"
+    },
+    {
+      "id": 63,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Dashboard Features",
+      "title": "My project dashboard has GitHub-like modals.",
+      "body": "Click a project. See tabs:\n- Overview (health metrics)\n- Tasks (real TODO.md)\n- Files (real CLAUDE.md)\n- Settings\n\nNot mocked data. Real files loaded on demand.\n\nHow: File server + fetch API + markdown parsing.\n\nTakeaway: Good dashboards show real data, not placeholders.",
+      "cta": ""
+    },
+    {
+      "id": 64,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Webhook Automation",
+      "title": "How webhooks automate my Twitter data collection",
+      "body": "The old way: Polling.\n\n- Check Apify every 5 minutes\n- 'Is my job done yet?'\n- Waste of API calls\n- Delays in processing\n\nThe new way: Webhooks.\n\nHow it works:\n\n1. Start Apify job\n\nPOST /api/twitter/collect\n{\n  \"account\": \"@target_account\",\n  \"webhook_url\": \"https://myserver.com/apify-webhook\"\n}\n\n2. Apify runs the job\n\nScrapes Twitter data.\nProcesses in their cloud.\nTakes a few minutes.\n\n3. Apify calls my webhook\n\nWhen done, Apify POSTs results to my endpoint.\n\nPOST /apify-webhook\n{\n  \"status\": \"succeeded\",\n  \"data\": [...tweets...]\n}\n\n4. My server processes results\n\nParse the payload.\nStore tweets in database.\nUpdate job status.\n\nNo polling. No waiting. Instant processing.\n\nThe endpoint implementation:\n\n@app.route('/apify-webhook', methods=['POST'])\ndef handle_apify_webhook():\n    data = request.json\n    if data['status'] == 'succeeded':\n        tweets = data['data']\n        for tweet in tweets:\n            db.add_twitter_post(tweet)\n        db.update_apify_job_status(data['job_id'], 'completed')\n    return {'received': True}\n\nBenefits over polling:\n\n- Instant processing (no delay)\n- No wasted API calls\n- Cleaner code\n- Better reliability\n\nTakeaway: Webhooks > polling. Always. If the service supports webhooks, use them.",
+      "cta": "What processes could you convert from polling to webhooks?"
+    },
+    {
+      "id": 65,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Tool Building",
+      "title": "I build tools on weekends. Not side projects. Tools.",
+      "body": "Side projects: Ambitious apps that never ship.\n\nTools: Specific solutions to specific problems.\n\n- PromptSaver (Chrome extension)\n- Map maker (real estate)\n- RSS aggregator (content)\n- File server (dashboard)\n\nEach solves ONE problem. Each actually ships.\n\nTakeaway: Build tools, not side projects.",
+      "cta": ""
+    },
+    {
+      "id": 66,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Trading Analysis",
+      "title": "From watching charts all day to automated setup detection",
+      "body": "The old way (time-intensive):\n\n- Wake up pre-market\n- Check multiple tickers\n- Analyze heatmaps manually\n- Look for setups\n- Monitor throughout day\n- React to price moves\n\n4-6 hours daily. Exhausting.\n\nThe new way (automated):\n\n- System captures heatmaps at key times\n- OCR extracts GEX/VEX values\n- Technical analysis runs automatically\n- AI scores setup probability\n- Alerts for high-probability setups\n- I only act on alerts\n\n30 minutes daily. Focused.\n\nWhat changes:\n\n1. No more watching\n\nSystem watches for me.\nI get alerts, not charts.\n\n2. Consistent capture\n\n16 data points per ticker per day.\nNo missed setups from bathroom breaks.\n\n3. Objective scoring\n\nAlgorithm doesn't have FOMO.\nAlgorithm doesn't revenge trade.\nAlgorithm follows the rules.\n\n4. Historical database\n\nEvery setup logged.\nCan backtest and improve.\n\nThe setups it will detect:\n\n- Gatekeeper node rejection (early day)\n- Untouched King node bounce (first touch)\n- Range edge fade (asymmetric R:R)\n- Growing floor with price bounce\n- Multi-index confluence\n\nThe setups it will filter out:\n\n- Midpoint trading\n- Retested nodes (3rd+ touch)\n- Unwinding nodes\n- No confluence\n\nTakeaway: Trading shouldn't be a full-time watching job. Build systems that watch. You execute on alerts.",
+      "cta": "What part of your work would benefit from automated monitoring?"
+    },
+    {
+      "id": 67,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "Markdown Parsing",
+      "title": "I parse TODO.md files and display them in a dashboard.",
+      "tweets": [
+        "I parse TODO.md files and display them in a dashboard.\n\nMarkdown to HTML. In the browser.\n\nHere's how I did it:",
+        "The use case:\n\nMy projects have TODO.md files.\n\nI want to see them in a dashboard without opening files.\n\nClick project → see formatted TODO list.",
+        "Step 1: Fetch the file\n\nconst response = await fetch(\n  `http://localhost:8080/read-file?path=${path}/TODO.md`\n);\nconst markdown = await response.text();",
+        "Step 2: Parse markdown to HTML\n\nI use a simple regex-based parser.\n\n- # becomes <h1>\n- - [ ] becomes checkbox\n- ** becomes <strong>\n- etc.",
+        "The parser function:\n\nfunction markdownToHtml(md) {\n  return md\n    .replace(/^# (.+)$/gm, '<h1>$1</h1>')\n    .replace(/^## (.+)$/gm, '<h2>$1</h2>')\n    .replace(/- \\[ \\] (.+)/g, '<li class=\"todo\">$1</li>')\n    .replace(/- \\[x\\] (.+)/g, '<li class=\"done\">$1</li>');\n}",
+        "Step 3: Render in modal\n\nconst tabContent = document.getElementById('tab-content');\ntabContent.innerHTML = `\n  <div class=\"markdown-content\">\n    ${markdownToHtml(markdown)}\n  </div>\n`;",
+        "Styling:\n\n.markdown-content h1 { font-size: 1.5em; }\n.markdown-content .todo { color: orange; }\n.markdown-content .done { color: green; text-decoration: line-through; }",
+        "Result:\n\nReal TODO.md files displayed beautifully in my dashboard.\n\nCheckboxes styled. Headers formatted. Lists rendered.",
+        "Takeaway: Markdown is easy to parse.\n\nRegex handles 80% of cases.\n\nFor complex needs, use a library like marked.js."
+      ],
+      "cta": "What markdown-based files would you want in a dashboard?"
+    },
+    {
+      "id": 68,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Port Management",
+      "title": "Port conflict solution: Project registry with assigned ports.",
+      "body": "Every project gets a port:\n\nContentGen: 3001\nMapMaker: 3006\nLegiscrapeR: 3009\nProject Dashboard: 8080\n\nTracked in project-registry.json.\n\nBefore starting, check the registry.\n\nTakeaway: Small systems (port registry) prevent big headaches (conflicts).",
+      "cta": ""
+    },
+    {
+      "id": 69,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Data Collection",
+      "title": "My OwnerScraper collected 246 verified executives across 3 states",
+      "body": "The goal: Build an acquisition target database for private career schools.\n\nThe result: 246 verified executives with decision-making authority.\n\nHow I got there:\n\nData collection (Phase 1):\n\n- Texas Workforce Commission: 627 schools\n- Florida DOE: 653 private schools\n- Georgia DOE: 232 campaign-ready schools\n\nFiltering (Phase 2):\n\n- Remove Title IV schools (federally regulated)\n- Focus on private career schools only\n- Result: 444 non-Title IV targets\n\nEnrichment (Phase 3):\n\n6-strategy Perplexity API search:\n1. Website research\n2. LinkedIn lookup\n3. Secretary of State\n4. Title variations\n5. Review mining\n6. News search\n\n70% hit rate on owner names.\n\nVerification (Phase 4):\n\nOnly counted if:\n- Real human name (not company)\n- Decision-maker title (Owner, CEO, Founder)\n- 2+ sources agree\n\nFinal results:\n\n- 246 verified executives\n- 143 schools covered\n- Multi-state coverage (TX, FL, GA)\n- Ready for outreach campaigns\n\nThe data quality difference:\n\nStarting data: 7.4% usable\nAfter enrichment: 81.5% verified\n\nTakeaway: Good data takes work. Scraping is step one. Enrichment is step two. Verification is step three. Each step adds value.",
+      "cta": "What data would you want verified at this level?"
+    },
+    {
+      "id": 70,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Content Monitoring",
+      "title": "Before: Check 20 websites daily.\nAfter: 246 sources monitored automatically.",
+      "body": "The system fetches hourly.\nAI categorizes and extracts keywords.\nTrends surface automatically.\n\nI review. I don't hunt.\n\nHow: Python scripts + SQLite + AI analysis.\n\nTakeaway: Build monitoring systems. Stop checking things manually.",
+      "cta": ""
+    },
+    {
+      "id": 71,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Video Processing",
+      "title": "How I process 2-hour X Spaces recordings automatically",
+      "body": "The input: X Spaces URL.\n\nThe output: Audio file + transcript + AI summary.\n\nThe pipeline:\n\n1. Download with yt-dlp\n\nyt-dlp has built-in Twitter/X support.\nHandles authentication via browser cookies.\n\nyt-dlp 'https://x.com/i/spaces/...' -o 'audio.mp3'\n\n2. Check file size\n\nWhisper API limit: 25MB.\nX Spaces recordings: Often 100MB+.\n\nif file_size > 25MB:\n    split_into_chunks()\n\n3. Split with ffmpeg\n\nffmpeg -i audio.mp3 -f segment -segment_time 600 -c copy chunk_%03d.mp3\n\n10-minute chunks. Clean splits.\n\n4. Transcribe each chunk\n\nSend to Whisper API.\nReceive timestamped transcript.\n\nfor chunk in chunks:\n    transcript = whisper.transcribe(chunk)\n    all_transcripts.append(transcript)\n\n5. Combine transcripts\n\nMerge all chunks.\nAdjust timestamps for continuity.\n\n6. Generate summary\n\nSend full transcript to GPT-4o or Gemini.\n\nPrompt:\n'Summarize this X Space. Include:\n- Key insights\n- Takeaways\n- Advice\n- Detailed overview'\n\n7. Save outputs\n\n- audio.mp3 (original recording)\n- transcript.txt (timestamped text)\n- summary.md (AI summary)\n\nThe command:\n\npython spaces_pipeline.py 'https://x.com/i/spaces/...' --api-key 'xxx'\n\nTakeaway: Long audio processing = chunking + combining. The pipeline handles files of any length.",
+      "cta": "What audio content would you want automatically transcribed?"
+    },
+    {
+      "id": 72,
+      "platform": "X Thread",
+      "hook_type": "Contrarian",
+      "theme": "Local AI",
+      "title": "Why I run AI locally instead of using APIs.",
+      "tweets": [
+        "Why I run AI locally instead of using APIs.\n\nNot always. But for many use cases.\n\nHere's my reasoning:",
+        "Reason 1: Cost\n\nAPIs charge per token/request.\n\nLocal AI: One-time setup. Unlimited usage.\n\nFor high-volume tasks, local wins.",
+        "Reason 2: Privacy\n\nAPI calls send your data to third parties.\n\nLocal AI: Data never leaves your machine.\n\nFor sensitive content, local wins.",
+        "Reason 3: No rate limits\n\nAPIs throttle heavy usage.\n'Too many requests. Try again later.'\n\nLocal AI: Go as fast as your hardware allows.",
+        "Reason 4: Availability\n\nAPIs can have outages.\nAPIs can deprecate endpoints.\nAPIs can change pricing.\n\nLocal AI: Always available. Fully controlled.",
+        "The tradeoffs:\n\n- Speed: APIs are faster (powerful servers)\n- Quality: Top APIs (GPT-4) may be better than local models\n- Setup: APIs are easier to start with\n- Hardware: Local needs decent GPU for large models",
+        "My hybrid approach:\n\n- Prototyping: Local (free experimentation)\n- High volume: Local (no per-query cost)\n- Speed-critical: API (faster responses)\n- Production: Evaluate both",
+        "What I run locally:\n\n- Ollama for chat (llama3.2)\n- Whisper for transcription\n- ChromaDB for vectors\n- Embeddings (nomic-embed-text)",
+        "Takeaway: Local AI is viable for many use cases.\n\nIt's slower. But it's free and private.\n\nMatch the solution to the requirements."
+      ],
+      "cta": "What would you run locally if you could?"
+    },
+    {
+      "id": 73,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Enrichment",
+      "title": "81.5% owner coverage achieved through multi-source verification.",
+      "body": "Started at 7.4%.\n\n6 strategies. Perplexity API. Cross-reference validation.\n\nStrategies:\n1. Website\n2. LinkedIn\n3. Secretary of State\n4. Title variations\n5. Reviews\n6. News\n\nFirst real name found wins.\n\nTakeaway: Data quality is an enrichment problem, not a sourcing problem.",
+      "cta": ""
+    },
+    {
+      "id": 74,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Dashboard Building",
+      "title": "The tab system I built for my project management dashboard",
+      "body": "The UI pattern: GitHub-style modal with tabs.\n\nClick project → modal opens → navigate tabs.\n\nThe tabs:\n\n1. Overview\n- Project info cards\n- Health metrics\n- Quick stats\n\n2. Tasks & Progress\n- Real TODO.md loaded from file\n- Markdown parsed and rendered\n- Checkboxes styled\n\n3. Files & Context\n- Project file browser\n- CLAUDE.md rules displayed\n- Key files highlighted\n\n4. Settings\n- Port assignments\n- Configuration options\n- Project metadata\n\nThe implementation:\n\nHTML structure:\n\n<div class=\"modal\">\n  <div class=\"tabs\">\n    <button data-tab=\"overview\">Overview</button>\n    <button data-tab=\"tasks\">Tasks</button>\n    <button data-tab=\"files\">Files</button>\n  </div>\n  <div class=\"tab-content\" id=\"tab-content\">\n    <!-- Content loads here -->\n  </div>\n</div>\n\nJavaScript:\n\ntabs.forEach(tab => {\n  tab.addEventListener('click', () => {\n    showTabContent(tab.dataset.tab, currentProject);\n  });\n});\n\nasync function showTabContent(tabName, project) {\n  switch(tabName) {\n    case 'tasks':\n      const todo = await loadProjectTODO(project);\n      tabContent.innerHTML = markdownToHtml(todo);\n      break;\n    // ... other tabs\n  }\n}\n\nThe file loading:\n\nasync function loadProjectTODO(project) {\n  // Tries TODO.md, todo.md, tasks.md\n  for (const filename of ['TODO.md', 'todo.md', 'tasks.md']) {\n    try {\n      const response = await fetch(\n        `http://localhost:8080/read-file?path=${project.path}/${filename}`\n      );\n      if (response.ok) return await response.text();\n    } catch (e) { continue; }\n  }\n  throw new Error('No TODO file found');\n}\n\nTakeaway: Good dashboards load real data. Tabs organize complexity. File servers enable secure access.",
+      "cta": "What would you put in a project dashboard?"
+    },
+    {
+      "id": 75,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Script Generation",
+      "title": "9 YouTube scripts generated from project documentation.",
+      "body": "Not generic topics.\n\nSpecific scripts about:\n- My trading setup detector\n- My acquisition target finder\n- My Chrome extension\n- My YouTube chat system\n\nHow: Read CLAUDE.md → Extract insights → Apply hook structure.\n\nTakeaway: Your projects ARE your content. Document them. Generate from them.",
+      "cta": ""
+    },
+    {
+      "id": 76,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Data Strategy",
+      "title": "I don't trust data vendors. I build enrichment pipelines.",
+      "body": "Data vendors sell quantity, not quality.\n\nTheir incentive: More records = more revenue.\n\nMy experience: 7.4% of their 'owner' data was usable.\n\n93% garbage.\n\nWhy this happens:\n\n1. Scraping at scale\n\nThey crawl millions of pages.\nNo time to verify.\nAlgorithms populate fields.\nGarbage passes through.\n\n2. Stale data\n\nScraped once.\nNever updated.\nBusinesses change.\nData rots.\n\n3. No validation logic\n\n'Is Abetterchoiceabc a person?' → Not checked.\n'Is info@school.com an owner?' → Not checked.\n\nMy alternative: Build enrichment pipelines.\n\n1. Get the basic list\n\nGovernment databases.\nIndustry directories.\nPublic records.\n\n2. Enrich with multi-strategy search\n\nWebsite + LinkedIn + Secretary of State.\nMultiple queries per record.\nFirst real answer wins.\n\n3. Validate with cross-reference\n\nRequire 2+ sources to agree.\nHuman-name validation.\nTitle verification.\n\n4. Maintain freshness\n\nRe-enrich periodically.\nFlag stale records.\nUpdate on use.\n\nThe cost comparison:\n\nVendor data: $1000s for garbage.\nMy enrichment: API costs + time. Quality data.\n\nTakeaway: If you need quality data, build the enrichment yourself. Vendor data is a starting point, not a solution.",
+      "cta": "What data have you had to enrich yourself?"
+    },
+    {
+      "id": 77,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "Error Handling",
+      "title": "How I handle corrupted audio files in my transcription pipeline.",
+      "tweets": [
+        "How I handle corrupted audio files in my transcription pipeline.\n\nX Spaces recordings can be messy.\n\nHere's my error handling approach:",
+        "The problem:\n\nX Spaces audio sometimes has:\n- Missing MP3 frame headers\n- Encoding issues\n- Truncated data\n\npydub crashes on corrupted files.",
+        "Solution 1: Use ffmpeg directly\n\nffmpeg is more robust than Python libraries.\n\nIt can often process files that pydub can't.",
+        "Solution 2: Chunking by time, not size\n\nInstead of splitting by file size, split by duration.\n\nffmpeg -i audio.mp3 -f segment -segment_time 600 ...\n\n10-minute chunks regardless of file issues.",
+        "Solution 3: Try-except with fallbacks\n\ntry:\n    transcribe(file)\nexcept CorruptionError:\n    try:\n        repaired = repair_with_ffmpeg(file)\n        transcribe(repaired)\n    except:\n        log_failure(file)",
+        "Solution 4: Progress saving\n\nSave state after each successful chunk.\n\nIf failure occurs, resume from last checkpoint.\n\nNo re-processing successful chunks.",
+        "Solution 5: Graceful degradation\n\nIf one chunk fails, continue with others.\n\nPartial transcript > no transcript.\n\nFlag missing sections for review.",
+        "The resilient pipeline:\n\n1. Try normal processing\n2. On failure, try ffmpeg repair\n3. On failure, try chunking\n4. On failure, log and continue\n5. Always save progress",
+        "Takeaway: Audio pipelines need error handling.\n\nCorrupted files are common.\n\nBuild resilient systems that degrade gracefully."
+      ],
+      "cta": "What error handling strategies do you use for file processing?"
+    },
+    {
+      "id": 78,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Project Documentation",
+      "title": "Every project I build has two files: log.md and context.md.",
+      "body": "log.md: Full session history. Everything that happened.\n\ncontext.md: Quick reference. What to know for next session.\n\nTwo files. 5 minutes to create. Hours saved on context recovery.\n\nTakeaway: Document as you go. Future-you will thank you.",
+      "cta": ""
+    },
+    {
+      "id": 79,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Content System",
+      "title": "From manual content hunting to automated trend detection",
+      "body": "The before state:\n\n- Open 20+ browser tabs daily\n- Manually check favorite sites\n- Copy interesting snippets to notes\n- Scroll Twitter for hours\n- Miss things because overwhelmed\n\nTime: 2-3 hours daily. Exhausting.\n\nThe after state:\n\n- 246+ RSS sources auto-monitored\n- YouTube transcripts auto-extracted\n- Twitter accounts auto-tracked\n- Cross-platform trends auto-detected\n- Alerts when something matters\n\nTime: 30 minutes review daily. Focused.\n\nHow I built it:\n\nPhase 1: RSS aggregation\n\nPython script fetches feeds hourly.\nSQLite stores articles.\nBasic search functionality.\n\nPhase 2: YouTube integration\n\nChannel monitoring.\nTranscript extraction.\nAI summarization.\n\nPhase 3: Twitter integration\n\nPersonal archive import.\nLive collection via Apify.\nAccount monitoring.\n\nPhase 4: Trend detection\n\nKeyword extraction.\nCross-platform correlation.\nTrend scoring.\nAlert generation.\n\nThe architecture:\n\n- Backend: Python Flask\n- Database: SQLite (MVP), PostgreSQL (production)\n- APIs: YouTube, Apify, RSS parsing\n- AI: Claude for analysis\n\nThe database schema:\n\n- content_items: All collected content\n- keywords: Extracted topics\n- correlations: Cross-source matches\n- trends: Validated signals\n\nResult:\n\nI see trends forming before they go mainstream.\nContent ideas come to me.\nNo more hunting.\n\nTakeaway: Don't hunt for content. Build a system that brings it to you.",
+      "cta": "What would you monitor if you could automate it?"
+    },
+    {
+      "id": 80,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Tool Philosophy",
+      "title": "Side projects fail. Tools ship.",
+      "body": "Side project: 'I'll build an AI-powered social media manager.'\n\nTool: 'I need to track my prompts. I'll build a Chrome extension.'\n\nOne is ambitious. One ships.\n\nI build tools. Specific problems. Specific solutions.\n\nTakeaway: Think 'What problem do I have?' not 'What would be cool?'",
+      "cta": ""
+    },
+    {
+      "id": 81,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Business Search",
+      "title": "How my map tool discovers and prioritizes nearby businesses",
+      "body": "The feature: Auto-discover businesses near any address.\n\nThe challenge: Google Places returns too many results. Most aren't relevant.\n\nThe solution: Smart filtering and prioritization.\n\nStep 1: Category filtering\n\nUser selects categories:\n- Restaurants\n- Retail stores\n- Parks\n- Transit\n- Museums\n- Schools\n\nMulti-select enabled.\n\nStep 2: Focused search\n\nFor each selected category, search Places API.\n\nlimitResults = 20 per category.\n\nStep 3: Smart type filtering\n\nFocus on consumer-relevant types:\n\nconst priorityTypes = [\n  'restaurant', 'cafe', 'bar',\n  'grocery_store', 'shopping_mall',\n  'park', 'museum', 'transit_station',\n  'school', 'library', 'hospital'\n];\n\nFilter out:\n- Generic 'point_of_interest'\n- Low-rated (< 3.5 stars)\n- Far away results\n\nStep 4: Prioritization algorithm\n\nSort by:\n1. Popularity (review count)\n2. Rating\n3. Distance from center\n\npopular + high-rated + close = top of list\n\nStep 5: Limit display\n\nShow top 20 total.\n\nNot 200 businesses. The 20 most relevant.\n\nThe UX:\n\n- Enter address (geocoded automatically)\n- Select categories\n- Adjust radius (0.1 - 50 miles)\n- See prioritized results\n- Map auto-zooms to fit radius\n\nResult:\n\nUser sees the most relevant businesses, not everything.\n\nTakeaway: Filtering and prioritization turn raw API data into useful information. The skill isn't fetching data. It's showing the RIGHT data.",
+      "cta": "How would you prioritize business discovery?"
+    },
+    {
+      "id": 82,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Checkpointing",
+      "title": "Why every data pipeline I build has checkpointing.",
+      "tweets": [
+        "Why every data pipeline I build has checkpointing.\n\nLesson learned: Jobs fail. Networks timeout. APIs rate limit.\n\nCheckpointing saves you.",
+        "What is checkpointing?\n\nSaving progress at regular intervals.\n\nIf job fails at record 500, restart from 500.\n\nNot from 0.",
+        "The pattern:\n\nfor i, record in enumerate(records):\n    process(record)\n    if i % 100 == 0:\n        save_checkpoint(i)\n\nSave every 100 records.",
+        "The checkpoint file:\n\n{\n  \"last_processed\": 500,\n  \"timestamp\": \"2025-01-29T10:00:00\",\n  \"records_completed\": [\"id1\", \"id2\", ...]\n}",
+        "The resume logic:\n\ndef resume_from_checkpoint():\n    checkpoint = load_checkpoint()\n    start_from = checkpoint['last_processed'] + 1\n    return records[start_from:]",
+        "Real example from OwnerScraper:\n\n103 CDL schools to enrich.\n\nSave every 5 schools.\n\nIf Perplexity API rate limits at school 50:\n- Restart from school 46\n- Not from school 1",
+        "Why this matters:\n\n- API rate limits: Common\n- Network issues: Common\n- Process crashes: Common\n\nWithout checkpointing: Lose all progress.\nWith checkpointing: Lose 5-10 records max.",
+        "Takeaway: Always build checkpointing into data pipelines.\n\nThe extra 10 lines of code save hours of re-processing."
+      ],
+      "cta": "What pipelines have you lost progress on?"
+    },
+    {
+      "id": 83,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Name Validation",
+      "title": "Strict name validation for data enrichment.",
+      "body": "Reject:\n- 'Abetterchoiceabc'\n- 'Training Academy LLC'\n- 'info@school'\n\nAccept:\n- 'Steve Menefee'\n- 'Carla Luig'\n- 'Roberto Reyna'\n\nHow: Pattern matching + word lists + character rules.\n\nTakeaway: AI finds names. Validation ensures they're actually people.",
+      "cta": ""
+    },
+    {
+      "id": 84,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Context Management",
+      "title": "39 projects. Zero context lost.",
+      "body": "The problem with multiple projects:\n\nYou work on something. Switch to another project. Come back a week later.\n\n'What was I doing?'\n'What did I decide?'\n'Where did I leave off?'\n\nContext lost. Time wasted recovering.\n\nMy solution: Systematic documentation.\n\nFor every project:\n\n1. CLAUDE.md\n- Project overview\n- Tech stack\n- Current status\n- Next steps\n- Failed approaches\n\n2. log.md\n- Full session history\n- Tasks completed\n- Decisions made\n- Problems solved\n\n3. context.md\n- Quick reference\n- Key facts for resuming\n- Links to important files\n\nThe workflow:\n\n1. Start session: Read context.md\n2. Work on project\n3. End session: Ask Claude to update log.md\n4. Claude creates context.md summary\n5. Commit both files\n\nThe dashboard integration:\n\nMy dashboard loads real CLAUDE.md and TODO.md files.\n\nClick project → see context immediately.\n\nNo file hunting.\n\nResults:\n\n- Resume any project in < 5 minutes\n- Never lose important decisions\n- Searchable history of all work\n- Easy handoff to future-me\n\nTakeaway: Documentation isn't overhead. It's investment. The time spent documenting is returned 10x when resuming projects.",
+      "cta": "How do you maintain context across multiple projects?"
+    },
+    {
+      "id": 85,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Trend Detection",
+      "title": "Cross-platform trend detection: Same topic in 3+ sources = signal.",
+      "body": "RSS + YouTube + Twitter monitored.\n\nWhen topic appears across platforms:\n- Not coincidence\n- Emerging trend\n- Content opportunity\n\nHow: Keyword extraction + correlation scoring.\n\nTakeaway: Trends become obvious when you watch multiple sources systematically.",
+      "cta": ""
+    },
+    {
+      "id": 86,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "API Architecture",
+      "title": "The API endpoints I built for my ContentGen system",
+      "body": "ContentGen needs to work with other tools.\n\nSo I built N8N-compatible API endpoints.\n\nThe endpoints:\n\n1. Content management\n\nPOST /api/ideas - Add new idea\nGET /api/ideas - List all ideas\nGET /api/ideas/:id - Get specific idea\nPUT /api/ideas/:id - Update idea\nDELETE /api/ideas/:id - Remove idea\n\n2. Source management\n\nGET /api/sources - List RSS feeds\nPOST /api/sources - Add new source\nDELETE /api/sources/:id - Remove source\n\n3. Twitter integration\n\nPOST /api/twitter/upload-archive - Import archive\nGET /api/twitter/accounts - List monitored accounts\nPOST /api/twitter/accounts - Add account to monitor\nPOST /api/twitter/collect - Start Apify collection\nGET /api/twitter/posts - Get collected posts\nGET /api/twitter/stats - Collection statistics\n\n4. Webhooks\n\nPOST /apify-webhook - Receive Apify results\nPOST /n8n-webhook - N8N automation triggers\n\n5. Analysis\n\nGET /api/trends - Get detected trends\nGET /api/keywords - Get extracted keywords\nPOST /api/analyze - Trigger content analysis\n\nThe N8N compatibility:\n\nAll endpoints return JSON.\nStandard HTTP status codes.\nAuthentication via API key header.\n\nThis means I can:\n- Trigger content collection from N8N\n- Send alerts via N8N\n- Connect to other tools\n- Automate workflows\n\nTakeaway: Build APIs into your tools from the start. Future automation becomes trivial when everything has an endpoint.",
+      "cta": "What tools would you want to connect via API?"
+    },
+    {
+      "id": 87,
+      "platform": "X Thread",
+      "hook_type": "Transformation",
+      "theme": "Portfolio Building",
+      "title": "My project portfolio after 30 days of building.",
+      "tweets": [
+        "My project portfolio after 30 days of building.\n\nAll functional. All documented. All solving real problems.\n\nHere's what I shipped:",
+        "ContentGen\n\n246+ RSS sources monitored.\nYouTube transcript extraction.\nTwitter integration via Apify.\nCross-platform trend detection.\nContent idea repository.",
+        "OwnerScraper\n\n627 schools researched.\n246 verified executives.\n6-strategy enrichment pipeline.\n70-81% owner coverage.\nMulti-state expansion (TX, FL, GA).",
+        "Heatseeker (in progress)\n\nTrading setup detection.\nAutomated heatmap capture.\nOCR data extraction.\nTechnical analysis integration.\nAlert system.",
+        "YouTubeRAG\n\n69 transcripts indexed.\n1,997 searchable chunks.\nFully local AI (Ollama).\nChat with YouTube channels.\n$0/month cost.",
+        "LegiscrapeR\n\n104 legislators scraped.\n99% accuracy.\nCommittee enrichment.\nBill sponsorship tracking.\nInteractive dashboard.",
+        "MapMaker\n\nReal estate marketing maps.\nBusiness auto-discovery.\nDrawing tools overlay.\nGoogle Maps integration.\nRadius-based search.",
+        "Project Management Dashboard\n\n39 projects tracked.\nReal file loading.\nGitHub-like modals.\nPort registry.\nTODO/CLAUDE.md integration.",
+        "X Spaces Pipeline\n\nAuto-download recordings.\nWhisper transcription.\nAI summarization.\nLarge file handling.\nCheckpointed processing.",
+        "Takeaway: 30 days. 8+ functional projects.\n\nAll built with Claude Code.\nAll documented.\nAll solving real problems."
+      ],
+      "cta": "What would you build in 30 days?"
+    },
+    {
+      "id": 88,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Documentation",
+      "title": "Documentation isn't overhead. It's investment.",
+      "body": "Time to write log.md: 5 minutes.\nTime saved resuming project: 30+ minutes.\n\nTime to write context.md: 5 minutes.\nTime saved onboarding future-me: 60+ minutes.\n\nROI: 6-12x.\n\nTakeaway: Document as you build. Future-you is a different person who needs context.",
+      "cta": ""
+    },
+    {
+      "id": 89,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Skill Building",
+      "title": "What I learned building 8+ projects in 30 days",
+      "body": "30 days of focused building taught me more than 6 months of tutorials.\n\nThe projects:\n\n1. ContentGen - Content aggregation\n2. OwnerScraper - Data enrichment\n3. Heatseeker - Trading automation\n4. YouTubeRAG - Local AI RAG\n5. LegiscrapeR - Web scraping\n6. MapMaker - Google Maps tools\n7. Project Dashboard - File servers\n8. X Spaces Pipeline - Audio processing\n\nThe skills I developed:\n\n1. Data pipeline architecture\n\n5-stage pattern: Ingest → Clean → Enhance → Store → Output\n\nApplies to every project.\n\n2. API integration\n\nGoogle Maps, YouTube, Twitter, Perplexity, Apify.\n\nEach project added new API experience.\n\n3. Local AI deployment\n\nOllama, ChromaDB, Whisper.\n\nFully local AI stack.\n\n4. Web scraping patterns\n\nBeautifulSoup, Puppeteer, rate limiting, error handling.\n\nRobust extraction systems.\n\n5. Dashboard building\n\nFile servers, markdown parsing, tab systems, modals.\n\nFunctional UIs quickly.\n\n6. Audio/video processing\n\nffmpeg, chunking, transcription.\n\nMedia pipeline construction.\n\n7. Documentation systems\n\nCLAUDE.md, log.md, context.md.\n\nSystematic project tracking.\n\n8. Multi-source verification\n\n6-strategy search, cross-reference validation.\n\nData quality patterns.\n\nThe meta-skill:\n\nBreaking problems into buildable pieces.\n\nNot 'build a trading system.'\nBut 'capture screenshots → extract data → score setups → send alerts.'\n\nTakeaway: Build many small projects. Each teaches different skills. The portfolio compounds.",
+      "cta": "What skills would 30 days of focused building teach you?"
+    },
+    {
+      "id": 90,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Rate Limiting",
+      "title": "Rate limiting pattern for API calls.",
+      "body": "import time\n\nfor record in records:\n    process(record)\n    time.sleep(2)  # 2 seconds between calls\n\nFor Perplexity: 2 seconds.\nFor YouTube transcripts: 1 second.\nFor Google Places: 0.5 seconds.\n\nTakeaway: Respect rate limits. Slow and steady > fast and blocked.",
+      "cta": ""
+    },
+    {
+      "id": 91,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Trading Systems",
+      "title": "The setup scoring algorithm I'm building for Heatseeker",
+      "body": "Goal: Score trading setups objectively.\n\nNot gut feel. Not FOMO. Algorithm.\n\nThe scoring dimensions:\n\n1. Heatseeker signal quality (40%)\n\n- First touch vs retested node\n- Node growing vs unwinding\n- Gatekeeper vs King node\n- Color/magnitude alignment\n\n2. Technical confirmation (30%)\n\n- Price at support/resistance\n- EMA alignment\n- Volume confirmation\n- Candle patterns\n\n3. Multi-index confluence (20%)\n\n- SPX alignment\n- SPY alignment\n- QQQ alignment\n- Sector ETF alignment\n\n4. Risk/reward (10%)\n\n- Asymmetric R:R (> 1.5:1)\n- Clear stop level\n- Realistic target\n\nThe scoring logic:\n\ndef score_setup(heatseeker_data, technical_data, index_data):\n    score = 0\n    \n    # Heatseeker signals\n    if is_first_touch(heatseeker_data):\n        score += 15\n    if is_growing_node(heatseeker_data):\n        score += 15\n    if is_gatekeeper_rejection(heatseeker_data):\n        score += 10\n    \n    # Technical confirmation\n    if at_support_resistance(technical_data):\n        score += 10\n    if ema_aligned(technical_data):\n        score += 10\n    if volume_confirms(technical_data):\n        score += 10\n    \n    # Index confluence\n    aligned_indices = count_aligned_indices(index_data)\n    score += aligned_indices * 5  # 5 points per aligned index\n    \n    # Risk/reward\n    if rr_ratio(technical_data) > 1.5:\n        score += 10\n    \n    return score / 100  # Normalize to 0-10\n\nAlert threshold: ≥ 7/10\n\nBelow 7: Skip.\nAbove 7: Alert for review.\n\nTakeaway: Systematize trading decisions. Algorithms don't have FOMO. Algorithms follow rules.",
+      "cta": "What would you include in a trading setup score?"
+    },
+    {
+      "id": 92,
+      "platform": "X Thread",
+      "hook_type": "Contrarian",
+      "theme": "Building Philosophy",
+      "title": "I don't build side projects. I build solutions to problems I have.",
+      "tweets": [
+        "I don't build side projects.\n\nI build solutions to problems I have.\n\nThis distinction matters.",
+        "Side project mindset:\n\n'What would be cool to build?'\n'What technology should I learn?'\n'What could I sell?'\n\nResult: Abandoned repos.",
+        "Problem-solution mindset:\n\n'I waste time checking 20 websites.'\n→ ContentGen\n\n'I can't find real owner names.'\n→ OwnerScraper\n\n'I watch charts all day.'\n→ Heatseeker",
+        "Why problems > projects:\n\n1. Motivation is built-in\nYou actually want the solution.\nNot just the building experience.\n\n2. Success is measurable\nDoes it solve the problem?\nYes or no.",
+        "3. Scope is natural\nBuild until problem is solved.\nNot until you're bored.",
+        "4. Use is guaranteed\nYou'll use it because you need it.\nNot shelf it because you don't.",
+        "My problem-to-project examples:\n\n- Manual content hunting → ContentGen\n- Garbage owner data → OwnerScraper\n- Chart watching → Heatseeker\n- Scattered project context → Dashboard",
+        "The question to ask:\n\nNot 'What should I build?'\n\nBut 'What problem is annoying me right now?'",
+        "Takeaway: Start with problems. End with solutions.\n\nSide projects are vanity.\nProblem-solving is value."
+      ],
+      "cta": "What problem is annoying you right now?"
+    },
+    {
+      "id": 93,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "16 screenshots per ticker per day. Automatically.",
+      "body": "Capture schedule:\n- First 30 min: Every 5 min (7 captures)\n- 10:30 AM: 1 capture\n- Midday: 1 capture  \n- Last 30 min: Every 5 min (7 captures)\n\nAll automated via Puppeteer.\nNo manual checking.\n\nTakeaway: Automate data collection. Especially for time-sensitive markets.",
+      "cta": ""
+    },
+    {
+      "id": 94,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Content Pipeline",
+      "title": "100 posts generated from 30 days of project logs",
+      "body": "The content creation bottleneck: Staring at blank pages.\n\nMy solution: Extract content from work already done.\n\nThe source material:\n\nProject logs from:\n- ContentGen (RSS + Twitter integration)\n- OwnerScraper (data enrichment)\n- Heatseeker (trading automation)\n- YouTubeRAG (local AI)\n- LegiscrapeR (web scraping)\n- MapMaker (map tools)\n- Project Dashboard (file server)\n- X Spaces Pipeline (audio processing)\n\nThe extraction process:\n\n1. Read each log.md and context.md\n\n2. Identify content-worthy insights:\n- What I built\n- Problems I solved\n- Decisions I made\n- Results I achieved\n- Lessons I learned\n\n3. Apply hook frameworks:\n- Transformation: Before → After\n- How-to: Step-by-step process\n- Benefit-driven: Results achieved\n- Contrarian: Unexpected approach\n\n4. Generate platform variations:\n- X post (short)\n- LinkedIn post (detailed)\n- Thread (step-by-step)\n\n5. Personalize with specifics:\n- Not 'I built a scraper'\n- But '99% accuracy on 104 legislators with committee enrichment'\n\nThe output:\n\n100 posts.\nAll from real projects.\nAll with specific results.\nAll authentic.\n\nTakeaway: Your best content is in your project documentation. Extract it. Format it. Share it.",
+      "cta": "What's in your project logs that could become content?"
+    },
+    {
+      "id": 95,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Session Management",
+      "title": "Puppeteer session persistence for authenticated sites.",
+      "body": "The problem: Logging in every time.\n\nThe solution: Save and restore cookies.\n\n1. Log in once manually\n2. Export cookies to JSON\n3. Load cookies before automation\n4. Session persists\n\nNo re-authentication needed.\n\nTakeaway: Session management makes browser automation practical for authenticated apps.",
+      "cta": ""
+    },
+    {
+      "id": 96,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Building Systems",
+      "title": "The 5-stage data pipeline I use for every project",
+      "body": "Every data project follows the same pattern.\n\nOnce I recognized this, building got faster.\n\nThe 5 stages:\n\n1. Ingestion\n\nGet data from sources:\n- CSV upload\n- API fetch\n- Web scrape\n- File import\n\nValidate format. Log raw data.\n\n2. Cleaning\n\nStandardize the data:\n- Format normalization\n- Missing value handling\n- Duplicate removal\n- Type conversion\n\n3. Enhancement\n\nAdd value to data:\n- AI classification\n- Entity extraction\n- Data enrichment\n- Pattern detection\n\nThis is where the magic happens.\n\n4. Storage\n\nPersist processed data:\n- Database tables\n- Search indexes\n- Checkpoints\n- Version tracking\n\n5. Output\n\nDeliver results:\n- Export formats (CSV, JSON)\n- API endpoints\n- Dashboards\n- Alerts\n\nProjects using this pattern:\n\nContentGen:\nRSS feeds → Parse → AI categorize → SQLite → Dashboard\n\nOwnerScraper:\nSchool list → Clean → 6-strategy enrich → Postgres → Export\n\nLegiscrapeR:\nWeb pages → Extract → Committee enrich → SQLite → Dashboard\n\nThe folder structure:\n\n/project\n├── /ingestion\n├── /cleaning  \n├── /enhancement\n├── /storage\n├── /output\n├── /config\n└── /checkpoints\n\nTakeaway: Don't reinvent architecture each time. Find the pattern. Apply it consistently. Build faster.",
+      "cta": "What patterns do you reuse across projects?"
+    },
+    {
+      "id": 97,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Local AI",
+      "title": "My fully local AI stack: $0/month, unlimited usage.",
+      "tweets": [
+        "My fully local AI stack: $0/month, unlimited usage.\n\nNo APIs. No rate limits. No costs.\n\nHere's what I run:",
+        "LLM: Ollama + llama3.2\n\nOllama is a local LLM runtime.\nllama3.2 is a capable open-source model.\n\nInstall: brew install ollama\nRun: ollama pull llama3.2",
+        "Embeddings: nomic-embed-text\n\nConverts text to vectors for similarity search.\n\nAlso via Ollama:\nollama pull nomic-embed-text",
+        "Vector database: ChromaDB\n\nStores and searches embeddings.\n\nFully local. File-based.\n\npip install chromadb",
+        "Transcription: Whisper\n\nOpenAI's speech-to-text model.\nRuns locally on your machine.\n\npip install openai-whisper",
+        "RAG framework: LangChain\n\nConnects all the pieces.\n\nDocument loading → chunking → embedding → retrieval → generation",
+        "The stack in action (YouTubeRAG):\n\n1. Fetch YouTube transcripts\n2. Chunk into pieces\n3. Embed with nomic-embed-text\n4. Store in ChromaDB\n5. Query with llama3.2\n6. Get answers",
+        "Performance tradeoffs:\n\nLocal is slower (30 sec vs 3 sec).\nBut: unlimited usage, no costs, full privacy.",
+        "When I use local vs API:\n\n- Prototyping: Local\n- High volume: Local\n- Speed-critical: API\n- Privacy-sensitive: Local",
+        "Takeaway: You can run capable AI locally.\n\nIt's slower. But it's free and private.\n\nFor many use cases, that's the right choice."
+      ],
+      "cta": "What would you run locally if it was easy?"
+    },
+    {
+      "id": 98,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Project Tracking",
+      "title": "From scattered folders to unified dashboard.",
+      "body": "Before: 39 projects in different directories. No overview.\n\nAfter: One dashboard. Real-time file access. Full visibility.\n\nComponents:\n- project-registry.json (metadata)\n- file-server.py (secure access)\n- dashboard.js (UI + modals)\n\nTakeaway: Build visibility into your chaos.",
+      "cta": ""
+    },
+    {
+      "id": 99,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Speed",
+      "title": "I built 8+ projects in 30 days. Here's how.",
+      "body": "People say building takes months.\n\nI shipped 8+ functional projects in 30 days.\n\nNot prototypes. Working tools I use daily.\n\nThe approach:\n\n1. Problems, not projects\n\nI didn't set out to 'build 8 projects.'\n\nI solved 8 problems:\n- Content hunting → ContentGen\n- Bad owner data → OwnerScraper\n- Chart watching → Heatseeker\n- YouTube search → YouTubeRAG\n\n2. Smallest useful version first\n\nEvery project started with MVP.\n\nContentGen V1: Just RSS aggregation.\nOwnerScraper V1: Just website scraping.\n\nShip. Then iterate.\n\n3. Patterns, not invention\n\n5-stage data pipeline for every project.\nCLAUDE.md template for every project.\nlog.md/context.md for every project.\n\nReuse patterns. Don't reinvent.\n\n4. Claude Code as co-pilot\n\nDescribe what I want.\nClaude implements.\nI test and iterate.\n\nNot faster than coding myself.\nBut I don't know how to code.\n\n5. Documentation as you go\n\nlog.md after each session.\ncontext.md for resuming.\nCLAUDE.md for context.\n\nNever lose progress.\n\n6. Public accountability\n\nBuilding in public.\nSharing progress.\nForced completion.\n\nThe results:\n\n- ContentGen: 246+ sources monitored\n- OwnerScraper: 246 verified executives\n- Heatseeker: Trading automation (in progress)\n- YouTubeRAG: 69 transcripts indexed\n- LegiscrapeR: 99% accuracy\n- MapMaker: Full drawing tools\n- Dashboard: 39 projects visible\n- X Spaces: Full pipeline\n\nTakeaway: Speed comes from patterns, not talent. Solve real problems. Ship MVPs. Reuse everything.",
+      "cta": "What's stopping you from building faster?"
+    },
+    {
+      "id": 100,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Content Creation",
+      "title": "30 days of project logs → 100 personalized social posts.",
+      "body": "Not generic content.\n\nPosts about:\n- 246 verified executives found\n- 99% legislature scraper accuracy\n- 69 YouTube transcripts indexed\n- 6-strategy data enrichment\n- $1,440/year SaaS savings\n\nAll real. All documented. All mine.\n\nTakeaway: Your work IS your content. Log it. Extract it. Share it.",
+      "cta": ""
+    }
+  ]
+}

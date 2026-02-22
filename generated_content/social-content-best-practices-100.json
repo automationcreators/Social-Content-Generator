@@ -1,0 +1,453 @@
+{
+  "metadata": {
+    "generated": "2025-01-25",
+    "total_posts": 100,
+    "breakdown": {
+      "x_single": 40,
+      "x_threads": 30,
+      "linkedin": 30
+    }
+  },
+  "posts": [
+    {
+      "id": 1,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "Most people treat CLAUDE.md as documentation",
+      "body": "Most people treat CLAUDE.md as documentation.\n\nI treat it as a prompt that runs every session.\n\nThe difference: Claude now understands my 40+ projects instantly without me re-explaining context.\n\nYour README isn't for humans anymore—it's for AI.",
+      "hashtags": "#ClaudeCode #AI #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 2,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "Before: 60 manual checks every morning",
+      "body": "Before: 60 manual checks every morning.\n\nAfter: One scheduler runs them all at 9 AM while I sleep.\n\nBuilt a 3-layer automation stack:\n• Daily scheduler (orchestration)\n• Crontab (timing)\n• LaunchAgent (persistence)\n\n60 agents. Zero keyboard touches.",
+      "hashtags": "#Automation #BuildingInPublic #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 3,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How I search 17 YouTube videos in 30 seconds",
+      "body": "How I search 17 YouTube videos in 30 seconds:\n\n1. Extract transcripts → 103 semantic chunks\n2. Generate embeddings with OpenAI\n3. Store in ChromaDB\n4. Query with natural language\n\nBuilt YouTubeRAG after n8n workflow kept breaking.\n\nNow it's an API any project can use.",
+      "hashtags": "#RAG #AI #YouTube",
+      "status": "Draft"
+    },
+    {
+      "id": 4,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Building in Public",
+      "title": "n8n kept breaking. So I built my own.",
+      "body": "n8n kept breaking. So I built my own.\n\nYouTubeRAG: 90 minutes to build, infinitely more reliable.\n\nSometimes the best automation is the one you control completely.\n\nNow 17 videos → searchable knowledge base in minutes.",
+      "hashtags": "#BuildingInPublic #Automation #n8n",
+      "status": "Draft"
+    },
+    {
+      "id": 5,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Business Value",
+      "title": "How I track 40 projects without a project manager",
+      "body": "How I track 40 projects without a project manager:\n\nBuilt a dashboard that:\n• Pulls real-time data from all projects\n• Calculates security scores automatically\n• Aggregates TODOs across repos\n• Syncs with GitHub daily\n\nCost: $0/month. Value: Priceless clarity.",
+      "hashtags": "#Solopreneur #Productivity #Dashboard",
+      "status": "Draft"
+    },
+    {
+      "id": 6,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Content Systems",
+      "title": "Manual content creation: 8 hours/week",
+      "body": "Manual content creation: 8 hours/week.\n\nWith my 9-agent content pipeline: 20 minutes.\n\nThe system generates:\n• 4 daily social posts\n• 3 weekly pillar pieces\n• Rotates through 32 real project examples\n\n56 posts/month. Mostly hands-free.",
+      "hashtags": "#ContentCreation #AI #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 7,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "Stop writing prompts. Start writing skills.",
+      "body": "Stop writing prompts. Start writing skills.\n\nI have 24 reusable skills that Claude loads on-demand:\n• Code review patterns\n• Content frameworks\n• Debug workflows\n\nOne skill file = consistent results across every session.\n\nPrompts are one-time. Skills compound.",
+      "hashtags": "#ClaudeCode #AI #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 8,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How to build a YouTube 'brain' in one afternoon",
+      "body": "How to build a YouTube 'brain' in one afternoon:\n\n1. Pick a playlist (automation creators for me)\n2. Extract all transcripts\n3. Chunk semantically with SpaCy\n4. Embed with OpenAI\n5. Store in vector DB\n\nNow: \"What's the best scraping technique?\" → instant answer with source.",
+      "hashtags": "#RAG #VectorSearch #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 9,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Business Value",
+      "title": "Vendor research: 40 hours → 4 hours",
+      "body": "Vendor research: 40 hours → 4 hours.\n\nBuilt a tool that:\n• Searches 5 platforms simultaneously\n• Compares quotes automatically\n• Generates outreach templates\n• Tracks responses\n\nSmall businesses save $2000+ in labor annually.\n\nAutomation that pays for itself.",
+      "hashtags": "#Automation #SmallBusiness #Tools",
+      "status": "Draft"
+    },
+    {
+      "id": 10,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Building in Public",
+      "title": "My scheduler bug took down 60 agents for 3 days",
+      "body": "My scheduler bug took down 60 agents for 3 days.\n\nRoot cause: hardcoded path that broke after a folder move.\n\nLesson: Never hardcode paths in automation systems.\n\nNow everything uses relative paths + environment variables.\n\nFailures teach faster than tutorials.",
+      "hashtags": "#BuildingInPublic #Debugging #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 11,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Claude Code Workflows",
+      "title": "How I onboard to any project in 10 seconds",
+      "body": "How I onboard to any project in 10 seconds:\n\nEvery new project auto-generates:\n• CLAUDE.md with context\n• Security templates\n• .gitignore patterns\n• Environment setup\n\nTemplate inheritance = instant project scaffolding.\n\nNew folder → fully configured in seconds.",
+      "hashtags": "#ClaudeCode #DeveloperTools #Templates",
+      "status": "Draft"
+    },
+    {
+      "id": 12,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How I analyze 1000+ competitor ads with AI",
+      "body": "How I analyze 1000+ competitor ads with AI:\n\n1. Scrape ads from target platforms\n2. Feed to Gemini Flash 2.5\n3. Extract: visual style, copy patterns, CTAs\n4. Identify winning elements\n5. Generate A/B test suggestions\n\nHours of analysis → minutes of insight.",
+      "hashtags": "#AI #Marketing #CompetitiveAnalysis",
+      "status": "Draft"
+    },
+    {
+      "id": 13,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Content Systems",
+      "title": "Before: Staring at blank screen for hooks",
+      "body": "Before: Staring at blank screen for hooks.\n\nAfter: 4 viral hook frameworks generate options instantly.\n\n• Contrarian: Challenge assumptions\n• Transformation: Before/after\n• How-To: Step-by-step\n• Benefit-Driven: Clear value\n\nFrameworks > creativity from scratch.",
+      "hashtags": "#ContentCreation #CopyWriting #Frameworks",
+      "status": "Draft"
+    },
+    {
+      "id": 14,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Automation",
+      "title": "Your cron jobs aren't enough",
+      "body": "Your cron jobs aren't enough.\n\nThey don't survive reboots. They don't log failures. They don't retry.\n\nMy 3-layer stack:\n• LaunchAgent (survives reboots)\n• Crontab (precise timing)\n• Daily scheduler (orchestration + logging)\n\nReliable automation requires redundancy.",
+      "hashtags": "#Automation #DevOps #Reliability",
+      "status": "Draft"
+    },
+    {
+      "id": 15,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Business Value",
+      "title": "How I replaced a $1200/mo content writer",
+      "body": "How I replaced a $1200/mo content writer:\n\nBuilt Social-Content-Generator:\n• Scans my daily project activity\n• Applies viral hook frameworks\n• Generates platform-specific posts\n• Quality scores each piece\n\n56 posts/month. Zero freelancer invoices.\n\nAI + frameworks = consistent content.",
+      "hashtags": "#AI #ContentCreation #Solopreneur",
+      "status": "Draft"
+    },
+    {
+      "id": 16,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I debug with Claude Code (no console.log spam)",
+      "body": "How I debug with Claude Code:\n\n1. Describe the symptom\n2. Ask Claude to trace execution paths\n3. Let it read relevant files\n4. Get root cause analysis\n5. Fix + write test to prevent regression\n\nMethodical > random console.logs.\n\nClaude finds bugs I'd miss for hours.",
+      "hashtags": "#ClaudeCode #Debugging #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 17,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "Vector search alone isn't enough for RAG",
+      "body": "Vector search alone isn't enough for RAG.\n\nPure semantic search misses exact matches.\nPure keyword search misses meaning.\n\nHybrid search (semantic + keyword) beats both.\n\nMy YouTubeRAG uses both. Results: dramatically better retrieval quality.",
+      "hashtags": "#RAG #VectorSearch #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 18,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Building in Public",
+      "title": "Week 1: 0 agents. Week 12: 60 agents.",
+      "body": "Week 1: 0 agents.\nWeek 12: 60 agents running daily.\n\nPersonal-OS grew from a simple scheduler to:\n• Project discovery\n• Template generation\n• Security monitoring\n• GitHub sync\n• TODO aggregation\n\nStart small. Automate one thing. Then another.",
+      "hashtags": "#BuildingInPublic #Automation #Progress",
+      "status": "Draft"
+    },
+    {
+      "id": 19,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "How I sync 31 GitHub repos without thinking",
+      "body": "How I sync 31 GitHub repos without thinking:\n\nDaily scheduler:\n• Checks each repo status\n• Identifies uncommitted changes\n• Flags sync issues\n• Reports at 9 AM\n\nOne morning check replaces 31 manual `git status` commands.\n\nAutomation = fewer things to remember.",
+      "hashtags": "#GitHub #Automation #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 20,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Business Value",
+      "title": "How to build a directory site that ranks",
+      "body": "How to build a directory site that ranks:\n\n1. Scrape 1000+ venues/listings\n2. Deduplicate with fuzzy matching\n3. Add Schema.org structured data\n4. Optimize for LLM queries (Q&A format)\n5. Build category pages with faceted search\n\nSEO + LLM-ready = future-proof traffic.",
+      "hashtags": "#SEO #DirectorySite #WebDev",
+      "status": "Draft"
+    },
+    {
+      "id": 21,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "Most Claude Code problems have one root cause",
+      "body": "Most Claude Code problems have one root cause:\n\nContext pollution.\n\nClaude \"forgets\" instructions? Context full.\nClaude repeats mistakes? Failed approaches polluting context.\nClaude contradicts itself? Conflicting info accumulated.\n\nSolution: /clear between tasks. Fresh context wins.",
+      "hashtags": "#ClaudeCode #AI #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 22,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "AI Tools",
+      "title": "Manual note-taking on YouTube: 40 minutes",
+      "body": "Manual note-taking on YouTube: 40 minutes.\n\nWith YouTubeRAG: 30 seconds.\n\nI ask: \"What's the best approach for X?\"\nIt returns: Exact answer + source video + timestamp.\n\nBuilt this after watching the same tutorials repeatedly.\n\nNever re-watch to find that one tip again.",
+      "hashtags": "#AI #YouTube #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 23,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Content Systems",
+      "title": "How I never run out of content ideas",
+      "body": "How I never run out of content ideas:\n\nMy content agent scans daily:\n• Files I changed\n• Features I shipped\n• Bugs I fixed\n• Lessons I learned\n\nThen generates hooks using 4 frameworks.\n\nInput: My actual work.\nOutput: Authentic content that writes itself.",
+      "hashtags": "#ContentCreation #BuildingInPublic #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 24,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Automation",
+      "title": "How to make your automation survive reboots",
+      "body": "How to make your automation survive reboots:\n\n1. Create LaunchAgent plist file\n2. Point to your scheduler script\n3. Set RunAtLoad = true\n4. Load with launchctl\n\nNow your Mac restarts → automation resumes automatically.\n\nNo more \"forgot to start the scheduler\" moments.",
+      "hashtags": "#Automation #macOS #DevOps",
+      "status": "Draft"
+    },
+    {
+      "id": 25,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Building in Public",
+      "title": "I over-engineered everything. Users said: simplify.",
+      "body": "I over-engineered everything. Users said: simplify.\n\nBuilt complex cross-project integrations.\nActual need: Simple API + client library.\n\nLesson: Start with the simplest thing that works.\n\nComplexity feels productive. Simplicity actually ships.",
+      "hashtags": "#BuildingInPublic #Engineering #Simplicity",
+      "status": "Draft"
+    },
+    {
+      "id": 26,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Claude Code Workflows",
+      "title": "Before: Re-explain project every session",
+      "body": "Before: Re-explain project every session.\n\nAfter: Claude reads CLAUDE.md automatically.\n\nNow it knows:\n• Project purpose\n• Tech stack\n• Code conventions\n• Testing commands\n\nWrote it once. Works every session.\n\nContext that persists = compounding productivity.",
+      "hashtags": "#ClaudeCode #Productivity #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 27,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "AI Tools",
+      "title": "How I edit 100 images with one command",
+      "body": "How I edit 100 images with one command:\n\nSmart Image Editor + Gemini Flash 2.5:\n• Natural language instructions\n• Batch processing\n• Consistent style across all images\n\n\"Change all backgrounds to mountains\" → done in parallel.\n\nManual Photoshop: hours. AI batch edit: minutes.",
+      "hashtags": "#AI #ImageEditing #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 28,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Business Value",
+      "title": "How to validate business ideas with AI",
+      "body": "How to validate business ideas with AI:\n\n1. Define target audience\n2. Feed to Lead Magnet Generator\n3. Get 5 validated ideas with market data\n4. Each includes email sequence outline\n5. Test fastest to build\n\nIdea validation in minutes, not weeks.\n\nFail fast with AI-powered research.",
+      "hashtags": "#AI #BusinessIdeas #Validation",
+      "status": "Draft"
+    },
+    {
+      "id": 29,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Automation",
+      "title": "Polling is lazy. Events are better.",
+      "body": "Polling is lazy. Events are better.\n\nOld way: Check for changes every 5 minutes.\nBetter way: React when changes happen.\n\nMy Personal-OS uses file system watchers:\n• New folder detected → scaffold templates\n• File changed → trigger relevant agent\n\nReactive > polling. Always.",
+      "hashtags": "#Automation #Architecture #Events",
+      "status": "Draft"
+    },
+    {
+      "id": 30,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Content Systems",
+      "title": "Content quality scores: 60 → 85",
+      "body": "Content quality scores: 60 → 85.\n\nThe change: Added framework-driven generation.\n\nNow every post follows proven patterns:\n• Kallaway power words\n• Contrarian angles\n• Transformation narratives\n\nFrameworks aren't constraints. They're quality multipliers.",
+      "hashtags": "#ContentCreation #Frameworks #Quality",
+      "status": "Draft"
+    },
+    {
+      "id": 31,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Claude Code Workflows",
+      "title": "How I verify my code before shipping",
+      "body": "How I verify my code before shipping:\n\nCreated /verify-work skill:\n• Tests pass?\n• Types check?\n• Edge cases covered?\n• Root cause fixed (not symptom)?\n\nClaude runs this checklist automatically.\n\nNo more \"looks right but doesn't work.\"",
+      "hashtags": "#ClaudeCode #CodeQuality #Testing",
+      "status": "Draft"
+    },
+    {
+      "id": 32,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How to chunk transcripts for better RAG",
+      "body": "How to chunk transcripts for better RAG:\n\n• Fixed size: Simple but breaks mid-thought\n• Semantic: Respects topic boundaries\n• Time-based: Good for video navigation\n• Hybrid: Best retrieval quality\n\nI use semantic + time markers.\n\nChunking strategy = retrieval quality.",
+      "hashtags": "#RAG #AI #NLP",
+      "status": "Draft"
+    },
+    {
+      "id": 33,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "Building in Public",
+      "title": "Security scores: embarrassingly low at first",
+      "body": "Security scores: embarrassingly low at first.\n\n73.2/100 across 44 projects. Room for improvement.\n\nBut now I have:\n• Automated security templates\n• .gitignore patterns\n• SECURITY.md for every project\n\nMeasuring is the first step to improving.\n\nTransparency > pretending everything's perfect.",
+      "hashtags": "#BuildingInPublic #Security #Transparency",
+      "status": "Draft"
+    },
+    {
+      "id": 34,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "Manual TODO tracking: chaos",
+      "body": "Manual TODO tracking: chaos.\n\nAggregated TODOs from 40+ projects: clarity.\n\nDaily scheduler:\n• Scans all project TODOs\n• Consolidates into one view\n• Prioritizes automatically\n• Reports at 9 AM\n\nOne list to rule them all.",
+      "hashtags": "#Automation #Productivity #TaskManagement",
+      "status": "Draft"
+    },
+    {
+      "id": 35,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Business Value",
+      "title": "How I built a kids sports directory for Arizona",
+      "body": "How I built a kids sports directory for Arizona:\n\n• Scraped 1000+ programs\n• SEO-optimized category pages\n• Schema.org structured data\n• LLM-friendly content format\n\nParents find sports programs.\nVendors get traffic.\nI get affiliate commissions.\n\nDirectory sites still work in 2025.",
+      "hashtags": "#SEO #DirectorySite #PassiveIncome",
+      "status": "Draft"
+    },
+    {
+      "id": 36,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I use subagents for code review",
+      "body": "How I use subagents for code review:\n\n\"Use a subagent to review this for edge cases\"\n\nSubagent:\n• Runs in isolated context\n• No bias from implementation\n• Fresh perspective\n• Reports back summary\n\nBetter than reviewing your own code.\n\nFresh eyes catch what you missed.",
+      "hashtags": "#ClaudeCode #CodeReview #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 37,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "Embeddings aren't magic. Strategy is.",
+      "body": "Embeddings aren't magic. Strategy is.\n\nSame embeddings, different chunking = wildly different results.\n\nWhat matters:\n• How you split content\n• What metadata you preserve\n• How you query\n\nDon't chase better models. Fix your pipeline first.",
+      "hashtags": "#AI #Embeddings #RAG",
+      "status": "Draft"
+    },
+    {
+      "id": 38,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Transformation",
+      "theme": "Content Systems",
+      "title": "Same examples every post: boring",
+      "body": "Same examples every post: boring.\n\nRotating through 32 real projects: authentic variety.\n\nMy content generator:\n• Tracks which examples were used\n• Rotates daily\n• Never repeats within 7 days\n\nUser fatigue drops. Engagement holds.\n\nVariety is a feature, not a nice-to-have.",
+      "hashtags": "#ContentCreation #Engagement #Strategy",
+      "status": "Draft"
+    },
+    {
+      "id": 39,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "How MCP servers changed my workflow",
+      "body": "How MCP servers changed my workflow:\n\n28 integrations. One interface.\n\n• Airtable for data\n• Slack for notifications\n• GitHub for repos\n• Google Drive for files\n\nClaude accesses all of them seamlessly.\n\nNo more switching between 10 tabs.",
+      "hashtags": "#MCP #ClaudeCode #Integrations",
+      "status": "Draft"
+    },
+    {
+      "id": 40,
+      "platform": "X",
+      "type": "single",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I track progress across 40+ projects",
+      "body": "How I track progress across 40+ projects:\n\n1. Each project has CLAUDE.md with status\n2. Dashboard pulls all statuses\n3. Security scores calculated automatically\n4. GitHub sync verified daily\n5. TODOs aggregated\n\nOne screen. Complete visibility.\n\nNo project left behind.",
+      "hashtags": "#BuildingInPublic #ProjectManagement #Dashboard",
+      "status": "Draft"
+    }
+  ]
+}

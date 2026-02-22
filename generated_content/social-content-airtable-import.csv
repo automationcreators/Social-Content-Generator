@@ -1,0 +1,59 @@
+Post ID,Platform,Hook Type,Theme,Title/Hook,Body,CTA,Hashtags,Status,Notes
+1,LinkedIn,Transformation,Non-Technical Creator,"6 months ago, I couldn't write a single line of code.","Today, I've built 26 working software tools.
+
+The difference wasn't learning to code. It was learning to collaborate with AI.
+
+Here's what nobody tells non-technical founders:
+
+You don't need to become a developer.
+You need to become a great communicator.
+
+I'm not writing Python or JavaScript. I'm writing clear instructions.
+
+I describe what I want.
+Claude Code builds it.
+I test and refine.
+
+The tools I've built in the last 6 months:
+
+- A Personal Operating System that manages my entire life
+- Job listing scrapers with AI classification
+- Content aggregation systems
+- Vendor quote automation tools
+- Financial analysis dashboards
+- Ad variation generators
+
+My competitive advantage isn't technical skill.
+
+It's knowing exactly what I need — and being able to articulate it clearly.
+
+The best 'code' I write is plain English.","What would you build if coding wasn't the barrier?
+
+Drop your idea below — I might just build it live.",#AI #ClaudeCode #BuildingInPublic #NoCode #Entrepreneurship,Draft,Flagship transformation post - strong opener for the series
+2,X,Contrarian,AI Coding Journey,Hot take: Learning to code in 2026 is a waste of time.,"Not because AI will replace developers.
+
+Because AI lets non-coders build real software.
+
+I've shipped 26 tools without writing traditional code.
+
+The skill that matters now: communicating clearly with AI.",What's stopping you from building?,#AI #ClaudeCode #VibeCoding,Draft,Contrarian hook - expect engagement/debate
+3,X Thread,How-To,Personal OS,I built a Personal Operating System that runs my entire life.,"Thread (12 tweets) - Full breakdown of Personal OS architecture, mobile integration, prioritization algorithm, and results",Follow for more AI building-in-public content. RT the first tweet if this was useful.,#ClaudeCode #AI #BuildingInPublic #Productivity,Draft,Detailed thread - flagship Personal OS content
+4,LinkedIn,Benefit-Driven,Content Systems,How I generate a week of social content in 10 minutes,"Full content system breakdown - capture, viral hook patterns, platform adaptation, voice matching. Results: 47 hooks, 10 hrs saved, zero decision fatigue.",What repetitive creative task are you automating? Comment below.,#ContentCreation #AI #ClaudeCode #Automation #BuildingInPublic,Draft,Strong proof of concept for content automation
+5,X,Transformation,Data Tools,Built a job listing classifier that's more accurate than my manual work.,"Before: 2 hours manually categorizing job posts.
+After: AI processes 1,000 listings in seconds.
+The kicker? It catches patterns I missed.
+'Aircraft maintenance' → Aviation Mechanic (not generic 'Technician')
+AI + clear rules = superhuman categorization.",,#AI #DataProcessing #Automation,Draft,Quick transformation proof point
+6,LinkedIn,Contrarian,Claude Code Tips,Why your AI prompts are failing (and it's not what you think),"AI needs frameworks, not creativity. Full breakdown of bad vs good prompts. 97+ hook patterns library. Frameworks do heavy lifting.",What frameworks do you use when working with AI?,#AI #PromptEngineering #ClaudeCode #Productivity,Draft,Educational contrarian post
+7,X Thread,Benefit-Driven,Automation,How I automated vendor quote collection (saving 15+ hours/month),"Thread (7 tweets) - Old workflow vs new, architecture breakdown, AI personalization at scale, results",What tedious workflow would you automate first?,#Automation #AI #Productivity #BuildingInPublic,Draft,Practical automation case study
+8,X,Contrarian,Non-Technical Creator,The best programmers I know don't write code anymore.,"They write specifications. They describe systems. They architect solutions. Then AI implements.
+Clarity > Syntax
+Architecture > Implementation
+Why > How",,#AI #SoftwareDevelopment #FutureOfWork,Draft,Provocative skill hierarchy flip
+9,LinkedIn,How-To,AI Coding Journey,The exact process I use to build tools with Claude Code (as a non-developer),"5-step process: Define clearly, simplest version, describe don't dictate, test immediately, document what works. Mindset shift: product manager with patient engineering team.",What's the first tool you'd build with this process?,#ClaudeCode #AI #NoCode #BuildingInPublic #Productivity,Draft,Beginner-friendly process post
+10,X,Transformation,Building in Public,My first Claude Code project took 3 days and barely worked.,"My latest took 2 hours and ships to production.
+The difference:
+→ Clearer requirements upfront
+→ CLAUDE.md context files
+→ Breaking into smaller tasks
+→ Testing as I go",,#AI #BuildingInPublic #ClaudeCode,Draft,Quick progress demonstration

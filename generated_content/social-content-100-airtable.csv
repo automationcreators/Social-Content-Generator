@@ -1,0 +1,93 @@
+ID,Platform,Type,Hook Type,Theme,Title,Body,Hashtags,Status
+1,X,single,Contrarian,Claude Code Workflows,Most people treat CLAUDE.md as documentation,"Most people treat CLAUDE.md as documentation.
+
+I treat it as a prompt that runs every session.
+
+The difference: Claude now understands my 40+ projects instantly without me re-explaining context.
+
+Your README isn't for humans anymore—it's for AI.",#ClaudeCode #AI #DeveloperTools,Draft
+2,X,single,Transformation,Automation,Before: 60 manual checks every morning,"Before: 60 manual checks every morning.
+
+After: One scheduler runs them all at 9 AM while I sleep.
+
+Built a 3-layer automation stack:
+• Daily scheduler (orchestration)
+• Crontab (timing)
+• LaunchAgent (persistence)
+
+60 agents. Zero keyboard touches.",#Automation #BuildingInPublic #Productivity,Draft
+3,X,single,How-To,AI Tools,How I search 17 YouTube videos in 30 seconds,"How I search 17 YouTube videos in 30 seconds:
+
+1. Extract transcripts → 103 semantic chunks
+2. Generate embeddings with OpenAI
+3. Store in ChromaDB
+4. Query with natural language
+
+Built YouTubeRAG after n8n workflow kept breaking.
+
+Now it's an API any project can use.",#RAG #AI #YouTube,Draft
+4,X,single,Contrarian,Building in Public,n8n kept breaking. So I built my own.,"n8n kept breaking. So I built my own.
+
+YouTubeRAG: 90 minutes to build, infinitely more reliable.
+
+Sometimes the best automation is the one you control completely.
+
+Now 17 videos → searchable knowledge base in minutes.",#BuildingInPublic #Automation #n8n,Draft
+5,X,single,Benefit-Driven,Business Value,How I track 40 projects without a project manager,"How I track 40 projects without a project manager:
+
+Built a dashboard that:
+• Pulls real-time data from all projects
+• Calculates security scores automatically
+• Aggregates TODOs across repos
+• Syncs with GitHub daily
+
+Cost: $0/month. Value: Priceless clarity.",#Solopreneur #Productivity #Dashboard,Draft
+6,X,single,Transformation,Content Systems,Manual content creation: 8 hours/week,"Manual content creation: 8 hours/week.
+
+With my 9-agent content pipeline: 20 minutes.
+
+The system generates:
+• 4 daily social posts
+• 3 weekly pillar pieces
+• Rotates through 32 real project examples
+
+56 posts/month. Mostly hands-free.",#ContentCreation #AI #Automation,Draft
+7,X,single,Contrarian,Claude Code Workflows,Stop writing prompts. Start writing skills.,"Stop writing prompts. Start writing skills.
+
+I have 24 reusable skills that Claude loads on-demand:
+• Code review patterns
+• Content frameworks
+• Debug workflows
+
+One skill file = consistent results across every session.
+
+Prompts are one-time. Skills compound.",#ClaudeCode #AI #Productivity,Draft
+8,X,single,How-To,AI Tools,How to build a YouTube brain in one afternoon,"How to build a YouTube 'brain' in one afternoon:
+
+1. Pick a playlist (automation creators for me)
+2. Extract all transcripts
+3. Chunk semantically with SpaCy
+4. Embed with OpenAI
+5. Store in vector DB
+
+Now: ""What's the best scraping technique?"" → instant answer with source.",#RAG #VectorSearch #AI,Draft
+9,X,single,Transformation,Business Value,Vendor research: 40 hours to 4 hours,"Vendor research: 40 hours → 4 hours.
+
+Built a tool that:
+• Searches 5 platforms simultaneously
+• Compares quotes automatically
+• Generates outreach templates
+• Tracks responses
+
+Small businesses save $2000+ in labor annually.
+
+Automation that pays for itself.",#Automation #SmallBusiness #Tools,Draft
+10,X,single,Contrarian,Building in Public,My scheduler bug took down 60 agents for 3 days,"My scheduler bug took down 60 agents for 3 days.
+
+Root cause: hardcoded path that broke after a folder move.
+
+Lesson: Never hardcode paths in automation systems.
+
+Now everything uses relative paths + environment variables.
+
+Failures teach faster than tutorials.",#BuildingInPublic #Debugging #Automation,Draft

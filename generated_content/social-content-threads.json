@@ -1,0 +1,606 @@
+{
+  "threads": [
+    {
+      "id": 41,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I built a 60-agent automation system",
+      "tweets": [
+        "How I built a 60-agent automation system that runs every morning at 9 AM.\n\nNo keyboard touches. No babysitting.\n\nHere's the exact architecture (thread):",
+        "1/ The Foundation: Personal-OS\n\nOne central scheduler that orchestrates everything.\n\nIt doesn't DO the work. It COORDINATES the work.\n\nThink: conductor, not musician.",
+        "2/ The 3-Layer Stack\n\n• LaunchAgent: Survives reboots\n• Crontab: Precise timing (9 AM daily)\n• Daily Scheduler: Orchestration + logging\n\nEach layer handles what the others can't.",
+        "3/ Agent Categories\n\n• Project Discovery: Finds new folders, scaffolds templates\n• Security Monitoring: Calculates scores, flags issues\n• GitHub Sync: Checks 31 repos daily\n• TODO Aggregation: Consolidates across projects\n• Content Generation: Scans activity, creates posts",
+        "4/ The Key Insight\n\nAgents are small and focused.\n\nOne agent = one job.\n\nNo 500-line scripts trying to do everything.\n\nComposability > complexity.",
+        "5/ Error Handling\n\nEvery agent logs to a central file.\n\nDaily report shows:\n• What ran\n• What failed\n• What needs attention\n\nVisibility is non-negotiable.",
+        "6/ How It Grew\n\nWeek 1: 1 agent (GitHub sync)\nWeek 4: 10 agents\nWeek 8: 30 agents\nWeek 12: 60 agents\n\nStart with one. Add when you feel friction.\n\nAutomation compounds.",
+        "7/ The Result\n\n40+ projects tracked automatically.\n\nSecurity scores calculated.\nTODOs aggregated.\nContent generated.\nRepos synced.\n\nAll before my first coffee.\n\nThat's the system."
+      ],
+      "hashtags": "#Automation #ClaudeCode #BuildingInPublic",
+      "status": "Draft"
+    },
+    {
+      "id": 42,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "AI Tools",
+      "title": "I built YouTubeRAG because n8n kept failing",
+      "tweets": [
+        "I built YouTubeRAG because n8n kept failing me.\n\n90 minutes to build. Infinitely more reliable.\n\nHere's how it works (and how you can build one too):",
+        "1/ The Problem\n\nn8n + RapidAPI workflow for YouTube transcripts.\n\nBroke constantly. Rate limits. API changes. Random failures.\n\nI was spending more time fixing automation than it saved.",
+        "2/ The Solution: Build My Own\n\nFastAPI microservice on port 3011.\n\nComponents:\n• youtube-transcript-api for extraction\n• SpaCy for semantic chunking\n• OpenAI for embeddings\n• ChromaDB for vector storage",
+        "3/ The Pipeline\n\nInput: YouTube video/playlist URL\n\n1. Extract transcripts\n2. Chunk into semantic segments\n3. Generate embeddings\n4. Store in vector DB\n5. Ready for queries\n\n17 videos → 103 chunks → searchable knowledge base.",
+        "4/ The Chunking Strategy\n\nNot fixed-size. Semantic.\n\nUsing SpaCy to detect topic boundaries.\nPreserving time markers for navigation.\n\nResult: Chunks that make sense, not arbitrary splits.",
+        "5/ The Query Interface\n\nNatural language in → relevant chunks out.\n\n\"What's the best scraping technique?\"\n→ Top 3 relevant segments\n→ Source video + timestamp\n→ Full context preserved",
+        "6/ The Architecture Win\n\nMade it an API. Not siloed to one project.\n\nNow ANY project can:\n• Ingest videos\n• Query the knowledge base\n• Get cited answers\n\nInfrastructure that compounds.",
+        "7/ Time Comparison\n\nManual note-taking: 40 minutes per video\nYouTubeRAG query: 30 seconds\n\nBuilt once. Use forever.\n\nThat's the power of owning your automation."
+      ],
+      "hashtags": "#RAG #AI #Automation #YouTube",
+      "status": "Draft"
+    },
+    {
+      "id": 43,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "Most people use Claude Code wrong",
+      "tweets": [
+        "Most people use Claude Code wrong.\n\nThey treat it like a chatbot.\n\nHere's how to treat it like an agentic coding partner (thread):",
+        "1/ The Mindset Shift\n\nChatbot: Ask question → get answer\nAgent: Describe goal → watch it work\n\nClaude Code can read files, run commands, make changes.\n\nLet it.",
+        "2/ Context is Everything\n\nClaude's context window fills fast.\n\nEvery file read, every command output = tokens consumed.\n\nManage context like a precious resource.\n\n/clear between unrelated tasks. Always.",
+        "3/ Skills > Prompts\n\nPrompts are one-time.\nSkills persist.\n\nI have 24 reusable skills:\n• Code review patterns\n• Debug workflows\n• Content frameworks\n\nOne file = consistent results every session.",
+        "4/ Let Claude Verify Itself\n\nDon't just accept output.\n\nGive Claude ways to check its work:\n• Run the tests\n• Check the types\n• Compare screenshots\n\nVerification is the highest-leverage thing you can do.",
+        "5/ Use Subagents for Exploration\n\nDon't pollute your main context with investigation.\n\n\"Use a subagent to explore how auth works\"\n\nSubagent explores. Reports back. Your context stays clean.",
+        "6/ The Anti-Patterns\n\n• Kitchen sink sessions (mixing unrelated tasks)\n• Correction loops (fix → wrong → fix → wrong)\n• Over-specified CLAUDE.md (too long = ignored)\n\nRecognize them. Avoid them.",
+        "7/ The Result\n\nClaude goes from \"helpful assistant\" to \"autonomous coding partner.\"\n\nIt explores. It plans. It implements. It verifies.\n\nYou watch, redirect, or step away entirely."
+      ],
+      "hashtags": "#ClaudeCode #AI #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 44,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Content Systems",
+      "title": "How my 9-agent content pipeline generates 56 posts/month",
+      "tweets": [
+        "How my 9-agent content pipeline generates 56 posts/month.\n\nMostly hands-free.\n\nHere's the exact system (thread):",
+        "1/ The Daily Flow\n\nEvery day, the system:\n• Scans my project activity\n• Identifies content opportunities\n• Generates 4 social posts\n• Quality scores each one\n\nInput: My actual work\nOutput: Authentic content",
+        "2/ Agent 1: Project Scanner\n\nReads:\n• Files changed\n• Features shipped\n• Bugs fixed\n• Lessons learned\n\nExtracts the raw material for content.",
+        "3/ Agent 2-5: Hook Generators\n\nFour frameworks:\n• Contrarian: Challenge assumptions\n• Transformation: Before/after\n• How-To: Step-by-step\n• Benefit-Driven: Clear value\n\nEach generates its angle on the same material.",
+        "4/ Agent 6: Platform Adapter\n\nTakes hooks and formats for:\n• X (280 chars, punchy)\n• LinkedIn (professional, story-driven)\n• Threads (casual, conversational)\n\nOne idea → multiple formats.",
+        "5/ Agent 7: Example Rotator\n\nTracks which projects were used.\nRotates through 32 real examples.\nNever repeats within 7 days.\n\nVariety keeps content fresh.",
+        "6/ Agent 8: Quality Scorer\n\nChecks:\n• Hook strength\n• Specificity (numbers, details)\n• Call to action\n• Platform fit\n\nOnly posts scoring 80+ get published.",
+        "7/ Agent 9: Weekly Pillar Generator\n\nTakes best daily posts.\nExpands into long-form:\n• 3 pillar pieces/week\n• Deep dives on projects\n• Tutorial content\n\nDaily feeds weekly.",
+        "8/ The Numbers\n\n4 daily posts × 7 days = 28/week\n28 × 2 platforms = 56 posts/month\n\nPlus 12 pillar pieces.\n\nTotal time: ~20 minutes of review daily.\n\nThat's the system."
+      ],
+      "hashtags": "#ContentCreation #AI #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 45,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Building in Public",
+      "title": "How I went from 0 to 40 tracked projects",
+      "tweets": [
+        "How I went from 0 to 40 tracked projects in Personal-OS.\n\nThe dashboard that changed everything (thread):",
+        "1/ The Problem\n\nProjects everywhere.\nNo visibility.\nNo consistency.\n\n\"What was I working on in that project?\"\n\"Is it synced to GitHub?\"\n\"Are there security issues?\"\n\nNo answers without digging.",
+        "2/ The Solution: Centralized Dashboard\n\nOne screen showing:\n• All 40+ projects\n• Real-time status\n• Security scores\n• GitHub sync status\n• Aggregated TODOs",
+        "3/ How It Works\n\nEvery project has CLAUDE.md with:\n• Project overview\n• Current status\n• Port assignments\n• Security classification\n\nDashboard reads these automatically.",
+        "4/ The Security Scoring\n\nEach project gets scored on:\n• .gitignore completeness\n• SECURITY.md presence\n• Environment variable handling\n• Sensitive data exposure\n\nCurrent average: 73.2/100\n\nRoom to improve. But now I know.",
+        "5/ The GitHub Sync\n\nDaily scheduler:\n• Checks each repo\n• Identifies uncommitted changes\n• Flags sync issues\n• Reports at 9 AM\n\n31 repos. One morning check.",
+        "6/ The TODO Aggregation\n\nTODOs scattered across 40 projects = invisible.\n\nConsolidated into one view:\n• Prioritized automatically\n• Grouped by project\n• Deadline tracking\n\nNow nothing falls through cracks.",
+        "7/ The Template System\n\nNew project detected → auto-generates:\n• CLAUDE.md\n• Security templates\n• .gitignore patterns\n\nOnboarding: 10 seconds instead of 30 minutes.",
+        "8/ The Result\n\nComplete visibility.\nConsistent structure.\nAutomated maintenance.\n\n40 projects feel manageable.\n\nNot because there's less work. Because I can see it all."
+      ],
+      "hashtags": "#BuildingInPublic #Productivity #Dashboard",
+      "status": "Draft"
+    },
+    {
+      "id": 46,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Business Value",
+      "title": "How I built a vendor quote tool that saves 36 hours",
+      "tweets": [
+        "How I built a vendor quote tool that saves small businesses 36 hours of research.\n\nThe automation that pays for itself (thread):",
+        "1/ The Problem\n\nFinding vendors manually:\n• Search 5+ platforms\n• Compare prices\n• Read reviews\n• Draft outreach\n• Track responses\n\n40+ hours for a decent comparison.",
+        "2/ The Solution\n\nAutomated pipeline that:\n• Searches multiple platforms simultaneously\n• Extracts pricing and reviews\n• Compares apples-to-apples\n• Generates outreach templates\n• Tracks all responses",
+        "3/ The Search Layer\n\nConnects to:\n• Google Maps\n• Yelp\n• Industry-specific directories\n• Social media\n\nOne query → results from everywhere.",
+        "4/ The Intelligence Layer\n\nAI-powered extraction:\n• Pricing patterns\n• Service offerings\n• Review sentiment\n• Response times\n\nNot just data. Insights.",
+        "5/ The Outreach Layer\n\nFor each qualified vendor:\n• Personalized email template\n• Key questions pre-filled\n• Follow-up reminders\n• Response tracking\n\nProfessional outreach at scale.",
+        "6/ The Numbers\n\nManual: 40+ hours\nAutomated: 4 hours (mostly review)\n\n36 hours saved.\n\nAt $50/hour labor, that's $1,800 value per vendor search.",
+        "7/ Business Model Ideas\n\n• SaaS subscription for small businesses\n• White-label for agencies\n• Per-search pricing for occasional users\n\nTool pays for itself in one use."
+      ],
+      "hashtags": "#Automation #SmallBusiness #Tools",
+      "status": "Draft"
+    },
+    {
+      "id": 47,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "Your RAG system is probably broken",
+      "tweets": [
+        "Your RAG system is probably broken.\n\nAnd you don't know it because you're not measuring the right things.\n\nHere's what I learned building YouTubeRAG (thread):",
+        "1/ The Common Mistakes\n\n• Fixed-size chunks (breaks mid-thought)\n• Pure vector search (misses exact matches)\n• No source attribution (can't verify)\n• Giant context windows (slow, expensive)\n\nMost RAG tutorials teach these.",
+        "2/ Chunking Strategy Matters\n\nDon't split on character count.\n\nUse semantic boundaries:\n• Topic changes\n• Speaker transitions\n• Natural pauses\n\nSpaCy can detect these automatically.",
+        "3/ Hybrid Search Wins\n\nVector search: \"What's the concept?\"\nKeyword search: \"Where's the exact term?\"\n\nUse both.\n\nMy YouTubeRAG combines semantic + keyword.\nRetrieval quality: dramatically better.",
+        "4/ Metadata is Crucial\n\nStore with each chunk:\n• Source document\n• Timestamp/position\n• Original context\n• Confidence score\n\nYou'll need these for verification and navigation.",
+        "5/ Context Window Management\n\nDon't stuff everything in.\n\nRetrieve relevant chunks → rerank → take top K.\n\nLess context = faster, cheaper, often more accurate.",
+        "6/ Test Your Retrieval\n\nBefore connecting to an LLM:\n• Query the vector DB directly\n• Check if right chunks return\n• Measure precision/recall\n\nBad retrieval + good LLM = garbage output.",
+        "7/ The Meta-Lesson\n\nRAG isn't about the model.\n\nIt's about:\n• How you chunk\n• How you embed\n• How you retrieve\n\nFix the pipeline. Then worry about the model."
+      ],
+      "hashtags": "#RAG #AI #VectorSearch",
+      "status": "Draft"
+    },
+    {
+      "id": 48,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I use CLAUDE.md to 10x my productivity",
+      "tweets": [
+        "How I use CLAUDE.md to 10x my productivity with Claude Code.\n\nThe file that changed everything (thread):",
+        "1/ What is CLAUDE.md?\n\nA special file Claude reads at the start of every session.\n\nLike giving Claude your brain dump about the project.\n\nWrites once. Works forever.",
+        "2/ What Goes In\n\n• Build commands (npm run dev, pytest, etc.)\n• Code conventions (\"use ES modules not CommonJS\")\n• Project structure overview\n• Testing instructions\n• Common gotchas\n\nOnly things Claude can't infer from code.",
+        "3/ What Stays Out\n\n• Standard language conventions (Claude knows)\n• Anything it can figure out from reading code\n• Detailed API docs (link instead)\n• Information that changes frequently\n\nKeep it lean. <50 lines ideal.",
+        "4/ The Template Pattern\n\nI have parent CLAUDE.md files per project category.\n\nNew project inherits from parent.\n\nAdd project-specific details only.\n\nTemplate inheritance = consistency without repetition.",
+        "5/ The Hierarchy\n\n• ~/.claude/CLAUDE.md (global defaults)\n• /project/CLAUDE.md (project-specific)\n• /project/subdir/CLAUDE.md (area-specific)\n\nClaude reads all that apply. More specific wins.",
+        "6/ Emphasis Tricks\n\n\"IMPORTANT: Always run tests before committing\"\n\"YOU MUST use TypeScript strict mode\"\n\nEmphasis improves adherence.\n\nClaude pays attention to strong language.",
+        "7/ The Result\n\nBefore: Re-explain project every session.\nAfter: Claude knows everything automatically.\n\nContext that persists = compounding productivity.\n\nThat's the power of CLAUDE.md."
+      ],
+      "hashtags": "#ClaudeCode #Productivity #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 49,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "How I connected 28 services through MCP",
+      "tweets": [
+        "How I connected 28 services through MCP.\n\nOne interface for everything (thread):",
+        "1/ The Before\n\nTo do anything:\n• Open Airtable tab\n• Open GitHub tab\n• Open Google Drive tab\n• Open Slack tab\n• Copy/paste between them\n\n10+ tabs. Constant switching.",
+        "2/ The After\n\nClaude Code with MCP servers.\n\nOne conversation:\n• Query Airtable\n• Push to GitHub\n• Read from Drive\n• Post to Slack\n\nNo tab switching. No copy/paste.",
+        "3/ What I Connected\n\nData: Airtable, Google Sheets\nStorage: Google Drive, Apple Notes\nCode: GitHub\nComms: Slack (2 workspaces)\nMedia: Canva, Replicate, ElevenLabs\nWeb: Puppeteer, Apify scrapers",
+        "4/ The Setup\n\n~/.claude/mcp_settings.json\n\nEach server:\n• Command to run\n• Environment variables\n• Auth tokens\n\nClaude discovers available tools automatically.",
+        "5/ Example Workflow\n\n\"Get all tasks from Airtable marked 'pending', create a summary, post to Slack #updates\"\n\nOne prompt. Three services. Zero tab switching.",
+        "6/ The Power: Chaining\n\nScrape Instagram → Analyze with AI → Store in Airtable → Generate images with Replicate → Upload to Drive\n\nMulti-service workflows in natural language.",
+        "7/ The Meta-Win\n\nServices become verbs, not apps.\n\n\"Airtable it\"\n\"Push to GitHub\"\n\"Slack the team\"\n\n28 integrations. One interface.\n\nThat's the power of MCP."
+      ],
+      "hashtags": "#MCP #ClaudeCode #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 50,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I debug automation failures systematically",
+      "tweets": [
+        "How I debug automation failures systematically.\n\nMy scheduler broke for 3 days. Here's how I fixed it (thread):",
+        "1/ The Symptom\n\n60 agents weren't running.\nNo errors in logs.\nScheduler started fine.\n\nSilent failure. The worst kind.",
+        "2/ Step 1: Verify the Basics\n\n• Is the script executable?\n• Are paths correct?\n• Are dependencies installed?\n• Are env vars set?\n\nOften the fix is embarrassingly simple.",
+        "3/ Step 2: Trace the Execution\n\nAdd logging at every step:\n• Script started\n• Each agent triggered\n• Each agent completed\n• Errors caught\n\nFind where execution stops.",
+        "4/ Step 3: Check Environment\n\nCron/LaunchAgent run in different env than terminal.\n\n• Different PATH\n• Different working directory\n• Different permissions\n\nPrint env vars. Compare to manual run.",
+        "5/ The Root Cause\n\nHardcoded path: /Users/old/path/to/project\n\nWorked until I moved folders.\n\nScheduler tried to access non-existent path.\nFailed silently because of error handling.\n\nLesson: Never hardcode paths.",
+        "6/ The Fix\n\n• Use relative paths\n• Use environment variables\n• Make error handling loud, not quiet\n• Add health checks that alert on failure",
+        "7/ The Prevention\n\nNow every agent has:\n• Verbose logging option\n• Health check endpoint\n• Failure alerts\n• Self-healing restart logic\n\nSilent failures are now impossible."
+      ],
+      "hashtags": "#Debugging #Automation #BuildingInPublic",
+      "status": "Draft"
+    },
+    {
+      "id": 51,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "Business Value",
+      "title": "Why I build tools before I have customers",
+      "tweets": [
+        "Why I build tools before I have customers.\n\nConventional wisdom says: validate first, build later.\n\nI disagree. Here's why (thread):",
+        "1/ The Conventional Take\n\n\"Don't build until you have paying customers\"\n\"Validate demand first\"\n\"Pre-sell before coding\"\n\nGood advice. Usually.\n\nBut not always.",
+        "2/ The Hidden Cost\n\nSelling vaporware:\n• You can't demo\n• You can't iterate\n• You can't learn from usage\n• You're guessing at features\n\nYou're selling a story, not a product.",
+        "3/ My Approach\n\nBuild tools I need first.\n\nYouTubeRAG: I needed it.\nVendor Quote Tool: I needed it.\nContent Generator: I needed it.\n\nI'm customer zero.",
+        "4/ The Benefits\n\n• Deep understanding of the problem\n• Real usage data from day one\n• Features driven by actual friction\n• Something to demo immediately\n\nDogfooding > surveying.",
+        "5/ The Monetization Options\n\nBuilt for myself, but can sell to others:\n• SaaS subscription\n• White-label licensing\n• Managed service\n• Open source + consulting\n\nAsset that creates options.",
+        "6/ The Reality Check\n\nThis works because:\n• Build cost is low (AI-assisted)\n• I'm in my target market\n• I'll use it regardless of sales\n\nIf build cost is high? Different calculation.",
+        "7/ The Meta-Lesson\n\nSkills + tools = infinite leverage.\n\nEvery tool I build makes me more productive.\nProductivity compounds.\n\nWorst case: I have tools.\nBest case: I have tools AND a business."
+      ],
+      "hashtags": "#BuildingInPublic #Solopreneur #Tools",
+      "status": "Draft"
+    },
+    {
+      "id": 52,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How I use AI to analyze competitor ads",
+      "tweets": [
+        "How I use AI to analyze competitor ads.\n\nThe system that finds winning patterns (thread):",
+        "1/ The Problem\n\nManual ad analysis:\n• Screenshot each ad\n• Note the copy\n• Analyze the visual\n• Identify patterns\n• Compare across competitors\n\nHours of tedious work.",
+        "2/ The Solution\n\nAI-powered pipeline:\n• Scrape ads automatically\n• Feed to Gemini Flash 2.5\n• Extract structured insights\n• Aggregate patterns\n• Generate recommendations",
+        "3/ What Gets Extracted\n\nFor each ad:\n• Visual style (colors, layout, imagery)\n• Copy approach (benefit, fear, curiosity)\n• CTA type and placement\n• Target audience signals\n• Emotional triggers",
+        "4/ The Pattern Analysis\n\nAcross all ads:\n• Most common headlines\n• Winning visual elements\n• CTA that appears most\n• Copy length trends\n• Color palette patterns",
+        "5/ The Output\n\nNot just data. Recommendations:\n• \"Try benefit-driven headlines (60% of winners use them)\"\n• \"Blue CTAs outperform red in this niche\"\n• \"Short copy (<50 words) dominates\"\n\nActionable insights.",
+        "6/ Time Comparison\n\nManual: 4+ hours per competitor\nAutomated: 15 minutes per competitor\n\nAnalyze 10 competitors in the time it took to do 1.",
+        "7/ Business Applications\n\n• Create ads that match winning patterns\n• Identify gaps competitors miss\n• Track changes over time\n• Sell reports to agencies\n\nCompetitive intel on autopilot."
+      ],
+      "hashtags": "#AI #Marketing #CompetitiveAnalysis",
+      "status": "Draft"
+    },
+    {
+      "id": 53,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Claude Code Workflows",
+      "title": "Before skills: repeat myself every session",
+      "tweets": [
+        "Before skills: repeat myself every session.\n\nAfter skills: consistent results automatically.\n\nHow I built a library of 24 reusable skills (thread):",
+        "1/ The Before\n\nEvery code review:\n• \"Check for security issues\"\n• \"Look at edge cases\"\n• \"Verify error handling\"\n• \"Check naming conventions\"\n\nSame instructions. Every time.",
+        "2/ The Insight\n\nSkills are just prompt templates that persist.\n\nWrite once → use forever → improve over time.\n\nCompounding knowledge.",
+        "3/ The Structure\n\n.claude/skills/code-review/SKILL.md\n\n---\nname: code-review\ndescription: Systematic code review checklist\n---\n\n[Instructions that Claude follows]",
+        "4/ My Skill Categories\n\nDevelopment:\n• code-review\n• debug-assistant\n• tdd-workflow\n\nContent:\n• viral-hook-generator\n• platform-voice-adapter\n\nWorkflow:\n• verify-work\n• interview-me",
+        "5/ How They're Loaded\n\nAutomatic: Claude detects relevance.\n\nManual: /skill-name to invoke directly.\n\n\"Review this code\" → code-review skill loads.\n\"/verify-work\" → explicit invocation.",
+        "6/ The Iteration\n\nSkills improve over time.\n\nNotice Claude missing something? Add to skill.\nNotice Claude doing extra work? Simplify skill.\n\nContinuous refinement.",
+        "7/ The Result\n\n24 skills → consistent quality across:\n• Code reviews\n• Content generation\n• Debugging\n• Testing\n• Documentation\n\nPersonalized Claude that knows my patterns."
+      ],
+      "hashtags": "#ClaudeCode #Productivity #Skills",
+      "status": "Draft"
+    },
+    {
+      "id": 54,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Content Systems",
+      "title": "How I write viral hooks that actually work",
+      "tweets": [
+        "How I write viral hooks that actually work.\n\nThe frameworks I use for every post (thread):",
+        "1/ The Core Insight\n\nHooks aren't creative writing.\nThey're pattern matching.\n\nProven formulas + your content = engagement.\n\nFramework > inspiration.",
+        "2/ Framework 1: Contrarian\n\n\"Most people [common belief]. I [opposite].\"\n\nExample:\n\"Most people write prompts. I write skills.\"\n\nChallenges assumptions. Creates curiosity.",
+        "3/ Framework 2: Transformation\n\n\"Before: [pain]. After: [gain].\"\n\nExample:\n\"Before: 8 hours of content creation.\nAfter: 20 minutes with my 9-agent pipeline.\"\n\nShows measurable change.",
+        "4/ Framework 3: How-To\n\n\"How I [achieve result]:\"\n\nExample:\n\"How I search 17 YouTube videos in 30 seconds:\"\n\nPromises specific, actionable value.",
+        "5/ Framework 4: Benefit-Driven\n\n\"How [action] to [outcome]:\"\n\nExample:\n\"How I track 40 projects without a project manager:\"\n\nLeads with the benefit, not the method.",
+        "6/ Power Words\n\n• Transformation: saved, changed, transformed\n• Contrarian: actually, instead, wrong\n• How-To: exactly, step-by-step, complete\n• Benefit: unlock, boost, 10x\n\nWords that trigger engagement.",
+        "7/ The Application\n\nFor every content idea:\n1. Try all 4 frameworks\n2. Pick strongest hook\n3. Match to platform voice\n4. Test and measure\n\nSystematic > sporadic."
+      ],
+      "hashtags": "#ContentCreation #Copywriting #Hooks",
+      "status": "Draft"
+    },
+    {
+      "id": 55,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "Automation",
+      "title": "Simple automation beats complex automation",
+      "tweets": [
+        "Simple automation beats complex automation.\n\nEvery time.\n\nHere's what I learned building 60+ agents (thread):",
+        "1/ The Temptation\n\nBuild one mega-script that:\n• Handles all cases\n• Has every feature\n• Covers every edge case\n\nFeels comprehensive.\nActually fragile.",
+        "2/ The Reality\n\nComplex automation:\n• Hard to debug\n• Hard to modify\n• Fails catastrophically\n• Single point of failure\n\nSimple automation:\n• Easy to understand\n• Easy to fix\n• Fails gracefully\n• Isolated failures",
+        "3/ My Rule\n\nOne agent = one job.\n\nNot \"project management agent.\"\n\nInstead:\n• GitHub sync agent\n• TODO aggregation agent\n• Security scoring agent\n\nComposable pieces.",
+        "4/ The Coordination Layer\n\nDaily scheduler orchestrates.\nAgents do the work.\n\nScheduler is simple: call agents in sequence.\nAgents are simple: do one thing well.\n\nComplexity in coordination, not execution.",
+        "5/ Error Handling Philosophy\n\nOld: Catch everything, never fail.\nNew: Fail fast, log loudly, alert me.\n\nI'd rather know about problems than have them hidden.",
+        "6/ The Maintenance Burden\n\nComplex: Hours to understand, minutes to break.\nSimple: Minutes to understand, seconds to fix.\n\nYour future self will thank you.",
+        "7/ The Meta-Lesson\n\nAutomation should reduce complexity, not add it.\n\nIf your automation needs automation, you've gone too far.\n\nSimple. Reliable. Boring.\n\nThat's the goal."
+      ],
+      "hashtags": "#Automation #Simplicity #Engineering",
+      "status": "Draft"
+    },
+    {
+      "id": 56,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I document my work for building in public",
+      "tweets": [
+        "How I document my work for building in public.\n\nThe system that generates content from doing (thread):",
+        "1/ The Philosophy\n\nDon't create content.\nDocument what you're already doing.\n\nBuilding in public = showing the work.\n\nAuthenticity > production value.",
+        "2/ The Capture System\n\nDaily:\n• LOG.md tracks what I did\n• CONTEXT.md tracks decisions\n• CLAUDE.md updates with learnings\n\nCapture → Process → Publish.",
+        "3/ What Gets Captured\n\n• Files changed and why\n• Features shipped\n• Bugs fixed and root causes\n• Decisions made and reasoning\n• Lessons learned\n• Numbers and metrics",
+        "4/ The Processing\n\nDaily content agent scans captures.\nApplies hook frameworks.\nGenerates posts.\n\nRaw material → formatted content.\n\nAutomated curation.",
+        "5/ The Types of Content\n\nFrom one day's work:\n• Quick tip (X single)\n• Process deep-dive (X thread)\n• Story + lessons (LinkedIn)\n• Tutorial (pillar content)\n\nOne input → multiple outputs.",
+        "6/ What Works Best\n\n• Failures > successes (more relatable)\n• Specific numbers > vague claims\n• Process > results\n• Honesty > polish\n\nVulnerability creates connection.",
+        "7/ The Result\n\nNever running out of content.\nAlways authentic.\nMinimal extra effort.\n\nDo the work. Document the work. Share the work.\n\nThat's building in public."
+      ],
+      "hashtags": "#BuildingInPublic #ContentCreation #Documentation",
+      "status": "Draft"
+    },
+    {
+      "id": 57,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "AI Tools",
+      "title": "How I turned 500 PDFs into a searchable brain",
+      "tweets": [
+        "How I turned 500 PDFs into a searchable brain.\n\nNever lose information again (thread):",
+        "1/ The Problem\n\n500+ PDFs across Google Drive.\nNotes in Apple Notes.\nDocuments everywhere.\n\n\"Where did I read that?\" → 30 minutes of searching.",
+        "2/ The Solution: AIBrain\n\nUnified knowledge base:\n• Index all sources\n• Embed for semantic search\n• Query in natural language\n• Get answers with sources",
+        "3/ The Ingestion Pipeline\n\n1. Connect to Google Drive\n2. Extract text from PDFs\n3. Pull Apple Notes\n4. Chunk semantically\n5. Generate embeddings\n6. Store in vector DB",
+        "4/ The Query Interface\n\n\"What did that McKinsey report say about market sizing?\"\n\n→ Relevant chunks\n→ Source documents\n→ Page numbers\n→ Full context",
+        "5/ The Organization\n\nNo manual tagging needed.\n\nSemantic search handles:\n• Synonyms\n• Related concepts\n• Partial matches\n\nFind by meaning, not keywords.",
+        "6/ The Numbers\n\nManual search: 15-30 minutes\nAIBrain query: 30 seconds\n\n500+ documents.\nInstant answers.\nWith citations.",
+        "7/ The Extensions\n\nNow expanding to:\n• Meeting notes\n• Slack conversations\n• Browser bookmarks\n\nEverything I learn, searchable forever."
+      ],
+      "hashtags": "#AI #KnowledgeManagement #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 58,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I use Plan Mode effectively",
+      "tweets": [
+        "How I use Plan Mode effectively in Claude Code.\n\nExplore first, then execute (thread):",
+        "1/ What is Plan Mode?\n\nClaude explores without changing anything.\nReads files. Answers questions. Doesn't modify.\n\nSafe exploration before risky execution.",
+        "2/ When to Use It\n\n• Unfamiliar codebase\n• Multiple approaches possible\n• Changes affect many files\n• Need to understand before acting\n\nComplex tasks need exploration.",
+        "3/ The Workflow\n\nPhase 1 - Explore:\n\"Read src/auth and explain how sessions work.\"\n\nPhase 2 - Plan:\n\"I want to add OAuth. What files need to change?\"\n\nPhase 3 - Implement:\n[Exit Plan Mode] \"Implement the OAuth flow.\"",
+        "4/ What to Ask in Explore\n\n• How does X work?\n• Where is Y implemented?\n• What patterns does this codebase use?\n• What would break if I changed Z?\n\nUnderstanding before action.",
+        "5/ What to Ask in Plan\n\n• What files need to change?\n• What's the sequence of changes?\n• What tests should I write?\n• What could go wrong?\n\nMap before you move.",
+        "6/ When NOT to Use It\n\n• Simple, obvious tasks\n• You know the codebase well\n• Change is isolated to one file\n• Time-sensitive fix\n\nPlanning adds overhead. Skip for trivial work.",
+        "7/ The Result\n\nFewer mistakes.\nBetter implementations.\nLess wasted effort.\n\nExplore → Plan → Execute.\n\nThat's how complex changes become manageable."
+      ],
+      "hashtags": "#ClaudeCode #Planning #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 59,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "Content Systems",
+      "title": "Most content advice is backwards",
+      "tweets": [
+        "Most content advice is backwards.\n\n\"Be consistent\" is killing your content.\n\nHere's what actually works (thread):",
+        "1/ The Bad Advice\n\n\"Post every day\"\n\"Same time, same place\"\n\"Consistency is king\"\n\nOptimizing for quantity over quality.\nBurning yourself out.",
+        "2/ The Reality\n\nConsistency matters less than you think.\nQuality compounds more than frequency.\nOne great post > ten mediocre ones.",
+        "3/ My Approach\n\nSystems, not schedules.\n\nI have a content pipeline.\nIt runs when I work.\nPosts come from real projects.\n\nOrganic flow > forced calendar.",
+        "4/ The Content Types\n\n• Quick insight (5 min to create)\n• Deep thread (30 min to create)\n• Pillar piece (2 hours to create)\n\nMix based on what's authentic, not what's scheduled.",
+        "5/ The Quality Filter\n\nEvery post scored on:\n• Hook strength\n• Specificity\n• Value delivered\n• Authentic voice\n\nBelow 80? Don't post.\n\nSilence > noise.",
+        "6/ The Compounding Effect\n\nOne viral post > 30 mediocre posts.\n\nGreat content:\n• Gets shared\n• Gets saved\n• Brings followers\n• Builds authority\n\nQuality attracts. Quantity exhausts.",
+        "7/ The Meta-Lesson\n\nBuild for compound interest, not daily metrics.\n\nA system that produces great content occasionally beats one that produces okay content constantly.\n\nOptimize for quality. Let consistency follow."
+      ],
+      "hashtags": "#ContentCreation #Quality #Strategy",
+      "status": "Draft"
+    },
+    {
+      "id": 60,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Business Value",
+      "title": "How I built a kids sports directory in Arizona",
+      "tweets": [
+        "How I built a kids sports directory in Arizona.\n\nSEO + AI = passive traffic (thread):",
+        "1/ The Opportunity\n\nParents searching \"kids soccer Phoenix\"\nNo good directories.\nScattered info across websites.\n\nClear need. Low competition.",
+        "2/ The Data Pipeline\n\nSources:\n• Google Maps API\n• Yelp\n• Local directories\n• School websites\n\n1000+ programs scraped and deduplicated.",
+        "3/ The SEO Strategy\n\nPages for every:\n• Sport (soccer, basketball, swimming...)\n• City (Phoenix, Scottsdale, Tempe...)\n• Age group (toddler, elementary, teen...)\n\nCategory pages = long-tail traffic.",
+        "4/ The LLM Optimization\n\nSchema.org structured data.\nQ&A format content.\nNatural language descriptions.\n\nFuture-proofing for AI search.\n\nSEO + LLM-ready = double coverage.",
+        "5/ The Features\n\n• Search by sport, location, age\n• Reviews aggregated\n• Price comparison\n• Schedule filtering\n• Direct booking links\n\nOne-stop shop for parents.",
+        "6/ The Business Model\n\nTraffic → affiliate commissions\n• Equipment links\n• Class signups\n• Gear recommendations\n\nDirectory traffic monetized.",
+        "7/ The Numbers\n\n1000+ programs listed.\nCategory pages ranking.\nOrganic traffic growing.\n\nDirectory sites still work in 2025.\n\nJust add AI optimization."
+      ],
+      "hashtags": "#SEO #DirectorySite #PassiveIncome",
+      "status": "Draft"
+    },
+    {
+      "id": 61,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "My morning routine is now 90% automated",
+      "tweets": [
+        "My morning routine is now 90% automated.\n\n9 AM: Everything runs without me (thread):",
+        "1/ The Before\n\nEvery morning:\n• Check each project status\n• Review GitHub for changes\n• Compile TODO lists\n• Check security issues\n• Plan the day\n\n2 hours minimum.",
+        "2/ The After\n\nOne report at 9 AM:\n• All project statuses\n• GitHub sync issues\n• Aggregated TODOs\n• Security scores\n• Content queue\n\n5 minutes to review.",
+        "3/ The Agents\n\n• Project status scanner\n• GitHub sync checker\n• TODO aggregator\n• Security scorer\n• Content generator\n• Report compiler\n\n6 agents. One orchestrator.",
+        "4/ The Trigger\n\nLaunchAgent runs at 9 AM.\nSurvives reboots.\nNever forgets.\n\nI wake up to a complete briefing.",
+        "5/ The Output\n\nSingle report:\n• What needs attention (urgent)\n• What's on track (monitoring)\n• What's blocked (action needed)\n• Today's content queue\n\nSignal, not noise.",
+        "6/ The Human Part\n\n10% that's still manual:\n• Decision-making\n• Creative work\n• Unexpected issues\n• Human conversations\n\nAutomate the routine. Save energy for the hard stuff.",
+        "7/ The Time Math\n\n2 hours → 5 minutes = 1.9 hours saved.\n1.9 × 5 days = 9.5 hours/week.\n9.5 × 50 weeks = 475 hours/year.\n\nAutomation pays dividends."
+      ],
+      "hashtags": "#Automation #Productivity #MorningRoutine",
+      "status": "Draft"
+    },
+    {
+      "id": 62,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I manage context in long Claude Code sessions",
+      "tweets": [
+        "How I manage context in long Claude Code sessions.\n\nThe #1 resource to protect (thread):",
+        "1/ The Problem\n\nClaude's context window fills fast:\n• Every file read = tokens\n• Every command output = tokens\n• Every conversation turn = tokens\n\nFull context = degraded performance.",
+        "2/ The Symptoms\n\n• Claude \"forgets\" instructions\n• Responses get confused\n• Same mistakes repeated\n• Quality drops noticeably\n\nContext pollution is subtle. Then sudden.",
+        "3/ Strategy 1: /clear Between Tasks\n\nFinished feature A?\n/clear\nStart feature B.\n\nFresh context = better performance.\n\nDon't let unrelated tasks accumulate.",
+        "4/ Strategy 2: Use Subagents for Exploration\n\n\"Use a subagent to investigate the auth system.\"\n\nSubagent explores in separate context.\nReports back summary.\nYour context stays clean.",
+        "5/ Strategy 3: /compact When Needed\n\nNeed to preserve some context?\n/compact Focus on the API changes\n\nClaude summarizes, keeps what matters, frees space.",
+        "6/ Strategy 4: Stop Correction Loops\n\nClaude wrong → correct → still wrong → correct again.\n\nAFTER 2 CORRECTIONS:\n/clear\nWrite a better initial prompt.\n\nFresh start > accumulated failures.",
+        "7/ The Rule of Thumb\n\n• One major task per session\n• Clear between unrelated tasks\n• Subagents for exploration\n• Stop correction loops early\n\nContext management = productivity management."
+      ],
+      "hashtags": "#ClaudeCode #Context #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 63,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "AI image editing is underrated",
+      "tweets": [
+        "AI image editing is underrated.\n\nPhotoshop skills? Not needed.\n\nHere's how I edit images with natural language (thread):",
+        "1/ The Old Way\n\nPhotoshop:\n• Learn the tools\n• Master the techniques\n• Hours per complex edit\n• Years to get good\n\nHigh skill barrier.",
+        "2/ The New Way\n\nAI + natural language:\n\"Change background to mountains\"\n\"Remove the person on the left\"\n\"Make the lighting warmer\"\n\nIntent → result. No skill required.",
+        "3/ The Tool: Smart Image Editor\n\nBuilt with Gemini Flash 2.5.\n\nCapabilities:\n• Precision edits\n• Background changes\n• Object removal\n• Style transfer\n• Image combining",
+        "4/ Batch Processing\n\n100 images need the same edit?\n\nOne instruction → all images processed.\n\nConsistency across the set.\nFraction of the time.",
+        "5/ The Quality\n\nNot perfect. But good enough for:\n• Social media\n• Marketing materials\n• Product photos\n• Quick iterations\n\n80/20: 80% of Photoshop quality at 20% of the effort.",
+        "6/ The Use Cases\n\n• Marketing teams: Quick variations\n• E-commerce: Product backgrounds\n• Content creators: Thumbnail generation\n• Developers: Mockups and prototypes",
+        "7/ The Takeaway\n\nAI democratizes skills.\n\nYou don't need to learn Photoshop.\nYou need to learn to describe what you want.\n\nPrompting > technical skill for 80% of cases."
+      ],
+      "hashtags": "#AI #ImageEditing #NoCode",
+      "status": "Draft"
+    },
+    {
+      "id": 64,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I handle failure publicly",
+      "tweets": [
+        "How I handle failure publicly.\n\nFailures teach more than successes (thread):",
+        "1/ The Default Response\n\nSomething breaks.\nHide it.\nFix it quietly.\nNever mention it.\n\nProtect the image.\n\nBut this misses the opportunity.",
+        "2/ The Better Response\n\nSomething breaks.\nDocument it.\nShare the root cause.\nExplain the fix.\n\nTurn failure into content.",
+        "3/ Why It Works\n\n• Relatable (everyone fails)\n• Educational (how to fix)\n• Authentic (not just highlight reel)\n• Memorable (stories > tips)\n\nVulnerability creates connection.",
+        "4/ Example: Scheduler Failure\n\nMy 60-agent system broke for 3 days.\n\nShared:\n• What happened (hardcoded path)\n• How I found it (added logging)\n• How I fixed it (environment variables)\n• How I prevented it (health checks)\n\nThread got 5x normal engagement.",
+        "5/ The Framework\n\n1. What broke?\n2. What was the symptom?\n3. What was the root cause?\n4. How did you fix it?\n5. How do you prevent it?\n\nStructure for failure stories.",
+        "6/ What NOT to Share\n\n• Security vulnerabilities (fix first)\n• Customer data issues (privacy)\n• Legal problems (get advice first)\n• Ongoing incidents (after resolution)\n\nTransparency has limits.",
+        "7/ The Mindset\n\nEvery failure = content opportunity.\n\nYou're going to fail anyway.\nMight as well extract value from it.\n\nFailure → Learning → Sharing → Growth."
+      ],
+      "hashtags": "#BuildingInPublic #Failure #Growth",
+      "status": "Draft"
+    },
+    {
+      "id": 65,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Content Systems",
+      "title": "Before frameworks: random content",
+      "tweets": [
+        "Before frameworks: random content.\n\nAfter frameworks: consistent engagement.\n\nHow I systematized content creation (thread):",
+        "1/ The Before\n\nEvery post:\n• Start from scratch\n• Hope for inspiration\n• Wildly varying quality\n• No predictable results\n\nCreative chaos.",
+        "2/ The Insight\n\nViral content follows patterns.\n\nPatterns can be codified.\n\nCodeified patterns = frameworks.\n\nFrameworks = repeatable results.",
+        "3/ Framework 1: Hook Types\n\n• Contrarian: Challenge beliefs\n• Transformation: Before/after\n• How-To: Step-by-step\n• Benefit-Driven: Clear value\n\nEvery post fits one type.",
+        "4/ Framework 2: Power Words\n\nWords that trigger engagement:\n\n• \"Why most people...\"\n• \"The exact process...\"\n• \"How I 10x'd...\"\n• \"What nobody tells you...\"\n\nPsychological triggers.",
+        "5/ Framework 3: Structure\n\nEvery post has:\n• Hook (first line)\n• Body (the meat)\n• CTA (what to do next)\n\nNo mystery. Just fill the template.",
+        "6/ Framework 4: Quality Score\n\nBefore posting, score:\n• Hook strength (1-10)\n• Specificity (1-10)\n• Value delivered (1-10)\n• Platform fit (1-10)\n\nBelow 8 average? Don't post.",
+        "7/ The Result\n\nContent quality scores: 60 → 85.\nEngagement: more consistent.\nCreation time: faster.\nCreative energy: preserved.\n\nFrameworks free creativity. They don't constrain it."
+      ],
+      "hashtags": "#ContentCreation #Frameworks #Quality",
+      "status": "Draft"
+    },
+    {
+      "id": 66,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I onboard to new codebases with Claude Code",
+      "tweets": [
+        "How I onboard to new codebases with Claude Code.\n\nUnderstanding in minutes, not days (thread):",
+        "1/ The Old Way\n\nNew codebase:\n• Read documentation (if it exists)\n• Browse files randomly\n• Grep for keywords\n• Ask colleagues\n• Trial and error\n\nDays to become productive.",
+        "2/ The New Way\n\nWith Claude Code:\n• Ask questions in natural language\n• Get answers with file references\n• Explore systematically\n• Build mental model fast\n\nMinutes to become productive.",
+        "3/ Question 1: Architecture\n\n\"What's the overall structure of this codebase?\"\n\nClaude scans directories.\nIdentifies patterns.\nExplains the architecture.\n\nBig picture first.",
+        "4/ Question 2: Key Flows\n\n\"How does authentication work in this codebase?\"\n\nClaude traces:\n• Entry points\n• Data flow\n• Key files\n• Dependencies\n\nUnderstanding flows.",
+        "5/ Question 3: Patterns\n\n\"What patterns does this codebase use for X?\"\n\nClaude identifies:\n• Common conventions\n• Recurring patterns\n• Style preferences\n\nMatch existing patterns.",
+        "6/ Question 4: Gotchas\n\n\"What are the non-obvious parts of this codebase?\"\n\nClaude finds:\n• Unusual implementations\n• Technical debt\n• Hidden complexity\n\nAvoid landmines.",
+        "7/ The Result\n\nOnboarding that used to take days → hours.\n\nClaude becomes your codebase guide.\n\nAsk anything. Get answers with sources.\n\nThat's accelerated understanding."
+      ],
+      "hashtags": "#ClaudeCode #Onboarding #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 67,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Contrarian",
+      "theme": "Business Value",
+      "title": "Side projects aren't side hustles",
+      "tweets": [
+        "Side projects aren't side hustles.\n\nThey're skill multipliers.\n\nHere's how I think about building (thread):",
+        "1/ The Common View\n\n\"Side project\" = \"potential revenue\"\n\nSuccess = making money.\nFailure = not making money.\n\nLimited perspective.",
+        "2/ The Better View\n\n\"Side project\" = \"skill accelerator\"\n\nSuccess = learned something.\nBonus = also makes money.\n\nEvery project is valuable.",
+        "3/ What I Learn Building\n\n• Technical skills (new frameworks, patterns)\n• Product skills (what users want)\n• Marketing skills (how to reach people)\n• Business skills (monetization, ops)\n\nCompound learning.",
+        "4/ Example: YouTubeRAG\n\nDirect value:\n• Saved research time\n\nLearned:\n• RAG implementation\n• Vector databases\n• Embedding strategies\n• API design\n\nSkills transfer to everything else.",
+        "5/ Example: Content Generator\n\nDirect value:\n• Generates my content\n\nLearned:\n• Content frameworks\n• AI integration patterns\n• Quality scoring systems\n\nMeta: Content about content.",
+        "6/ The Portfolio Effect\n\n40+ projects = 40+ skill investments.\n\nEach project teaches.\nKnowledge compounds.\nNext project is easier.\n\nCompounding returns on learning.",
+        "7/ The Takeaway\n\nStop asking: \"Will this make money?\"\n\nStart asking: \"What will this teach me?\"\n\nMoney follows skills.\nSkills come from building.\nSo keep building."
+      ],
+      "hashtags": "#SideProjects #Learning #Building",
+      "status": "Draft"
+    },
+    {
+      "id": 68,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How I manage prompts across 4 AI tools",
+      "tweets": [
+        "How I manage prompts across 4 AI tools.\n\nNo more lost prompts (thread):",
+        "1/ The Problem\n\nUsing:\n• Claude\n• ChatGPT\n• Gemini\n• Perplexity\n\nEach has its own chat history.\nPrompts scattered everywhere.\nNo way to find \"that prompt that worked.\"",
+        "2/ The Solution: Prompt Vault\n\nChrome extension that:\n• Captures prompts as I use them\n• Tags and categorizes automatically\n• Syncs across all AI tools\n• Makes everything searchable",
+        "3/ How It Works\n\nWrite a prompt in any AI tool.\nExtension detects it.\nSaves to central vault.\nAdds metadata:\n• Tool used\n• Category\n• Outcome\n• Tags",
+        "4/ The Search Interface\n\n\"Find all prompts about debugging\"\n\n→ Every debugging prompt I've used\n→ Which tool I used\n→ Results I got\n\nInstant recall.",
+        "5/ The Categories\n\nAuto-tagged:\n• Code (writing, reviewing, debugging)\n• Content (writing, editing, hooks)\n• Research (analysis, synthesis)\n• Creative (brainstorming, ideation)",
+        "6/ The Cross-Tool Benefit\n\nPrompt works great in Claude?\nTry in ChatGPT.\nCompare results.\nLearn which tool for which task.\n\nSystematic model comparison.",
+        "7/ The Meta-Level\n\nPrompts are assets.\n\nA library of working prompts = compounding productivity.\n\nCapture everything. Search when needed.\n\nThat's prompt management done right."
+      ],
+      "hashtags": "#AI #Prompts #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 69,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "My project setup went from 30 minutes to 10 seconds",
+      "tweets": [
+        "My project setup went from 30 minutes to 10 seconds.\n\nTemplate inheritance changed everything (thread):",
+        "1/ The Before\n\nNew project:\n• Create folder\n• Copy files from old project\n• Modify for new project\n• Set up .gitignore\n• Configure environment\n• Write documentation\n\n30 minutes minimum.",
+        "2/ The After\n\nNew folder detected.\nTemplates auto-generated.\nReady to code.\n\n10 seconds.",
+        "3/ How It Works\n\nFile system watcher detects new folders.\nChecks project type (webapp, automation, etc.).\nApplies appropriate template.\nGenerates all boilerplate.",
+        "4/ What Gets Generated\n\n• CLAUDE.md (project context)\n• .gitignore (language-specific)\n• SECURITY.md (template)\n• .env.example (environment)\n• README.md (starter)\n\nComplete scaffolding.",
+        "5/ The Template Hierarchy\n\nBase template (all projects)\n→ Category template (webapp, automation)\n→ Specific template (Next.js, Python)\n\nInheritance = consistency without repetition.",
+        "6/ The Customization\n\nTemplates are starting points.\n\nProject-specific details get added.\nBut 80% is automatic.\n\nFocus on what's unique.",
+        "7/ The Math\n\n30 min → 10 sec = 29.8 minutes saved.\n\n40 projects × 30 min = 20 hours saved.\n\nAutomation pays dividends.\n\nEspecially for boring tasks."
+      ],
+      "hashtags": "#Automation #Templates #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 70,
+      "platform": "X",
+      "type": "thread",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I pick which projects to share",
+      "tweets": [
+        "How I pick which projects to share.\n\nNot everything is content-worthy (thread):",
+        "1/ The Filter\n\nNot every project should be public.\n\nSome are:\n• Too niche\n• Too boring\n• Too personal\n• Not ready\n\nCuration matters.",
+        "2/ Criterion 1: Relatability\n\nWill others have this problem?\n\nVendor quotes → common pain\nPersonal journaling app → too niche\n\nShare problems others have.",
+        "3/ Criterion 2: Teachability\n\nCan I explain how I built it?\n\nClear architecture → good content\nSpaghetti code → not yet\n\nShare when you can teach.",
+        "4/ Criterion 3: Completeness\n\nIs there a story arc?\n\nProblem → Solution → Results\nNot just \"started a project.\"\n\nShare complete journeys.",
+        "5/ Criterion 4: Authenticity\n\nDid I actually use this?\nDoes it solve a real problem?\n\nDogfooded projects > toy projects.\n\nShare real usage.",
+        "6/ The 40 Projects Filter\n\n40 active projects.\n~15 are content-worthy.\n~25 are too niche or incomplete.\n\nQuality over quantity.\n\nShare the best, not everything.",
+        "7/ The Meta-Rule\n\nAsk: \"Would I click on this if someone else posted it?\"\n\nNo? Don't post.\nYes? Develop the content.\n\nSelf-filter before you publish."
+      ],
+      "hashtags": "#BuildingInPublic #ContentStrategy #Curation",
+      "status": "Draft"
+    }
+  ]
+}

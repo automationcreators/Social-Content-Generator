@@ -1,0 +1,565 @@
+{
+  "metadata": {
+    "created": "2026-02-11",
+    "author": "Elizabeth Knopf",
+    "source": "Project logs from last 30 days",
+    "total_posts": 100,
+    "notes": "Highly personalized posts based on actual project work: ContentGen, Heatseeker, OwnerScraper, YouTubeRAG, LegiscrapeR, MapMaker, X Spaces pipeline, Project Management dashboard, and more."
+  },
+  "posts": [
+    {
+      "id": 1,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Data Enrichment",
+      "title": "I enriched 103 business records with owner names in one afternoon. Here's the 6-strategy approach.",
+      "body": "A client needed real owner names for 103 CDL training schools.\n\nThe problem: The data had garbage like 'Abetterchoiceabc' instead of actual names.\n\nTraditional approach: Manually Google each one. Weeks of work.\n\nMy approach: A 6-strategy Perplexity API search system.\n\nThe 6 Strategies:\n\n1. Direct owner search with website URL\n2. LinkedIn search for owner/CEO/founder\n3. Secretary of State business registration lookup\n4. School director/principal search\n5. Google/Yelp reviews for owner mentions\n6. News/press articles about the school\n\nHow it works:\n\nFor each school, the system tries all 6 strategies in sequence. First real name found wins. Strict validation rejects non-person responses.\n\nResults:\n\n- 72 verified owners found (70% hit rate)\n- All first names extracted automatically\n- Progress saves every 5 schools (resume on failure)\n- Names like Carla Luig, Steve Menefee, Roberto Reyna, Don Balch\n\nThe code handles:\n- Rate limiting between API calls\n- Name validation (rejects company names, titles)\n- Multiple query variations per strategy\n- Graceful fallback when strategies fail\n\nTakeaway: Data enrichment isn't about one magic query. It's about trying multiple approaches systematically until you find the answer. 6 strategies > 1 strategy. Every time.",
+      "cta": "What data enrichment challenge would you solve with a multi-strategy approach?"
+    },
+    {
+      "id": 2,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Content Aggregation",
+      "title": "My content system monitors 246+ RSS sources automatically.",
+      "body": "Plus YouTube channels. Plus X/Twitter accounts.\n\nAll feeding into one trend detection system.\n\nHow: Python + SQLite + AI analysis.\n\nResult: I see what's trending before it trends.\n\nTakeaway: Build your own intelligence system. Don't rely on algorithms to show you what matters.",
+      "cta": ""
+    },
+    {
+      "id": 3,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "YouTube RAG",
+      "title": "I built a system to chat with YouTube videos like they're a person.",
+      "tweets": [
+        "I built a system to chat with YouTube videos like they're a person.\n\n'What does Alex Finn think about Claude Code vs Cursor?'\n\nInstant answer from his 37 videos.\n\nHere's exactly how I built it:",
+        "The problem:\n\nI follow creators who share valuable insights. But I can't watch 100+ hours of content.\n\nI needed a way to search and query across all their videos.",
+        "The solution: A RAG (Retrieval-Augmented Generation) system.\n\nRAG = AI that searches your documents first, then answers based on what it finds.\n\nApplied to YouTube transcripts.",
+        "Component 1: Transcript fetching\n\nUsed youtube-transcript-api to pull transcripts directly.\n\nNo need to download videos. Just grab the text.\n\nFetched 69 transcripts from 2 channels in one session.",
+        "Component 2: Vector database\n\nUsed ChromaDB to store transcript chunks.\n\nEach chunk gets embedded (converted to numbers AI can search).\n\n1,997 chunks indexed from 69 videos.",
+        "Component 3: Local LLM\n\nUsed Ollama with llama3.2 for answers.\n\nFully local. No API costs. Runs on my laptop.\n\nnomic-embed-text for embeddings.",
+        "The workflow:\n\n1. python main.py fetch 'https://youtube.com/@ChannelName' --limit 100\n2. python main.py index --force\n3. python main.py chat\n\nThat's it. Three commands to chat with any channel.",
+        "Challenges I hit:\n\n- YouTube 403 errors (IP blocking) - solved by using transcript API directly\n- Rate limiting after 30-40 transcripts - added delays\n- Breaking API changes - updated library instantiation",
+        "Takeaway: You can build AI that 'knows' your favorite creators.\n\nFully local. Zero API costs. Searchable knowledge base.\n\nStop watching hours of content. Ask questions instead."
+      ],
+      "cta": "Which YouTube channels would you want to query?"
+    },
+    {
+      "id": 4,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Project Management",
+      "title": "I consolidated 39 projects into one dashboard with real-time file access.",
+      "body": "The problem with multiple projects:\n\nContext scattered everywhere. TODO files in different folders. CLAUDE.md files I forgot existed.\n\nNo single view of what's happening.\n\nSo I built a dashboard.\n\nWhat it does:\n\n- Shows all 39 projects with filtering and sorting\n- Loads real TODO.md files on click\n- Displays CLAUDE.md context for each project\n- GitHub-like modal interface for project details\n- File browser for each project directory\n\nThe architecture:\n\n- Project Registry: JSON file tracking all projects\n- File Server: Python HTTP server for secure file access\n- Dashboard UI: JavaScript with embedded data\n- Real-time loading: Fetch TODO and CLAUDE.md on demand\n\nKey features:\n\n1. Health metrics per project (completion %, blockers)\n2. Tabbed interface (Overview, Tasks, Files, Settings)\n3. Markdown parsing for TODO files\n4. Error handling for missing files\n\nHow I built it:\n\n1. Consolidated project data from multiple sources\n2. Created file server restricted to project directories\n3. Built modal UI with tab navigation\n4. Integrated real file loading via HTTP endpoints\n\nResult:\n\nOne place to see everything. Click project -> see real TODO -> see real context.\n\nNo more hunting through folders.\n\nTakeaway: If you have multiple projects, build a dashboard. The time investment pays off in clarity.",
+      "cta": "How do you manage context across multiple projects?"
+    },
+    {
+      "id": 5,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "X Spaces",
+      "title": "Built an X Spaces pipeline that downloads, transcribes, and summarizes automatically.",
+      "body": "Input: X Spaces URL\nOutput: Audio file + transcript + AI summary\n\nHow:\n- yt-dlp for download\n- Whisper for transcription\n- GPT-4o for summaries\n\nCost: API usage only (or free with local Whisper).\n\nTakeaway: Automate content consumption. Don't watch 2-hour Spaces. Read the summary.",
+      "cta": ""
+    },
+    {
+      "id": 6,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Acquisition Research",
+      "title": "How I built a database of 246 verified business executives in 48 hours",
+      "body": "I needed acquisition targets for a client.\n\nGoal: Find private career school owners with decision-making authority.\n\nThe challenge: Public databases have garbage data. Wrong names. Old contacts. Generic emails.\n\nThe solution: Multi-source verification pipeline.\n\nPhase 1: Data Collection\n\nStarted with Texas Workforce Commission approved schools list.\n- 627 schools to research\n- Filtered to 444 non-Title IV private schools\n- These are acquisition targets (not federally regulated)\n\nPhase 2: Owner Research\n\nFor each school:\n1. Search school website for 'About' and 'Team' pages\n2. Search LinkedIn for company profiles\n3. Check state business registrations\n4. Search news articles for founder mentions\n5. Cross-reference multiple sources\n\nPhase 3: Verification\n\nOnly counted as 'verified' if:\n- Real human name (not company name)\n- Confirmed decision-making title (Owner, CEO, Founder, President)\n- At least 2 sources agree\n\nResults:\n\n- 246 verified executives\n- 143 schools covered (32% of target)\n- 99.5% completion on verified targets\n- Real names: not 'info@school.com' garbage\n\nThe multi-state breakdown:\n\n- Texas: Primary focus\n- Florida: 653 private schools, 81.5% owner coverage\n- Georgia: 232 campaign-ready schools, 65% owner coverage\n\nTakeaway: Good data takes work. Multi-source verification beats single-source every time. If one source says 'John Smith' and another says 'Abetterchoiceabc' - dig deeper.",
+      "cta": "What industry would benefit from verified owner databases?"
+    },
+    {
+      "id": 7,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Trading Tools",
+      "title": "I'm building a trading setup detection system that combines AI with dealer positioning data.",
+      "tweets": [
+        "I'm building a trading setup detection system that combines AI with dealer positioning data.\n\nIt watches options flow. It finds high-probability setups. It alerts me before market open.\n\nHere's the architecture:",
+        "The problem with trading:\n\nToo much data. Too many charts. Not enough time.\n\nI was missing setups because I couldn't monitor everything.",
+        "The data source: Heatseeker heatmaps.\n\nThey show where dealers have positioned (GEX/VEX).\n\nGreen nodes = dealers will defend the level.\nPurple nodes = high volatility, wicks and overshoots.",
+        "The system I'm building:\n\n1. Capture heatmaps at strategic times (open, midday, close)\n2. Extract GEX/VEX values with OCR\n3. Pull technical data (EMA, VWAP, volume)\n4. Score setup probability (1-10)\n5. Alert when probability ≥ 7",
+        "Good setups (from my research):\n\n1. First-touch King node rejection\n2. Range edge fade with asymmetric R:R\n3. Growing floor with price bounce\n4. Multi-index confluence (SPX + SPY + QQQ)\n5. GEX/VEX confluence bounce",
+        "Bad setups to avoid:\n\n1. Midpoint trading (worst - 1:1 R:R)\n2. Multiple-retested nodes (weak)\n3. Unwinding/decreasing nodes\n4. No index confluence\n5. Trading right after map reshuffle",
+        "The capture schedule:\n\n- First 30 min: Every 5 minutes (7 captures)\n- 10:30 AM: 1 capture\n- Midday: 1 capture\n- Last 30 min: Every 5 minutes (7 captures)\n\n~16 screenshots per ticker per day.",
+        "Tech stack:\n\n- Puppeteer for browser automation\n- Tesseract for OCR\n- yfinance for chart data\n- Pandas-TA for indicators\n- SQLite for storage\n- Discord webhooks for alerts",
+        "Takeaway: The best edge isn't watching charts all day.\n\nIt's building systems that watch for you and alert you to high-probability setups.\n\nAutomate the scanning. Focus on the execution."
+      ],
+      "cta": "What would you automate about your trading workflow?"
+    },
+    {
+      "id": 8,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Content Systems",
+      "title": "I stopped using RSS.app ($30/month). Built my own for $0.",
+      "body": "Same functionality. More customization. Full data control.\n\nHow:\n- Python script to fetch feeds\n- SQLite to store articles\n- AI to analyze and categorize\n- 246+ sources monitored\n\nTakeaway: If you're paying monthly for something simple, you can probably build it yourself in a weekend.",
+      "cta": ""
+    },
+    {
+      "id": 9,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Legislature Scraping",
+      "title": "I built a 99% accurate legislature scraper and enriched it with committee and bill data",
+      "body": "Goal: Create the most comprehensive Idaho legislature dataset available.\n\nPhase 1: Basic scraping (already done - 99% accuracy on 104 legislators)\n\nPhase 2: Enrichment with committees and legislation\n\nWhat I added:\n\n1. Committee memberships for each legislator\n2. Leadership positions (Chair, Vice Chair)\n3. Bill sponsorships (which legislation they authored)\n4. Interactive dashboard to explore the data\n\nThe research process:\n\nCommittee URLs follow a pattern:\n/sessioninfo/2025/standingcommittees/[CODE]/\n\nSenate codes: SAGA, SCHR, SEDU, etc.\nHouse codes: HAGR, HBUS, etc.\n\nFor each committee, I extracted:\n- Committee name\n- Members list\n- Leadership positions\n\nThen cross-referenced with individual legislator pages.\n\nResults:\n\n- 50% committee coverage\n- 27.8% leadership positions captured\n- 16.7% with bill sponsorships\n- 14 total committee assignments across 5 committees\n- 5 verified bills with sponsors and descriptions\n\nThe dashboard:\n\n- Interactive filtering by chamber, party\n- Committee assignment views\n- Bill sponsorship tracking\n- Color-coded party affiliations\n\nSample verified data:\n\n- Tammy Nichols: Agricultural Affairs (Chair), Education, Commerce & Human Resources\n- Chuck Winder: State Affairs Committee, Transportation Committee\n\nTakeaway: Scraping is just step one. Enrichment is where the real value is. A legislator's name is useful. Their committee assignments and bill history make the data 3x more valuable.",
+      "cta": "What public data would you want enriched?"
+    },
+    {
+      "id": 10,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Data Enrichment",
+      "title": "Before: 7.4% owner coverage (garbage data).",
+      "body": "After: 81.5% owner coverage (verified names).\n\nSame dataset. Different approach.\n\nHow: Multi-source verification. Secretary of State lookups. LinkedIn cross-reference. News article mentions.\n\nTakeaway: Bad data becomes good data when you verify across multiple sources.",
+      "cta": ""
+    },
+    {
+      "id": 11,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Real Estate Tools",
+      "title": "I built a map-making tool for real estate marketing in one weekend",
+      "body": "The use case: Real estate projects need neighborhood maps showing nearby businesses, transit, parks.\n\nThe tools I was using: Manual Google Maps screenshots. Photoshop editing. Hours of work per map.\n\nWhat I built:\n\n1. Enter any address\n2. Auto-discover nearby businesses (top 20 by popularity)\n3. Filter by category (restaurants, parks, transit, etc.)\n4. Adjustable search radius (0.1 to 50 miles)\n5. Drawing tools (lines, shapes, colors)\n6. Road highlighting (double-click to highlight)\n\nThe tech stack:\n\n- React + TypeScript frontend\n- Google Maps API for map rendering\n- Google Places API for business discovery\n- Canvas drawing tools overlaid on map\n\nKey features:\n\n- Multi-select category filtering\n- Auto-zoom based on radius\n- Business sorting by popularity -> rating -> distance\n- Color editing for existing drawings\n- Real-time updates when radius changes\n\nChallenges solved:\n\n- Port conflicts (had to use 3007 instead of 3000)\n- UX issues with radius input (debouncing, enter key support)\n- Drawing tool state management\n- Color picker for existing elements\n\nResult:\n\nWhat used to take hours now takes minutes.\n\nEnter address -> adjust radius -> add drawings -> export.\n\nTakeaway: If you do something manually more than 3 times, build a tool. The weekend investment pays off forever.",
+      "cta": "What repetitive task in your industry needs a tool?"
+    },
+    {
+      "id": 12,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "X Integration",
+      "title": "I added X.com/Twitter integration to my content system. Here's every component.",
+      "tweets": [
+        "I added X.com/Twitter integration to my content system.\n\nPersonal archive import. Live collection via API. Full dashboard.\n\nHere's every component I built:",
+        "Data layer (4 new tables):\n\n1. twitter_accounts - Track accounts to follow\n2. twitter_posts - Store collected tweets\n3. twitter_archive - Personal archive data\n4. apify_jobs - Track collection jobs",
+        "Personal data import:\n\nYou can download your entire X history.\nhttps://x.com/settings/download_your_data\n\nMy system parses the ZIP file and extracts:\n- All your tweets\n- Your following list\n- Metadata",
+        "Live collection via Apify:\n\nApify has Twitter scrapers that work.\n\nCost: $0.40 per 1000 tweets.\n\nMy system:\n1. Add accounts to monitor\n2. Start Apify collection job\n3. Webhook receives results\n4. Data stored in database",
+        "The API endpoints I built:\n\n- POST /api/twitter/upload-archive\n- GET/POST /api/twitter/accounts\n- GET /api/twitter/posts\n- POST /api/twitter/collect\n- GET /api/twitter/stats\n- POST /apify-webhook",
+        "The dashboard:\n\n- Stats cards (total posts, active accounts)\n- Archive upload with progress tracking\n- Account management table\n- Recent posts display with filtering\n- Add account modal",
+        "Integration with existing system:\n\nAll X.com content feeds into my trend analysis.\n\nCombined with:\n- 246+ RSS feeds\n- YouTube transcripts\n- Other social sources\n\nCross-platform trend detection.",
+        "Takeaway: Your content system should monitor multiple platforms.\n\nRSS alone isn't enough. YouTube alone isn't enough.\n\nBuild integrations. See the full picture."
+      ],
+      "cta": "What platform would you add to your content monitoring?"
+    },
+    {
+      "id": 13,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "YouTube Scripts",
+      "title": "Generated 9 YouTube scripts in one session based on my actual projects.",
+      "body": "Not generic content. Scripts about:\n\n- Heatseeker trading system\n- OwnerScraper acquisition targeting\n- PromptSaver Chrome extension\n- YouTubeRAG chatbot\n- AIBrain second brain\n- ContentGen trend detection\n\nHow: Project logs + script-variation-generator skill.\n\nTakeaway: Your best content comes from your actual work. Document it. Generate from it.",
+      "cta": ""
+    },
+    {
+      "id": 14,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Data Verification",
+      "title": "Most business databases are garbage. Here's how I verify data.",
+      "body": "The dirty secret of data vendors:\n\nThey scrape public sources. They don't verify anything. They sell you 'John Smith' when the actual owner is 'Maria Rodriguez.'\n\nI learned this building acquisition target databases.\n\nThe verification process I use:\n\n1. Start with the claimed data\nWhatever the source says. Treat it as 'unverified.'\n\n2. Check the company website\nAbout page, Team page, Leadership section.\nDoes the name appear? What's the title?\n\n3. Cross-reference LinkedIn\nSearch for company page. Check 'People' tab.\nWho has Owner, Founder, CEO in their title?\n\n4. Check state business registration\nSecretary of State databases are public.\nWho's listed as registered agent or officer?\n\n5. Search news articles\n'[Company name] owner' or '[Company name] founder'\nLocal news often covers small business owners.\n\n6. Check reviews\nGoogle and Yelp reviews sometimes mention owners by name.\n'Spoke with owner John about...'\n\nOnly mark as 'verified' if:\n- At least 2 sources agree\n- Name is a real person (not company name)\n- Title indicates decision-making authority\n\nResults from applying this:\n\n- 81.5% coverage (vs 7.4% from single source)\n- Actually usable for outreach\n- Real names that match the business\n\nTakeaway: Never trust single-source data. Verify across multiple sources. The extra work is what makes data valuable.",
+      "cta": "How do you verify business data before using it?"
+    },
+    {
+      "id": 15,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Transcription",
+      "title": "Transcribing large audio files? Here's how to handle the 25MB limit.",
+      "body": "Whisper API has a 25MB file limit.\n\nX Spaces recordings are often 100MB+.\n\nSolution: Auto-split into 10-minute chunks using ffmpeg.\n\nProcess each chunk. Combine transcripts. Output timestamped text.\n\nTakeaway: API limits aren't blockers. They're engineering problems with known solutions.",
+      "cta": ""
+    },
+    {
+      "id": 16,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Trend Detection",
+      "title": "From 0 to 246+ content sources monitored automatically",
+      "body": "6 months ago: I manually checked websites for content ideas.\n\nToday: 246+ RSS sources feed into my trend detection system.\n\nPlus YouTube channels. Plus X/Twitter accounts. Plus industry newsletters.\n\nHow I built it:\n\nPhase 1: RSS Aggregation\n\nStarted simple. Python script. SQLite database.\n\nFor each feed:\n- Fetch new items\n- Store in database with metadata\n- Deduplicate by URL\n\nPhase 2: YouTube Integration\n\nAdded YouTube channel monitoring.\n- Check for new videos\n- Extract transcripts\n- AI summarization of key points\n\nPhase 3: Twitter/X Integration\n\n- Personal archive import\n- Live collection via Apify\n- Account monitoring\n\nPhase 4: Trend Analysis\n\nCross-platform keyword detection.\n\nWhen the same topic appears in:\n- 3+ RSS feeds\n- 2+ YouTube videos\n- Multiple Twitter accounts\n\n= Emerging trend signal.\n\nPhase 5: Content Generation\n\nTrends become content ideas.\n\nApply viral hook frameworks.\nGenerate drafts.\nReview and publish.\n\nThe current system:\n\n- 246+ RSS feeds monitored\n- YouTube transcript extraction\n- X.com integration\n- Cross-platform trend detection\n- AI-powered analysis\n- Content idea repository\n- N8N-compatible API\n\nResult:\n\nI see trends emerging before they go mainstream.\n\nContent ideas come to me. I don't chase them.\n\nTakeaway: Don't hunt for content. Build a system that brings content to you.",
+      "cta": "How do you find content ideas?"
+    },
+    {
+      "id": 17,
+      "platform": "X Thread",
+      "hook_type": "Contrarian",
+      "theme": "Data Quality",
+      "title": "The data enrichment industry is broken. Here's what actually works.",
+      "tweets": [
+        "The data enrichment industry is broken.\n\nVendors charge $1000s for data that's 50% garbage.\n\nHere's what actually works for enrichment:",
+        "The problem with data vendors:\n\n1. They scrape public sources once\n2. They never verify\n3. Data goes stale\n4. You pay premium prices for garbage",
+        "I tested this on 103 CDL training schools.\n\nStarting data had 'owner names' like:\n- 'Abetterchoiceabc'\n- 'info@school'\n- 'Training Academy'\n\nNone of these are actual people.",
+        "What actually works: Multi-strategy search.\n\nNot one query. Six strategies per record.\n\nTry everything. First real answer wins.",
+        "Strategy 1: Direct website search\n'Who is the owner of [company] at [website]?'\n\nOften found on About pages.",
+        "Strategy 2: LinkedIn search\n'[Company name] owner OR CEO OR founder site:linkedin.com'\n\nProfessional profiles are gold.",
+        "Strategy 3: Secretary of State lookup\n'[Company name] business registration [state]'\n\nOfficer names are public record.",
+        "Strategy 4: Job title variations\n'[Company name] director' or '[Company name] principal'\n\nNot everyone uses 'owner' as title.",
+        "Strategy 5: Review mining\n'[Company name] owner' site:yelp.com OR site:google.com/maps\n\nReviewers mention owners by name.",
+        "Strategy 6: News search\n'[Company name] founder' OR '[Company name] opened'\n\nLocal news covers small business owners.",
+        "Results from 6-strategy approach:\n\n- 72 verified owners found (70%)\n- Up from ~10% with single-source\n- Real names: Carla, Steve, Roberto, Don\n- Not 'Abetterchoiceabc'",
+        "Takeaway: If your data vendor gives you garbage, it's not a data problem.\n\nIt's a verification problem.\n\nBuild multi-strategy enrichment. Or demand it from vendors."
+      ],
+      "cta": "What data quality problems have you encountered?"
+    },
+    {
+      "id": 18,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Chrome Extensions",
+      "title": "Built a Chrome extension to save and manage prompts.",
+      "body": "The problem: Good prompts get lost in chat history.\n\nThe solution: PromptSaver.\n\n- Save prompts from any Claude/ChatGPT conversation\n- Organize by category\n- Quick access sidebar\n- Export/import functionality\n\nBuilt in a weekend with Claude Code.\n\nTakeaway: Your best prompts are worth saving. Build a system to capture them.",
+      "cta": ""
+    },
+    {
+      "id": 19,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Local AI",
+      "title": "How to build a fully local AI system with zero API costs",
+      "body": "I built a YouTube RAG system that runs 100% locally.\n\nNo OpenAI API. No cloud services. Just my laptop.\n\nHere's the stack:\n\n1. Ollama for local LLM\n\nOllama runs open-source models locally.\n\nI use llama3.2 for chat.\nnomic-embed-text for embeddings.\n\nInstall: brew install ollama\nRun: ollama pull llama3.2\n\n2. ChromaDB for vector storage\n\nEmbeddings need somewhere to live.\n\nChromaDB is a local vector database.\n\npip install chromadb\n\n3. LangChain for the RAG pipeline\n\nLangChain connects:\n- Document loading\n- Text splitting\n- Embedding\n- Retrieval\n- Generation\n\nAll with local components.\n\n4. youtube-transcript-api for data\n\nFetches transcripts directly from YouTube.\n\nNo video download needed.\nNo audio processing.\nJust text.\n\nThe result:\n\n- 69 transcripts indexed\n- 1,997 searchable chunks\n- Instant question answering\n- $0 monthly cost\n\nPerformance:\n\n- Slower than API (30 seconds vs 3 seconds)\n- But unlimited usage\n- No rate limits\n- No usage tracking\n\nWhen to use local vs API:\n\n- Prototyping: Local (free experimentation)\n- High volume: Local (no per-query cost)\n- Speed critical: API (faster responses)\n- Privacy sensitive: Local (data stays on device)\n\nTakeaway: You don't need to pay for AI APIs. Local options exist. They're slower but free. For many use cases, that's the right tradeoff.",
+      "cta": "What would you build if AI was free to run?"
+    },
+    {
+      "id": 20,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Project Management",
+      "title": "39 projects. One dashboard. Real-time file access.",
+      "body": "Before: Context scattered across folders.\nAfter: Click project -> see TODO.md -> see CLAUDE.md -> see files.\n\nHow: Python file server + JavaScript dashboard + project registry JSON.\n\nTakeaway: Build visibility into your chaos. The dashboard pays for itself in clarity.",
+      "cta": ""
+    },
+    {
+      "id": 21,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Trading Automation",
+      "title": "The setup detection system I'm building for options trading",
+      "body": "I spend too much time watching charts.\n\nLooking for setups. Checking multiple tickers. Monitoring options flow.\n\nSo I'm building a system to do it for me.\n\nThe concept: Heatseeker Setup Scout\n\nWhat it does:\n\n1. Captures dealer positioning heatmaps at strategic times\n2. Combines with technical analysis (EMA, VWAP, volume)\n3. Detects high-probability setups\n4. Alerts me pre-market and intraday\n5. Logs everything for backtesting\n\nThe good setups it will find:\n\n- Direct gatekeeper node rejection (early day)\n- Bounce off untouched King node (first touch)\n- Range edge fade (asymmetric R:R)\n- Growing floor with price bounce\n- Multi-index confluence (SPX + SPY + QQQ)\n- GEX/VEX confluence bounce\n\nThe bad setups it will filter out:\n\n- Midpoint trading (worst - no edge)\n- Multiple-retested nodes (weak)\n- Unwinding/decreasing nodes\n- No index confluence\n- Trading after map reshuffle\n\nThe scoring system:\n\nEach setup gets a probability score (1-10) based on:\n- Heatseeker signals\n- Technical confirmation\n- Multi-layer confluence\n\nAlerts only for probability ≥ 7/10.\n\nThe capture schedule:\n\n- First 30 min: Every 5 minutes\n- 10:30 AM: Check\n- Midday: Check\n- Last 30 min: Every 5 minutes\n\n~16 data points per ticker per day.\n\nThe database:\n\n- Watchlists and tickers\n- Screenshot captures with OCR data\n- Technical analysis per timestamp\n- Flagged setups with scores\n- Alert history\n- Performance tracking (win/loss)\n\nTakeaway: The best traders aren't watching charts all day. They're building systems to watch for them.",
+      "cta": "What part of your trading would you automate?"
+    },
+    {
+      "id": 22,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "MCP Servers",
+      "title": "I set up MCP servers for my projects. Here's what they enable.",
+      "tweets": [
+        "I set up MCP servers for my projects.\n\nMCP = Model Context Protocol.\n\nIt lets Claude connect to external services.\n\nHere's what I configured:",
+        "What is MCP?\n\nA standard way for AI to interact with external tools.\n\nInstead of copy-pasting, Claude can directly:\n- Query databases\n- Deploy code\n- Access APIs",
+        "Server 1: Supabase\n\nSupabase MCP gives Claude access to:\n- Database queries\n- Authentication\n- Storage\n- Real-time subscriptions\n\nURL: https://mcp.supabase.com/mcp",
+        "Server 2: Vercel\n\nVercel MCP enables:\n- Deployment management\n- Environment variables\n- Build logs\n- Domain configuration\n\nURL: https://mcp.vercel.com",
+        "The setup:\n\n1. Create .mcp.json in project root\n2. Add server URLs\n3. Run /mcp in Claude Code\n4. Authenticate with each service",
+        "The config file:\n\n{\n  \"servers\": [\n    {\"name\": \"supabase\", \"url\": \"https://mcp.supabase.com/mcp\"},\n    {\"name\": \"vercel\", \"url\": \"https://mcp.vercel.com\"}\n  ]\n}",
+        "What this enables:\n\nInstead of: 'Go to Supabase, run this query, paste the result'\n\nNow: 'Claude, query the users table for active accounts'",
+        "Other MCPs available:\n\n- GitHub (repo management)\n- Slack (messaging)\n- Browserbase (browser automation)\n- And more being built",
+        "Takeaway: MCP turns Claude from 'helpful assistant' into 'integrated teammate.'\n\nLess copy-pasting. More doing."
+      ],
+      "cta": "Which integrations would you want Claude to have?"
+    },
+    {
+      "id": 23,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Content Strategy",
+      "title": "My best content ideas come from project logs, not brainstorming.",
+      "body": "Every project has a log.md file.\n\nIt tracks: What I built. Problems I solved. Decisions I made.\n\nContent mining process:\n\n1. Read logs from last 30 days\n2. Extract lessons and insights\n3. Apply hook frameworks\n4. Generate posts\n\nTakeaway: Stop brainstorming. Start logging. Your work IS your content.",
+      "cta": ""
+    },
+    {
+      "id": 24,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Data Scraping",
+      "title": "The legislative scraper that achieved 99% accuracy (and how I built it)",
+      "body": "I needed Idaho legislature data.\n\nThe challenge: Government websites are notoriously hard to scrape. Inconsistent HTML. Missing data. Session-based content.\n\nThe result: 99% accuracy on 104 legislators.\n\nHere's how I built it:\n\nPhase 1: Website Analysis\n\nStudied the URL patterns:\n- Individual pages: /legislators/membership/[ID]\n- Committee pages: /sessioninfo/2025/standingcommittees/[CODE]\n- Bill pages: /sessioninfo/2025/legislation/\n\nIdentified data fields:\n- Name, party, district, chamber\n- Contact info (email, phone)\n- Committee assignments\n- Sponsored legislation\n\nPhase 2: Core Scraper\n\nBuilt basic extraction:\n- Fetch legislator list page\n- For each legislator, fetch detail page\n- Parse HTML for structured data\n- Handle missing fields gracefully\n\nResult: 104/105 legislators captured (99%)\n\nPhase 3: Enrichment\n\nAdded committee and bill data:\n- Fetch each committee page\n- Extract member lists with roles\n- Cross-reference with legislator IDs\n- Fetch bill sponsorship data\n\nPhase 4: Validation\n\nVerified data accuracy:\n- Spot-checked 20% manually\n- Cross-referenced with official sources\n- Identified and fixed edge cases\n\nPhase 5: Dashboard\n\nBuilt interactive visualization:\n- Filter by chamber, party\n- View committee assignments\n- Track bill sponsorships\n- Export to CSV/JSON\n\nKey learnings:\n\n1. Start simple (names and contacts first)\n2. Add enrichment incrementally\n3. Validate with spot checks\n4. Build visualization for easy verification\n\nTakeaway: Government data scraping is possible. Start with high-accuracy basics, then enrich. 99% accuracy comes from careful validation, not clever code.",
+      "cta": "What government data would be valuable to scrape?"
+    },
+    {
+      "id": 25,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "The X Spaces pipeline cost: $0/month (with local Whisper).",
+      "body": "Download: yt-dlp (free)\nTranscription: Local Whisper (free)\nSummaries: Gemini API (free tier)\n\nAlternative: Whisper API + GPT-4o for faster processing.\n\nTakeaway: Most automation can be built for free if you're willing to self-host.",
+      "cta": ""
+    },
+    {
+      "id": 26,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Business Research",
+      "title": "From 627 schools to 246 verified acquisition targets",
+      "body": "The project: Build an acquisition target database for private career schools.\n\nThe starting point: Texas Workforce Commission approved schools list. 627 entries.\n\nThe challenge: Not all schools are acquisition targets.\n\n- Some are Title IV (federally regulated)\n- Some are public institutions\n- Some have garbage contact data\n\nThe filtering process:\n\nStep 1: Remove Title IV schools\n\nTitle IV = federal student aid = heavy regulation = not ideal acquisition targets.\n\nFiltered to 444 non-Title IV private schools.\n\nStep 2: Verify ownership data\n\nStarting data quality: 7.4% had usable owner names.\n\nApplied 6-strategy enrichment:\n1. Website research\n2. LinkedIn search\n3. Secretary of State lookup\n4. Job title variations\n5. Review mining\n6. News search\n\nResult: 81.5% owner coverage.\n\nStep 3: Verify decision-maker authority\n\nNot just any name. Actual decision-makers:\n- Owner\n- CEO\n- Founder\n- President\n\nFiltered to 246 verified executives.\n\nStep 4: Multi-state expansion\n\nApplied same process to:\n- Florida: 653 private schools\n- Georgia: 232 campaign-ready schools\n\nThe final database:\n\n- 246 verified executives\n- From 143 non-Title IV schools\n- Decision-maker titles confirmed\n- Multiple verification sources\n- Ready for outreach\n\nTakeaway: Quantity isn't quality. 627 schools became 246 verified targets. The filtering and verification is where the value is.",
+      "cta": "What industry needs better acquisition target data?"
+    },
+    {
+      "id": 27,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "Drawing Tools",
+      "title": "I added drawing tools to my map application. Here's every feature.",
+      "tweets": [
+        "I added drawing tools to my map application.\n\nLines, shapes, colors, editing.\n\nOverlaid on Google Maps.\n\nHere's every feature I built:",
+        "The toolbar:\n\n📍 Select - Click existing drawings\n📏 Line - Draw straight lines\n▭ Rectangle - Draw rectangles\n○ Circle - Draw circles\n⬟ Polygon - Draw custom shapes\n🎨 Color picker - Change colors\n🗑️ Delete - Remove selected",
+        "How drawing works:\n\n1. Click tool in toolbar\n2. Click/drag on map to draw\n3. Element appears with default color\n4. Auto-switch to select mode\n5. Click element to select\n6. Change color or delete",
+        "The color editing challenge:\n\nInitially, color only worked on NEW drawings.\n\nUser feedback: 'I need to change color of existing shapes.'\n\nFix: Bidirectional sync.\n\nSelect element -> color picker shows its color.\nChange color picker -> selected element updates.",
+        "State management:\n\nEach drawing has:\n- Unique ID\n- Type (line, rect, circle, polygon)\n- Coordinates\n- Color\n- Selection state\n\nStored in React state. Persists during session.",
+        "The sidebar panel:\n\nDrawing Management:\n- Count of drawings\n- Selected element info\n- Clear All button\n- Delete selected button",
+        "Visual feedback:\n\n- Blue border on selected tool\n- Checkmark on active tool\n- Selection banner when element is selected\n- Dynamic tooltips",
+        "Integration with map:\n\nDrawings overlay on Google Maps.\n\nMap panning/zooming doesn't affect drawings.\n\nDrawings stay fixed to lat/lng positions.",
+        "Takeaway: Drawing tools seem simple but have many edge cases.\n\n- Selection state\n- Color syncing\n- Coordinate persistence\n- Tool switching\n\nBuild incrementally. Test each feature."
+      ],
+      "cta": "What would you add to map drawing tools?"
+    },
+    {
+      "id": 28,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "API Integration",
+      "title": "The Apify integration that enables live Twitter collection.",
+      "body": "Twitter API: $100/month minimum.\nApify Twitter scrapers: $0.40 per 1000 tweets.\n\nHow I integrated:\n\n1. Add account to monitor\n2. System starts Apify job\n3. Webhook receives results\n4. Data stores in my database\n\nTakeaway: Third-party APIs often beat official APIs on cost.",
+      "cta": ""
+    },
+    {
+      "id": 29,
+      "platform": "LinkedIn",
+      "hook_type": "Benefit-Driven",
+      "theme": "Content Systems",
+      "title": "My content system has 5 integrated data sources",
+      "body": "Content ideas don't come from staring at blank pages.\n\nThey come from systematic monitoring.\n\nHere are the 5 sources my ContentGen system monitors:\n\n1. RSS Feeds (246+ sources)\n\nNews sites, blogs, newsletters in my industry.\n\nPython script fetches hourly.\nSQLite stores articles.\nAI categorizes by topic.\n\n2. YouTube Channels\n\nCreators I follow.\n\nSystem detects new videos.\nExtracts transcripts automatically.\nAI summarizes key points.\n\n3. X/Twitter Accounts\n\nTwo collection methods:\n\nPersonal archive import (download your data)\nLive collection via Apify ($0.40/1000 tweets)\n\n4. Trend Analysis\n\nCross-platform keyword detection.\n\nWhen same topic appears in:\n- 3+ RSS feeds\n- 2+ YouTube videos\n- Multiple tweets\n\n= Emerging trend signal.\n\n5. Content Repository\n\nAll collected data searchable.\n\nSearch by keyword, source, date.\nOrganize into collections.\nExport for content creation.\n\nThe workflow:\n\n1. System monitors all sources continuously\n2. AI identifies trending topics\n3. I review trend signals\n4. Apply viral hook frameworks\n5. Generate content drafts\n6. Review and publish\n\nTime investment:\n\n- Initial build: 2 weeks\n- Daily operation: 30 minutes review\n- Content generation: Automated\n\nResult:\n\nNever run out of content ideas.\nSee trends before they go mainstream.\nConvert monitoring into content automatically.\n\nTakeaway: Build a content system, not a content calendar. Systems generate ideas forever. Calendars need constant filling.",
+      "cta": "What sources would you add to your content monitoring?"
+    },
+    {
+      "id": 30,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Data Enrichment",
+      "title": "70% success rate on owner name enrichment.",
+      "body": "103 CDL training schools.\n72 verified owner names found.\n\nHow: 6-strategy Perplexity API search.\n\n1. Direct owner search\n2. LinkedIn lookup\n3. Secretary of State\n4. Director/principal search\n5. Review mining\n6. News articles\n\nFirst real name found wins.\n\nTakeaway: Multi-strategy beats single-strategy. Every time.",
+      "cta": ""
+    },
+    {
+      "id": 31,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Audio Processing",
+      "title": "How I process 2-hour audio files that exceed API limits",
+      "body": "The problem: Whisper API has a 25MB file limit.\n\nX Spaces recordings are often 100MB+.\n\n2-hour audio = way over the limit.\n\nThe solution: Intelligent chunking.\n\nStep 1: Detect file size\n\nIf file > 25MB, trigger chunking process.\n\nStep 2: Split with ffmpeg\n\nffmpeg can split audio into time-based chunks.\n\nI use 10-minute chunks:\n- Small enough for API limits\n- Large enough for context\n- Clean split points\n\nStep 3: Process each chunk\n\nSend each chunk to Whisper API.\nReceive transcript with timestamps.\n\nStep 4: Combine transcripts\n\nMerge all chunk transcripts.\nAdjust timestamps for correct sequencing.\nOutput single unified transcript.\n\nStep 5: Handle edge cases\n\n- Corrupted audio: ffmpeg handles better than Python libraries\n- Missing frames: Skip and continue\n- Rate limits: Add delays between chunks\n\nThe code structure:\n\n1. Check file size\n2. If > 25MB: split into 10-min chunks\n3. For each chunk: transcribe\n4. Combine results\n5. Output timestamped transcript\n\nAlternative: Local Whisper\n\nLocal Whisper has no file size limit.\n\nBut it's slower (30+ minutes for 2-hour file).\n\nTradeoff: Speed vs cost.\n\nTakeaway: API limits aren't blockers. They're engineering challenges. Chunking + combining solves most size limit problems.",
+      "cta": "What API limits have you had to work around?"
+    },
+    {
+      "id": 32,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Project Documentation",
+      "title": "Every project I build has log.md and context.md files. Here's why.",
+      "tweets": [
+        "Every project I build has log.md and context.md files.\n\nThis practice has saved me hours.\n\nHere's why I do it:",
+        "The problem with projects:\n\nYou build something. You leave for a week. You come back.\n\n'What was I doing?'\n'Where did I leave off?'\n'What decisions did I make?'",
+        "log.md: Full session history\n\nEverything that happened:\n- Tasks completed\n- Decisions made\n- Problems encountered\n- Solutions found\n\nNot summarized. The full record.",
+        "context.md: Quick reference\n\nSummarized context for next session:\n- Current status\n- Tech stack\n- Key files\n- Next steps\n\nQuick to read. Enough to get started.",
+        "What goes in log.md:\n\n## Session: [Date]\n### Summary\n### Tasks Completed\n### Technical Details\n### Problems Solved\n### Decisions Made\n### Next Steps",
+        "What goes in context.md:\n\n## Project Overview\n## Current Status\n## Tech Stack\n## Key Files\n## How to Run\n## Next Session Tasks",
+        "The workflow:\n\n1. End of session: Ask Claude to create/update log.md\n2. Claude captures everything from the conversation\n3. Claude creates context.md summary\n4. Commit both files\n5. Next session: Claude reads context.md to get oriented",
+        "Why this works:\n\n- No lost context between sessions\n- Easy handoff to future-you (or collaborators)\n- Searchable history of decisions\n- Quick startup time on returning projects",
+        "Takeaway: Document as you go.\n\nlog.md = full history.\ncontext.md = quick reference.\n\nTwo files. Massive time savings."
+      ],
+      "cta": "How do you maintain context across project sessions?"
+    },
+    {
+      "id": 33,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "AI Costs",
+      "title": "I run AI systems with $0/month costs.",
+      "body": "YouTube RAG: Local Ollama (free)\nTranscription: Local Whisper (free)\nVector DB: ChromaDB (free)\nContent monitoring: Self-hosted Python (free)\n\nThe tradeoff: Slower processing. But unlimited usage.\n\nTakeaway: If you have time but not money, self-host everything.",
+      "cta": ""
+    },
+    {
+      "id": 34,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Business Discovery",
+      "title": "How my map tool discovers nearby businesses automatically",
+      "body": "The use case: Real estate marketing needs neighborhood context.\n\n'What's near this property?'\n\nManual approach: Search Google Maps. Screenshot. Photoshop.\n\nMy approach: Automatic discovery with smart filtering.\n\nHow it works:\n\n1. Enter any address\n\nSystem geocodes address to lat/lng.\nCenters map on location.\n\n2. Set search radius\n\nAdjustable from 0.1 to 50 miles.\nMap auto-zooms to appropriate level.\n\n3. Select categories\n\nMulti-select checkboxes:\n- Restaurants\n- Stores\n- Parks\n- Transit\n- Museums\n- Schools\n\n4. System fetches businesses\n\nGoogle Places API search.\n20 results per category.\nSorted by: Popularity → Rating → Distance.\n\n5. Smart prioritization\n\nFocuses on consumer-relevant businesses:\n- Popular chain restaurants\n- Major retail stores\n- Public parks\n- Transit stations\n- Cultural landmarks\n\nFilters out:\n- Generic 'point of interest'\n- Low-rated businesses\n- Far-away results\n\n6. Display on map\n\nMarkers for each business.\nClick for details (name, rating, address).\nColor-coded by category.\n\nThe UX details:\n\n- Debounced radius input (no spam)\n- Enter key for immediate update\n- Auto-update after 1.5 seconds\n- Category toggles update instantly\n\nResult:\n\nEnter address → see 20 nearby businesses → add to marketing materials.\n\nWhat used to take an hour now takes minutes.\n\nTakeaway: Google APIs are powerful but raw. The value is in smart filtering and prioritization. Anyone can fetch 'nearby places.' The skill is showing the RIGHT places.",
+      "cta": "What would you want to discover near a location?"
+    },
+    {
+      "id": 35,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Webhook Integration",
+      "title": "The Apify webhook that automates my Twitter collection.",
+      "body": "How it works:\n\n1. Start Apify job via API\n2. Apify scrapes Twitter data\n3. When done, Apify calls my webhook\n4. Webhook processes results\n5. Data saves to database\n\nEndpoint: POST /apify-webhook\n\nNo polling. No checking. Just automatic processing.\n\nTakeaway: Webhooks > polling. Always.",
+      "cta": ""
+    },
+    {
+      "id": 36,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "Content Mining",
+      "title": "I generated 100 social posts by mining my project logs",
+      "body": "The content creation bottleneck: Staring at blank pages.\n\n'What should I post about?'\n\nMy solution: Mine content from work I've already done.\n\nThe process:\n\n1. Identify project logs\n\nEvery project has log.md and context.md files.\n\nI had logs from:\n- ContentGen (RSS and Twitter integration)\n- Heatseeker (trading setup detection)\n- OwnerScraper (acquisition targeting)\n- YouTubeRAG (video chat system)\n- LegiscrapeR (legislature data)\n- MapMaker (real estate tool)\n- And more...\n\n2. Extract insights\n\nFrom each log, pull:\n- What I built\n- Problems I solved\n- Decisions I made\n- Lessons learned\n- Results achieved\n\n3. Apply hook frameworks\n\n97 viral hook patterns:\n- Transformation: 'Before X, After Y'\n- Contrarian: 'Everyone does X. I do Y.'\n- How-to: 'The exact process for X'\n- Benefit: 'How I achieved X result'\n\n4. Generate variations\n\nOne insight becomes:\n- X post (short)\n- LinkedIn post (detailed)\n- Thread (step-by-step)\n\n5. Personalize with specifics\n\nNot 'I built a scraper.'\n\nBut '99% accuracy on 104 legislators with committee and bill enrichment.'\n\nReal numbers. Real projects. Real results.\n\nThe output:\n\n100 posts from 30 days of project logs.\n\nAll authentic. All from actual work.\n\nTakeaway: Your best content is already written. It's in your project logs, your commit messages, your problem-solving notes. You just need to extract and format it.",
+      "cta": "How do you turn your work into content?"
+    },
+    {
+      "id": 37,
+      "platform": "X Thread",
+      "hook_type": "How-To",
+      "theme": "RAG Systems",
+      "title": "The complete architecture of my YouTube RAG system.",
+      "tweets": [
+        "The complete architecture of my YouTube RAG system.\n\nChat with any YouTube channel like it's a person.\n\nHere's every component:",
+        "Layer 1: Data Collection\n\nFetching transcripts from YouTube.\n\npython main.py fetch 'https://youtube.com/@Channel' --limit 100\n\nUses youtube-transcript-api.\nNo video download needed.\nJust text extraction.",
+        "Layer 2: Text Processing\n\nTranscripts are too long for direct processing.\n\nSplit into chunks:\n- 500-1000 characters each\n- Overlap for context\n- Preserve sentence boundaries",
+        "Layer 3: Embedding\n\nConvert text chunks to vectors.\n\nUsing nomic-embed-text via Ollama.\n\nEach chunk becomes a 768-dimensional vector.\nSimilar content = similar vectors.",
+        "Layer 4: Vector Storage\n\nChromaDB stores embeddings.\n\nLocal database file.\nNo external service.\nFast retrieval.",
+        "Layer 5: Retrieval\n\nWhen you ask a question:\n\n1. Convert question to vector\n2. Find most similar chunks\n3. Return top 5 matches",
+        "Layer 6: Generation\n\nTake retrieved chunks + your question.\n\nSend to LLM (llama3.2 via Ollama).\n\nLLM answers based on retrieved context.",
+        "The commands:\n\n# Fetch transcripts\npython main.py fetch '[URL]' --limit 100\n\n# Build index\npython main.py index --force\n\n# Chat\npython main.py chat\n\n# Single question\npython main.py ask 'What about X?'",
+        "Current stats:\n\n- 69 transcripts indexed\n- 1,997 chunks searchable\n- 2 channels (marketing + AI coding)\n- 100% local processing\n- $0 monthly cost",
+        "Takeaway: RAG isn't magic.\n\nIt's: Collect → Chunk → Embed → Store → Retrieve → Generate.\n\nEach step is simple. The combination is powerful."
+      ],
+      "cta": "What content would you want to build a RAG system for?"
+    },
+    {
+      "id": 38,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Legislature Data",
+      "title": "18 legislators with 50% committee coverage, 27.8% leadership positions.",
+      "body": "That's enriched legislative data.\n\nNot just names and emails.\n\nBut: Who sits on which committees. Who has leadership roles. Who sponsors which bills.\n\nHow: Web scraping + cross-referencing + manual verification.\n\nTakeaway: Basic data is commoditized. Enriched data is valuable.",
+      "cta": ""
+    },
+    {
+      "id": 39,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Tool Building",
+      "title": "I stopped buying SaaS tools. I build them instead.",
+      "body": "RSS.app: $30/month → Built my own ($0)\nMake.com: $29/month → Self-hosted n8n ($0)\nScheduling tools: $15/month → Airtable free tier ($0)\n\n$120/month saved. Plus full control.\n\nBut that's not the real value.\n\nThe real value:\n\n1. Custom features\n\nSaaS tools are one-size-fits-all.\n\nMy RSS aggregator has AI categorization.\nMy automation has custom webhooks.\nMy scheduling integrates with my systems.\n\n2. No arbitrary limits\n\nSaaS: '10,000 operations per month'\nSelf-built: As many as my server handles\n\n3. Full data control\n\nMy data never leaves my systems.\nNo third-party analytics.\nNo vendor lock-in.\n\n4. Transferable skills\n\nEvery tool I build teaches me something.\nThose skills apply to the next tool.\nCompounding returns.\n\n5. No subscription anxiety\n\n'Did I use my allocation?'\n'Will the price increase?'\n'What if they sunset the feature I need?'\n\nNone of that.\n\nWhen to buy vs build:\n\nBuy when:\n- Time is more valuable than money\n- The tool is complex (Figma, Notion)\n- You need support and reliability\n\nBuild when:\n- The tool is simple (RSS, automation)\n- You need customization\n- You enjoy building\n- Learning is a goal\n\nTakeaway: Evaluate every subscription. Ask: 'Could I build a simpler version?' Often the answer is yes.",
+      "cta": "What subscription would you replace with something you built?"
+    },
+    {
+      "id": 40,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Content Automation",
+      "title": "From 10 hours/week on content to 30 minutes of review.",
+      "body": "How:\n\n1. Project logs capture work automatically\n2. AI extracts insights and lessons\n3. Viral hook frameworks structure posts\n4. Voice profile makes it sound like me\n5. I just review and publish\n\nThe system does the hard work.\n\nTakeaway: Automate content generation. Keep the editing.",
+      "cta": ""
+    },
+    {
+      "id": 41,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "Map Tools",
+      "title": "How I built road highlighting into my map application",
+      "body": "The feature request: 'I want to highlight specific roads on the map.'\n\nThe challenge: Google Maps doesn't have a 'click road to highlight' API.\n\nThe solution: Creative workaround.\n\nHow it works:\n\n1. User double-clicks on map\n\nCapture lat/lng coordinates.\nThese represent a point on or near a road.\n\n2. Create visual marker\n\nPlace a colored circle at that position.\nGreen = highlight.\nRed = unhighlight (toggle).\n\n3. Track road 'markers'\n\nStore all marked positions.\nDisplay count in sidebar.\n\n4. Enable clearing\n\n'Clear All Roads' button.\nRemoves all markers.\n\nThe limitations:\n\nThis isn't true road highlighting.\nIt's position marking that represents roads.\n\nFor true highlighting, you'd need:\n- Road geometry data\n- Polyline rendering\n- Complex coordinate matching\n\nBut for real estate marketing? Position markers work fine.\n\nThe code:\n\n- Double-click listener on map\n- State array for road markers\n- Render markers with color based on toggle state\n- Clear function to reset array\n\nThe UX:\n\n- Visual feedback on click (color indicates action)\n- Counter shows number of roads marked\n- Clear button for easy reset\n\nResult:\n\nUser can 'highlight' roads by double-clicking.\nNot perfect. But functional.\n\nTakeaway: Sometimes the 'right' solution is complex. The 'good enough' solution ships faster. For this use case, position markers work.",
+      "cta": "When have you used a simpler solution that worked well enough?"
+    },
+    {
+      "id": 42,
+      "platform": "X Thread",
+      "hook_type": "Benefit-Driven",
+      "theme": "Data Pipelines",
+      "title": "My universal data processing architecture. Works for every project.",
+      "tweets": [
+        "My universal data processing architecture.\n\nWorks for every project.\n\nOnce I figured this out, building got 3x faster.",
+        "The pattern:\n\nEvery data project has 5 stages:\n\n1. Ingestion\n2. Cleaning\n3. Enhancement\n4. Storage\n5. Output",
+        "Stage 1: Ingestion\n\nAccept data from any source:\n- CSV upload\n- API fetch\n- Web scrape\n\nValidate format.\nLog raw data.",
+        "Stage 2: Cleaning\n\nStandardize formats.\nHandle missing values.\nRemove duplicates.\nApply transformations.",
+        "Stage 3: Enhancement\n\nAI classification.\nEntity extraction.\nData enrichment.\nPattern detection.\n\nThis is where the value is.",
+        "Stage 4: Storage\n\nStructured database.\nSearch indexes.\nCheckpoints for recovery.\n\nAlways include checkpointing.",
+        "Stage 5: Output\n\nMultiple export formats.\nAPI access.\nDashboard views.\nAlerts/notifications.",
+        "Projects using this pattern:\n\n- OwnerScraper: Ingest school list → Clean → Enrich with owners → Store → Export targets\n- ContentGen: Ingest RSS → Clean → Analyze → Store → Surface trends\n- LegiscrapeR: Scrape pages → Clean → Enrich committees → Store → Dashboard",
+        "The folder structure:\n\n/project\n├── /ingestion\n├── /cleaning\n├── /enhancement\n├── /storage\n├── /output\n├── /config\n└── /checkpoints",
+        "Takeaway: Don't reinvent architecture for each project.\n\nFind the pattern. Reuse it.\n\n5 stages. Same structure. Every time."
+      ],
+      "cta": "What patterns do you reuse across projects?"
+    },
+    {
+      "id": 43,
+      "platform": "X",
+      "hook_type": "Contrarian",
+      "theme": "Data Verification",
+      "title": "Single-source data is worthless. Here's why.",
+      "body": "One source says: 'John Smith'\nAnother says: 'Training Academy'\nAnother says: 'info@school.com'\n\nWhich is the real owner?\n\nMulti-source verification answers that.\n\nCross-reference until 2+ sources agree.\n\nTakeaway: One source can be wrong. Multiple sources revealing the same name is truth.",
+      "cta": ""
+    },
+    {
+      "id": 44,
+      "platform": "LinkedIn",
+      "hook_type": "Transformation",
+      "theme": "YouTube Content",
+      "title": "I generated 9 YouTube scripts from my project documentation",
+      "body": "The content creation challenge:\n\n'What should I make a video about?'\n\nMy solution: Scripts from actual projects.\n\nThe projects I documented:\n\n1. Heatseeker - Automated trading setup detection\n2. OwnerScraper - 246 acquisition targets in 48 hours\n3. PromptSaver - Chrome extension built in a weekend\n4. YouTubeRAG - Chat with YouTube videos\n5. AIBrain - AI-powered second brain architecture\n6. ContentGen - 246+ source trend detection system\n\nThe script generation process:\n\n1. Read project CLAUDE.md and log.md files\n2. Extract key insights and results\n3. Apply Kallaway's 4-part hook structure\n4. Use WHY-WHAT-HOW body format\n5. Generate 3 variations per topic:\n   - Contrarian angle\n   - Authority angle\n   - Transformation angle\n\nScripts generated:\n\n- 'AI Skills vs Tools: Why Operators Have the Advantage'\n- 'Heatseeker: Building an Automated Trading Edge'\n- 'OwnerScraper: How I Found 246 Acquisition Targets in 48 Hours'\n- 'PromptSaver: Building a Chrome Extension in a Weekend'\n- 'YouTubeRAG: How to Chat with YouTube Videos'\n- 'AIBrain: Building an AI-Powered Second Brain'\n- 'ContentGen: My 246+ Source Trend Detection System'\n\nEach with 3 angle variations = 9 total scripts.\n\nThe format:\n\n- Hook (attention grab)\n- Context (why this matters)\n- Body (WHY-WHAT-HOW)\n- CTA (what to do next)\n\nSaved to: active/Social-Content-Generator/pillar_scripts/\n\nTakeaway: Your best content is already in your project documentation. Extract it. Format it. Share it.",
+      "cta": "What project would make a good video topic?"
+    },
+    {
+      "id": 45,
+      "platform": "X",
+      "hook_type": "How-To",
+      "theme": "Trend Detection",
+      "title": "My trend detection algorithm is simple.",
+      "body": "When same topic appears in:\n- 3+ RSS feeds\n- 2+ YouTube videos  \n- Multiple Twitter accounts\n\n= Emerging trend signal.\n\nNot rocket science. Just cross-platform monitoring.\n\nTakeaway: Trends become obvious when you watch multiple sources. Build the monitoring first.",
+      "cta": ""
+    },
+    {
+      "id": 46,
+      "platform": "LinkedIn",
+      "hook_type": "How-To",
+      "theme": "API Rate Limits",
+      "title": "How I handle YouTube rate limiting (after getting blocked)",
+      "body": "The problem:\n\nFetching YouTube transcripts at scale.\n\nAfter ~30-40 transcripts, YouTube starts rate limiting.\n\nThe symptoms:\n- 403 errors\n- Timeout failures\n- Partial data\n\nThe solutions I implemented:\n\n1. Request delays\n\nAdd sleep between requests.\n\ntime.sleep(2) between each transcript fetch.\n\nSlower but more reliable.\n\n2. Session management\n\nDon't reuse sessions infinitely.\n\nCreate new session every 20-30 requests.\n\n3. Fallback methods\n\nIf youtube-transcript-api fails, try:\n- Different API endpoint\n- Browser-based fetch\n- Cached results\n\n4. Progress saving\n\nSave state every 10 transcripts.\n\nIf rate limited, resume from last checkpoint.\n\n5. Batch limits\n\nDon't try to fetch 500 transcripts at once.\n\nBatch into groups of 30-40.\nWait between batches.\n\n6. Error handling\n\ntry:\n    fetch_transcript(video_id)\nexcept RateLimitError:\n    save_progress()\n    wait_and_retry()\n\nThe results:\n\n- 69 transcripts fetched successfully\n- Across 2 channels\n- No permanent blocks\n- All data captured\n\nKey learning:\n\nRespect rate limits. They exist for a reason.\n\nSlow and steady beats fast and blocked.\n\nTakeaway: API rate limiting is a feature, not a bug. Design your system to work within limits. Add delays. Save progress. Resume on failure.",
+      "cta": "What rate limiting strategies have worked for you?"
+    },
+    {
+      "id": 47,
+      "platform": "X Thread",
+      "hook_type": "Transformation",
+      "theme": "Project Evolution",
+      "title": "How my OwnerScraper project evolved over 3 phases.",
+      "tweets": [
+        "How my OwnerScraper project evolved over 3 phases.\n\nStarted as simple data collection. Ended as comprehensive acquisition database.\n\nHere's the journey:",
+        "Phase 1: Data Collection\n\nGoal: Get list of private career schools.\n\nSource: Texas Workforce Commission approved schools list.\n\nResult: 627 schools. Basic info only.",
+        "The data quality problem:\n\nThe 'owner' field had garbage:\n- 'Abetterchoiceabc'\n- 'info@school.com'\n- 'Training Academy LLC'\n\nNot actual people. Useless for outreach.",
+        "Phase 2: Data Enrichment\n\nGoal: Find real owner names.\n\nApproach: 6-strategy Perplexity API search.\n\n1. Website research\n2. LinkedIn lookup\n3. Secretary of State\n4. Title variations\n5. Review mining\n6. News search",
+        "Enrichment results:\n\n- 72/103 CDL schools enriched (70%)\n- Real names: Carla, Steve, Roberto, Don\n- First names extracted automatically\n- Source tracking for verification",
+        "Phase 3: Multi-State Expansion\n\nGoal: Build comprehensive acquisition database.\n\nStates covered:\n- Texas (primary)\n- Florida (653 private schools)\n- Georgia (232 campaign-ready)",
+        "Final results:\n\n- 627 schools → 444 non-Title IV targets\n- 246 verified executives\n- 143 schools with confirmed decision-makers\n- Multi-source verification for accuracy",
+        "The filtering that mattered:\n\n- Remove Title IV schools (federally regulated)\n- Focus on private career schools\n- Verify decision-maker authority\n- Require 2+ source confirmation",
+        "Takeaway: Projects evolve through phases.\n\nPhase 1: Collect the data.\nPhase 2: Enrich the data.\nPhase 3: Scale the approach.\n\nEach phase builds on the last."
+      ],
+      "cta": "What project evolved beyond your initial scope?"
+    },
+    {
+      "id": 48,
+      "platform": "X",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "My dashboard shows 39 projects with real-time file access.",
+      "body": "Click project → see TODO.md → see CLAUDE.md → browse files.\n\nNo more hunting through folders.\nNo more forgetting project context.\n\nHow: Python file server + JS dashboard + project registry.\n\nTakeaway: If you manage multiple projects, build visibility into your chaos.",
+      "cta": ""
+    },
+    {
+      "id": 49,
+      "platform": "LinkedIn",
+      "hook_type": "Contrarian",
+      "theme": "Data Sources",
+      "title": "Third-party APIs often beat official APIs",
+      "body": "Twitter API: $100/month minimum.\nApify Twitter scrapers: $0.40 per 1000 tweets.\n\nYouTube API: Complex OAuth, strict quotas.\nyoutube-transcript-api: Simple, direct transcript access.\n\nThe official API isn't always the best option.\n\nWhen to use third-party:\n\n1. Cost\n\nOfficial Twitter API pricing is designed for enterprises.\nApify actors work for individuals and small teams.\n\n2. Simplicity\n\nYouTube Data API requires:\n- OAuth setup\n- Credential management\n- Quota tracking\n\nyoutube-transcript-api requires:\n- pip install\n- One function call\n\n3. Features\n\nSometimes third-party tools do things official APIs don't.\n\nApify can scrape public data that APIs don't expose.\n\nWhen to use official:\n\n1. Reliability\n\nOfficial APIs have SLAs and support.\nThird-party can break without notice.\n\n2. TOS compliance\n\nFor production apps, official APIs are safer.\n\n3. Real-time data\n\nOfficial APIs often have webhooks and streaming.\nThird-party is usually batch/scraping.\n\nMy approach:\n\n- Prototyping: Third-party (fast, cheap)\n- Personal tools: Third-party (good enough)\n- Production: Evaluate both options\n\nTakeaway: Don't default to official APIs. Compare options. Third-party often wins on cost and simplicity.",
+      "cta": "When have you chosen third-party over official APIs?"
+    },
+    {
+      "id": 50,
+      "platform": "X",
+      "hook_type": "Transformation",
+      "theme": "Content Creation",
+      "title": "100 social posts from 30 days of project logs.",
+      "body": "Not generic content.\n\nPosts about:\n- 246 verified executives found\n- 99% accurate legislature scraper\n- YouTube RAG with 69 transcripts\n- Map tool with drawing features\n- Trading setup detection system\n\nAll real projects. All real results.\n\nTakeaway: Your work IS your content. Document it. Extract it. Share it.",
+      "cta": ""
+    }
+  ]
+}

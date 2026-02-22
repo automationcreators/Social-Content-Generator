@@ -1,0 +1,304 @@
+{
+  "linkedin_posts": [
+    {
+      "id": 71,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Claude Code Workflows",
+      "title": "I went from dreading code reviews to automating them",
+      "body": "I went from dreading code reviews to automating them.\n\nHere's the shift that changed everything.\n\nSix months ago, code reviews meant:\n• Manually checking for security issues\n• Hoping I remembered all edge cases\n• Spending 30+ minutes per review\n• Still missing obvious problems\n\nNow I have a skill in Claude Code called /verify-work that runs a systematic checklist:\n\n✓ Tests passing\n✓ Types checking\n✓ Security patterns\n✓ Edge cases covered\n✓ Root cause addressed (not just symptoms)\n\nThe key insight: Code review isn't creative work. It's pattern matching.\n\nPatterns can be codified. Codified patterns can be automated.\n\nI still do the final review. But Claude does the systematic grunt work first.\n\nTime per review: 30 minutes → 5 minutes\nQuality: Actually improved (machines don't forget checklists)\n\nThe meta-lesson: Any repeatable cognitive task can become a skill file.\n\nWhat repetitive work are you still doing manually?\n\n#ClaudeCode #Automation #CodeReview #DeveloperProductivity",
+      "status": "Draft"
+    },
+    {
+      "id": 72,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "Most people use AI wrong. They ask questions.",
+      "body": "Most people use AI wrong. They ask questions.\n\nI give it systems.\n\nHere's the difference:\n\nQuestion approach:\n\"Write me a social media post about my project.\"\n→ Generic output\n→ Requires heavy editing\n→ Doesn't improve over time\n\nSystem approach:\n\"Here's my content framework. Here are 4 viral hook patterns. Here's my project data. Generate posts that match the framework.\"\n→ Consistent quality\n→ Matches my voice\n→ Improves as I refine the system\n\nI built a 9-agent content pipeline that:\n• Scans my daily project activity\n• Applies proven hook frameworks\n• Generates platform-specific posts\n• Quality scores each piece\n\nResult: 56 posts/month with 20 minutes of review time.\n\nThe insight that made this work:\n\nAI is a system amplifier, not a magic answer machine.\n\nGive it better inputs (frameworks, context, constraints) → get better outputs.\n\nStop asking AI questions.\nStart building AI systems.\n\nWhat systems are you building with AI?\n\n#AI #ContentCreation #Automation #ProductivityHacks",
+      "status": "Draft"
+    },
+    {
+      "id": 73,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I manage 40+ projects without burning out",
+      "body": "How I manage 40+ projects without burning out.\n\nThe system that keeps everything visible.\n\nWhen I hit 20 projects, I started losing track. Things fell through cracks. I forgot what I was working on.\n\nAt 40 projects, I should be drowning.\n\nInstead, I have complete clarity. Here's how:\n\n𝗧𝗵𝗲 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱\nOne screen showing:\n• All project statuses\n• Security scores\n• GitHub sync status\n• Aggregated TODOs\n• Content queue\n\n𝗧𝗵𝗲 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻\n60 agents run every morning at 9 AM:\n• Check each project\n• Calculate health scores\n• Flag issues\n• Compile report\n\nI wake up to a complete briefing.\n\n𝗧𝗵𝗲 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲𝘀\nEvery new project auto-generates:\n• Documentation structure\n• Security templates\n• Environment setup\n\nOnboarding: 30 minutes → 10 seconds.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n40 projects feel manageable.\nNot because there's less work.\nBecause I can see everything.\n\nVisibility reduces anxiety.\nAutomation reduces friction.\nTemplates reduce setup time.\n\nWhat's your system for managing multiple projects?\n\n#ProjectManagement #Productivity #Automation #BuildingInPublic",
+      "status": "Draft"
+    },
+    {
+      "id": 74,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Automation",
+      "title": "My automation broke for 3 days. Here's what I learned.",
+      "body": "My automation broke for 3 days. Here's what I learned.\n\n60 agents. All stopped. Zero errors in logs.\n\nThe silent failure that taught me the most.\n\n𝗧𝗵𝗲 𝗦𝘆𝗺𝗽𝘁𝗼𝗺\nNoticed on day 3: Nothing had run.\nNo GitHub syncs. No reports. No content.\nBut no errors either.\n\n𝗧𝗵𝗲 𝗜𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝘁𝗶𝗼𝗻\nAdded verbose logging.\nTraced execution path.\nFound it: hardcoded path to a folder I'd moved.\n\nScheduler tried to access: /Users/old/path\nPath didn't exist.\nError was caught and... swallowed.\n\n𝗧𝗵𝗲 𝗟𝗲𝘀𝘀𝗼𝗻𝘀\n\n1. Never hardcode paths\nUse environment variables. Use relative paths. Paths change.\n\n2. Fail loud, not quiet\nThat error handler that silently catches exceptions? It's hiding disasters. Make failures visible.\n\n3. Health checks matter\nNow every agent reports \"I ran\" to a central log. No report = something's wrong.\n\n4. Redundancy in monitoring\nSingle point of failure in monitoring = you don't know when things fail.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\nSilent failures are now impossible.\nEvery agent logs. Every failure alerts. Every path is dynamic.\n\nFailures teach more than successes.\n\nWhat's the most painful automation failure you've experienced?\n\n#Automation #Debugging #LessonsLearned #BuildingInPublic",
+      "status": "Draft"
+    },
+    {
+      "id": 75,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "AI Tools",
+      "title": "How I search 17 YouTube videos in 30 seconds",
+      "body": "How I search 17 YouTube videos in 30 seconds.\n\nThe knowledge base that replaced my note-taking.\n\nI was spending 40+ minutes per video taking notes. Then spending another 30 minutes searching my notes to find \"that thing I watched.\"\n\nThere had to be a better way.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗥𝗔𝗚\n\nA system that:\n• Extracts transcripts from YouTube videos/playlists\n• Chunks them into semantic segments\n• Generates embeddings with OpenAI\n• Stores in a vector database\n• Enables natural language queries\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nInput: \"What's the best approach for web scraping?\"\n\nOutput:\n• Top 3 relevant segments\n• Source video + timestamp\n• Full context preserved\n\n30 seconds instead of 40 minutes.\n\n𝗧𝗵𝗲 𝗕𝘂𝗶𝗹𝗱\n\nBuilt it in 90 minutes after my n8n workflow kept breaking.\n\nStack:\n• FastAPI for the service\n• youtube-transcript-api for extraction\n• SpaCy for semantic chunking\n• OpenAI for embeddings\n• ChromaDB for storage\n\nNow it's an API any of my projects can use.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nBuilding your own tools is often faster than fighting with broken automation.\n\nAnd you end up with something you control completely.\n\nWhat knowledge sources would you want to make searchable?\n\n#AI #RAG #Productivity #YouTubeAutomation",
+      "status": "Draft"
+    },
+    {
+      "id": 76,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Content Systems",
+      "title": "I stopped trying to be consistent with content",
+      "body": "I stopped trying to be consistent with content.\n\nAnd my engagement improved.\n\n\"Post every day\" is advice for people without systems.\n\nHere's what I learned:\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝘄𝗶𝘁𝗵 𝗖𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝘆\n\n• Forced posting = lower quality\n• Burnout is inevitable\n• You post when you have nothing to say\n• Audience fatigue sets in\n\nConsistency optimizes for quantity, not impact.\n\n𝗧𝗵𝗲 𝗦𝘆𝘀𝘁𝗲𝗺 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵\n\nInstead of scheduling, I built a pipeline:\n\n1. Content generated from real work (not forced)\n2. Quality scored automatically\n3. Only posts above 80/100 get published\n4. Posted when ready, not on a calendar\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\n• Higher average quality\n• No burnout\n• More authentic voice\n• Better engagement per post\n\n𝗧𝗵𝗲 𝗜𝗻𝘀𝗶𝗴𝗵𝘁\n\nOne viral post > 30 mediocre posts.\n\nGreat content compounds:\n• Gets shared\n• Gets saved\n• Brings followers\n• Builds authority\n\nOkay content just fills space.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nBuild systems, not schedules.\n\nLet quality drive timing.\n\nYour audience wants your best, not your most frequent.\n\nWhat's your content philosophy?\n\n#ContentStrategy #Quality #BuildingInPublic",
+      "status": "Draft"
+    },
+    {
+      "id": 77,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Claude Code Workflows",
+      "title": "How I turned Anthropic's best practices into executable skills",
+      "body": "How I turned Anthropic's best practices into executable skills.\n\nDocumentation you forget. Skills that run automatically.\n\nI read Anthropic's Claude Code best practices guide. Good advice. But like most documentation, I forgot half of it by the next day.\n\nSo I built a toolkit that enforces the practices:\n\n𝗧𝗵𝗲 𝗦𝗸𝗶𝗹𝗹𝘀\n\n/verify-work\nChecklist before completing any task:\n• Tests pass?\n• Types check?\n• Edge cases covered?\n• Root cause addressed?\n\n/interview-me\nClaude interviews YOU before coding:\n• Technical requirements\n• Edge cases\n• Constraints\n• Outputs a spec\n\n/session-check\nDiagnoses context pollution:\n• When to /clear\n• When to use subagents\n• Signs of degraded performance\n\n/anti-patterns\nChecklist of common mistakes:\n• Kitchen sink sessions\n• Correction loops\n• Over-specified CLAUDE.md\n\n𝗧𝗵𝗲 𝗜𝗻𝘀𝗶𝗴𝗵𝘁\n\nSkills load on-demand.\nHooks run automatically.\nSubagents work in isolated context.\n\nDifferent mechanisms for different needs.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nBest practices I actually follow.\nNot because I remember them.\nBecause the system enforces them.\n\nWhat documentation have you turned into automation?\n\n#ClaudeCode #BestPractices #Automation #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 78,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Business Value",
+      "title": "I replaced a $1,200/month content writer with a system",
+      "body": "I replaced a $1,200/month content writer with a system.\n\nNot bragging. Just sharing what's possible.\n\n𝗧𝗵𝗲 𝗕𝗲𝗳𝗼𝗿𝗲\n\n• Freelancer wrote 8-10 posts/week\n• $1,200/month\n• Quality varied\n• Needed constant direction\n• Didn't know my projects deeply\n\n𝗧𝗵𝗲 𝗔𝗳𝘁𝗲𝗿\n\nBuilt Social-Content-Generator:\n\n• Scans my daily project activity\n• Applies viral hook frameworks\n• Generates platform-specific posts\n• Quality scores each piece\n• Rotates through 32 real project examples\n\n𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀\n\n56 posts/month generated\n20 minutes daily review\n$0/month ongoing cost\n\n𝗧𝗵𝗲 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻\n\n\"But AI content is generic.\"\n\nNot when:\n• It uses YOUR projects as examples\n• It follows proven frameworks\n• It's quality-gated before publishing\n• You do final review and edits\n\nMy content is more authentic now because it's sourced from my actual work.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nAI + frameworks + your data = personalized content at scale.\n\nThe freelancer wrote generic content about topics.\nThe system writes specific content about MY work.\n\nWhat would you build if content creation took 20 minutes instead of 20 hours?\n\n#AI #ContentCreation #Solopreneur #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 79,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Automation",
+      "title": "How 28 MCP servers changed my workflow",
+      "body": "How 28 MCP servers changed my workflow.\n\nOne interface for everything.\n\n𝗧𝗵𝗲 𝗕𝗲𝗳𝗼𝗿𝗲\n\nTo do anything:\n• Open Airtable tab\n• Open GitHub tab\n• Open Google Drive tab\n• Open Slack tab\n• Copy/paste between them\n\n10+ tabs. Constant context switching.\n\n𝗧𝗵𝗲 𝗔𝗳𝘁𝗲𝗿\n\nClaude Code with MCP servers.\n\nOne conversation:\n• Query Airtable\n• Push to GitHub\n• Read from Drive\n• Post to Slack\n\nNo tab switching. No copy/paste.\n\n𝗪𝗵𝗮𝘁 𝗜 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱\n\nData: Airtable, Google Sheets\nStorage: Google Drive, Apple Notes\nCode: GitHub\nComms: Slack (2 workspaces)\nMedia: Canva, Replicate, ElevenLabs\nScraping: Puppeteer, Apify (Instagram, YouTube, Google Maps)\n\n28 services. One interface.\n\n𝗧𝗵𝗲 𝗣𝗼𝘄𝗲𝗿: 𝗖𝗵𝗮𝗶𝗻𝗶𝗻𝗴\n\nExample workflow:\n\"Scrape Instagram → Analyze with AI → Store in Airtable → Generate images with Replicate → Upload to Drive\"\n\nMulti-service automation in natural language.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗪𝗶𝗻\n\nServices become verbs, not apps.\n\n\"Airtable it\"\n\"Push to GitHub\"\n\"Slack the team\"\n\nNatural language + integrations = new level of productivity.\n\nWhat services would you connect if setup was easy?\n\n#MCP #ClaudeCode #Automation #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 80,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "AI Tools",
+      "title": "Your RAG system is probably broken",
+      "body": "Your RAG system is probably broken.\n\nAnd you don't know it because you're not measuring the right things.\n\n𝗧𝗵𝗲 𝗖𝗼𝗺𝗺𝗼𝗻 𝗠𝗶𝘀𝘁𝗮𝗸𝗲𝘀\n\n• Fixed-size chunks (breaks mid-thought)\n• Pure vector search (misses exact matches)\n• No source attribution (can't verify)\n• Giant context windows (slow, expensive)\n\nMost RAG tutorials teach these exact patterns.\n\n𝗪𝗵𝗮𝘁 𝗔𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗠𝗮𝘁𝘁𝗲𝗿𝘀\n\n1. Chunking strategy\nDon't split on character count. Use semantic boundaries.\nTopic changes. Speaker transitions. Natural pauses.\nSpaCy can detect these automatically.\n\n2. Hybrid search\nVector search: \"What's the concept?\"\nKeyword search: \"Where's the exact term?\"\nUse both. My YouTubeRAG combines semantic + keyword.\n\n3. Metadata preservation\nStore source, timestamp, context with each chunk.\nYou'll need these for verification and navigation.\n\n4. Test your retrieval\nBefore connecting to an LLM:\n• Query the vector DB directly\n• Check if right chunks return\n• Measure precision/recall\n\nBad retrieval + good LLM = garbage output.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nRAG isn't about the model.\nIt's about the pipeline.\n\nFix chunking. Add hybrid search. Test retrieval.\nThen worry about which LLM to use.\n\nWhat's your experience with RAG quality?\n\n#RAG #AI #VectorSearch #MachineLearning",
+      "status": "Draft"
+    },
+    {
+      "id": 81,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Building in Public",
+      "title": "How I document failures for maximum learning",
+      "body": "How I document failures for maximum learning.\n\nFailures are assets if you capture them right.\n\n𝗧𝗵𝗲 𝗗𝗲𝗳𝗮𝘂𝗹𝘁 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲\n\nSomething breaks → Fix it → Move on\n\nNo documentation. No learning. Same mistake again in 6 months.\n\n𝗧𝗵𝗲 𝗕𝗲𝘁𝘁𝗲𝗿 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗲\n\nCapture with this framework:\n\n1. What broke?\n2. What was the symptom?\n3. What was the root cause?\n4. How did I fix it?\n5. How do I prevent it?\n6. What did I learn?\n\n𝗘𝘅𝗮𝗺𝗽𝗹𝗲: 𝗦𝗰𝗵𝗲𝗱𝘂𝗹𝗲𝗿 𝗙𝗮𝗶𝗹𝘂𝗿𝗲\n\n1. What broke: 60-agent automation system\n2. Symptom: Nothing ran for 3 days, no errors\n3. Root cause: Hardcoded path after folder move\n4. Fix: Environment variables for all paths\n5. Prevention: Health checks, loud error handling\n6. Learning: Silent failures are worse than crashes\n\n𝗧𝗵𝗲 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗕𝗼𝗻𝘂𝘀\n\nEvery documented failure = content opportunity\n\n• More relatable than successes\n• More educational\n• Shows authenticity\n• Creates connection\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nFailure → Documentation → Learning → Content → Growth\n\nCapture your failures. They're more valuable than your successes.\n\nWhat's the most valuable failure you've learned from?\n\n#BuildingInPublic #Failure #Learning #Growth",
+      "status": "Draft"
+    },
+    {
+      "id": 82,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Claude Code Workflows",
+      "title": "Before CLAUDE.md: re-explain everything",
+      "body": "Before CLAUDE.md: re-explain everything every session.\n\nAfter CLAUDE.md: Claude understands my projects instantly.\n\nThe file that changed how I work with AI.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\nEvery Claude Code session:\n\"This project uses TypeScript with strict mode...\"\n\"We follow this folder structure...\"\n\"Run tests with npm test...\"\n\nSame context. Every time. Wasted tokens.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻\n\nCLAUDE.md: A special file Claude reads automatically at session start.\n\nContains:\n• Build/test commands\n• Code conventions\n• Project structure\n• Common gotchas\n\nWrite once. Works forever.\n\n𝗪𝗵𝗮𝘁 𝗚𝗼𝗲𝘀 𝗜𝗻\n\n✓ Commands Claude can't guess (npm run dev:local)\n✓ Conventions that differ from defaults\n✓ Project-specific patterns\n✓ Environment quirks\n\n𝗪𝗵𝗮𝘁 𝗦𝘁𝗮𝘆𝘀 𝗢𝘂𝘁\n\n✗ Standard language conventions (Claude knows)\n✗ Anything inferable from code\n✗ Documentation that changes often\n\n𝗧𝗵𝗲 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗧𝗿𝗶𝗰𝗸\n\nI have parent CLAUDE.md files per project category.\nNew projects inherit from parent.\nAdd only project-specific details.\n\nConsistency without repetition.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\n40+ projects. Each with tailored CLAUDE.md.\nClaude knows each one instantly.\nNo re-explaining. Ever.\n\nContext that persists = compounding productivity.\n\nDo you use CLAUDE.md files?\n\n#ClaudeCode #Productivity #DeveloperTools #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 83,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Business Value",
+      "title": "How I built a vendor quote tool that saves 36 hours",
+      "body": "How I built a vendor quote tool that saves small businesses 36 hours of research.\n\nAutomation that pays for itself in one use.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\nFinding vendors manually:\n• Search 5+ platforms (Google, Yelp, directories)\n• Compare prices and reviews\n• Draft personalized outreach\n• Track responses\n• Follow up\n\n40+ hours for a decent comparison.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻\n\nAutomated pipeline:\n\n1. Search Layer\nConnects to Google Maps, Yelp, industry directories.\nOne query → results from everywhere.\n\n2. Intelligence Layer\nAI extracts: pricing patterns, review sentiment, response indicators.\n\n3. Outreach Layer\nPersonalized templates. Auto-scheduled follow-ups. Response tracking.\n\n𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀\n\nManual: 40+ hours\nAutomated: 4 hours (mostly review)\n\n36 hours saved.\nAt $50/hour labor = $1,800 value per search.\n\n𝗧𝗵𝗲 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗔𝗻𝗴𝗹𝗲\n\nSmall businesses need this.\n• Home renovations\n• Event planning\n• Equipment purchases\n\nTool pays for itself in one use.\n\nBuilt for myself first. Now exploring productization.\n\nWhat tedious business process would you automate?\n\n#Automation #SmallBusiness #Productivity #Tools",
+      "status": "Draft"
+    },
+    {
+      "id": 84,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Automation",
+      "title": "Complex automation is a trap",
+      "body": "Complex automation is a trap.\n\nSimple automation wins every time.\n\nHere's what building 60+ agents taught me.\n\n𝗧𝗵𝗲 𝗧𝗲𝗺𝗽𝘁𝗮𝘁𝗶𝗼𝗻\n\nBuild one mega-script that:\n• Handles all cases\n• Has every feature\n• Covers every edge case\n\nFeels comprehensive. Actually fragile.\n\n𝗖𝗼𝗺𝗽𝗹𝗲𝘅 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻\n\n• Hard to debug\n• Hard to modify\n• Fails catastrophically\n• Single point of failure\n\n𝗦𝗶𝗺𝗽𝗹𝗲 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻\n\n• Easy to understand\n• Easy to fix\n• Fails gracefully\n• Isolated failures\n\n𝗠𝘆 𝗥𝘂𝗹𝗲\n\nOne agent = one job.\n\nNot \"project management agent.\"\n\nInstead:\n• GitHub sync agent\n• TODO aggregation agent\n• Security scoring agent\n• Report compilation agent\n\nComposable pieces.\n\n𝗧𝗵𝗲 𝗖𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝘁𝗶𝗼𝗻 𝗟𝗮𝘆𝗲𝗿\n\nDaily scheduler orchestrates.\nAgents do the work.\n\nScheduler: simple (call agents in sequence)\nAgents: simple (do one thing well)\n\nComplexity in coordination, not execution.\n\n𝗧𝗵𝗲 𝗠𝗮𝗶𝗻𝘁𝗲𝗻𝗮𝗻𝗰𝗲 𝗧𝗲𝘀𝘁\n\nCan someone else understand this in 5 minutes?\n\nNo? Too complex.\n\nYour future self will thank you for simplicity.\n\nWhat's your automation philosophy?\n\n#Automation #Engineering #Simplicity #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 85,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Content Systems",
+      "title": "How I write viral hooks that actually work",
+      "body": "How I write viral hooks that actually work.\n\nFrameworks > inspiration.\n\n𝗧𝗵𝗲 𝗜𝗻𝘀𝗶𝗴𝗵𝘁\n\nHooks aren't creative writing.\nThey're pattern matching.\n\nProven formulas exist. Use them.\n\n𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝟭: 𝗖𝗼𝗻𝘁𝗿𝗮𝗿𝗶𝗮𝗻\n\n\"Most people [common belief]. I [opposite].\"\n\nExample: \"Most people write prompts. I write skills.\"\n\nChallenges assumptions. Creates curiosity.\n\n𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝟮: 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻\n\n\"Before: [pain]. After: [gain].\"\n\nExample: \"Before: 8 hours content creation. After: 20 minutes.\"\n\nShows measurable change.\n\n𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝟯: 𝗛𝗼𝘄-𝗧𝗼\n\n\"How I [achieve result]:\"\n\nExample: \"How I search 17 YouTube videos in 30 seconds:\"\n\nPromises specific value.\n\n𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝟰: 𝗕𝗲𝗻𝗲𝗳𝗶𝘁-𝗗𝗿𝗶𝘃𝗲𝗻\n\n\"How [action] to [outcome]:\"\n\nExample: \"How I track 40 projects without a project manager:\"\n\nLeads with benefit.\n\n𝗧𝗵𝗲 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻\n\nFor every content idea:\n1. Try all 4 frameworks\n2. Pick strongest hook\n3. Match to platform\n4. Test and measure\n\nSystematic > sporadic.\n\nWhich framework do you use most?\n\n#ContentCreation #Copywriting #Hooks #Marketing",
+      "status": "Draft"
+    },
+    {
+      "id": 86,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "AI Tools",
+      "title": "I turned 500 PDFs into a searchable brain",
+      "body": "I turned 500 PDFs into a searchable brain.\n\nNever lose information again.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\n500+ PDFs across Google Drive.\nNotes in Apple Notes.\nDocuments everywhere.\n\n\"Where did I read that?\" → 30 minutes searching.\n\nInformation scattered = information lost.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 𝗔𝗜𝗕𝗿𝗮𝗶𝗻\n\nUnified knowledge base:\n• Index all sources automatically\n• Embed for semantic search\n• Query in natural language\n• Get answers with citations\n\n𝗧𝗵𝗲 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲\n\n1. Connect to Google Drive\n2. Extract text from PDFs\n3. Pull Apple Notes\n4. Chunk semantically\n5. Generate embeddings\n6. Store in vector DB\n\n𝗧𝗵𝗲 𝗤𝘂𝗲𝗿𝘆\n\n\"What did that McKinsey report say about market sizing?\"\n\n→ Relevant passages\n→ Source documents\n→ Page numbers\n\n30 seconds instead of 30 minutes.\n\n𝗧𝗵𝗲 𝗘𝘅𝗽𝗮𝗻𝘀𝗶𝗼𝗻\n\nNow adding:\n• Meeting notes\n• Slack conversations\n• Browser bookmarks\n\nEverything I learn. Searchable forever.\n\nYour memory is limited. Your knowledge base doesn't have to be.\n\nWhat information sources would you make searchable?\n\n#AI #KnowledgeManagement #Productivity #RAG",
+      "status": "Draft"
+    },
+    {
+      "id": 87,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Building in Public",
+      "title": "How building in public changed my career trajectory",
+      "body": "How building in public changed my career trajectory.\n\nThe compound effects nobody talks about.\n\n𝗧𝗵𝗲 𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗣𝗼𝗶𝗻𝘁\n\nBuilding projects. Telling no one.\n\nNo audience. No feedback. No opportunities.\n\nJust code in isolation.\n\n𝗧𝗵𝗲 𝗦𝗵𝗶𝗳𝘁\n\nStarted documenting what I built.\n\n• Progress updates\n• Technical decisions\n• Failures and lessons\n• Results and metrics\n\nSame work. Now visible.\n\n𝗧𝗵𝗲 𝗖𝗼𝗺𝗽𝗼𝘂𝗻𝗱 𝗘𝗳𝗳𝗲𝗰𝘁𝘀\n\n1. Credibility\nShowing work > claiming skills.\nPeople see what you can do.\n\n2. Connections\nOther builders find you.\nCollaborations emerge.\n\n3. Opportunities\nPeople reach out with ideas, projects, jobs.\nYou become discoverable.\n\n4. Learning\nPublic accountability.\nFeedback from community.\nFaster improvement.\n\n𝗧𝗵𝗲 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗦𝘆𝘀𝘁𝗲𝗺\n\nNow I have a pipeline:\n• Daily work → documented\n• Documents → social content\n• Content → audience\n• Audience → opportunities\n\nBuilding in public isn't about content.\nIt's about making your work visible.\n\nAre you building in public?\n\n#BuildingInPublic #Career #Growth #ContentCreation",
+      "status": "Draft"
+    },
+    {
+      "id": 88,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "Context management is the only AI skill that matters",
+      "body": "Context management is the only AI skill that matters.\n\nEverything else is noise.\n\n𝗧𝗵𝗲 𝗥𝗲𝗮𝗹𝗶𝘁𝘆\n\nLLM performance degrades as context fills.\n\nClaude's context window = your most precious resource.\n\nEvery file read, every command output, every conversation turn = tokens consumed.\n\n𝗧𝗵𝗲 𝗦𝘆𝗺𝗽𝘁𝗼𝗺𝘀\n\n• Claude \"forgets\" earlier instructions\n• Responses become confused\n• Same mistakes repeated\n• Quality drops noticeably\n\nThese aren't Claude problems.\nThey're context problems.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻𝘀\n\n1. /clear between tasks\nFinished feature A? Clear. Start feature B fresh.\n\n2. Use subagents for exploration\n\"Use a subagent to investigate auth.\"\nExploration happens in separate context.\n\n3. Stop correction loops\nClaude wrong twice? Don't keep correcting.\nClear. Write better initial prompt.\n\n4. Keep CLAUDE.md lean\nOnly what Claude can't infer.\n<50 lines ideal.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nEvery AI best practice is really about context.\n\n• Verification? Prevents context-wasting mistakes.\n• Planning? Reduces wasted exploration.\n• Skills? Load knowledge without bloating context.\n\nMaster context management. Everything else follows.\n\nHow do you manage context in long sessions?\n\n#ClaudeCode #AI #Productivity #ContextManagement",
+      "status": "Draft"
+    },
+    {
+      "id": 89,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Automation",
+      "title": "How I make automation survive system reboots",
+      "body": "How I make automation survive system reboots.\n\nThe reliability layer most people forget.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\nCron jobs run your automation.\nSystem reboots.\nCron jobs need to be started again.\n\nExcept you forgot.\nAnd your automation has been down for 3 days.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 𝟯-𝗟𝗮𝘆𝗲𝗿 𝗦𝘁𝗮𝗰𝗸\n\nLayer 1: LaunchAgent (macOS) or systemd (Linux)\n• Survives reboots\n• Starts automatically\n• Manages process lifecycle\n\nLayer 2: Crontab\n• Precise timing (9 AM daily)\n• Reliable scheduling\n\nLayer 3: Daily Scheduler\n• Orchestrates agents\n• Handles dependencies\n• Logs everything\n\n𝗧𝗵𝗲 𝗦𝗲𝘁𝘂𝗽 (𝗺𝗮𝗰𝗢𝗦)\n\n1. Create LaunchAgent plist file\n2. Point to your scheduler script\n3. Set RunAtLoad = true\n4. Load with launchctl\n\n5 minutes of setup. Infinite reliability.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nMac restarts → automation resumes.\nNo intervention needed.\nNo \"forgot to start\" moments.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nAutomation isn't automated if it needs you to start it.\n\nTrue automation = zero human intervention.\n\nIncluding after reboots.\n\nWhat's your reliability setup?\n\n#Automation #DevOps #Reliability #macOS",
+      "status": "Draft"
+    },
+    {
+      "id": 90,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Business Value",
+      "title": "How I built a kids sports directory from scratch",
+      "body": "How I built a kids sports directory from scratch.\n\nSEO + AI = passive traffic.\n\n𝗧𝗵𝗲 𝗢𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝘆\n\nParents searching \"kids soccer Phoenix.\"\nNo good directories.\nInformation scattered across dozens of websites.\n\nClear need. Low competition.\n\n𝗧𝗵𝗲 𝗗𝗮𝘁𝗮 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲\n\nSources:\n• Google Maps API\n• Yelp\n• Local directories\n• School websites\n\n1000+ programs scraped, validated, deduplicated.\n\n𝗧𝗵𝗲 𝗦𝗘𝗢 𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝘆\n\nPages for every:\n• Sport (soccer, basketball, swimming...)\n• City (Phoenix, Scottsdale, Tempe...)\n• Age group (toddler, elementary, teen...)\n\nCategory pages = long-tail traffic.\n\n𝗧𝗵𝗲 𝗟𝗟𝗠 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻\n\n• Schema.org structured data\n• Q&A format content\n• Natural language descriptions\n\nFuture-proofing for AI search.\n\nSEO + LLM-ready = double coverage.\n\n𝗧𝗵𝗲 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗠𝗼𝗱𝗲𝗹\n\nTraffic → Affiliate commissions\n• Equipment links\n• Class signups\n• Gear recommendations\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nDirectory sites still work in 2025.\n\nFind underserved niches.\nAggregate scattered information.\nOptimize for both search and AI.\n\nWhat niche directories are missing in your area?\n\n#SEO #DirectorySite #PassiveIncome #AI",
+      "status": "Draft"
+    },
+    {
+      "id": 91,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Claude Code Workflows",
+      "title": "How I use subagents to keep my context clean",
+      "body": "How I use subagents to keep my context clean.\n\nThe exploration pattern that changed everything.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\nExploring a codebase with Claude:\n• Read this file\n• Now that file\n• Search for this pattern\n• Check that directory\n\nEach step = tokens in context.\nBy the time you understand, context is full.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻\n\nSubagents: Isolated exploration.\n\n\"Use a subagent to investigate how the auth system works.\"\n\nSubagent:\n• Runs in separate context\n• Reads all the files it needs\n• Explores thoroughly\n• Reports back a summary\n\nYour context: Clean.\n\n𝗧𝗵𝗲 𝗨𝘀𝗲 𝗖𝗮𝘀𝗲𝘀\n\n1. Codebase exploration\n\"Use a subagent to understand the database schema.\"\n\n2. Code review\n\"Use a subagent to review this for security issues.\"\n(Fresh eyes, no implementation bias)\n\n3. Research\n\"Use a subagent to find all places we handle user input.\"\n\n𝗧𝗵𝗲 𝗣𝗮𝘁𝘁𝗲𝗿𝗻\n\nMain session: Implementation\nSubagents: Investigation\n\nNever pollute your implementation context with exploration.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nLonger productive sessions.\nBetter code quality.\nCleaner context.\n\nSubagents are the context management superpower.\n\nDo you use subagents?\n\n#ClaudeCode #AI #Productivity #DeveloperTools",
+      "status": "Draft"
+    },
+    {
+      "id": 92,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Content Systems",
+      "title": "I don't brainstorm content anymore",
+      "body": "I don't brainstorm content anymore.\n\nI document and extract.\n\n𝗧𝗵𝗲 𝗢𝗹𝗱 𝗪𝗮𝘆\n\n\"What should I write about?\"\n\nStare at blank screen.\nForce creativity.\nProduce generic content.\n\n𝗧𝗵𝗲 𝗡𝗲𝘄 𝗪𝗮𝘆\n\nDocument what I'm already doing.\nExtract content from documentation.\nNever run out of ideas.\n\n𝗧𝗵𝗲 𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗦𝘆𝘀𝘁𝗲𝗺\n\nDaily:\n• LOG.md tracks what I did\n• CONTEXT.md tracks decisions\n• CLAUDE.md updates with learnings\n\nEvery day = documented.\n\n𝗧𝗵𝗲 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗶𝗼𝗻\n\nContent agent scans daily captures:\n• What was shipped?\n• What broke?\n• What was learned?\n• What decisions were made?\n\nApplies hook frameworks.\nGenerates posts.\n\n𝗧𝗵𝗲 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗧𝘆𝗽𝗲𝘀\n\nFrom one day's work:\n• Quick tip (X single post)\n• Process deep-dive (X thread)\n• Story + lessons (LinkedIn)\n• Tutorial (pillar content)\n\nOne input → multiple outputs.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nYour work IS your content.\n\nJust document it systematically.\n\nBuilding in public = showing the work.\n\nNot creating content. Extracting it.\n\nHow do you source your content ideas?\n\n#ContentCreation #BuildingInPublic #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 93,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "AI Tools",
+      "title": "How I use AI to analyze competitor ads at scale",
+      "body": "How I use AI to analyze competitor ads at scale.\n\nCompetitive intelligence on autopilot.\n\n𝗧𝗵𝗲 𝗠𝗮𝗻𝘂𝗮𝗹 𝗣𝗮𝗶𝗻\n\nAnalyzing competitor ads:\n• Screenshot each ad\n• Note copy and visuals\n• Identify patterns\n• Document findings\n• Compare across competitors\n\n4+ hours per competitor.\n\n𝗧𝗵𝗲 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻\n\n1. Collection Layer\nScrape ads from target platforms automatically.\n\n2. Analysis Layer\nGemini Flash 2.5 extracts:\n• Visual style (colors, layout, imagery)\n• Copy approach (benefit, fear, curiosity)\n• CTA type and placement\n• Target audience signals\n\n3. Pattern Layer\nAggregate across all ads:\n• Most common headlines\n• Winning visual elements\n• Color palette trends\n• Copy length patterns\n\n𝗧𝗵𝗲 𝗢𝘂𝘁𝗽𝘂𝘁\n\nNot just data. Recommendations:\n• \"Benefit headlines appear in 60% of winners\"\n• \"Blue CTAs outperform red in this niche\"\n• \"Short copy dominates (<50 words)\"\n\nActionable insights.\n\n𝗧𝗵𝗲 𝗧𝗶𝗺𝗲 𝗦𝗮𝘃𝗲𝗱\n\nManual: 4+ hours per competitor\nAutomated: 15 minutes per competitor\n\nAnalyze 10 competitors in the time it took to do 1.\n\nWhat competitive analysis do you wish was automated?\n\n#AI #Marketing #CompetitiveIntelligence #Automation",
+      "status": "Draft"
+    },
+    {
+      "id": 94,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "Building in Public",
+      "title": "My security scores were embarrassing. Now they're tracked.",
+      "body": "My security scores were embarrassing. Now they're tracked.\n\nTransparency is the first step to improvement.\n\n𝗧𝗵𝗲 𝗥𝗲𝗮𝗹𝗶𝘁𝘆\n\n44 projects.\n73.2/100 average security score.\n\nNot great. But now I know.\n\n𝗪𝗵𝗮𝘁 𝗚𝗲𝘁𝘀 𝗠𝗲𝗮𝘀𝘂𝗿𝗲𝗱\n\nFor each project:\n• .gitignore completeness\n• SECURITY.md presence\n• Environment variable handling\n• Sensitive data exposure\n• Dependency health\n\nAutomated scoring. Daily.\n\n𝗧𝗵𝗲 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻\n\nNew project created:\n• Security templates auto-generated\n• .gitignore patterns applied\n• SECURITY.md scaffolded\n\nSecurity from day 1 > remediation later.\n\n𝗧𝗵𝗲 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱\n\nAll 44 projects. One view.\n• Score breakdown\n• Issues flagged\n• Improvement tracking\n\nVisibility = accountability.\n\n𝗧𝗵𝗲 𝗟𝗲𝘀𝘀𝗼𝗻\n\nMost people don't measure security.\nWhat doesn't get measured doesn't improve.\n\n73.2/100 is a starting point.\nTransparency > pretending everything's perfect.\n\n𝗧𝗵𝗲 𝗚𝗼𝗮𝗹\n\n85/100 by end of quarter.\n\nTracked. Automated. Improving.\n\nDo you measure security across your projects?\n\n#Security #BuildingInPublic #DevOps #Transparency",
+      "status": "Draft"
+    },
+    {
+      "id": 95,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Claude Code Workflows",
+      "title": "How I use Plan Mode for complex implementations",
+      "body": "How I use Plan Mode for complex implementations.\n\nExplore first. Execute second.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\nJumping straight to coding:\n• Wrong assumptions\n• Wasted effort\n• Rework\n• Missed edge cases\n\nImplementing before understanding = expensive.\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 𝗣𝗹𝗮𝗻 𝗠𝗼𝗱𝗲\n\nClaude explores without changing anything.\nReads files. Answers questions. Doesn't modify.\n\nSafe exploration before risky execution.\n\n𝗧𝗵𝗲 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄\n\nPhase 1 - Explore:\n\"Read src/auth and explain how sessions work.\"\n\nPhase 2 - Plan:\n\"I want to add OAuth. What files change? What's the sequence?\"\n\nPhase 3 - Implement:\n[Exit Plan Mode] \"Implement the OAuth flow from your plan.\"\n\n𝗪𝗵𝗲𝗻 𝘁𝗼 𝗨𝘀𝗲 𝗜𝘁\n\n• Unfamiliar codebase\n• Multiple valid approaches\n• Changes affect many files\n• Need to understand first\n\n𝗪𝗵𝗲𝗻 𝘁𝗼 𝗦𝗸𝗶𝗽 𝗜𝘁\n\n• Simple, obvious tasks\n• You know the codebase\n• Change is isolated\n• Quick fix\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nFewer mistakes.\nBetter implementations.\nLess wasted effort.\n\nUnderstanding is cheap. Rework is expensive.\n\nDo you use Plan Mode?\n\n#ClaudeCode #Planning #DeveloperTools #Productivity",
+      "status": "Draft"
+    },
+    {
+      "id": 96,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Automation",
+      "title": "I don't trust fully autonomous AI systems",
+      "body": "I don't trust fully autonomous AI systems.\n\nHere's why I keep humans in the loop.\n\n𝗧𝗵𝗲 𝗧𝗲𝗺𝗽𝘁𝗮𝘁𝗶𝗼𝗻\n\n\"Let AI do everything.\"\n\"Full automation.\"\n\"No human intervention.\"\n\nSeductive. Dangerous.\n\n𝗧𝗵𝗲 𝗥𝗲𝗮𝗹𝗶𝘁𝘆\n\nAI makes mistakes.\n\n• Confidently wrong\n• Edge cases missed\n• Context misunderstood\n• Garbage in, garbage out\n\nWithout human review, mistakes compound.\n\n𝗠𝘆 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵\n\nAI generates. Human approves.\n\nContent pipeline:\n• AI generates 4 posts daily\n• Quality scored automatically\n• I review final output\n• I approve or reject\n\n20 minutes of review. 80% automation.\n\n𝗧𝗵𝗲 𝗚𝗮𝘁𝗲𝘀\n\n1. Quality gates (automated scoring)\n2. Human review (final approval)\n3. Easy rollback (if something slips)\n\nLayers of safety.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\n100% automation isn't the goal.\n\nMaximum leverage with minimum risk is the goal.\n\nHumans catch what AI misses.\nAI does what humans find tedious.\n\nPartnership > replacement.\n\nWhat's your human-AI balance?\n\n#AI #Automation #HumanInTheLoop #AIEthics",
+      "status": "Draft"
+    },
+    {
+      "id": 97,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "How-To",
+      "theme": "Content Systems",
+      "title": "How I pick which projects to share publicly",
+      "body": "How I pick which projects to share publicly.\n\nNot everything is content-worthy.\n\n𝗧𝗵𝗲 𝗙𝗶𝗹𝘁𝗲𝗿\n\n40 active projects.\n~15 are content-worthy.\n~25 are too niche or incomplete.\n\nCuration matters.\n\n𝗖𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝗻 𝟭: 𝗥𝗲𝗹𝗮𝘁𝗮𝗯𝗶𝗹𝗶𝘁𝘆\n\nWill others have this problem?\n\nVendor quotes → common pain ✓\nPersonal journaling app → too niche ✗\n\n𝗖𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝗻 𝟮: 𝗧𝗲𝗮𝗰𝗵𝗮𝗯𝗶𝗹𝗶𝘁𝘆\n\nCan I explain how I built it?\n\nClear architecture → good content ✓\nSpaghetti code → not yet ✗\n\n𝗖𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝗻 𝟯: 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗻𝗲𝘀𝘀\n\nIs there a story arc?\n\nProblem → Solution → Results ✓\n\"Started a project\" → incomplete ✗\n\n𝗖𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝗻 𝟰: 𝗔𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗶𝘁𝘆\n\nDid I actually use this?\nDoes it solve a real problem?\n\nDogfooded projects → authentic ✓\nToy projects → less credible ✗\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗥𝘂𝗹𝗲\n\n\"Would I click on this if someone else posted it?\"\n\nNo? Don't post.\nYes? Develop the content.\n\nQuality over quantity. Always.\n\nHow do you decide what to share?\n\n#BuildingInPublic #ContentStrategy #Curation",
+      "status": "Draft"
+    },
+    {
+      "id": 98,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Transformation",
+      "theme": "AI Tools",
+      "title": "My prompt management went from chaos to searchable",
+      "body": "My prompt management went from chaos to searchable.\n\nNever lose a working prompt again.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺\n\n4 AI tools:\n• Claude\n• ChatGPT\n• Gemini\n• Perplexity\n\nPrompts scattered across chat histories.\nNo way to find \"that prompt that worked.\"\n\n𝗧𝗵𝗲 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 𝗣𝗿𝗼𝗺𝗽𝘁 𝗩𝗮𝘂𝗹𝘁\n\nChrome extension that:\n• Captures prompts as I use them\n• Tags and categorizes automatically\n• Syncs across all AI tools\n• Makes everything searchable\n\n𝗛𝗼𝘄 𝗜𝘁 𝗪𝗼𝗿𝗸𝘀\n\nWrite a prompt in any AI tool.\nExtension detects it.\nSaves to central vault.\n\nAdds metadata:\n• Tool used\n• Category\n• Outcome rating\n• Tags\n\n𝗧𝗵𝗲 𝗦𝗲𝗮𝗿𝗰𝗵\n\n\"Find all debugging prompts\"\n\n→ Every debugging prompt I've used\n→ Which tool worked best\n→ Results I got\n\nInstant recall.\n\n𝗧𝗵𝗲 𝗖𝗿𝗼𝘀𝘀-𝗧𝗼𝗼𝗹 𝗕𝗲𝗻𝗲𝗳𝗶𝘁\n\nPrompt works in Claude?\nTry in ChatGPT.\nCompare results.\nLearn which tool for which task.\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nPrompts are assets.\n\nA library of working prompts = compounding productivity.\n\nCapture everything. Search when needed.\n\nHow do you manage your prompts?\n\n#AI #Prompts #Productivity #Tools",
+      "status": "Draft"
+    },
+    {
+      "id": 99,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Benefit-Driven",
+      "theme": "Building in Public",
+      "title": "How I extract content from my daily work",
+      "body": "How I extract content from my daily work.\n\nThe system that writes itself.\n\n𝗧𝗵𝗲 𝗣𝗵𝗶𝗹𝗼𝘀𝗼𝗽𝗵𝘆\n\nYour work IS your content.\n\nEvery bug fixed = potential tip.\nEvery feature shipped = potential case study.\nEvery lesson learned = potential thread.\n\nJust capture it.\n\n𝗧𝗵𝗲 𝗖𝗮𝗽𝘁𝘂𝗿𝗲\n\nDaily logging:\n• What I did\n• What decisions I made\n• What broke and why\n• What I learned\n\n5 minutes at end of day.\n\n𝗧𝗵𝗲 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴\n\nContent agent scans logs.\nIdentifies opportunities.\nApplies hook frameworks.\nGenerates drafts.\n\n𝗧𝗵𝗲 𝗢𝘂𝘁𝗽𝘂𝘁𝘀\n\nFrom one day's work:\n\n• X single post (quick tip)\n• X thread (process breakdown)\n• LinkedIn post (story + lessons)\n• Pillar content (deep tutorial)\n\nOne input → multiple formats.\n\n𝗧𝗵𝗲 𝗥𝗲𝘀𝘂𝗹𝘁\n\nNever running out of ideas.\nAlways authentic.\nMinimal extra effort.\n\nDo the work. Capture the work. Share the work.\n\nThat's building in public, systematized.\n\nWhat's your content capture system?\n\n#BuildingInPublic #ContentCreation #Productivity #Systems",
+      "status": "Draft"
+    },
+    {
+      "id": 100,
+      "platform": "LinkedIn",
+      "type": "post",
+      "hook_type": "Contrarian",
+      "theme": "Claude Code Workflows",
+      "title": "The best Claude Code skill is knowing when NOT to use it",
+      "body": "The best Claude Code skill is knowing when NOT to use it.\n\nMore AI isn't always better.\n\n𝗧𝗵𝗲 𝗧𝗲𝗺𝗽𝘁𝗮𝘁𝗶𝗼𝗻\n\n\"Use AI for everything.\"\n\"Automate all the things.\"\n\"Let Claude handle it.\"\n\nSometimes this is exactly wrong.\n\n𝗪𝗵𝗲𝗻 𝗡𝗢𝗧 𝘁𝗼 𝗨𝘀𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗖𝗼𝗱𝗲\n\n1. Simple tasks\nRenaming a variable? Just do it.\nClaude setup overhead > task effort.\n\n2. Security-critical code\nAuth, encryption, payments.\nHuman review essential. AI assistance, not replacement.\n\n3. When you need to learn\nStruggling builds understanding.\nAI removes the struggle. Sometimes that's bad.\n\n4. Creative decisions\nArchitecture choices. Design decisions.\nYour judgment > AI suggestions.\n\n𝗧𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗕𝗮𝗹𝗮𝗻𝗰𝗲\n\nClaude Code for:\n• Exploration and understanding\n• Repetitive tasks\n• Pattern-based work\n• First drafts\n\nHuman for:\n• Final decisions\n• Security review\n• Creative direction\n• Learning opportunities\n\n𝗧𝗵𝗲 𝗠𝗲𝘁𝗮-𝗟𝗲𝘀𝘀𝗼𝗻\n\nAI is a tool, not a replacement.\n\nKnowing when to use a tool is as important as knowing how.\n\nSometimes the right move is to close Claude and just code.\n\nWhat's your human-AI balance?\n\n#ClaudeCode #AI #Productivity #Wisdom",
+      "status": "Draft"
+    }
+  ]
+}

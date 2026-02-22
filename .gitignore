@@ -47,3 +47,9 @@ daily_run.log
 
 # Environment
 .env
+
+# Build artifacts
+.next/
+frontend/.next/
+frontend/node_modules/
+node_modules/

@@ -1,0 +1,142 @@
+Post ID,Platform,Hook Type,Theme,Title/Hook,Body,CTA,Status,Notes
+1,LinkedIn,Transformation,Non-Technical Creator,"6 months ago, I couldn't write a single line of code.","Today, I've built 26 working software tools.
+
+The difference wasn't learning to code. It was learning to collaborate with AI.
+
+Here's what nobody tells non-technical founders:
+
+You don't need to become a developer.
+You need to become a great communicator.
+
+I'm not writing Python or JavaScript. I'm writing clear instructions.
+
+My process:
+1. I describe what I want in plain English
+2. Claude Code builds it
+3. I test it (does it do what I asked?)
+4. I share the error if it breaks
+5. We iterate until it works
+
+The tools I've built in the last 6 months:
+
+- A Personal Operating System that prioritizes my projects automatically
+- Job listing scrapers that categorize 50K+ listings with AI
+- Content systems that turn project updates into posts
+- Vendor quote automation that finds contacts in 5 minutes vs 2 hours
+- Financial analysis dashboards (analyzed 6 years of nonprofit data in one afternoon)
+
+My competitive advantage isn't technical skill.
+
+It's knowing exactly what I need and being able to articulate it clearly.
+
+Takeaway: The best 'code' I write is plain English. If you can explain a problem clearly to a human, you can explain it to AI.",What would you build if coding wasn't the barrier? Drop your idea below.,Draft,Flagship transformation post - strong opener
+2,X,Contrarian,AI Coding Journey,Hot take: Learning to code in 2026 is a waste of time.,"Not because AI will replace developers.
+
+Because AI lets non-coders build real software.
+
+I've shipped 26 tools including scrapers, data classifiers, and automation systems.
+
+The skill that matters now: describing problems clearly.
+
+Takeaway: Practice explaining what you need, not writing syntax.",,Draft,Contrarian hook - expect engagement
+3,X Thread,How-To,Personal OS,I built a Personal Operating System that runs my entire life.,"THREAD WITH 9 TWEETS - See JSON file for individual tweets covering: smart capture via Telegram, priority scoring algorithm, project activation, content engine, results after 6 months, and how to build your own.",Reply with the first system you'd build.,Draft,Flagship Personal OS thread - now with actual tweets
+4,LinkedIn,Benefit-Driven,Content Systems,How I generate a week of social content in 10 minutes,"I used to spend 10+ hours every week brainstorming content.
+
+Now my AI system does it in minutes.
+
+The secret: I stopped asking AI to 'be creative.'
+
+Instead, I feed it proven frameworks.
+
+Here's the exact system:
+
+1. Capture my actual work
+Every project update, lesson learned, and breakthrough gets logged automatically.
+
+2. Match to viral patterns
+My system knows 97+ hook formulas:
+- Contrarian: 'Why X is actually wrong'
+- Transformation: 'Before vs After'
+- How-to: 'The exact process for X'
+
+3. Generate variations
+One project update becomes 5+ content pieces.
+
+4. Apply my voice
+I documented my writing patterns specifically.
+
+Results after 30 days:
+- 47 hooks generated
+- 10 hrs/week saved
+- Higher engagement
+
+Takeaway: Content frameworks are just structured prompts. Feed AI the framework. Let it apply your context.",What repetitive creative task would you automate first?,Draft,Strong content automation proof
+5,X,Transformation,Data Tools,Built a job listing classifier that's more accurate than my manual work.,"Before: 2 hours manually categorizing job posts.
+
+After: AI processes 1,000 listings in seconds.
+
+The kicker? It catches patterns I missed.
+
+'Aircraft maintenance' -> Aviation Mechanic (not generic 'Technician')
+
+How: I gave AI specific rules for each category with examples.
+
+Takeaway: AI + clear rules beats AI + 'figure it out.'",,Draft,Quick transformation proof
+6,LinkedIn,Contrarian,Claude Code Tips,Why your AI prompts are failing (and it's not what you think),"Most people write prompts like 'Write me a viral tweet.'
+
+Then they're disappointed when AI outputs generic garbage.
+
+AI doesn't need creativity. It needs frameworks.
+
+Bad prompt: 'Help me brainstorm content ideas.'
+
+Good prompt: 'Apply the Contrarian Hook formula to my project update. The formula: Challenge common assumption + reveal better approach. My update: I built a job scraper that processes 1000 listings in seconds.'
+
+How to do this yourself:
+1. Find 10 posts in your niche that performed well
+2. Identify the structure
+3. Turn that structure into a template
+4. Ask AI to apply that template to YOUR content
+
+Takeaway: The frameworks do the creative heavy lifting. Build a library of frameworks you can combine and reuse.",What framework would you want to template first?,Draft,Educational contrarian post
+7,X Thread,Benefit-Driven,Automation,How I automated vendor quote collection (saving 15+ hours/month),"THREAD WITH 9 TWEETS - See JSON file for individual tweets covering: old painful workflow, what I built, multi-platform search, contact extraction, AI personalization, results (50 contacts in 5 min vs 2 hours), how to build your own.",What tedious workflow would you automate first?,Draft,Practical automation case study - now with actual tweets
+8,X,Contrarian,Non-Technical Creator,The best programmers I know don't write code anymore.,"They write specifications.
+They describe systems.
+They architect solutions.
+
+Then AI implements.
+
+The skill hierarchy has flipped:
+Clarity > Syntax
+Architecture > Implementation
+
+Takeaway: Practice describing WHAT you need, not HOW to build it.",,Draft,Skill hierarchy flip
+9,LinkedIn,How-To,AI Coding Journey,The exact process I use to build tools with Claude Code (as a non-developer),"People ask how I build software without a technical background.
+
+Here's my exact process:
+
+Step 1: Define the Problem Clearly
+Not 'I want a scraper.' Instead: specific inputs, outputs, and constraints.
+
+Step 2: Start with the Simplest Version
+Always ask: 'What's the minimal version that would be useful?'
+
+Step 3: Describe, Don't Dictate
+Describe WHAT you need, not HOW to build it. Let Claude choose.
+
+Step 4: Test Immediately
+Run the code right away. Errors are feedback, not failure.
+
+Step 5: Document What Works
+Every successful pattern goes into my CLAUDE.md file.
+
+Takeaway: You're not a coder. You're a product manager with an infinitely patient engineering team.",What's the first tool you'd build with this process?,Draft,Beginner-friendly process post
+10,X,Transformation,Building in Public,My first Claude Code project took 3 days and barely worked.,"My latest took 2 hours and ships to production.
+
+The difference:
+- Clearer requirements upfront
+- CLAUDE.md context files
+- Breaking into smaller tasks
+- Testing as I go (not at the end)
+
+Takeaway: AI gets better when YOU get better at collaborating with it. It's a skill.",,Draft,Progress demonstration

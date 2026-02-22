@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-11-13T09:03:27.134323",
+  "collection_date": "2025-11-14T09:03:52.263788",
   "projects": {
     "Demo": {
       "name": "Demo",
@@ -623,12 +623,12 @@
     "heatseeker": {
       "name": "heatseeker",
       "path": "/Users/elizabethknopf/Documents/claudec/active/heatseeker",
-      "file_count": 25,
+      "file_count": 26,
       "file_types": {
+        ".md": 12,
         ".html": 12,
         ".json": 1,
-        ".jpg": 1,
-        ".md": 11
+        ".jpg": 1
       },
       "has_agents": false,
       "has_automation": false,
@@ -1348,12 +1348,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "AI",
+          "JavaScript",
           "Flask",
           "FastAPI",
-          "JavaScript",
-          "PostgreSQL",
-          "Python"
+          "AI",
+          "Python",
+          "PostgreSQL"
         ],
         "business_impact": []
       }
@@ -1361,9 +1361,9 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 172,
+      "file_count": 173,
       "file_types": {
-        ".md": 53,
+        ".md": 54,
         ".txt": 2,
         ".py": 24,
         ".html": 1,
@@ -1760,10 +1760,11 @@
     "site_scraper": {
       "name": "site_scraper",
       "path": "/Users/elizabethknopf/Documents/claudec/active/site_scraper",
-      "file_count": 8,
+      "file_count": 11,
       "file_types": {
         ".md": 2,
         ".py": 4,
+        "": 3,
         ".txt": 1,
         ".json": 1
       },
@@ -2464,15 +2465,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "React",
-          "OpenAI",
           "Supabase",
           "AI",
           "Claude",
+          "GPT",
+          "OpenAI",
           "ML",
-          "PostgreSQL",
+          "React",
           "Python",
-          "GPT"
+          "PostgreSQL"
         ],
         "business_impact": []
       }
@@ -2637,7 +2638,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "42 active projects",
-      "detail": "Managing 3,685 files across diverse projects",
+      "detail": "Managing 3,690 files across diverse projects",
       "hook": "How I manage 42 projects simultaneously with Claude Code"
     },
     {
@@ -2680,7 +2681,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across JavaScript/React, Web, Python",
+      "detail": "Working across Web, JavaScript/React, Python",
       "hook": "How Claude Code lets me code in any language"
     }
   ],
