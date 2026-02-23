@@ -1,98 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2025-11-14T09:03:50.143939",
+    "generated_at": "2026-02-23T08:33:47.189827",
     "mode": "balanced",
     "auto_approve_enabled": true,
-    "total_pieces": 3,
+    "total_pieces": 0,
     "auto_approved": 0,
-    "requires_review": 3
+    "requires_review": 0
   },
-  "content_ready_for_sheets": [
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "Automated AI marketing campaigns to simplify campaign management.",
-        "source": "AI Medium",
-        "url": "https://medium.com/@xdungha5/automated-ai-marketing-campaigns-to-simplify-campaign-management-64ba8faefdca?source=rss------ai-5",
-        "opportunity_type": "productivity"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "benefit_driven",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "transformation_story",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "How AI Is Quietly Reshaping Everyday Businesses",
-        "source": "AI Medium",
-        "url": "https://medium.com/@aionlineprofits/how-ai-is-quietly-reshaping-everyday-businesses-a1026006ad2e?source=rss------ai-5",
-        "opportunity_type": "tool_review"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "benefit_driven",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "practical_demo",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
-      },
-      "auto_approved": false,
-      "requires_review": true
-    },
-    {
-      "type": "fusion",
-      "trend_source": {
-        "title": "8 AI Tools to Analyze Data in Excel by Just Chatting",
-        "source": "Analytics Vidhya Blog | Knowledge Hub for AI and Generative AI",
-        "url": "https://www.analyticsvidhya.com/blog/2025/11/ai-tools-for-excel/",
-        "opportunity_type": "tool_review"
-      },
-      "personal_example": null,
-      "angles": [],
-      "statistics": [],
-      "framework": "benefit_driven",
-      "platforms": [
-        "LinkedIn",
-        "Twitter"
-      ],
-      "fusion_strength": "standalone",
-      "variation_style": "practical_demo",
-      "quality_score": {
-        "fusion_strength": 5,
-        "data_quality": 0,
-        "angle_quality": 0.0,
-        "platform_fit": 10,
-        "total": 15
-      },
-      "auto_approved": false,
-      "requires_review": true
-    }
-  ],
+  "content_ready_for_sheets": [],
   "sheet_columns": [
     "Title",
     "Trend Source",

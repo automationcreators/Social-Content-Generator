@@ -47,6 +47,8 @@ daily_run.log
 
 # Environment
 .env
+.env.local
+.env.*
 
 # Build artifacts
 .next/
