@@ -1,5 +1,5 @@
 {
-  "collection_date": "2026-02-23T08:33:49.704064",
+  "collection_date": "2026-02-23T09:03:54.198903",
   "projects": {
     "untitled folder": {
       "name": "untitled folder",
@@ -208,13 +208,13 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "PostgreSQL",
+          "FastAPI",
           "AI",
           "Python",
-          "OpenAI",
-          "Claude",
           "Supabase",
-          "FastAPI",
-          "PostgreSQL"
+          "Claude",
+          "OpenAI"
         ],
         "business_impact": []
       }
@@ -856,12 +856,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "AWS",
-          "AI",
-          "OpenAI",
+          "PostgreSQL",
           "Redis",
+          "AI",
+          "AWS",
           "Supabase",
-          "PostgreSQL"
+          "OpenAI"
         ],
         "business_impact": []
       }
@@ -1847,12 +1847,12 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "PostgreSQL",
           "JavaScript",
-          "AI",
-          "Python",
-          "Flask",
           "FastAPI",
-          "PostgreSQL"
+          "AI",
+          "Flask",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1980,9 +1980,9 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 325,
+      "file_count": 327,
       "file_types": {
-        ".md": 71,
+        ".md": 72,
         "": 3,
         ".txt": 3,
         ".py": 26,
@@ -1999,6 +1999,7 @@
         ".csv": 6,
         ".pdf": 1,
         ".sh": 1,
+        ".log": 1,
         ".pickle": 1
       },
       "has_agents": true,
@@ -2113,6 +2114,10 @@
           "type": "agent"
         },
         {
+          "file": "youtube_scripts_2026-02-23_claude_skills_vs_traditional_automation_tools.md",
+          "type": "automation"
+        },
+        {
           "file": "2025-11-10_agentic_ai_80_percent_customer_service_authority.md",
           "type": "agent"
         },
@@ -2187,8 +2192,8 @@
         ],
         "tech_stack": [
           "Python",
-          "Claude",
-          "AI"
+          "AI",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -4512,15 +4517,15 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
+          "PostgreSQL",
           "React",
           "GPT",
-          "ML",
           "AI",
           "Python",
-          "OpenAI",
           "Supabase",
           "Claude",
-          "PostgreSQL"
+          "ML",
+          "OpenAI"
         ],
         "business_impact": []
       }
@@ -4685,7 +4690,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "55 active projects",
-      "detail": "Managing 13,828 files across diverse projects",
+      "detail": "Managing 13,830 files across diverse projects",
       "hook": "How I manage 55 projects simultaneously with Claude Code"
     },
     {
@@ -4728,7 +4733,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Python, JavaScript/React, Web",
+      "detail": "Working across Python, Web, JavaScript/React",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

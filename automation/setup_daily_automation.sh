@@ -5,10 +5,10 @@
 echo "🔧 Setting up daily content generation automation"
 echo ""
 
-AGENTS_DIR="/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents"
+SCG_DIR="/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator"
 
 # Create cron job entry
-CRON_COMMAND="0 9 * * * cd $AGENTS_DIR && /usr/local/bin/python3 daily_content_generator.py --mode balanced >> $AGENTS_DIR/daily_run.log 2>&1"
+CRON_COMMAND="0 9 * * * cd $SCG_DIR && /opt/homebrew/bin/python3 automation/daily_content_generator.py --mode balanced >> automation/daily_run.log 2>&1"
 
 echo "📋 This will add the following cron job:"
 echo "$CRON_COMMAND"
@@ -40,13 +40,13 @@ else
     echo "   Time: 9:00 AM every day"
     echo "   Action: Generate 6 content pieces"
     echo "   Output: New Google Sheets tab (Content_YYYYMMDD)"
-    echo "   Log: $AGENTS_DIR/daily_run.log"
+    echo "   Log: $SCG_DIR/daily_run.log"
     echo ""
     echo "🔍 To verify cron job:"
     echo "   crontab -l | grep daily_content"
     echo ""
     echo "📝 To view logs:"
-    echo "   tail -f $AGENTS_DIR/daily_run.log"
+    echo "   tail -f $SCG_DIR/daily_run.log"
     echo ""
     echo "🗑️  To remove automation:"
     echo "   crontab -e"
