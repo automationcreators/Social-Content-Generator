@@ -1,5 +1,5 @@
 {
-  "collection_date": "2026-02-23T09:03:54.198903",
+  "collection_date": "2026-02-23T09:29:03.683318",
   "projects": {
     "untitled folder": {
       "name": "untitled folder",
@@ -97,14 +97,14 @@
     "receipt-reconciler": {
       "name": "receipt-reconciler",
       "path": "/Users/elizabethknopf/Documents/claudec/active/receipt-reconciler",
-      "file_count": 23,
+      "file_count": 25,
       "file_types": {
         ".md": 2,
         "": 2,
         ".txt": 1,
         ".example": 1,
         ".xlsx": 2,
-        ".csv": 5,
+        ".csv": 7,
         ".json": 2,
         ".py": 8
       },
@@ -137,8 +137,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -152,18 +152,18 @@
         "": 4,
         ".txt": 1,
         ".example": 1,
-        ".png": 1,
-        ".pdf": 1,
-        ".epub": 1,
         ".json": 5,
         ".py": 25,
         ".toml": 1,
-        ".css": 1,
-        ".html": 3,
         ".db-shm": 1,
         ".db-wal": 1,
         ".db": 1,
-        ".sql": 1
+        ".sql": 1,
+        ".css": 1,
+        ".html": 3,
+        ".png": 1,
+        ".pdf": 1,
+        ".epub": 1
       },
       "has_agents": false,
       "has_automation": true,
@@ -194,14 +194,14 @@
         "insights": [
           "Application configuration and settings.",
           "FastAPI app with API endpoints and preview server.",
-          "Children's educational graphic novel pipeline - illustration-heavy with structured panels.",
-          "Pipeline for children's educational graphic novels.",
-          "Focus: Stoicism, traditional values, history, STEM themes woven into",
-          "Generate all illustrations (cover + chapter panels).",
-          "Abstract base pipeline defining the shared ebook creation workflow.",
-          "Base pipeline: outline -> chapters -> images -> review -> export.",
-          "Each step is independently callable for iterative work.",
-          "Reload ebook data from database."
+          "CLI: Export a book to EPUB and/or PDF with quality checks.",
+          "Run quality checks before export. Returns list of warnings.",
+          "CLI: Create a new ebook and run the full pipeline.",
+          "CLI: Generate or regenerate specific chapter(s).",
+          "CLI: Generate illustrations for a book.",
+          "Preview server routes are integrated into backend/app.py.",
+          "uvicorn backend.app:app --port 3088",
+          "Children's educational graphic novel pipeline - illustration-heavy with structured panels."
         ],
         "guides": [],
         "tips": [],
@@ -209,11 +209,11 @@
         "problems_solved": [],
         "tech_stack": [
           "PostgreSQL",
-          "FastAPI",
-          "AI",
-          "Python",
           "Supabase",
+          "Python",
+          "AI",
           "Claude",
+          "FastAPI",
           "OpenAI"
         ],
         "business_impact": []
@@ -228,10 +228,10 @@
         ".txt": 70,
         ".md": 3,
         ".example": 1,
+        ".json": 70,
         ".sqlite3": 1,
         ".bin": 4,
-        ".pickle": 1,
-        ".json": 70
+        ".pickle": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -322,9 +322,9 @@
         ".zip": 1,
         ".ts": 11,
         ".css": 4,
+        ".tsx": 6,
         ".png": 8,
-        ".svg": 2,
-        ".tsx": 6
+        ".svg": 2
       },
       "has_agents": false,
       "has_automation": true,
@@ -381,13 +381,13 @@
       "file_types": {
         ".md": 8,
         ".json": 4,
-        ".html": 1,
-        ".tsx": 10,
-        ".css": 1,
         ".txt": 1,
         "": 1,
         ".example": 1,
-        ".py": 25
+        ".py": 25,
+        ".html": 1,
+        ".tsx": 10,
+        ".css": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -434,8 +434,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -478,14 +478,14 @@
         ".example": 2,
         ".db": 1,
         ".html": 1,
-        ".js": 5,
-        ".css": 1,
         ".tag": 1,
-        ".sql": 1,
         ".sqlite3": 1,
+        ".mako": 1,
         ".bin": 4,
         ".pickle": 1,
-        ".mako": 1
+        ".sql": 1,
+        ".js": 5,
+        ".css": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -544,8 +544,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -566,11 +566,11 @@
         ".txt": 1,
         ".prisma": 1,
         ".db": 1,
-        ".gz": 10,
-        ".old": 2,
+        ".tsx": 21,
         ".css": 2,
         ".woff2": 7,
-        ".tsx": 21
+        ".gz": 10,
+        ".old": 2
       },
       "has_agents": true,
       "has_automation": false,
@@ -618,9 +618,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -659,14 +659,6 @@
           "type": "agent"
         },
         {
-          "file": ".agent-config.json",
-          "type": "agent"
-        },
-        {
-          "file": ".agent-config.json",
-          "type": "agent"
-        },
-        {
           "file": "agents.js",
           "type": "agent"
         },
@@ -696,6 +688,14 @@
         },
         {
           "file": "agent-data.json",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
+          "type": "agent"
+        },
+        {
+          "file": ".agent-config.json",
           "type": "agent"
         }
       ],
@@ -746,8 +746,8 @@
         ],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -795,18 +795,18 @@
         "": 5,
         ".example": 1,
         ".prisma": 1,
-        ".pack": 18,
-        ".old": 4,
-        ".gz": 29,
+        ".ico": 1,
+        ".tsx": 3,
+        ".css": 2,
+        ".woff": 4,
         ".js": 139,
         ".rsc": 2,
         ".html": 4,
         ".meta": 3,
         ".body": 1,
-        ".css": 2,
-        ".woff": 4,
-        ".ico": 1,
-        ".tsx": 3
+        ".pack": 18,
+        ".old": 4,
+        ".gz": 29
       },
       "has_agents": true,
       "has_automation": true,
@@ -857,10 +857,10 @@
         "problems_solved": [],
         "tech_stack": [
           "PostgreSQL",
+          "Supabase",
           "Redis",
           "AI",
           "AWS",
-          "Supabase",
           "OpenAI"
         ],
         "business_impact": []
@@ -879,15 +879,15 @@
         ".txt": 1,
         ".prisma": 1,
         ".db": 1,
-        ".toml": 1,
-        ".sql": 1,
         ".js": 132,
         ".map": 109,
+        ".svg": 5,
+        ".ico": 2,
+        ".tsx": 11,
         ".css": 5,
         ".woff2": 6,
-        ".ico": 2,
-        ".svg": 5,
-        ".tsx": 11
+        ".toml": 1,
+        ".sql": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -914,8 +914,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -967,8 +967,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1127,8 +1127,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1165,8 +1165,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1178,18 +1178,18 @@
       "file_types": {
         ".md": 8,
         ".json": 14,
+        "": 1,
+        ".example": 1,
+        ".js": 8,
+        ".ts": 6,
         ".ico": 2,
         ".html": 2,
         ".png": 4,
         ".txt": 3,
-        ".map": 3,
-        ".css": 3,
-        ".js": 8,
         ".tsx": 7,
-        ".ts": 6,
+        ".css": 3,
         ".svg": 1,
-        "": 1,
-        ".example": 1
+        ".map": 3
       },
       "has_agents": true,
       "has_automation": false,
@@ -1238,9 +1238,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1265,14 +1265,14 @@
         ".js": 6,
         ".html": 2,
         ".ts": 11,
-        ".css": 4,
-        ".png": 8,
-        ".svg": 2,
-        ".tsx": 6,
         ".sh": 1,
+        ".csv": 1,
         ".docx": 25,
         ".pdf": 2,
-        ".csv": 1
+        ".css": 4,
+        ".tsx": 6,
+        ".png": 8,
+        ".svg": 2
       },
       "has_agents": false,
       "has_automation": true,
@@ -1345,12 +1345,12 @@
         ".json": 114,
         ".sh": 2,
         ".js": 2,
+        ".txt": 1,
+        ".db": 1,
         ".html": 1,
         ".tsx": 6,
         ".css": 1,
-        ".ts": 2,
-        ".txt": 1,
-        ".db": 1
+        ".ts": 2
       },
       "has_agents": true,
       "has_automation": true,
@@ -1424,8 +1424,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1496,9 +1496,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1567,9 +1567,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1639,8 +1639,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -1699,9 +1699,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -1715,9 +1715,9 @@
         ".toml": 1,
         ".example": 1,
         ".tag": 1,
-        "": 2,
         ".py": 31,
-        ".json": 1
+        ".json": 1,
+        "": 2
       },
       "has_agents": false,
       "has_automation": false,
@@ -1736,12 +1736,12 @@
           "Create sample OHLCV data for testing.",
           "Create async HTTP client for API testing.",
           "Test suite for backtest application.",
-          "Tests for SMA crossover strategy.",
-          "Test suite for SMA Crossover strategy.",
-          "Test that SMA crossover strategy runs without errors.",
-          "Test that strategy detects crossovers correctly.",
-          "Test suite for RSI Mean Reversion strategy.",
-          "Test that RSI strategy runs without errors."
+          "Application configuration using pydantic-settings.",
+          "Application settings loaded from environment variables.",
+          "Get the full path to the token file.",
+          "Ensure the data directory exists.",
+          "Backtest - A trading strategy backtesting system with Schwab API integration.",
+          "Main FastAPI application entry point."
         ],
         "guides": [
           {
@@ -1782,13 +1782,13 @@
         ".md": 14,
         ".example": 1,
         ".json": 4,
-        ".css": 1,
-        ".js": 1,
-        ".html": 12,
         ".py": 28,
         ".pkl": 1,
         ".csv": 1,
-        ".db": 1
+        ".db": 1,
+        ".html": 12,
+        ".css": 1,
+        ".js": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -1848,11 +1848,11 @@
         "problems_solved": [],
         "tech_stack": [
           "PostgreSQL",
-          "JavaScript",
-          "FastAPI",
-          "AI",
           "Flask",
-          "Python"
+          "Python",
+          "JavaScript",
+          "AI",
+          "FastAPI"
         ],
         "business_impact": []
       }
@@ -1914,18 +1914,18 @@
         ".mjs": 3,
         ".tsbuildinfo": 1,
         ".ts": 7,
-        ".gz": 8,
-        ".old": 2,
-        ".js": 55,
-        ".css": 2,
-        ".woff2": 7,
-        ".svg": 5,
-        ".tsx": 16,
-        ".ico": 1,
         ".txt": 1,
         ".ini": 1,
         ".mako": 1,
-        ".py": 59
+        ".py": 59,
+        ".svg": 5,
+        ".tsx": 16,
+        ".ico": 1,
+        ".css": 2,
+        ".js": 55,
+        ".woff2": 7,
+        ".gz": 8,
+        ".old": 2
       },
       "has_agents": false,
       "has_automation": false,
@@ -1946,11 +1946,7 @@
           "Celery application configuration.",
           "Dependency for getting database sessions.",
           "Detailed health check including database and Redis connectivity.",
-          "Returns status of all critical services.",
-          "Video fetching and management tasks.",
-          "Get database session for tasks.",
-          "Fetch recent videos from a YouTube channel.",
-          "channel_id: Internal channel UUID"
+          "Returns status of all critical services."
         ],
         "guides": [
           {
@@ -1980,9 +1976,9 @@
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
       "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
-      "file_count": 327,
+      "file_count": 329,
       "file_types": {
-        ".md": 72,
+        ".md": 74,
         "": 3,
         ".txt": 3,
         ".py": 26,
@@ -1991,16 +1987,16 @@
         ".local": 1,
         ".js": 63,
         ".ts": 8,
-        ".tsx": 14,
-        ".gz": 5,
-        ".old": 1,
-        ".css": 2,
-        ".woff2": 7,
         ".csv": 6,
-        ".pdf": 1,
         ".sh": 1,
         ".log": 1,
-        ".pickle": 1
+        ".pickle": 1,
+        ".pdf": 1,
+        ".tsx": 14,
+        ".css": 2,
+        ".woff2": 7,
+        ".gz": 5,
+        ".old": 1
       },
       "has_agents": true,
       "has_automation": true,
@@ -2091,6 +2087,10 @@
         },
         {
           "file": "2025-11-10_ntt_data_65_percent_automation_authority.md",
+          "type": "automation"
+        },
+        {
+          "file": "youtube_scripts_2026-02-23_business_process_automation_that_actually_works.md",
           "type": "automation"
         },
         {
@@ -2191,9 +2191,9 @@
           }
         ],
         "tech_stack": [
+          "Claude",
           "Python",
-          "AI",
-          "Claude"
+          "AI"
         ],
         "business_impact": []
       }
@@ -2257,17 +2257,17 @@
         ".example": 1,
         ".json": 7,
         ".bak": 1,
+        ".png": 20,
+        ".js": 9,
+        ".sql": 2,
+        ".old": 3,
         ".ico": 1,
         ".html": 1,
-        ".png": 20,
         ".txt": 1,
         ".tsx": 8,
         ".css": 2,
         ".ts": 6,
-        ".svg": 1,
-        ".js": 9,
-        ".sql": 2,
-        ".old": 3
+        ".svg": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -2316,8 +2316,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -2411,8 +2411,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -2668,8 +2668,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Claude",
-          "JavaScript"
+          "JavaScript",
+          "Claude"
         ],
         "business_impact": []
       }
@@ -2687,19 +2687,19 @@
         ".md": 1,
         ".json": 53,
         "": 4,
-        ".pack": 15,
-        ".old": 2,
         ".js": 100,
+        ".ico": 1,
+        ".tsx": 22,
+        ".css": 2,
+        ".woff": 3,
+        ".sql": 2,
         ".map": 2,
         ".rsc": 18,
         ".html": 20,
         ".meta": 19,
         ".body": 1,
-        ".css": 2,
-        ".woff": 3,
-        ".sql": 2,
-        ".ico": 1,
-        ".tsx": 22
+        ".pack": 15,
+        ".old": 2
       },
       "has_agents": false,
       "has_automation": false,
@@ -2829,23 +2829,31 @@
         ".xml": 11,
         ".env": 1,
         ".html": 7,
-        ".ico": 1,
-        ".png": 55,
-        ".svg": 7,
-        ".css": 15,
-        ".tar": 4,
-        ".zip": 2,
-        ".tgz": 1,
         ".js": 865,
-        ".hash": 2,
         ".resolved": 2,
         ".swift": 498,
+        ".css": 15,
         ".jpg": 12,
-        ".mdx": 6,
-        ".jsonl": 3,
-        ".jpeg": 3,
-        ".prose": 64,
         ".mts": 2,
+        ".png": 55,
+        ".svg": 7,
+        ".hash": 2,
+        ".txt": 4,
+        ".jsonl": 3,
+        ".map": 110,
+        ".xcconfig": 2,
+        ".xcfilelist": 1,
+        ".kts": 3,
+        ".properties": 2,
+        ".bat": 1,
+        ".pro": 1,
+        ".jar": 1,
+        ".kt": 77,
+        ".plist": 6,
+        ".entitlements": 1,
+        ".icns": 1,
+        ".py": 6,
+        ".sql": 1,
         ".in": 1,
         ".timer": 1,
         ".service": 1,
@@ -2853,21 +2861,13 @@
         ".go": 14,
         ".sum": 1,
         ".qr-import": 1,
-        ".sql": 1,
-        ".py": 6,
-        ".txt": 4,
-        ".icns": 1,
-        ".plist": 6,
-        ".xcconfig": 2,
-        ".xcfilelist": 1,
-        ".entitlements": 1,
-        ".kts": 3,
-        ".properties": 2,
-        ".bat": 1,
-        ".pro": 1,
-        ".kt": 77,
-        ".jar": 1,
-        ".map": 110
+        ".prose": 64,
+        ".mdx": 6,
+        ".jpeg": 3,
+        ".tar": 4,
+        ".zip": 2,
+        ".tgz": 1,
+        ".ico": 1
       },
       "has_agents": true,
       "has_automation": true,
@@ -2882,54 +2882,6 @@
       "interesting_files": [
         {
           "file": "AGENTS.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agents.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-identity.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-skills.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agent-files.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agents.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agents-panels-tools-skills.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agents-utils.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agents-panels-status-files.ts",
           "type": "agent"
         },
         {
@@ -2989,358 +2941,6 @@
           "type": "agent"
         },
         {
-          "file": "agent-scope-B0ASKZw6.js",
-          "type": "agent"
-        },
-        {
-          "file": "agent-events.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-components.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "types.cron.d.ts",
-          "type": "automation"
-        },
-        {
-          "file": "types.agents.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "zod-schema.agents.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "zod-schema.agent-model.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "types.agent-defaults.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "zod-schema.agent-runtime.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-dirs.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "zod-schema.agent-defaults.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-limits.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-scope.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-registry.store.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-registry.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-announce-queue.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-spawn.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-announce.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-paths.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagent-depth.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron-tool.d.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agent-step.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agents-list-tool.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagents-tool.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-media-payload.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagents-format.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.act.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.shared.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.snapshot.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.storage.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.debug.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.act.shared.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner-memory.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagents-utils.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner-helpers.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner-utils.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner-execution.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-runner-payloads.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "commands-subagents.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron.d.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agent.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agents-models-skills.d.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-send.md",
-          "type": "agent"
-        },
-        {
-          "file": "subagents.md",
-          "type": "agent"
-        },
-        {
-          "file": "multi-agent-sandbox-tools.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-tools.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron-add-hardening.md",
-          "type": "automation"
-        },
-        {
-          "file": "wizard-cli-automation.md",
-          "type": "automation"
-        },
-        {
-          "file": "agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agents.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron.md",
-          "type": "automation"
-        },
-        {
-          "file": "AGENTS.md",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-send.md",
-          "type": "agent"
-        },
-        {
-          "file": "subagents.md",
-          "type": "agent"
-        },
-        {
-          "file": "multi-agent-sandbox-tools.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-tools.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron-add-hardening.md",
-          "type": "automation"
-        },
-        {
-          "file": "agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agents.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron.md",
-          "type": "automation"
-        },
-        {
-          "file": "agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-workspace.md",
-          "type": "agent"
-        },
-        {
-          "file": "multi-agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-loop.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron-jobs.md",
-          "type": "automation"
-        },
-        {
-          "file": "cron-vs-heartbeat.md",
-          "type": "automation"
-        },
-        {
-          "file": "AGENTS.default.md",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.dev.md",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.md",
-          "type": "agent"
-        },
-        {
-          "file": "background-process.md",
-          "type": "automation"
-        },
-        {
-          "file": "agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-workspace.md",
-          "type": "agent"
-        },
-        {
-          "file": "multi-agent.md",
-          "type": "agent"
-        },
-        {
-          "file": "agent-loop.md",
-          "type": "agent"
-        },
-        {
-          "file": "cron-jobs.md",
-          "type": "automation"
-        },
-        {
-          "file": "cron-vs-heartbeat.md",
-          "type": "automation"
-        },
-        {
-          "file": "agents-ui.jpg",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.default.md",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.dev.md",
-          "type": "agent"
-        },
-        {
-          "file": "AGENTS.md",
-          "type": "agent"
-        },
-        {
-          "file": "background-process.md",
-          "type": "automation"
-        },
-        {
-          "file": "10-code-review-agents.prose",
-          "type": "agent"
-        },
-        {
-          "file": "09-research-with-agents.prose",
-          "type": "agent"
-        },
-        {
-          "file": "12-secure-agent-permissions.prose",
-          "type": "agent"
-        },
-        {
-          "file": "dynamic-agent.ts",
-          "type": "agent"
-        },
-        {
           "file": "cron_usage_report.ts",
           "type": "automation"
         },
@@ -3353,114 +2953,6 @@
           "type": "automation"
         },
         {
-          "file": "background.js",
-          "type": "automation"
-        },
-        {
-          "file": "CronJobEditorSmokeTests.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronModelsTests.swift",
-          "type": "automation"
-        },
-        {
-          "file": "AgentWorkspaceTests.swift",
-          "type": "agent"
-        },
-        {
-          "file": "AgentEventStoreTests.swift",
-          "type": "agent"
-        },
-        {
-          "file": "GatewayAgentChannelTests.swift",
-          "type": "agent"
-        },
-        {
-          "file": "DeepLinkAgentPolicyTests.swift",
-          "type": "agent"
-        },
-        {
-          "file": "GatewayLaunchAgentManagerTests.swift",
-          "type": "agent"
-        },
-        {
-          "file": "CronJobsStore.swift",
-          "type": "automation"
-        },
-        {
-          "file": "AgentEventStore.swift",
-          "type": "agent"
-        },
-        {
-          "file": "CronSettings+Rows.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronSettings+Actions.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronSettings+Testing.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronModels.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronSettings.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronJobEditor+Helpers.swift",
-          "type": "automation"
-        },
-        {
-          "file": "AgentEventsWindow.swift",
-          "type": "agent"
-        },
-        {
-          "file": "CronSettings+Helpers.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronJobEditor+Testing.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronSettings+Layout.swift",
-          "type": "automation"
-        },
-        {
-          "file": "CronJobEditor.swift",
-          "type": "automation"
-        },
-        {
-          "file": "LaunchAgentManager.swift",
-          "type": "agent"
-        },
-        {
-          "file": "AgentWorkspace.swift",
-          "type": "agent"
-        },
-        {
-          "file": "GatewayLaunchAgentManager.swift",
-          "type": "agent"
-        },
-        {
-          "file": "ShareToAgentDeepLink.swift",
-          "type": "agent"
-        },
-        {
-          "file": "ShareToAgentSettings.swift",
-          "type": "agent"
-        },
-        {
-          "file": "ShareToAgentDeepLinkTests.swift",
-          "type": "agent"
-        },
-        {
           "file": "heartbeat-runner.scheduler.test.ts",
           "type": "automation"
         },
@@ -3470,18 +2962,6 @@
         },
         {
           "file": "agent-events.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-delivery.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-delivery.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-components.ts",
           "type": "agent"
         },
         {
@@ -3669,42 +3149,6 @@
           "type": "agent"
         },
         {
-          "file": "cron-tool.e2e.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "cron-tool.ts",
-          "type": "automation"
-        },
-        {
-          "file": "cron-tool.test-helpers.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agents-list-tool.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron-tool.flat-params.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agent-step.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "subagents-tool.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-step.ts",
-          "type": "agent"
-        },
-        {
-          "file": "oauth.fallback-to-main-agent.e2e.test.ts",
-          "type": "agent"
-        },
-        {
           "file": "agent-media-payload.ts",
           "type": "agent"
         },
@@ -3721,22 +3165,6 @@
           "type": "automation"
         },
         {
-          "file": "register.cron-simple.ts",
-          "type": "automation"
-        },
-        {
-          "file": "register.cron-edit.ts",
-          "type": "automation"
-        },
-        {
-          "file": "register.cron-add.ts",
-          "type": "automation"
-        },
-        {
-          "file": "register.agent.ts",
-          "type": "agent"
-        },
-        {
           "file": "server.agent-contract-form-layout-act-commands.test.ts",
           "type": "agent"
         },
@@ -3746,34 +3174,6 @@
         },
         {
           "file": "server.agent-contract.test-harness.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.debug.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.snapshot.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.act.shared.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.shared.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.act.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.storage.ts",
           "type": "agent"
         },
         {
@@ -3853,10 +3253,6 @@
           "type": "agent"
         },
         {
-          "file": "agents.ts",
-          "type": "agent"
-        },
-        {
           "file": "reply.triggers.trigger-handling.handles-inline-commands-strips-it-before-agent.e2e.test.ts",
           "type": "agent"
         },
@@ -3866,6 +3262,134 @@
         },
         {
           "file": "reply.triggers.trigger-handling.includes-error-cause-embedded-agent-throws.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-prompt.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "server-cron.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "server-chat.agent-events.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-event-assistant-text.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-prompt.ts",
+          "type": "agent"
+        },
+        {
+          "file": "server-cron.ts",
+          "type": "automation"
+        },
+        {
+          "file": "server.agent.gateway-server-agent.mocks.ts",
+          "type": "agent"
+        },
+        {
+          "file": "server.agent.gateway-server-agent-b.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "server.agent.gateway-server-agent-a.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "server.cron.e2e.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "isolated-agent.uses-last-non-empty-agent-text-as.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "isolated-agent.test-harness.ts",
+          "type": "agent"
+        },
+        {
+          "file": "service.issue-16156-list-skips-cron.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "isolated-agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "isolated-agent.skips-delivery-without-whatsapp-recipient-besteffortdeliver-true.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "isolated-agent.delivery-target-thread-session.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "isolated-agent.delivers-response-has-heartbeat-ok-but-includes.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "isolated-agent.mocks.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron-protocol-conformance.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "isolated-agent.test-setup.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-followup.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-timestamp.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-job.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agents.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents-mutate.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "AGENTS.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents-models-skills.ts",
           "type": "agent"
         },
         {
@@ -3929,83 +3453,259 @@
           "type": "agent"
         },
         {
-          "file": "agent-prompt.e2e.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "server-cron.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "server-chat.agent-events.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-event-assistant-text.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-prompt.ts",
-          "type": "agent"
-        },
-        {
-          "file": "server-cron.ts",
-          "type": "automation"
-        },
-        {
-          "file": "server.agent.gateway-server-agent.mocks.ts",
-          "type": "agent"
-        },
-        {
-          "file": "server.agent.gateway-server-agent-b.e2e.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "server.agent.gateway-server-agent-a.e2e.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "server.cron.e2e.test.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agent.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron.ts",
-          "type": "automation"
-        },
-        {
-          "file": "agents-models-skills.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-timestamp.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent-job.ts",
-          "type": "agent"
-        },
-        {
-          "file": "agent.ts",
-          "type": "agent"
-        },
-        {
           "file": "agents.ts",
           "type": "agent"
         },
         {
-          "file": "agent.test.ts",
+          "file": "agent.debug.ts",
           "type": "agent"
         },
         {
-          "file": "cron.ts",
+          "file": "agent.snapshot.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.act.shared.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.shared.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.act.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.storage.ts",
+          "type": "agent"
+        },
+        {
+          "file": "register.cron-simple.ts",
           "type": "automation"
         },
         {
-          "file": "agents-mutate.test.ts",
+          "file": "register.cron-edit.ts",
+          "type": "automation"
+        },
+        {
+          "file": "register.cron-add.ts",
+          "type": "automation"
+        },
+        {
+          "file": "register.agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron-tool.e2e.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "cron-tool.ts",
+          "type": "automation"
+        },
+        {
+          "file": "cron-tool.test-helpers.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents-list-tool.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron-tool.flat-params.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agent-step.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagents-tool.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-step.ts",
+          "type": "agent"
+        },
+        {
+          "file": "oauth.fallback-to-main-agent.e2e.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-components.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-delivery.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-delivery.test.ts",
+          "type": "agent"
+        },
+        {
+          "file": "ShareToAgentDeepLinkTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "ShareToAgentDeepLink.swift",
+          "type": "agent"
+        },
+        {
+          "file": "ShareToAgentSettings.swift",
+          "type": "agent"
+        },
+        {
+          "file": "CronJobsStore.swift",
+          "type": "automation"
+        },
+        {
+          "file": "AgentEventStore.swift",
+          "type": "agent"
+        },
+        {
+          "file": "CronSettings+Rows.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronSettings+Actions.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronSettings+Testing.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronModels.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronSettings.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronJobEditor+Helpers.swift",
+          "type": "automation"
+        },
+        {
+          "file": "AgentEventsWindow.swift",
+          "type": "agent"
+        },
+        {
+          "file": "CronSettings+Helpers.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronJobEditor+Testing.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronSettings+Layout.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronJobEditor.swift",
+          "type": "automation"
+        },
+        {
+          "file": "LaunchAgentManager.swift",
+          "type": "agent"
+        },
+        {
+          "file": "AgentWorkspace.swift",
+          "type": "agent"
+        },
+        {
+          "file": "GatewayLaunchAgentManager.swift",
+          "type": "agent"
+        },
+        {
+          "file": "CronJobEditorSmokeTests.swift",
+          "type": "automation"
+        },
+        {
+          "file": "CronModelsTests.swift",
+          "type": "automation"
+        },
+        {
+          "file": "AgentWorkspaceTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "AgentEventStoreTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "GatewayAgentChannelTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "DeepLinkAgentPolicyTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "GatewayLaunchAgentManagerTests.swift",
+          "type": "agent"
+        },
+        {
+          "file": "background.js",
+          "type": "automation"
+        },
+        {
+          "file": "dynamic-agent.ts",
+          "type": "agent"
+        },
+        {
+          "file": "10-code-review-agents.prose",
+          "type": "agent"
+        },
+        {
+          "file": "09-research-with-agents.prose",
+          "type": "agent"
+        },
+        {
+          "file": "12-secure-agent-permissions.prose",
+          "type": "agent"
+        },
+        {
+          "file": "agent-send.md",
+          "type": "agent"
+        },
+        {
+          "file": "subagents.md",
+          "type": "agent"
+        },
+        {
+          "file": "multi-agent-sandbox-tools.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-tools.md",
+          "type": "agent"
+        },
+        {
+          "file": "wizard-cli-automation.md",
+          "type": "automation"
+        },
+        {
+          "file": "agent.md",
+          "type": "agent"
+        },
+        {
+          "file": "agents.md",
+          "type": "agent"
+        },
+        {
+          "file": "cron.md",
+          "type": "automation"
+        },
+        {
+          "file": "AGENTS.md",
           "type": "agent"
         },
         {
@@ -4013,47 +3713,347 @@
           "type": "agent"
         },
         {
-          "file": "isolated-agent.uses-last-non-empty-agent-text-as.e2e.test.ts",
+          "file": "agent.md",
           "type": "agent"
         },
         {
-          "file": "isolated-agent.test-harness.ts",
+          "file": "agent-workspace.md",
           "type": "agent"
         },
         {
-          "file": "service.issue-16156-list-skips-cron.test.ts",
+          "file": "multi-agent.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-loop.md",
+          "type": "agent"
+        },
+        {
+          "file": "cron-jobs.md",
           "type": "automation"
         },
         {
-          "file": "isolated-agent.ts",
-          "type": "agent"
-        },
-        {
-          "file": "isolated-agent.skips-delivery-without-whatsapp-recipient-besteffortdeliver-true.e2e.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "isolated-agent.delivery-target-thread-session.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "isolated-agent.delivers-response-has-heartbeat-ok-but-includes.test.ts",
-          "type": "agent"
-        },
-        {
-          "file": "isolated-agent.mocks.ts",
-          "type": "agent"
-        },
-        {
-          "file": "cron-protocol-conformance.test.ts",
+          "file": "cron-vs-heartbeat.md",
           "type": "automation"
         },
         {
-          "file": "isolated-agent.test-setup.ts",
+          "file": "AGENTS.default.md",
           "type": "agent"
         },
         {
-          "file": "subagent-followup.ts",
+          "file": "background-process.md",
+          "type": "automation"
+        },
+        {
+          "file": "AGENTS.dev.md",
+          "type": "agent"
+        },
+        {
+          "file": "AGENTS.md",
+          "type": "agent"
+        },
+        {
+          "file": "agents-ui.jpg",
+          "type": "agent"
+        },
+        {
+          "file": "agent-send.md",
+          "type": "agent"
+        },
+        {
+          "file": "subagents.md",
+          "type": "agent"
+        },
+        {
+          "file": "multi-agent-sandbox-tools.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-tools.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent.md",
+          "type": "agent"
+        },
+        {
+          "file": "agents.md",
+          "type": "agent"
+        },
+        {
+          "file": "cron.md",
+          "type": "automation"
+        },
+        {
+          "file": "agent.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-workspace.md",
+          "type": "agent"
+        },
+        {
+          "file": "multi-agent.md",
+          "type": "agent"
+        },
+        {
+          "file": "agent-loop.md",
+          "type": "agent"
+        },
+        {
+          "file": "cron-jobs.md",
+          "type": "automation"
+        },
+        {
+          "file": "cron-vs-heartbeat.md",
+          "type": "automation"
+        },
+        {
+          "file": "AGENTS.default.md",
+          "type": "agent"
+        },
+        {
+          "file": "background-process.md",
+          "type": "automation"
+        },
+        {
+          "file": "AGENTS.dev.md",
+          "type": "agent"
+        },
+        {
+          "file": "AGENTS.md",
+          "type": "agent"
+        },
+        {
+          "file": "cron-add-hardening.md",
+          "type": "automation"
+        },
+        {
+          "file": "cron-add-hardening.md",
+          "type": "automation"
+        },
+        {
+          "file": "agent-scope-B0ASKZw6.js",
+          "type": "agent"
+        },
+        {
+          "file": "agent-events.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "types.cron.d.ts",
+          "type": "automation"
+        },
+        {
+          "file": "types.agents.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "zod-schema.agents.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "zod-schema.agent-model.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "types.agent-defaults.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "zod-schema.agent-runtime.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-dirs.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "zod-schema.agent-defaults.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-limits.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-scope.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-registry.store.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-registry.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-announce-queue.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-spawn.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-announce.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-paths.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagent-depth.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-media-payload.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagents-format.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.d.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agent.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agents-models-skills.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner-memory.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagents-utils.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner-helpers.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner-utils.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner-execution.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-runner-payloads.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "commands-subagents.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.act.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.shared.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.snapshot.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.storage.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.debug.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent.act.shared.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron-tool.d.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agent-step.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agents-list-tool.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "subagents-tool.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-components.d.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-identity.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agent-skills.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agent-files.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.test.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents.ts",
+          "type": "agent"
+        },
+        {
+          "file": "cron.ts",
+          "type": "automation"
+        },
+        {
+          "file": "agents-panels-tools-skills.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agents-utils.ts",
+          "type": "agent"
+        },
+        {
+          "file": "agents-panels-status-files.ts",
           "type": "agent"
         }
       ],
@@ -4061,37 +4061,37 @@
       "estimated_complexity": "complex",
       "rich_content": {
         "insights": [
-          "Summarize CodexBar local cost usage by model.",
-          "Defaults to current model (most recent daily entry), or list all models.",
+          "Generate images using Google's Nano Banana Pro (Gemini 3 Pro Image) API.",
+          "uv run generate_image.py --prompt \"your image description\" --filename \"output.png\" [--resolution 1K|2K|4K] [--api-key KEY]",
+          "Get API key from argument first, then environment.",
+          "Return (default_size, default_quality) for the given model.",
+          "<a href=\"{it[\"file\"]}\"><img src=\"{it[\"file\"]}\" loading=\"lazy\" /></a>",
+          "<figcaption>{it[\"prompt\"]}</figcaption>",
+          "<title>openai-image-gen</title>",
+          ":root {{ color-scheme: dark; }}",
           "Skill Initializer - Creates a new skill from template",
-          "init_skill.py <skill-name> --path <path> [--resources scripts,references,assets] [--examples]",
-          "description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]",
-          "[TODO: 1-2 sentences explaining what this skill enables]",
-          "Example helper script for {skill_name}",
-          "This is a placeholder script that can be executed directly.",
-          "# Reference Documentation for {skill_title}",
-          "This is a placeholder for detailed reference documentation."
+          "init_skill.py <skill-name> --path <path> [--resources scripts,references,assets] [--examples]"
         ],
         "guides": [
           {
             "type": "step",
-            "content": "**Xcode 26.2+**: Required for Swift development."
-          },
-          {
-            "type": "step",
-            "content": "**Node.js 22+ & pnpm**: Required for the gateway, CLI, and packaging scripts."
-          },
-          {
-            "type": "step",
-            "content": "Go to the **General** settings tab."
-          },
-          {
-            "type": "step",
-            "content": "If that fails, change the `BUNDLE_ID` temporarily in [`scripts/package-mac-app.sh`](https://github.com/openclaw/openclaw/blob/main/scripts/package-mac-app.sh) to force a \"clean slate\" from macOS."
-          },
-          {
-            "type": "step",
             "content": "Install + launch **OpenClaw.app** (menu bar)."
+          },
+          {
+            "type": "step",
+            "content": "Complete the onboarding/permissions checklist (TCC prompts)."
+          },
+          {
+            "type": "step",
+            "content": "Ensure Gateway is **Local** and running (the app manages it)."
+          },
+          {
+            "type": "step",
+            "content": "Link surfaces (example: WhatsApp):"
+          },
+          {
+            "type": "step",
+            "content": "\u786e\u4fdd Gateway \u7f51\u5173\u662f**\u672c\u5730**\u5e76\u6b63\u5728\u8fd0\u884c\uff08\u5e94\u7528\u7ba1\u7406\u5b83\uff09\u3002"
           }
         ],
         "tips": [
@@ -4201,8 +4201,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -4315,12 +4315,12 @@
         "": 4,
         ".txt": 8,
         ".json": 6,
-        ".pdf": 3,
-        ".pptx": 1,
-        ".xls": 1,
         ".js": 3,
         ".png": 4,
-        ".html": 1
+        ".html": 1,
+        ".pdf": 3,
+        ".pptx": 1,
+        ".xls": 1
       },
       "has_agents": true,
       "has_automation": false,
@@ -4348,8 +4348,8 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
-          "Claude"
+          "Claude",
+          "Python"
         ],
         "business_impact": []
       }
@@ -4449,16 +4449,16 @@
         ".mjs": 2,
         ".vercel": 1,
         "": 35,
+        ".tsx": 44,
         ".map": 189,
+        ".svg": 5,
+        ".ico": 2,
+        ".css": 2,
+        ".woff2": 7,
         ".rsc": 12,
         ".meta": 15,
         ".html": 14,
-        ".body": 3,
-        ".css": 2,
-        ".woff2": 7,
-        ".ico": 2,
-        ".svg": 5,
-        ".tsx": 44
+        ".body": 3
       },
       "has_agents": true,
       "has_automation": false,
@@ -4518,14 +4518,14 @@
         "problems_solved": [],
         "tech_stack": [
           "PostgreSQL",
-          "React",
-          "GPT",
-          "AI",
-          "Python",
           "Supabase",
-          "Claude",
           "ML",
-          "OpenAI"
+          "Python",
+          "AI",
+          "Claude",
+          "GPT",
+          "OpenAI",
+          "React"
         ],
         "business_impact": []
       }
@@ -4540,15 +4540,15 @@
         ".json": 11,
         "": 2,
         ".example": 2,
+        ".ts": 11,
         ".ico": 2,
         ".html": 2,
         ".png": 4,
         ".txt": 3,
-        ".css": 3,
-        ".map": 3,
         ".tsx": 8,
-        ".ts": 11,
-        ".svg": 1
+        ".css": 3,
+        ".svg": 1,
+        ".map": 3
       },
       "has_agents": true,
       "has_automation": false,
@@ -4597,9 +4597,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -4662,9 +4662,9 @@
         "stories": [],
         "problems_solved": [],
         "tech_stack": [
-          "Python",
+          "JavaScript",
           "Claude",
-          "JavaScript"
+          "Python"
         ],
         "business_impact": []
       }
@@ -4690,7 +4690,7 @@
       "type": "scale",
       "title": "Building at Scale",
       "stat": "55 active projects",
-      "detail": "Managing 13,830 files across diverse projects",
+      "detail": "Managing 13,834 files across diverse projects",
       "hook": "How I manage 55 projects simultaneously with Claude Code"
     },
     {
@@ -4733,7 +4733,7 @@
       "type": "versatility",
       "title": "Multi-Stack Development",
       "stat": "3 technology stacks",
-      "detail": "Working across Python, Web, JavaScript/React",
+      "detail": "Working across Web, JavaScript/React, Python",
       "hook": "How Claude Code lets me code in any language"
     }
   ],

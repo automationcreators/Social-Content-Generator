@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/elizabethknopf/Documents/claudec/systems/skills-main/**)",
+      "Read(//Users/elizabethknopf/Documents/claudec/system/**)",
+      "Bash(ln:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "supabase",
+    "vercel"
+  ]
+}
