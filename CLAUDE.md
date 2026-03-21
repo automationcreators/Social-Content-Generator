@@ -62,3 +62,22 @@ python generators/daily_content_gen.py
 
 ---
 *Reference parent CLAUDE.md for full portfolio context*
+
+---
+
+## Mandatory Workflow Gates
+
+**BEFORE building any new feature (non-negotiable design gate):**
+1. Invoke `superpowers:brainstorming` — write a design doc, get explicit user approval
+2. Only then proceed: `writing-plans` → `executing-plans`
+3. Skipping this is the #1 cause of wasted work
+
+**BEFORE claiming any work is done:**
+- Run `superpowers:verification-before-completion`
+
+**WHEN starting work on any existing project:**
+- Invoke `remembering-conversations` skill to search episodic memory for prior decisions
+
+## Parallel Orchestration
+
+**When you have 3+ independent tasks**, use `driving-claude-code-sessions` skill to fan out to parallel Claude worker sessions via tmux.
