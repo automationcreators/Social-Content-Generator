@@ -3,7 +3,7 @@
   "projects": {
     "untitled folder": {
       "name": "untitled folder",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/untitled folder",
+      "path": "/home/example/Documents/claudec/active/untitled folder",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -27,7 +27,7 @@
     },
     "Demo": {
       "name": "Demo",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Demo",
+      "path": "/home/example/Documents/claudec/active/Demo",
       "file_count": 5,
       "file_types": {
         ".md": 1,
@@ -69,7 +69,7 @@
     },
     "smart-scraper-builder-plugin": {
       "name": "smart-scraper-builder-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/smart-scraper-builder-plugin",
+      "path": "/home/example/Documents/claudec/active/smart-scraper-builder-plugin",
       "file_count": 3,
       "file_types": {
         ".md": 2,
@@ -96,7 +96,7 @@
     },
     "receipt-reconciler": {
       "name": "receipt-reconciler",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/receipt-reconciler",
+      "path": "/home/example/Documents/claudec/active/receipt-reconciler",
       "file_count": 25,
       "file_types": {
         ".md": 2,
@@ -145,7 +145,7 @@
     },
     "ebooks": {
       "name": "ebooks",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ebooks",
+      "path": "/home/example/Documents/claudec/active/ebooks",
       "file_count": 58,
       "file_types": {
         ".md": 10,
@@ -221,7 +221,7 @@
     },
     "transcripts": {
       "name": "transcripts",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/transcripts",
+      "path": "/home/example/Documents/claudec/active/transcripts",
       "file_count": 158,
       "file_types": {
         ".py": 8,
@@ -284,7 +284,7 @@
     },
     "ai-knowledge-pipeline-plugin": {
       "name": "ai-knowledge-pipeline-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ai-knowledge-pipeline-plugin",
+      "path": "/home/example/Documents/claudec/active/ai-knowledge-pipeline-plugin",
       "file_count": 3,
       "file_types": {
         ".md": 2,
@@ -311,7 +311,7 @@
     },
     "promptSaver": {
       "name": "promptSaver",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/promptSaver",
+      "path": "/home/example/Documents/claudec/active/promptSaver",
       "file_count": 77,
       "file_types": {
         "": 1,
@@ -376,7 +376,7 @@
     },
     "vendor-quote-tool": {
       "name": "vendor-quote-tool",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/vendor-quote-tool",
+      "path": "/home/example/Documents/claudec/active/vendor-quote-tool",
       "file_count": 52,
       "file_types": {
         ".md": 8,
@@ -442,7 +442,7 @@
     },
     "goals": {
       "name": "goals",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/goals",
+      "path": "/home/example/Documents/claudec/active/goals",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -466,7 +466,7 @@
     },
     "YouTubeRAG": {
       "name": "YouTubeRAG",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
+      "path": "/home/example/Documents/claudec/active/YouTubeRAG",
       "file_count": 88,
       "file_types": {
         ".md": 20,
@@ -552,7 +552,7 @@
     },
     "dirKidSports": {
       "name": "dirKidSports",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/dirKidSports",
+      "path": "/home/example/Documents/claudec/active/dirKidSports",
       "file_count": 148,
       "file_types": {
         ".md": 8,
@@ -627,7 +627,7 @@
     },
     "Project Management": {
       "name": "Project Management",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
+      "path": "/home/example/Documents/claudec/active/Project Management",
       "file_count": 85,
       "file_types": {
         ".py": 3,
@@ -754,7 +754,7 @@
     },
     "stocktalk education": {
       "name": "stocktalk education",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/stocktalk education",
+      "path": "/home/example/Documents/claudec/active/stocktalk education",
       "file_count": 44,
       "file_types": {
         ".vtt": 20,
@@ -785,7 +785,7 @@
     },
     "YTExpert": {
       "name": "YTExpert",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/YTExpert",
+      "path": "/home/example/Documents/claudec/active/YTExpert",
       "file_count": 296,
       "file_types": {
         ".md": 5,
@@ -868,7 +868,7 @@
     },
     "UsageDash": {
       "name": "UsageDash",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/UsageDash",
+      "path": "/home/example/Documents/claudec/active/UsageDash",
       "file_count": 366,
       "file_types": {
         ".md": 7,
@@ -922,7 +922,7 @@
     },
     "legiscraper": {
       "name": "legiscraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/legiscraper",
+      "path": "/home/example/Documents/claudec/active/legiscraper",
       "file_count": 24,
       "file_types": {
         ".py": 7,
@@ -975,7 +975,7 @@
     },
     "heatseeker": {
       "name": "heatseeker",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/heatseeker",
+      "path": "/home/example/Documents/claudec/active/heatseeker",
       "file_count": 36,
       "file_types": {
         ".md": 16,
@@ -1030,7 +1030,7 @@
     },
     "tradingplan": {
       "name": "tradingplan",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/tradingplan",
+      "path": "/home/example/Documents/claudec/active/tradingplan",
       "file_count": 29,
       "file_types": {
         ".md": 2,
@@ -1097,7 +1097,7 @@
     },
     "ppp data": {
       "name": "ppp data",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ppp data",
+      "path": "/home/example/Documents/claudec/active/ppp data",
       "file_count": 5,
       "file_types": {
         ".xlsx": 1,
@@ -1135,7 +1135,7 @@
     },
     "data cleanup": {
       "name": "data cleanup",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/data cleanup",
+      "path": "/home/example/Documents/claudec/active/data cleanup",
       "file_count": 14,
       "file_types": {
         ".csv": 10,
@@ -1173,7 +1173,7 @@
     },
     "smart-image-editor": {
       "name": "smart-image-editor",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/smart-image-editor",
+      "path": "/home/example/Documents/claudec/active/smart-image-editor",
       "file_count": 63,
       "file_types": {
         ".md": 8,
@@ -1247,7 +1247,7 @@
     },
     "AIBrain": {
       "name": "AIBrain",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/AIBrain",
+      "path": "/home/example/Documents/claudec/active/AIBrain",
       "file_count": 150,
       "file_types": {
         ".md": 25,
@@ -1336,7 +1336,7 @@
     },
     "n8n bulk": {
       "name": "n8n bulk",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/n8n bulk",
+      "path": "/home/example/Documents/claudec/active/n8n bulk",
       "file_count": 147,
       "file_types": {
         ".md": 8,
@@ -1432,7 +1432,7 @@
     },
     "ad-variations-generator": {
       "name": "ad-variations-generator",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-variations-generator",
+      "path": "/home/example/Documents/claudec/active/ad-variations-generator",
       "file_count": 35,
       "file_types": {
         ".md": 7,
@@ -1505,7 +1505,7 @@
     },
     "chromeSkooldwl": {
       "name": "chromeSkooldwl",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/chromeSkooldwl",
+      "path": "/home/example/Documents/claudec/active/chromeSkooldwl",
       "file_count": 35,
       "file_types": {
         ".md": 11,
@@ -1576,7 +1576,7 @@
     },
     "Personal-OS": {
       "name": "Personal-OS",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Personal-OS",
+      "path": "/home/example/Documents/claudec/active/Personal-OS",
       "file_count": 42,
       "file_types": {
         ".py": 10,
@@ -1647,7 +1647,7 @@
     },
     "party-directory-platform": {
       "name": "party-directory-platform",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/party-directory-platform",
+      "path": "/home/example/Documents/claudec/active/party-directory-platform",
       "file_count": 47,
       "file_types": {
         ".md": 6,
@@ -1708,7 +1708,7 @@
     },
     "backtest": {
       "name": "backtest",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/backtest",
+      "path": "/home/example/Documents/claudec/active/backtest",
       "file_count": 40,
       "file_types": {
         ".md": 3,
@@ -1774,7 +1774,7 @@
     },
     "ContentGen": {
       "name": "ContentGen",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ContentGen",
+      "path": "/home/example/Documents/claudec/active/ContentGen",
       "file_count": 69,
       "file_types": {
         "": 4,
@@ -1859,7 +1859,7 @@
     },
     "transcriptions": {
       "name": "transcriptions",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/transcriptions",
+      "path": "/home/example/Documents/claudec/active/transcriptions",
       "file_count": 9,
       "file_types": {
         ".md": 3,
@@ -1902,7 +1902,7 @@
     },
     "YTNewsletter": {
       "name": "YTNewsletter",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/YTNewsletter",
+      "path": "/home/example/Documents/claudec/active/YTNewsletter",
       "file_count": 200,
       "file_types": {
         ".md": 5,
@@ -1975,7 +1975,7 @@
     },
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
+      "path": "/home/example/Documents/claudec/active/Social-Content-Generator",
       "file_count": 329,
       "file_types": {
         ".md": 74,
@@ -2168,7 +2168,7 @@
           {
             "type": "transformation",
             "before": "** ContentGen database is stale\n\n**",
-            "after": "**\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
+            "after": "**\n```bash\ncd /home/example/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
           },
           {
             "type": "transformation",
@@ -2179,7 +2179,7 @@
         "problems_solved": [
           {
             "problem": "** ContentGen database is stale\n\n**",
-            "solution": "**\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
+            "solution": "**\n```bash\ncd /home/example/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
           },
           {
             "problem": "** Emojis appearing in pillar content\n\n**",
@@ -2200,7 +2200,7 @@
     },
     "content-framework-studio-plugin": {
       "name": "content-framework-studio-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/content-framework-studio-plugin",
+      "path": "/home/example/Documents/claudec/active/content-framework-studio-plugin",
       "file_count": 6,
       "file_types": {
         ".md": 4,
@@ -2249,7 +2249,7 @@
     },
     "mapmaker": {
       "name": "mapmaker",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/mapmaker",
+      "path": "/home/example/Documents/claudec/active/mapmaker",
       "file_count": 72,
       "file_types": {
         ".md": 7,
@@ -2324,7 +2324,7 @@
     },
     "DataMapping": {
       "name": "DataMapping",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/DataMapping",
+      "path": "/home/example/Documents/claudec/active/DataMapping",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -2348,7 +2348,7 @@
     },
     "HOA": {
       "name": "HOA",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/HOA",
+      "path": "/home/example/Documents/claudec/active/HOA",
       "file_count": 14,
       "file_types": {
         ".md": 5,
@@ -2419,7 +2419,7 @@
     },
     "site_scraper": {
       "name": "site_scraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/site_scraper",
+      "path": "/home/example/Documents/claudec/active/site_scraper",
       "file_count": 8,
       "file_types": {
         ".md": 2,
@@ -2482,7 +2482,7 @@
     },
     "YTTransExt": {
       "name": "YTTransExt",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/YTTransExt",
+      "path": "/home/example/Documents/claudec/active/YTTransExt",
       "file_count": 12,
       "file_types": {
         ".py": 1,
@@ -2523,7 +2523,7 @@
     },
     "ragYT": {
       "name": "ragYT",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ragYT",
+      "path": "/home/example/Documents/claudec/active/ragYT",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -2547,7 +2547,7 @@
     },
     "xspaces": {
       "name": "xspaces",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/xspaces",
+      "path": "/home/example/Documents/claudec/active/xspaces",
       "file_count": 5,
       "file_types": {
         ".md": 4,
@@ -2595,7 +2595,7 @@
     },
     "scrapers": {
       "name": "scrapers",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/scrapers",
+      "path": "/home/example/Documents/claudec/active/scrapers",
       "file_count": 44,
       "file_types": {
         ".py": 35,
@@ -2676,7 +2676,7 @@
     },
     "kidsedu": {
       "name": "kidsedu",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/kidsedu",
+      "path": "/home/example/Documents/claudec/active/kidsedu",
       "file_count": 316,
       "file_types": {
         ".example": 1,
@@ -2725,7 +2725,7 @@
     },
     "OwnerScraper": {
       "name": "OwnerScraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
+      "path": "/home/example/Documents/claudec/active/OwnerScraper",
       "file_count": 896,
       "file_types": {
         ".md": 77,
@@ -2807,7 +2807,7 @@
     },
     "openclawdupe": {
       "name": "openclawdupe",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/openclawdupe",
+      "path": "/home/example/Documents/claudec/active/openclawdupe",
       "file_count": 8272,
       "file_types": {
         ".yaml": 15,
@@ -4106,7 +4106,7 @@
     },
     "project-automation-orchestrator-plugin": {
       "name": "project-automation-orchestrator-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/project-automation-orchestrator-plugin",
+      "path": "/home/example/Documents/claudec/active/project-automation-orchestrator-plugin",
       "file_count": 3,
       "file_types": {
         ".md": 2,
@@ -4133,7 +4133,7 @@
     },
     "JoblistingsAnalysis": {
       "name": "JoblistingsAnalysis",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/JoblistingsAnalysis",
+      "path": "/home/example/Documents/claudec/active/JoblistingsAnalysis",
       "file_count": 134,
       "file_types": {
         ".html": 17,
@@ -4209,7 +4209,7 @@
     },
     "dashboard-intelligence-plugin": {
       "name": "dashboard-intelligence-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/dashboard-intelligence-plugin",
+      "path": "/home/example/Documents/claudec/active/dashboard-intelligence-plugin",
       "file_count": 3,
       "file_types": {
         ".md": 2,
@@ -4236,7 +4236,7 @@
     },
     "personal-os-lifecycle-plugin": {
       "name": "personal-os-lifecycle-plugin",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/personal-os-lifecycle-plugin",
+      "path": "/home/example/Documents/claudec/active/personal-os-lifecycle-plugin",
       "file_count": 21,
       "file_types": {
         ".md": 16,
@@ -4308,7 +4308,7 @@
     },
     "trading": {
       "name": "trading",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/trading",
+      "path": "/home/example/Documents/claudec/active/trading",
       "file_count": 39,
       "file_types": {
         ".md": 8,
@@ -4356,7 +4356,7 @@
     },
     "web-scraper-app": {
       "name": "web-scraper-app",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/web-scraper-app",
+      "path": "/home/example/Documents/claudec/active/web-scraper-app",
       "file_count": 28,
       "file_types": {
         ".md": 4,
@@ -4392,7 +4392,7 @@
           },
           {
             "type": "step",
-            "content": "1. **Clone or navigate to the project**\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/web-scraper-app\n```\n\n2. **Install dependencies**\n```bash\nnpm install\n```\n\n3. **Create environment file**\n```bash\ncp .env.example .env\n```\n\n4. **Start development servers**\n```bash\nnpm run dev\n```\n\nThis will start:\n- Frontend: http://localhost:5173\n- Backend: http://localhost:3001"
+            "content": "1. **Clone or navigate to the project**\n```bash\ncd /home/example/Documents/claudec/active/web-scraper-app\n```\n\n2. **Install dependencies**\n```bash\nnpm install\n```\n\n3. **Create environment file**\n```bash\ncp .env.example .env\n```\n\n4. **Start development servers**\n```bash\nnpm run dev\n```\n\nThis will start:\n- Frontend: http://localhost:5173\n- Backend: http://localhost:3001"
           }
         ],
         "tips": [],
@@ -4404,7 +4404,7 @@
     },
     "StateScraper": {
       "name": "StateScraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/StateScraper",
+      "path": "/home/example/Documents/claudec/active/StateScraper",
       "file_count": 1,
       "file_types": {
         ".json": 1
@@ -4430,7 +4430,7 @@
     },
     "dirTechStack": {
       "name": "dirTechStack",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
+      "path": "/home/example/Documents/claudec/active/dirTechStack",
       "file_count": 1179,
       "file_types": {
         ".sql": 17,
@@ -4532,7 +4532,7 @@
     },
     "ad-scraper-analyzer": {
       "name": "ad-scraper-analyzer",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-scraper-analyzer",
+      "path": "/home/example/Documents/claudec/active/ad-scraper-analyzer",
       "file_count": 71,
       "file_types": {
         ".md": 8,
@@ -4606,7 +4606,7 @@
     },
     "LeadMag": {
       "name": "LeadMag",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/LeadMag",
+      "path": "/home/example/Documents/claudec/active/LeadMag",
       "file_count": 28,
       "file_types": {
         ".md": 5,

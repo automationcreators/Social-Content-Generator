@@ -3,7 +3,7 @@
   "projects": {
     "Demo": {
       "name": "Demo",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Demo",
+      "path": "/home/example/Documents/claudec/active/Demo",
       "file_count": 3,
       "file_types": {
         ".md": 1,
@@ -43,7 +43,7 @@
     },
     "promptSaver": {
       "name": "promptSaver",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/promptSaver",
+      "path": "/home/example/Documents/claudec/active/promptSaver",
       "file_count": 64,
       "file_types": {
         ".md": 18,
@@ -107,7 +107,7 @@
     },
     "vendor-quote-tool": {
       "name": "vendor-quote-tool",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/vendor-quote-tool",
+      "path": "/home/example/Documents/claudec/active/vendor-quote-tool",
       "file_count": 52,
       "file_types": {
         ".md": 8,
@@ -173,7 +173,7 @@
     },
     "YouTubeRAG": {
       "name": "YouTubeRAG",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/YouTubeRAG",
+      "path": "/home/example/Documents/claudec/active/YouTubeRAG",
       "file_count": 57,
       "file_types": {
         ".md": 7,
@@ -256,7 +256,7 @@
     },
     "dirKidSports": {
       "name": "dirKidSports",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/dirKidSports",
+      "path": "/home/example/Documents/claudec/active/dirKidSports",
       "file_count": 146,
       "file_types": {
         ".md": 8,
@@ -330,7 +330,7 @@
     },
     "Project Management": {
       "name": "Project Management",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Project Management",
+      "path": "/home/example/Documents/claudec/active/Project Management",
       "file_count": 63,
       "file_types": {
         ".py": 3,
@@ -453,7 +453,7 @@
     },
     "UsageDash": {
       "name": "UsageDash",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/UsageDash",
+      "path": "/home/example/Documents/claudec/active/UsageDash",
       "file_count": 364,
       "file_types": {
         ".md": 7,
@@ -506,7 +506,7 @@
     },
     "legiscraper": {
       "name": "legiscraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/legiscraper",
+      "path": "/home/example/Documents/claudec/active/legiscraper",
       "file_count": 24,
       "file_types": {
         ".py": 7,
@@ -559,7 +559,7 @@
     },
     "tradingplan": {
       "name": "tradingplan",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/tradingplan",
+      "path": "/home/example/Documents/claudec/active/tradingplan",
       "file_count": 5,
       "file_types": {
         ".pdf": 5
@@ -585,7 +585,7 @@
     },
     "ppp data": {
       "name": "ppp data",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ppp data",
+      "path": "/home/example/Documents/claudec/active/ppp data",
       "file_count": 5,
       "file_types": {
         ".xlsx": 1,
@@ -623,7 +623,7 @@
     },
     "data cleanup": {
       "name": "data cleanup",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/data cleanup",
+      "path": "/home/example/Documents/claudec/active/data cleanup",
       "file_count": 14,
       "file_types": {
         ".csv": 10,
@@ -661,7 +661,7 @@
     },
     "smart-image-editor": {
       "name": "smart-image-editor",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/smart-image-editor",
+      "path": "/home/example/Documents/claudec/active/smart-image-editor",
       "file_count": 63,
       "file_types": {
         ".md": 8,
@@ -735,7 +735,7 @@
     },
     "AIBrain": {
       "name": "AIBrain",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/AIBrain",
+      "path": "/home/example/Documents/claudec/active/AIBrain",
       "file_count": 145,
       "file_types": {
         ".md": 24,
@@ -824,7 +824,7 @@
     },
     "n8n bulk": {
       "name": "n8n bulk",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/n8n bulk",
+      "path": "/home/example/Documents/claudec/active/n8n bulk",
       "file_count": 148,
       "file_types": {
         ".md": 8,
@@ -920,7 +920,7 @@
     },
     "ad-variations-generator": {
       "name": "ad-variations-generator",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-variations-generator",
+      "path": "/home/example/Documents/claudec/active/ad-variations-generator",
       "file_count": 35,
       "file_types": {
         ".md": 7,
@@ -993,7 +993,7 @@
     },
     "chromeSkooldwl": {
       "name": "chromeSkooldwl",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/chromeSkooldwl",
+      "path": "/home/example/Documents/claudec/active/chromeSkooldwl",
       "file_count": 36,
       "file_types": {
         ".md": 11,
@@ -1065,7 +1065,7 @@
     },
     "Personal-OS": {
       "name": "Personal-OS",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Personal-OS",
+      "path": "/home/example/Documents/claudec/active/Personal-OS",
       "file_count": 39,
       "file_types": {
         ".py": 9,
@@ -1119,7 +1119,7 @@
     },
     "party-directory-platform": {
       "name": "party-directory-platform",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/party-directory-platform",
+      "path": "/home/example/Documents/claudec/active/party-directory-platform",
       "file_count": 45,
       "file_types": {
         ".md": 6,
@@ -1179,7 +1179,7 @@
     },
     "ContentGen": {
       "name": "ContentGen",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ContentGen",
+      "path": "/home/example/Documents/claudec/active/ContentGen",
       "file_count": 61,
       "file_types": {
         "": 2,
@@ -1263,7 +1263,7 @@
     },
     "Social-Content-Generator": {
       "name": "Social-Content-Generator",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator",
+      "path": "/home/example/Documents/claudec/active/Social-Content-Generator",
       "file_count": 84,
       "file_types": {
         ".md": 12,
@@ -1347,7 +1347,7 @@
           {
             "type": "transformation",
             "before": "** ContentGen database is stale\n\n**",
-            "after": "**\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
+            "after": "**\n```bash\ncd /home/example/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
           },
           {
             "type": "transformation",
@@ -1358,7 +1358,7 @@
         "problems_solved": [
           {
             "problem": "** ContentGen database is stale\n\n**",
-            "solution": "**\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
+            "solution": "**\n```bash\ncd /home/example/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collection\n```"
           },
           {
             "problem": "** Emojis appearing in pillar content\n\n**",
@@ -1375,7 +1375,7 @@
     },
     "mapmaker": {
       "name": "mapmaker",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/mapmaker",
+      "path": "/home/example/Documents/claudec/active/mapmaker",
       "file_count": 76,
       "file_types": {
         "": 6,
@@ -1450,7 +1450,7 @@
     },
     "DataMapping": {
       "name": "DataMapping",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/DataMapping",
+      "path": "/home/example/Documents/claudec/active/DataMapping",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -1474,7 +1474,7 @@
     },
     "HOA": {
       "name": "HOA",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/HOA",
+      "path": "/home/example/Documents/claudec/active/HOA",
       "file_count": 14,
       "file_types": {
         ".md": 5,
@@ -1545,7 +1545,7 @@
     },
     "ragYT": {
       "name": "ragYT",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ragYT",
+      "path": "/home/example/Documents/claudec/active/ragYT",
       "file_count": 0,
       "file_types": {},
       "has_agents": false,
@@ -1569,7 +1569,7 @@
     },
     "xspaces": {
       "name": "xspaces",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/xspaces",
+      "path": "/home/example/Documents/claudec/active/xspaces",
       "file_count": 5,
       "file_types": {
         ".md": 4,
@@ -1617,7 +1617,7 @@
     },
     "scrapers": {
       "name": "scrapers",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/scrapers",
+      "path": "/home/example/Documents/claudec/active/scrapers",
       "file_count": 44,
       "file_types": {
         ".py": 35,
@@ -1698,7 +1698,7 @@
     },
     "OwnerScraper": {
       "name": "OwnerScraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/OwnerScraper",
+      "path": "/home/example/Documents/claudec/active/OwnerScraper",
       "file_count": 776,
       "file_types": {
         ".md": 67,
@@ -1781,7 +1781,7 @@
     },
     "JoblistingsAnalysis": {
       "name": "JoblistingsAnalysis",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/JoblistingsAnalysis",
+      "path": "/home/example/Documents/claudec/active/JoblistingsAnalysis",
       "file_count": 134,
       "file_types": {
         ".html": 17,
@@ -1857,7 +1857,7 @@
     },
     "trading": {
       "name": "trading",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/trading",
+      "path": "/home/example/Documents/claudec/active/trading",
       "file_count": 29,
       "file_types": {
         ".md": 8,
@@ -1904,7 +1904,7 @@
     },
     "StateScraper": {
       "name": "StateScraper",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/StateScraper",
+      "path": "/home/example/Documents/claudec/active/StateScraper",
       "file_count": 1,
       "file_types": {
         ".json": 1
@@ -1930,7 +1930,7 @@
     },
     "dirTechStack": {
       "name": "dirTechStack",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/dirTechStack",
+      "path": "/home/example/Documents/claudec/active/dirTechStack",
       "file_count": 539,
       "file_types": {
         ".md": 31,
@@ -2024,7 +2024,7 @@
     },
     "ad-scraper-analyzer": {
       "name": "ad-scraper-analyzer",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/ad-scraper-analyzer",
+      "path": "/home/example/Documents/claudec/active/ad-scraper-analyzer",
       "file_count": 71,
       "file_types": {
         ".md": 8,
@@ -2098,7 +2098,7 @@
     },
     "LeadMag": {
       "name": "LeadMag",
-      "path": "/Users/elizabethknopf/Documents/claudec/active/LeadMag",
+      "path": "/home/example/Documents/claudec/active/LeadMag",
       "file_count": 28,
       "file_types": {
         ".md": 5,
@@ -2342,7 +2342,7 @@
       "project": "Social-Content-Generator",
       "title": "Social Content Generator",
       "use_case": "transformation",
-      "description": "{'type': 'transformation', 'before': '** ContentGen database is stale\\n\\n**', 'after': '**\\n```bash\\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\\npython3 backend/app.py\\n# Access http://localhost:5000 to trigger RSS collection\\n```'}",
+      "description": "{'type': 'transformation', 'before': '** ContentGen database is stale\\n\\n**', 'after': '**\\n```bash\\ncd /home/example/Documents/claudec/active/ContentGen\\npython3 backend/app.py\\n# Access http://localhost:5000 to trigger RSS collection\\n```'}",
       "tech": "Python",
       "category": "stories",
       "business_value": "See description"
@@ -2360,7 +2360,7 @@
       "project": "Social-Content-Generator",
       "title": "Social-Content-Generator - Problem Solved",
       "use_case": "Problem-Solution",
-      "description": "Problem: ** ContentGen database is stale\n\n**\nSolution: **\n```bash\ncd /Users/elizabethknopf/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collectio",
+      "description": "Problem: ** ContentGen database is stale\n\n**\nSolution: **\n```bash\ncd /home/example/Documents/claudec/active/ContentGen\npython3 backend/app.py\n# Access http://localhost:5000 to trigger RSS collectio",
       "tech": "Python",
       "category": "problem_solving",
       "business_value": "Problem solved efficiently"

@@ -388,7 +388,7 @@
 - `SCRIPTS_SUMMARY.md` - This executive summary
 
 **Location:**
-`/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/examples/`
+`/home/example/Documents/claudec/systems/skills-main/boring-business-brand/examples/`
 
 **Status:** Ready for implementation
 

@@ -5,10 +5,12 @@
 echo "🔧 Setting up daily content generation automation"
 echo ""
 
-SCG_DIR="/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator"
+# Override SCG_DIR or PYTHON_BIN in the environment. Defaults stay local to this clone.
+SCG_DIR="${SCG_DIR:-$(cd "$(dirname "$0")/.." && pwd)}"
+PYTHON_BIN="${PYTHON_BIN:-python3}"
 
 # Create cron job entry
-CRON_COMMAND="0 9 * * * cd $SCG_DIR && /opt/homebrew/bin/python3 automation/daily_content_generator.py --mode balanced >> automation/daily_run.log 2>&1"
+CRON_COMMAND="0 9 * * * cd $SCG_DIR && $PYTHON_BIN automation/daily_content_generator.py --mode balanced >> automation/daily_run.log 2>&1"
 
 echo "📋 This will add the following cron job:"
 echo "$CRON_COMMAND"

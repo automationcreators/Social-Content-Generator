@@ -137,7 +137,7 @@ A Python agent that runs every morning at 9 AM.
 **What it does:**
 
 ```
-1. Scans /Users/elizabethknopf/Documents/claudec/active/
+1. Scans /home/example/Documents/claudec/active/
 2. Finds every project directory (looks for git repos or CLAUDE.md files)
 3. Extracts structured data from each CLAUDE.md:
    - Project name and category

@@ -39,7 +39,7 @@ content_frameworks/
 
 1. **Create a new JSON file** in `content_frameworks/`:
    ```bash
-   cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks
+   cd /home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks
    ```
 
 2. **Follow the template**:
@@ -165,7 +165,7 @@ content_frameworks/
 
 ### 1. List All Frameworks
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents
+cd /home/example/Documents/claudec/active/Personal-OS/agents
 python3 content_frameworks/framework_loader.py list
 ```
 
@@ -222,7 +222,7 @@ python3 social_media_content_agent.py analyze
 
 **Framework File Location:**
 ```
-/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/
+/home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/
 ```
 
 ---

@@ -58,7 +58,7 @@ Each script file typically includes:
 
 This folder is integrated with the Boring Business AI brand skill located at:
 ```
-/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/
+/home/example/Documents/claudec/systems/skills-main/boring-business-brand/
 ```
 
 ### How It Works
@@ -84,9 +84,9 @@ incorporating recent research and Boring Business AI positioning.
 ## Google Drive Sync
 
 **Cloud Backup Location:**
-https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
+https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
 
-**Folder ID:** `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx`
+**Folder ID:** `REDACTED_DRIVE_FOLDER_ID`
 
 ### Manual Upload Process (Current)
 
@@ -198,7 +198,7 @@ All scripts in this directory incorporate:
 ## Related Resources
 
 ### Brand Assets
-Location: `/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/assets/`
+Location: `/home/example/Documents/claudec/systems/skills-main/boring-business-brand/assets/`
 
 Includes:
 - Logo variations
@@ -207,11 +207,11 @@ Includes:
 - Visual templates
 
 ### Brand Guidelines
-Document: `/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/BRAND_GUIDELINES.md`
+Document: `/home/example/Documents/claudec/systems/skills-main/boring-business-brand/BRAND_GUIDELINES.md`
 
 ### Skill Documentation
-Main: `/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/SKILL.md`
-Config: `/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/CONFIG.md`
+Main: `/home/example/Documents/claudec/systems/skills-main/boring-business-brand/SKILL.md`
+Config: `/home/example/Documents/claudec/systems/skills-main/boring-business-brand/CONFIG.md`
 
 ## Metrics & Tracking
 
@@ -249,6 +249,6 @@ incorporating [specific research or data points].
 ---
 
 **Last Updated:** November 10, 2025
-**Directory:** `/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/pillar_scripts/`
-**Cloud Backup:** https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
+**Directory:** `/home/example/Documents/claudec/active/Social-Content-Generator/pillar_scripts/`
+**Cloud Backup:** https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
 **Maintained By:** Boring Business AI Brand System

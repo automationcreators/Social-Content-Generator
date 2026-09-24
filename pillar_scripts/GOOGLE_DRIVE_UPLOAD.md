@@ -3,9 +3,9 @@
 ## Quick Upload
 
 **Target Folder:**
-https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
+https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
 
-**Folder ID:** `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx`
+**Folder ID:** `REDACTED_DRIVE_FOLDER_ID`
 
 ## Manual Upload Steps
 
@@ -75,13 +75,13 @@ If you have `gdrive` installed:
 
 ```bash
 # Navigate to pillar_scripts
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/pillar_scripts
+cd /home/example/Documents/claudec/active/Social-Content-Generator/pillar_scripts
 
 # Upload specific file
-gdrive upload --parent 1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx social_media_scripts_2025-11-09.md
+gdrive upload --parent REDACTED_DRIVE_FOLDER_ID social_media_scripts_2025-11-09.md
 
 # Upload all recent .md files (last 7 days)
-find . -name "*.md" -mtime -7 -exec gdrive upload --parent 1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx {} \;
+find . -name "*.md" -mtime -7 -exec gdrive upload --parent REDACTED_DRIVE_FOLDER_ID {} \;
 ```
 
 ### Using rclone
@@ -90,7 +90,7 @@ If you have `rclone` configured:
 
 ```bash
 # Sync entire folder
-rclone copy /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/pillar_scripts \
+rclone copy /home/example/Documents/claudec/active/Social-Content-Generator/pillar_scripts \
   gdrive:Content-Scripts/ \
   --include "*.md" \
   --exclude "test_*" \
@@ -142,6 +142,6 @@ For automatic upload setup or issues:
 ---
 
 **Last Updated:** November 10, 2025
-**Google Drive Folder:** https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
-**Folder ID:** `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx`
+**Google Drive Folder:** https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
+**Folder ID:** `REDACTED_DRIVE_FOLDER_ID`
 **Status:** Manual upload (automation planned)

@@ -12,6 +12,7 @@ from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from pathlib import Path
+import os
 import uuid
 import json
 import logging
@@ -19,9 +20,11 @@ import asyncio
 import sys
 import importlib.util
 
-# Setup paths first
-HOME = Path.home()
-PROJECT_ROOT = HOME / "Documents/claudec/active/Social-Content-Generator"
+# This repo, not a developer home directory. Override with SCG_PROJECT_ROOT.
+PROJECT_ROOT = Path(os.environ.get(
+    "SCG_PROJECT_ROOT",
+    str(Path(__file__).resolve().parent.parent),
+))
 PILLAR_SCRIPTS_PATH = PROJECT_ROOT / "pillar_scripts"
 sys.path.insert(0, str(PILLAR_SCRIPTS_PATH))
 sys.path.insert(0, str(PROJECT_ROOT))

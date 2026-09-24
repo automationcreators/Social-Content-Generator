@@ -1,8 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Read(//Users/elizabethknopf/Documents/claudec/systems/skills-main/**)",
-      "Read(//Users/elizabethknopf/Documents/claudec/system/**)",
+      "Read(//home/example/Documents/claudec/systems/skills-main/**)",
+      "Read(//home/example/Documents/claudec/system/**)",
       "Bash(ln:*)"
     ]
   },

@@ -205,7 +205,7 @@ Platforms | Fusion Strength | Quality Score | Auto Approved | Status
 
 ### Generate Daily Content
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator
+cd /home/example/Documents/claudec/active/Social-Content-Generator
 python3 automation/daily_content_generator.py --mode balanced
 ```
 

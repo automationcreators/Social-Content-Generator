@@ -7,7 +7,7 @@
 - **Phase**: active
 
 ## Parent Context
-**IMPORTANT**: For content generation, reference the parent CLAUDE.md at `/Users/elizabethknopf/Documents/claudec/CLAUDE.md` for:
+**IMPORTANT**: For content generation, reference the parent CLAUDE.md at `/home/example/Documents/claudec/CLAUDE.md` for:
 - Full project portfolio (40+ projects)
 - Real metrics and examples
 - Daily activity logs (LOG.md, CONTEXT.md)

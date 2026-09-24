@@ -21,6 +21,14 @@ from planning_analysis_agent import PlanningAnalysisAgent
 from social_media_content_agent import SocialMediaContentAgent
 
 
+def active_projects_dir() -> Path:
+    """Directory of sibling projects. Override with ACTIVE_PROJECTS_DIR."""
+    return Path(os.environ.get(
+        "ACTIVE_PROJECTS_DIR",
+        "/home/example/Documents/claudec/active",
+    ))
+
+
 class WeeklyProgressAgent(BaseAgent):
     """Agent for tracking and summarizing weekly progress"""
     
@@ -196,7 +204,7 @@ class WeeklyProgressAgent(BaseAgent):
     
     def _analyze_portfolio_progress(self, week_start: datetime, week_end: datetime) -> Dict[str, Any]:
         """Analyze progress across project portfolio"""
-        active_dir = Path("/Users/elizabethknopf/Documents/claudec/active")
+        active_dir = active_projects_dir()
         project_paths = [str(p) for p in active_dir.iterdir() if p.is_dir() and not p.name.startswith('.')]
         
         portfolio_analysis = {
@@ -361,7 +369,7 @@ class WeeklyProgressAgent(BaseAgent):
                 pass
         
         # Check for major project milestones
-        active_dir = Path("/Users/elizabethknopf/Documents/claudec/active")
+        active_dir = active_projects_dir()
         for project_dir in active_dir.iterdir():
             if project_dir.is_dir() and not project_dir.name.startswith('.'):
                 # Check if project was set up with complete configuration this week
@@ -386,7 +394,7 @@ class WeeklyProgressAgent(BaseAgent):
                         pass
         
         # Check for dashboard/localhost integration milestones
-        dashboard_dir = Path("/Users/elizabethknopf/Documents/claudec/active/Project Management/dashboard")
+        dashboard_dir = active_projects_dir() / "Project Management/dashboard"
         if dashboard_dir.exists():
             for file_path in dashboard_dir.glob("localhost*"):
                 try:
@@ -418,7 +426,7 @@ class WeeklyProgressAgent(BaseAgent):
         }
         
         # Count file modifications across all projects
-        active_dir = Path("/Users/elizabethknopf/Documents/claudec/active")
+        active_dir = active_projects_dir()
         projects_with_activity = set()
         
         for project_dir in active_dir.iterdir():

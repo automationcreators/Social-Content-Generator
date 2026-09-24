@@ -20,11 +20,14 @@ import pickle
 # If modifying these scopes, delete token.pickle
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
 
-# Google Drive folder ID (Boring Business AI - Social Scripts)
-FOLDER_ID = '1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx'
+# Set GDRIVE_FOLDER_ID in the environment. Do not commit a real folder id.
+FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "")
 
-# Credentials location
-CREDENTIALS_DIR = Path.home() / 'Documents/claudec/systems/skills-main/boring-business-brand/credentials'
+# OAuth client JSON and token.pickle live outside the repo.
+CREDENTIALS_DIR = Path(os.environ.get(
+    "GOOGLE_CREDENTIALS_DIR",
+    str(Path.home() / ".config/social-content-generator"),
+))
 CREDENTIALS_FILE = CREDENTIALS_DIR / 'google-drive-credentials.json'
 TOKEN_FILE = CREDENTIALS_DIR / 'token.pickle'
 
@@ -125,6 +128,10 @@ def main():
     if not files_to_upload:
         print("No files to upload.")
         print(f"Usage: {sys.argv[0]} [file1.md file2.md ...]")
+        sys.exit(1)
+
+    if not FOLDER_ID:
+        print("Error: set GDRIVE_FOLDER_ID before uploading.")
         sys.exit(1)
 
     # Authenticate

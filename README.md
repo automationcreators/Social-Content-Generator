@@ -1,375 +1,120 @@
 # Social Content Generator
 
-**AI-powered social media content generation pipeline that fuses trending topics with personal projects**
+CLI and local UI that draft social posts from your own project notes, RSS items, and hook frameworks. Output lands in `generated_content/` and, if you configure Google OAuth, in a Google Sheet.
 
-Automatically generates daily content for LinkedIn, Twitter, YouTube, and Threads by combining:
-- RSS trend scanning (AI/business focus)
-- Data-driven research
-- Contrarian angle generation
-- Personal project examples
-- Long-form pillar content
+This checkout is a **demo snapshot**. It does not include API keys, OAuth tokens, or a ContentGen database. You can read the generators and the sample posts without credentials. Live generation, Sheets sync, and Drive upload stay off until you supply your own env vars.
 
-## 🎯 What It Does
+## What it does
 
-1. **Scans RSS feeds** for trending AI/business topics from ContentGen database
-2. **Researches supporting data** - finds statistics, reports, and credibility markers
-3. **Generates multiple angles** - professional, spicy/contrarian, and balanced variations
-4. **Fuses with personal projects** - connects trends to your real work examples
-5. **Syncs to Google Sheets** - ready-to-post content with date tracking
-6. **Creates pillar content** - long-form scripts for YouTube and LinkedIn articles
+1. Reads recent items from a local ContentGen SQLite database (`CONTENTGEN_DB`).
+2. Scores them and drafts angles (professional, contrarian, balanced).
+3. Mixes in examples from a local projects directory (`ACTIVE_PROJECTS_DIR`).
+4. Writes posts, threads, and pillar scripts under `generated_content/` and `pillar_scripts/`.
+5. Optionally appends rows to Google Sheets or uploads scripts to Drive.
 
-## 📊 Output
+Sample posts already in `generated_content/` are static. They are not a live feed.
 
-**Daily Content Tab:**
-- 4 content pieces per day
-- Auto-approved based on quality scoring
-- Platform suggestions (LinkedIn, Twitter, YouTube, Threads)
-- Emoji-free, clean formatting
-- Date column for tracking
+## Demo vs production
 
-**Pillar Content Tab:**
-- 3 long-form content pieces
-- YouTube scripts (8-12 minutes)
-- LinkedIn articles (1500+ words)
-- Twitter threads (8-10 tweets)
-- Instagram/Threads posts
-- Date column for tracking
+| | Demo (this repo) | Production |
+| --- | --- | --- |
+| Sample posts | Read the JSON/CSV in `generated_content/` | Generate new posts daily |
+| API keys | None committed | Your Gemini key in `.env` |
+| Google OAuth | Not included | Client JSON + `token.pickle` outside the repo |
+| ContentGen DB | Not included | Your own RSS database |
+| Sheets / Drive | Placeholders only | Your spreadsheet and folder |
+| Scheduling | Script exists; cron is opt-in | Your machine, your cron |
 
-## 🚀 Quick Start
+Do not point this at customer lists, private inboxes, or someone else's Drive folder. Generated copy in this repo has had personal filesystem paths, private Drive folder ids, and named individuals from a research dataset replaced with placeholders. Git history may still contain the old values. See the pull request notes before treating history as clean.
 
-### Prerequisites
+## Run it
 
-1. **ContentGen database** - RSS feed aggregator
-2. **Google OAuth credentials** - for Sheets sync
-3. **Python 3.9+**
-
-### Installation
+Python 3.9+. Node 18+ only if you want the Next.js UI.
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator
+cp .env.example .env
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-```
 
-### Configuration
+# Static check of the sample library (no API key)
+python3 -c "import json; d=json.load(open('generated_content/social-content-all-100.json')); print(len(d['posts']), 'posts')"
 
-1. **Set up Google OAuth:**
-   - Place `google_token.pickle` in `data/` directory
-
-2. **Configure ContentGen path:**
-   - Update database path in `scouts/rss_content_scout.py`
-   - Default: `/Users/elizabethknopf/Documents/claudec/active/ContentGen/data/database.db`
-
-### Daily Generation
-
-```bash
-# Run once daily (recommended: 9 AM)
+# Daily draft. Fails closed if CONTENTGEN_DB is missing.
 python3 automation/daily_content_generator.py --mode balanced
 ```
 
-**Modes:**
-- `professional` - Data-driven, educational, credible
-- `spicy` - Contrarian, provocative, memorable
-- `balanced` - Mix of credibility + edge (recommended)
+Load env vars into the shell before the Python process (`set -a && source .env && set +a`, or your own runner). The scripts read the process environment. They do not load `.env` automatically.
 
-### Automated Daily Runs
+### Environment variables
+
+Copy `.env.example`. Every value below is a placeholder.
+
+| Variable | Used by | Required for |
+| --- | --- | --- |
+| `SCG_WORKSPACE_ROOT` | agent framework, Gemini script generator | Anything that looks up sibling projects |
+| `CONTENTGEN_DB` | `scouts/rss_content_scout.py` | RSS-based drafts |
+| `ACTIVE_PROJECTS_DIR` | project collector, weekly progress agent | Example mining |
+| `GOOGLE_API_KEY` | `pillar_scripts/unified_gemini_youtube_generator.py` | Live Gemini calls |
+| `GDRIVE_FOLDER_ID` | Drive upload scripts | Uploads |
+| `GOOGLE_CREDENTIALS_DIR` | Drive OAuth | Where `google-drive-credentials.json` and `token.pickle` live |
+| `NEXT_PUBLIC_API_URL` | `frontend/next.config.js` | UI talking to the API |
+
+OAuth setup, if you need Sheets or Drive:
+
+1. In Google Cloud Console, create an OAuth client (Desktop) for the Drive and Sheets APIs you actually use.
+2. Save the client JSON as `$GOOGLE_CREDENTIALS_DIR/google-drive-credentials.json`.
+3. Run an upload or sync script once and complete the browser consent flow. The token is written next to that JSON as `token.pickle`.
+4. Do not commit either file. `.gitignore` ignores `*.pickle`, `client_secret*.json`, and `google-drive-credentials.json`.
+
+### UI
 
 ```bash
-# Set up cron job for 9 AM daily
-bash automation/setup_daily_automation.sh
+cp frontend/.env.example frontend/.env.local
+cd frontend && npm install && npm run dev
 ```
 
-## 📁 Repository Structure
+In another shell, from the repo root:
 
-```
-Social-Content-Generator/
-├── scouts/                    # RSS and trend scanning
-│   └── rss_content_scout.py
-├── research/                  # Data research agents
-│   └── research_data_agent.py
-├── generators/               # Content generation
-│   ├── contrarian_angle_generator.py
-│   ├── content_orchestrator.py
-│   └── pillar_content_generator.py
-├── sync/                     # Google Sheets integration
-│   ├── sync_to_google_sheets.py
-│   ├── pillar_content_sync.py
-│   └── consolidate_tabs.py
-├── config/                   # Configuration files
-│   ├── content_frameworks/
-│   ├── project_data_analysis.json
-│   └── social_media_content_database.json
-├── data/                     # Generated data & credentials
-│   ├── google_token.pickle
-│   ├── rss_ideas_database.json
-│   ├── final_content_output.json
-│   └── pillar_content_library.json
-├── automation/              # Daily automation
-│   ├── daily_content_generator.py
-│   ├── setup_daily_automation.sh
-│   └── webhook_server.py
-└── utils/                   # Utilities
-    └── remove_emojis.py
-```
-
-## 🔄 How It Works
-
-### Pipeline Flow
-
-```
-ContentGen DB → RSS Scout → Research Agent → Angle Generator → Orchestrator → Google Sheets
-                                                                      ↓
-                                                              Pillar Generator
-```
-
-### 1. RSS Content Scout
-- Scans ContentGen database for AI/business articles (last 14 days)
-- Scores by relevance, brand alignment, viral potential
-- Ensures source diversity (max 3 from same source)
-- Categorizes by opportunity type (trend, tutorial, comparison, etc.)
-
-### 2. Research Data Agent
-- Finds supporting statistics and data
-- Adds credibility markers
-- Sources: industry reports, studies, benchmarks
-
-### 3. Contrarian Angle Generator
-- Creates 3 variations per idea:
-  - Professional (data-driven)
-  - Spicy/Contrarian (provocative)
-  - Balanced (mix of both)
-- Uses Kallaway hook frameworks
-
-### 4. Content Orchestrator
-- Fuses trending topics with personal project examples
-- Rotates through pillar content (automation projects)
-- Varies format based on content type:
-  - Tutorials: 1 example (how-to format)
-  - Case studies: 1 example (story format)
-  - Trends: 2 examples (standard format)
-- Quality scoring and auto-approval
-
-### 5. Pillar Content Generator
-- Creates long-form content:
-  - YouTube scripts (8-12 minutes)
-  - LinkedIn articles (1500+ words)
-  - Twitter threads (8-10 tweets)
-  - Instagram/Threads posts
-- Includes real project examples
-- Statistics and credibility markers
-
-### 6. Google Sheets Sync
-- Single "Content" tab with date column
-- Single "Pillar Content" tab with date column
-- Appends daily (no new tabs)
-- Emoji-free formatting
-- Auto-approval status
-
-## 🎨 Content Quality
-
-### Scoring System (0-100)
-
-- **Relevance** (0-30): Match to focus areas
-- **Brand Alignment** (0-25): Personal brand keywords
-- **Viral Potential** (0-20): Engagement signals
-- **Trending** (0-15): Current momentum
-- **Quality** (0-10): Content depth
-
-**Auto-approval threshold:** 70+
-
-### Source Diversity
-
-- Maximum 3 ideas from same source
-- Deduplication (no duplicate titles)
-- Varied opportunity types (trends, tutorials, comparisons)
-
-### Personal Fusion
-
-- **High fusion:** Direct automation/Claude/workflow connection
-- **Medium fusion:** Tangentially related (AI, tools, efficiency)
-- **Low fusion:** Standalone topic
-
-## 🔧 Configuration
-
-### Project Data (`config/project_data_analysis.json`)
-
-Define your personal projects and examples:
-
-```json
-{
-  "real_examples": [
-    {
-      "title": "Vendor Quote Automation",
-      "project": "vendor-quote-tool",
-      "category": "automation",
-      "description": "...",
-      "business_value": "Saves 5 hours/week"
-    }
-  ]
-}
-```
-
-### Content Frameworks (`config/content_frameworks/`)
-
-Kallaway hook frameworks for engagement:
-- Transformation
-- Contrarian Snapback
-- Benefit-Driven
-- How-To
-
-## 📊 Google Sheets Output
-
-### Content Tab Columns:
-1. Date
-2. Title
-3. Trend Source
-4. Trend URL
-5. Personal Example
-6. Hook Option 1
-7. Hook Option 2
-8. Stat 1, 2, 3
-9. Framework
-10. Platforms
-11. Fusion Strength
-12. Quality Score
-13. Auto Approved
-14. Status
-
-### Pillar Content Tab Columns:
-1. Date
-2. Title
-3. Category
-4. Audience
-5. Hook Type
-6. YouTube Script (chars)
-7. LinkedIn Article (chars)
-8. Twitter Thread (tweets)
-9. Short Posts (count)
-10. Real Examples Used
-11. Statistics Count
-12. Status
-
-## 🐛 Troubleshooting
-
-### No Fresh Content / Same Articles Repeating
-
-**Problem:** ContentGen database is stale
-
-**Solution:**
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/ContentGen
-python3 backend/app.py
-# Access http://localhost:5000 to trigger RSS collection
+pip install -r backend/requirements.txt
+cd backend && python3 main.py
 ```
 
-### Emojis in Content
+UI: http://localhost:3000. API: http://localhost:8000. The UI calls Gemini and Drive only when `GOOGLE_API_KEY` and OAuth files exist.
 
-**Problem:** Emojis appearing in pillar content
+### Daily cron
 
-**Solution:** Fixed in pillar_content_generator.py (Oct 26 update)
+`automation/setup_daily_automation.sh` installs a 9:00 local cron entry for this clone. It uses `SCG_DIR` (default: the repo root) and `PYTHON_BIN` (default: `python3`). It does not embed a home-directory path or a Homebrew Python path.
 
-### Cron Job Not Running
-
-**Problem:** Wrong Python path
-
-**Solution:** Verify Python path in setup_daily_automation.sh
-```bash
-which python3  # Should be /usr/bin/python3
-```
-
-## 📝 Documentation
-
-- **FIXES_APPLIED.md** - Content variety and example rotation fixes
-- **ISSUE_SUMMARY_OCT26.md** - Troubleshooting guide for Oct 26 issues
-
-## 🤝 Integration with Personal-OS
-
-While this is a standalone system, it integrates with:
-- **ContentGen** - RSS feed aggregation and storage
-- **Personal-OS** - Project data and automation infrastructure
-
-## 📅 Recommended Schedule
-
-- **Daily content:** 1-2 posts per platform
-- **LinkedIn:** 1 post/day (professional/balanced)
-- **Twitter:** 1-2 posts/day (mix of professional + spicy)
-- **YouTube:** 1 post/week (deep-dive from pillar content)
-- **Threads:** 1 post/day (balanced/spicy)
-
-## 🔐 Security
-
-- Google OAuth credentials stored securely in `data/`
-- `.gitignore` excludes sensitive files
-- No API keys in code
-
-## 📦 Dependencies
+## Layout
 
 ```
-feedparser
-beautifulsoup4
-requests
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
+automation/     daily generator and cron helper
+backend/        FastAPI used by the UI
+config/         frameworks and a redacted project snapshot
+frontend/       Next.js chat UI
+generated_content/  sample posts (static)
+generators/     angle, pillar, and orchestration scripts
+pillar_scripts/ YouTube script generators and Drive upload
+scouts/         RSS and project scanners
+sync/           Google Sheets helpers (need local OAuth)
 ```
 
-## 🚀 Future Enhancements
+Sheets sync still expects a local `google_token.pickle` and a results JSON that contains your spreadsheet id. Neither is in this repo.
 
-- [ ] Image generation for posts
-- [ ] Scheduling integration (Buffer, Hootsuite)
-- [ ] A/B testing for hooks
-- [ ] Performance analytics
-- [ ] Multi-language support
+## Security
 
-## 📄 License
+- No API keys, OAuth tokens, or private keys are committed in the current tree.
+- `.env.example` and `frontend/.env.example` are placeholders. Real `.env` files are gitignored.
+- Private Google Drive folder ids that used to be hardcoded are `REDACTED_DRIVE_FOLDER_ID` in docs and read from `GDRIVE_FOLDER_ID` in code.
+- History was not rewritten. If a folder was shared by link, unshare it and create a new folder. Rotate any credential that ever lived in a file that was pushed, even if it is gone from the latest commit.
 
-Private - Personal use only
+## Not in this demo
 
-## 🤖 Built With Claude Code
+- A funded Gemini or OpenAI account
+- Google OAuth consent for a public deploy
+- The ContentGen database and Personal-OS agent directories
+- Hosted scheduling, auth, or a multi-tenant product path
 
-This entire system was built using Claude Code for automated content generation at scale.
-
----
-
-**Last Updated:** October 26, 2025
-**Version:** 1.0
-
-## 📊 Project Monitoring (Daily Updates)
-
-### Project Data Collector
-
-The **Project Data Collector** scans your active projects daily to keep pillar content fresh with real examples.
-
-**What it collects:**
-- Project statistics (file counts, tech stack)
-- Automation tools and agents
-- Time savings and business impact
-- Real-world examples and stories
-- Recent project activity
-
-**When it runs:**
-- Automatically before pillar content generation
-- Updates `config/project_data_analysis.json`
-- Feeds into pillar content with current project data
-
-**Manual run:**
-```bash
-python3 scouts/update_project_data.py
-```
-
-**Output:**
-```json
-{
-  "collection_date": "2025-10-26T21:00:00",
-  "projects": {...},
-  "aggregate_stats": {
-    "total_projects": 32,
-    "automation_tools": 15,
-    "...": "..."
-  },
-  "insights": [...],
-  "real_examples": [...]
-}
-```
-
-This ensures your pillar content always references your **actual current work**, not static examples.
-
+Those are the blockers between "safe to read and demo from samples" and "safe to run as a paid product."

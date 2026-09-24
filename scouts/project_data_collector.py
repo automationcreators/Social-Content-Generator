@@ -23,7 +23,10 @@ class ProjectDataCollector(BaseAgent):
             "Project Data Collector",
             "Collects real statistics, examples, and stories from projects"
         )
-        self.active_dir = Path("/Users/elizabethknopf/Documents/claudec/active")
+        self.active_dir = Path(os.environ.get(
+            "ACTIVE_PROJECTS_DIR",
+            "/home/example/Documents/claudec/active",
+        ))
         self.content_extractor = ContentExtractor()
 
     def get_capabilities(self):
