@@ -41,11 +41,14 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-# Setup paths
+# Setup paths. Override with env vars; defaults are placeholders, not a real machine.
 HOME = Path.home()
-DOCS_PATH = HOME / "Documents/claudec"
-CREDENTIALS_DIR = DOCS_PATH / "systems/skills-main/boring-business-brand/credentials"
-SCRIPTS_DIR = DOCS_PATH / "active/Social-Content-Generator/pillar_scripts"
+DOCS_PATH = Path(os.environ.get("SCG_WORKSPACE_ROOT", str(HOME / "Documents/claudec")))
+CREDENTIALS_DIR = Path(os.environ.get(
+    "GOOGLE_CREDENTIALS_DIR",
+    str(HOME / ".config/social-content-generator"),
+))
+SCRIPTS_DIR = Path(__file__).resolve().parent
 SYNC_STATE_FILE = CREDENTIALS_DIR / ".sync_state.json"
 
 # API Keys and credentials
@@ -336,7 +339,7 @@ class GoogleDriveSync:
     def __init__(self):
         self.creds = None
         self.drive_service = None
-        self.folder_id = '1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx'
+        self.folder_id = os.environ.get("GDRIVE_FOLDER_ID", "")
         self._authenticate()
 
     def _authenticate(self):
@@ -362,6 +365,9 @@ class GoogleDriveSync:
 
     def upload_file(self, file_path: Path, folder_id: Optional[str] = None) -> Optional[str]:
         """Upload file to Google Drive"""
+        if not (folder_id or self.folder_id):
+            print("Error: set GDRIVE_FOLDER_ID before uploading.")
+            return None
         if folder_id is None:
             folder_id = self.folder_id
 

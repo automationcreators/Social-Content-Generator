@@ -6,6 +6,7 @@ Scores by relevance, viral potential, and alignment with personal brand
 """
 
 import json
+import os
 import sqlite3
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -17,7 +18,10 @@ class RSSContentScout:
 
     def __init__(self):
         self.agents_dir = Path(__file__).parent
-        self.contentgen_db = Path("/Users/elizabethknopf/Documents/claudec/active/ContentGen/data/database.db")
+        self.contentgen_db = Path(os.environ.get(
+            "CONTENTGEN_DB",
+            "/home/example/Documents/claudec/active/ContentGen/data/database.db",
+        ))
 
         # Focus areas based on user requirements
         self.focus_categories = [

@@ -62,12 +62,12 @@ Visit http://localhost:7001 to see:
 
 1. **Download your document** from Google Drive:
    ```
-   https://drive.google.com/drive/folders/1xd3tGuGhMz8C98Ch0T-ZTfrMADUyH9Yf
+   https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
    ```
 
 2. **Save it here**:
    ```bash
-   /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/
+   /home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/
    ```
 
 3. **Tell me**:
@@ -250,7 +250,7 @@ From: Personal-OS agent system refactor (15 agents → 5 agents)
 **To add your YouTube frameworks:**
 
 1. **Download from Google Drive**
-2. **Save to:** `/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/`
+2. **Save to:** `/home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/`
 3. **Tell me:** Format and structure
 4. **I'll:** Convert and regenerate everything
 

@@ -171,7 +171,7 @@ This will populate the database with fresh articles from:
 Once RSS scraper completes, run:
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents
+cd /home/example/Documents/claudec/active/Personal-OS/agents
 /usr/bin/python3 daily_content_generator.py --mode balanced
 ```
 

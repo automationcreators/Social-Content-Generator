@@ -17,7 +17,7 @@ Our content generator is working correctly - it's scanning the ContentGen databa
 **Solution Required:**
 ✅ **You need to run ContentGen RSS scraper to get fresh articles**
 
-Location: `/Users/elizabethknopf/Documents/claudec/active/ContentGen/`
+Location: `/home/example/Documents/claudec/active/ContentGen/`
 
 Once fresh articles are added to the database, our content generator will automatically pick them up.
 
@@ -94,7 +94,7 @@ Trends: 2 examples (analysis)
 Once you add fresh articles to ContentGen, run:
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents
+cd /home/example/Documents/claudec/active/Personal-OS/agents
 python3 daily_content_generator.py
 ```
 
@@ -112,7 +112,7 @@ python3 daily_content_generator.py
 
 **Option 1: Manual Run**
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/ContentGen
+cd /home/example/Documents/claudec/active/ContentGen
 # Run your RSS scraper to fetch fresh articles
 ```
 
@@ -123,10 +123,10 @@ Make sure ContentGen is scheduled to run regularly (daily recommended)
 After running ContentGen scraper:
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents
+cd /home/example/Documents/claudec/active/Personal-OS/agents
 python3 -c "
 import sqlite3
-conn = sqlite3.connect('/Users/elizabethknopf/Documents/claudec/active/ContentGen/data/database.db')
+conn = sqlite3.connect('/home/example/Documents/claudec/active/ContentGen/data/database.db')
 cursor = conn.cursor()
 cursor.execute('SELECT MAX(created_at) FROM content_ideas')
 print('Latest article:', cursor.fetchone()[0])

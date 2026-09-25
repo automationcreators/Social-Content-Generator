@@ -753,7 +753,7 @@
       "section": "HOW TO BUILD IT",
       "timestamp": "5:00-9:00",
       "description": "Show the prompt on screen",
-      "context": "> \"Build a Python script that scans /Users/elizabethknopf/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, status under ## Current Status, phase field), and outputs to projects.json. Run daily via cron at 9 AM.\"",
+      "context": "> \"Build a Python script that scans /home/example/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, status under ## Current Status, phase field), and outputs to projects.json. Run daily via cron at 9 AM.\"",
       "prompts": {
         "runway": {
           "tool": "Runway Gen-4",
@@ -787,7 +787,7 @@
         "heygen": {
           "tool": "HeyGen",
           "avatar_style": "Friendly/Approachable",
-          "script_text": "> \"Build a Python script that scans /Users/elizabethknopf/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, stat",
+          "script_text": "> \"Build a Python script that scans /home/example/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, stat",
           "background": "Modern office with subtle blur",
           "duration": "10-15s",
           "cost_estimate": "$0.50",

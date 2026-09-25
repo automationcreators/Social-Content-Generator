@@ -17,7 +17,7 @@
 
 ### Option 2: Download & Save
 1. Download from Google Drive (File → Download → Plain Text or Word)
-2. Save to this folder: `/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/`
+2. Save to this folder: `/home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/`
 3. Tell me the filename
 4. I'll process it
 

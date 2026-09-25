@@ -15,6 +15,11 @@ import threading
 import time
 import uuid
 
+def agents_dir() -> Path:
+    """Personal-OS agent directory. Override with SCG_WORKSPACE_ROOT."""
+    root = Path(os.environ.get("SCG_WORKSPACE_ROOT", "/home/example/Documents/claudec"))
+    return root / "active/Personal-OS/agents"
+
 @dataclass
 class AgentMessage:
     """Message format for agent communication"""
@@ -86,7 +91,7 @@ class BaseAgent(ABC):
     
     def load_config(self) -> Dict:
         """Load agent-specific configuration"""
-        config_path = Path("/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/config") / f"{self.agent_id}.json"
+        config_path = agents_dir() / "config" / f"{self.agent_id}.json"
         
         if config_path.exists():
             with open(config_path, 'r') as f:
@@ -267,7 +272,7 @@ class BaseAgent(ABC):
         print(log_entry)
         
         # Save to log file
-        log_dir = Path("/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/logs")
+        log_dir = agents_dir() / "logs"
         log_dir.mkdir(parents=True, exist_ok=True)
         
         log_file = log_dir / f"{self.agent_id}.log"
@@ -290,7 +295,7 @@ class AgentMessageBus:
     """Message bus for agent communication"""
     
     def __init__(self):
-        self.message_dir = Path("/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/messages")
+        self.message_dir = agents_dir() / "messages"
         self.message_dir.mkdir(parents=True, exist_ok=True)
     
     def send_message(self, message: AgentMessage):
@@ -332,7 +337,7 @@ class AgentTaskQueue:
     """Task queue for agent coordination"""
     
     def __init__(self):
-        self.queue_file = Path("/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/task-queue.json")
+        self.queue_file = agents_dir() / "task-queue.json"
         self.queue_file.parent.mkdir(parents=True, exist_ok=True)
     
     def add_task(self, task: AgentTask):
@@ -469,7 +474,7 @@ def main():
                 print(f"    Last activity: {agent_status['last_activity']}")
         
         elif command == "logs":
-            log_dir = Path("/Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/logs")
+            log_dir = agents_dir() / "logs"
             if log_dir.exists():
                 print("📝 Recent agent logs:")
                 for log_file in log_dir.glob("*.log"):

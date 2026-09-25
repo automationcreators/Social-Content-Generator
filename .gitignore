@@ -1,6 +1,11 @@
 # Credentials and tokens
 data/google_token.pickle
 *.pickle
+token.json
+client_secret*.json
+service-account*.json
+google-drive-credentials.json
+credentials/
 
 # Generated data files
 data/*.json
@@ -45,10 +50,12 @@ Thumbs.db
 *.log
 daily_run.log
 
-# Environment
+# Environment (keep the placeholder templates)
 .env
 .env.local
 .env.*
+!.env.example
+!frontend/.env.example
 
 # Build artifacts
 .next/

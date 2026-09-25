@@ -177,7 +177,7 @@ GOOGLE_API_KEY=your_gemini_api_key_here
 Already configured! Uses existing credentials from previous setup.
 
 #### 3. Google Drive Folder ID
-Default: `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx` (Boring Business AI - Social Scripts)
+Default: `REDACTED_DRIVE_FOLDER_ID` (Boring Business AI - Social Scripts)
 
 To change, edit line in script:
 ```python

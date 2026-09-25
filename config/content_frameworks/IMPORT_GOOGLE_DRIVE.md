@@ -5,7 +5,7 @@
 ### Option 1: Manual Copy (Fastest - 5 minutes)
 
 1. **Open your Google Drive document**:
-   - Go to: https://drive.google.com/drive/folders/1xd3tGuGhMz8C98Ch0T-ZTfrMADUyH9Yf
+   - Go to: https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
    - Open the document with YouTube title/hook examples
 
 2. **Copy the content**:
@@ -14,7 +14,7 @@
 
 3. **Paste into a file here**:
    ```bash
-   cd /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks
+   cd /home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks
    nano youtube_content.txt
    # Paste your content (Cmd+V)
    # Save (Ctrl+X, then Y, then Enter)
@@ -28,11 +28,11 @@
 
 1. **Download from Google Drive**:
    - File → Download → Microsoft Word (.docx) OR Plain Text (.txt)
-   - Save to: `/Users/elizabethknopf/Downloads/`
+   - Save to: `/home/example/Downloads/`
 
 2. **Move to frameworks folder**:
    ```bash
-   mv ~/Downloads/your-file-name.* /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/
+   mv ~/Downloads/your-file-name.* /home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/
    ```
 
 3. **I'll convert it** to the framework JSON format
@@ -57,13 +57,13 @@ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth
 
 2. **Place credentials**:
    ```bash
-   mv ~/Downloads/credentials.json /Users/elizabethknopf/Documents/claudec/active/Personal-OS/agents/content_frameworks/
+   mv ~/Downloads/credentials.json /home/example/Documents/claudec/active/Personal-OS/agents/content_frameworks/
    ```
 
 3. **Create sync script**:
    I'll create a `gdrive_sync.py` that:
    - Authenticates with your Google account
-   - Downloads files from your folder: `1xd3tGuGhMz8C98Ch0T-ZTfrMADUyH9Yf`
+   - Downloads files from your folder: `REDACTED_DRIVE_FOLDER_ID`
    - Converts them to framework JSON
    - Updates automatically
 

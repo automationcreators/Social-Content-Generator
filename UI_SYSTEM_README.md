@@ -22,7 +22,7 @@ A complete end-to-end chat-based UI system for the unified script generator that
 ## 📁 Project Structure
 
 ```
-/Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/
+/home/example/Documents/claudec/active/Social-Content-Generator/
 
 ├── backend/                          # FastAPI server
 │   ├── main.py                      # Core API with endpoints
@@ -83,15 +83,15 @@ A complete end-to-end chat-based UI system for the unified script generator that
 
 - Node.js 18+ (for frontend)
 - Python 3.9+ (for backend)
-- Google OAuth credentials (already set up)
-- Gemini API key (already configured)
+- Google OAuth client JSON on your machine (not in this repo)
+- `GOOGLE_API_KEY` in the environment (see `.env.example`)
 
 ### Option 1: Local Development
 
 #### Start Backend
 
 ```bash
-cd ~/Documents/claudec/active/Social-Content-Generator/backend
+cd backend
 
 # Install dependencies
 pip install -r requirements.txt
@@ -104,7 +104,7 @@ python main.py
 #### Start Frontend
 
 ```bash
-cd ~/Documents/claudec/active/Social-Content-Generator/frontend
+cd frontend
 
 # Install dependencies
 npm install
@@ -506,7 +506,7 @@ Solution:
 
 ## 📄 License
 
-Project maintained by Elizabeth Knopf
+Project maintained by automationcreators
 Built with Claude Code (https://claude.com/claude-code)
 
 ---

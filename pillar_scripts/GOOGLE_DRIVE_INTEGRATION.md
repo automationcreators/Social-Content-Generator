@@ -16,8 +16,8 @@ Complete guide for automatically uploading generated social media scripts to Goo
 ## Overview
 
 **Target Google Drive Folder:**
-- **URL:** https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
-- **Folder ID:** `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx`
+- **URL:** https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
+- **Folder ID:** `REDACTED_DRIVE_FOLDER_ID`
 
 **Files to Upload:**
 - `social_media_scripts_YYYY-MM-DD.md`
@@ -170,7 +170,7 @@ pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
 1. Follow steps 1-4 from [MCP Setup Requirements](#mcp-setup-requirements) above
 2. Download OAuth credentials JSON file
-3. Place in: `/Users/elizabethknopf/Documents/claudec/systems/skills-main/boring-business-brand/credentials/`
+3. Place in: `/home/example/Documents/claudec/systems/skills-main/boring-business-brand/credentials/`
 4. Rename to: `google-drive-credentials.json`
 
 ### Upload Script
@@ -201,7 +201,7 @@ import pickle
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
 
 # Google Drive folder ID (Boring Business AI - Social Scripts)
-FOLDER_ID = '1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx'
+FOLDER_ID = 'REDACTED_DRIVE_FOLDER_ID'
 
 # Credentials location
 CREDENTIALS_DIR = Path.home() / 'Documents/claudec/systems/skills-main/boring-business-brand/credentials'
@@ -329,7 +329,7 @@ if __name__ == '__main__':
 **First-Time Setup:**
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/pillar_scripts
+cd /home/example/Documents/claudec/active/Social-Content-Generator/pillar_scripts
 
 # Make script executable
 chmod +x upload_to_gdrive.py
@@ -382,7 +382,7 @@ python upload_to_gdrive.py social_media_scripts_$(date +%Y-%m-%d).md
    ```
 
 2. **Open Google Drive folder in browser:**
-   https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
+   https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
 
 3. **Drag and drop files:**
    - `social_media_scripts_2025-11-10.md`
@@ -474,7 +474,7 @@ python upload_to_gdrive.py
 **Problem:** "File not found"
 ```bash
 # Verify you're in the correct directory
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator/pillar_scripts/
+cd /home/example/Documents/claudec/active/Social-Content-Generator/pillar_scripts/
 
 # Check file exists
 ls -la social_media_scripts_*.md
@@ -483,7 +483,7 @@ ls -la social_media_scripts_*.md
 **Problem:** "Folder not found" or "Insufficient permissions"
 ```
 # Verify folder ID is correct
-# Ensure your Google account has access to folder 1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
+# Ensure your Google account has access to folder REDACTED_DRIVE_FOLDER_ID
 # Check folder permissions in Google Drive
 ```
 
@@ -564,6 +564,6 @@ python upload_to_gdrive.py
 ---
 
 **Last Updated:** November 10, 2025
-**Google Drive Folder:** https://drive.google.com/drive/folders/1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx
-**Folder ID:** `1KFTbNaKf44tyIVPknDnzshW-DsrJuxnx`
+**Google Drive Folder:** https://drive.google.com/drive/folders/REDACTED_DRIVE_FOLDER_ID
+**Folder ID:** `REDACTED_DRIVE_FOLDER_ID`
 **Maintained By:** Boring Business AI Brand System

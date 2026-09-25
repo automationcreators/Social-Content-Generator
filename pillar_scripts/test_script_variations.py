@@ -6,7 +6,9 @@ Following Kallaway's 4-part structure
 """
 
 import json
+import os
 from datetime import datetime
+from pathlib import Path
 
 class ScriptVariationTester:
     """Test the script-variation-generator framework"""
@@ -357,7 +359,10 @@ You wake up to a complete project status report. No manual work required."""
             print(content)
 
         # Save to JSON
-        output_file = "/Users/elizabethknopf/Documents/claudec/systems/skills-main/script-variation-generator/test_output.json"
+        output_file = os.environ.get(
+            "SCRIPT_VARIATION_OUTPUT",
+            str(Path(__file__).with_name("test_output.json")),
+        )
         with open(output_file, 'w') as f:
             json.dump(output, f, indent=2)
 

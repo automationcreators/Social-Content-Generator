@@ -193,7 +193,7 @@ After fixes applied, verify:
 
 ```bash
 # 1. Run project data collector (get rich content)
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator
+cd /home/example/Documents/claudec/active/Social-Content-Generator
 python3 scouts/update_project_data.py
 
 # 2. Generate fresh content

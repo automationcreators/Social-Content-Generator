@@ -18,7 +18,7 @@
 ## Discovered n8n Viral Content Workflows
 
 ### 1. Reddit Content Research
-**Location:** `/Users/elizabethknopf/Downloads/Reddit content research.json`
+**Location:** `/home/example/Downloads/Reddit content research.json`
 
 **What It Does:**
 - Scrapes Reddit posts from target subreddits
@@ -41,7 +41,7 @@
 - r/smallbusiness
 
 ### 2. LinkedIn Insights Scraper
-**Location:** `/Users/elizabethknopf/Downloads/automationcreators-workflows 2/...`
+**Location:** `/home/example/Downloads/automationcreators-workflows 2/...`
 
 **What It Does:**
 - Uses LinkedIn API (RapidAPI)
@@ -59,7 +59,7 @@
 - Proven to resonate (you found it insightful)
 
 ### 3. Hacker News Scraper
-**Location:** `/Users/elizabethknopf/Documents/awesome-n8n-templates-main/AI_Research_RAG_and_Data_Analysis/`
+**Location:** `/home/example/Documents/awesome-n8n-templates-main/AI_Research_RAG_and_Data_Analysis/`
 
 **What It Does:**
 - Scrapes HN frontpage
@@ -68,7 +68,7 @@
 - Identifies trending topics
 
 ### 4. Instagram Top Trends Generator
-**Location:** `/Users/elizabethknopf/Documents/awesome-n8n-templates-main/Instagram_Twitter_Social_Media/`
+**Location:** `/home/example/Documents/awesome-n8n-templates-main/Instagram_Twitter_Social_Media/`
 
 **What It Does:**
 - Monitors Instagram trending topics
@@ -392,7 +392,7 @@ def run_daily_scan():
 ```bash
 # Morning: Scan viral content
 echo "🔍 Scanning viral content sources..."
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator
+cd /home/example/Documents/claudec/active/Social-Content-Generator
 python3 scouts/unified_viral_scout.py
 
 # Start UI server for idea selection

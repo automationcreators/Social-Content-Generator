@@ -152,7 +152,7 @@ Every morning at 9 AM, this system:
 
 I gave Claude this exact prompt:
 
-> "Build a Python script that scans /Users/elizabethknopf/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, status under ## Current Status, phase field), and outputs to projects.json. Run daily via cron at 9 AM."
+> "Build a Python script that scans /home/example/Documents/claudec/active/ recursively, finds all CLAUDE.md files, extracts structured data using regex (todos under ## Progress Tracking, status under ## Current Status, phase field), and outputs to projects.json. Run daily via cron at 9 AM."
 
 **[VISUAL: Show the prompt on screen]**
 

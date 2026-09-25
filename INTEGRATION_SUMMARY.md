@@ -220,7 +220,7 @@ def _format_pillar_row(self, pillar):
 **Step 3: Test Integration**
 
 ```bash
-cd /Users/elizabethknopf/Documents/claudec/active/Social-Content-Generator
+cd /home/example/Documents/claudec/active/Social-Content-Generator
 python3 generators/dynamic_pillar_generator.py
 ```
 
@@ -237,7 +237,7 @@ Should generate:
 
 **9:00 AM - Morning Run:**
 ```bash
-cd /Users/elizabethknopf/Documents/claudec
+cd /home/example/Documents/claudec
 bash systems/daily-morning.sh
 ```
 
